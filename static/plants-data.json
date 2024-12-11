@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Shorea robusta",
+        "features": {
+            "has_hair": true,
+            "revolute_margin": false
+        }
+    },
+    {
+        "name": "Dipterocarpus alatus",
+        "features": {
+            "has_hair": false,
+            "revolute_margin": true
+        }
+    }
+]
