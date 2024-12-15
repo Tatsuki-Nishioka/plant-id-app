@@ -1,7 +1,7 @@
 <template>
     <div>
-        <input type="text" v-model="query" placeholder="植物の名前を検索" class="search-input" @input="filterResults" />
-        <ul v-if="filteredResults.length" class="results-list">
+        <input type="text" v-model="query" placeholder="特徴を学名から検索" class="search-input" @input="filterResults" />
+        <ul v-if="query && filteredResults.length" class="results-list">
             <li v-for="plant in filteredResults" :key="plant.scientificName" @click="selectPlant(plant)"
                 class="result-item">
                 {{ plant.scientificName }}
@@ -23,21 +23,48 @@ const emit = defineEmits<{
 }>();
 
 // フィルタリング用のreactiveな変数と関数を定義
+
 const query = ref("");
-const filteredResults = ref(props.plants);
+const filteredResults = ref([] as Plant[]);
+const maxResults = ref(10); // デフォルトの最大表示数
 
 const filterResults = () => {
-    filteredResults.value = props.plants.filter((plant) =>
-        plant.scientificName.toLowerCase().includes(query.value.toLowerCase())
-    );
+  if (!query.value) {
+    filteredResults.value = [];
+    return;
+  }
+
+  filteredResults.value = props.plants.filter((plant) =>
+    plant.scientificName.toLowerCase().includes(query.value.toLowerCase())
+  );
 };
+
 const selectPlant = (plant: Plant) => {
-    emit("select", plant);
+  emit("select", plant);
+  filteredResults.value = [];
 };
 
-// props.plants が変更されたときに結果をフィルタリング
-watch(() => props.plants, filterResults);
+// props.plantsが変更されたときにfilteredResultsを更新
+watch(
+  () => props.plants,
+  (newPlants) => {
+    filteredResults.value = newPlants;
+  }
+);
 
+const adjustMaxResults = () => {
+  const itemHeight = 40; // 各リストアイテムの高さ（ピクセル）
+  const availableHeight = window.innerHeight - 100; // 利用可能な高さ（ピクセル）
+  maxResults.value = Math.floor(availableHeight / itemHeight);
+};
+
+onMounted(() => {
+  window.addEventListener("resize", adjustMaxResults);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("resize", adjustMaxResults);
+});
 </script>
 
 <style scoped>

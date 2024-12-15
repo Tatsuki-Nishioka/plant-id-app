@@ -26,6 +26,14 @@
 
 <script setup lang="ts">
 
+const service = usePlantService();
+service.loadPlantData();
+const characterSet = service.characterSet;
+const plants = service.plants;
+
+provide('plants', plants);
+provide('characterSet', characterSet);
+
 </script>
 
 <style scoped>
@@ -40,7 +48,7 @@
 }
 
 .app-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .app-nav a {

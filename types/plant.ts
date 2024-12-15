@@ -13,41 +13,53 @@ export interface Plant {
      */
     japaneseName: string | null;
     /**
+     * 科
+     */
+    family: string;
+    /**
+     * 属
+     */
+    genus: string | null;
+    /**
+     * 種
+     */
+    species: string | null;
+    /**
      * 特徴
      * character idの配列
      */
-    characters: number[];
+    characters: string[];
 }
 
-/**
- * 科の特徴を表すインターフェース
- */
-export interface Family extends Plant {
-    /**
-     * 科の名前（日本語）
-     */
-    japaneseName: string;
-    /**
-     * 属の配列
-     */
-    genera: Genus[];
-}
+// /**
+//  * 科の特徴を表すインターフェース
+//  */
+// export interface Family extends Plant {
+//     /**
+//      * 科の名前（日本語）
+//      */
+//     japaneseName: string;
+//     /**
+//      * 属の配列
+//      */
+//     genera: Genus[];
+// }
 
-/**
- * 属の特徴を表すインターフェース
- */
-export interface Genus extends Plant {
-    /**
-     * 種の配列
-     */
-    species: Species[];
-}
+// /**
+//  * 属の特徴を表すインターフェース
+//  */
+// export interface Genus extends Plant {
+//     /**
+//      * 種の配列
+//      */
+//     species: Species[];
+// }
 
-/**
- * 種の特徴を表すインターフェース
- */
-export interface Species extends Plant {
-}
+// /**
+//  * 種の特徴を表すインターフェース
+//  */
+// export interface Species extends Plant {
+// }
 
 /**
  * 植物の特徴を表すインターフェース
@@ -64,7 +76,7 @@ export interface Character {
     /**
      * 特徴_日本語
      */
-    character_jpn: string;
+    characterJpn: string;
     /**
      * カテゴリ_英語
      */
@@ -72,7 +84,7 @@ export interface Character {
     /**
      * カテゴリ_日本語
      */;
-    category_jpn: string;
+    categoryJpn: string;
 }
 
 /**

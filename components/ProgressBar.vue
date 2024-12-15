@@ -1,42 +1,51 @@
 <template>
-    <div class="progress-bar">
-        <div class="progress" :style="{ width: progress + '%' }"></div>
+    <div class="progress-bar-container">
+      <div class="progress-bar">
+        <div class="progress" :style="{ width: progressWidth + '%' }"></div>
+      </div>
+      <div class="progress-info">
+        <span>該当植物数: {{ filteredCount }}</span>
+        <span>ステップ: {{ displayStep }} / {{ totalSteps }}</span>
+      </div>
     </div>
-</template>
+  </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
+import { computed } from 'vue';
 
-export default defineComponent({
-    props: {
-        currentStep: {
-            type: Number,
-            required: true,
-        },
-        totalSteps: {
-            type: Number,
-            required: true,
-        },
-    },
-    computed: {
-        progress() {
-            return (this.currentStep / this.totalSteps) * 100;
-        },
-    },
+const props = defineProps<{
+  currentStep: number;
+  totalSteps: number;
+  filteredCount: number;
+}>();
+
+const displayStep = computed(() => {
+  return Math.min(props.currentStep + 1, props.totalSteps);
+});
+
+const progressWidth = computed(() => {
+  return (props.currentStep / props.totalSteps) * 100;
 });
 </script>
 
 <style scoped>
 .progress-bar {
-    height: 10px;
-    background-color: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
+  position: relative;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .progress {
-    height: 100%;
-    background-color: #4caf50;
-    transition: width 0.3s ease;
+  height: 100%;
+  background-color: #76c7c0;
+  transition: width 0.3s;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 </style>

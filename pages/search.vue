@@ -9,7 +9,7 @@
                 <CharacterCard v-for="character in selectedCharacters" 
                     :key="character.id"
                     :icon="characterIcons[character.id] || '🔍'" 
-                    :description="character.character_jpn" 
+                    :description="character.characterJpn" 
                 />
             </div>
             <button @click="clearSelection">戻る</button>
@@ -20,11 +20,15 @@
 <script setup lang="ts">
 import SearchBar from "~/components/SearchBar.vue";
 import CharacterCard from "../components/CharacterCard.vue";
-import { usePlantStore } from "~/store/plantStore";
-import type { Character, Plant } from "~/types/plant";
+// import { usePlantStore } from "~/store/plantStore";
+import type { Character, Plant, CharacterSet } from "~/types/plant";
 
-const plants = usePlantStore().plants;
-const charecterSet = usePlantStore().characterSet;
+// const plants = usePlantStore().plants;
+// const characterSet = usePlantStore().characterSet;
+const plantService = usePlantService();
+const plants = plantService.plants;
+const characterSet = plantService.characterSet;
+
 const selectedPlant = ref<Plant | null>(null);
 
 const characterIcons: Record<string, string> = {
@@ -41,9 +45,9 @@ const clearSelection = () => {
 };
 
 const selectedCharacters = computed(() => {
-    if (!selectedPlant.value) return [];
+    if (!selectedPlant.value || !characterSet.value) return [];
     return selectedPlant.value.characters.map(
-        (characterId) => charecterSet[characterId]
+        (characterId) => characterSet.value[characterId]
     );
 });
 </script>
