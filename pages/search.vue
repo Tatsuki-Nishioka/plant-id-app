@@ -4,49 +4,47 @@
         <SearchBar :plants="plants" @select="handleSelect" />
 
         <div v-if="selectedPlant" class="plant-details">
-            <h2>{{ selectedPlant.name }}</h2>
+            <h2>{{ selectedPlant.scientificName }}</h2>
             <div>
-                <FeatureCard v-for="(description, key) in selectedPlant.features" :key="key"
-                    :icon="featureIcons[key] || '🔍'" :description="description" />
+                <CharacterCard v-for="character in selectedCharacters" 
+                    :key="character.id"
+                    :icon="characterIcons[character.id] || '🔍'" 
+                    :description="character.character_jpn" 
+                />
             </div>
             <button @click="clearSelection">戻る</button>
         </div>
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from "vue";
+<script setup lang="ts">
 import SearchBar from "~/components/SearchBar.vue";
-import FeatureCard from "~/components/FeatureCard.vue";
-import plantsData from "~/static/plants-data.json";
+import CharacterCard from "../components/CharacterCard.vue";
+import { usePlantStore } from "~/store/plantStore";
+import type { Character, Plant } from "~/types/plant";
 
-export default defineComponent({
-    components: { SearchBar, FeatureCard },
-    setup() {
-        const plants = plantsData as { name: string; features: Record<string, string> }[];
-        const selectedPlant = ref<{ name: string; features: Record<string, string> } | null>(null);
+const plants = usePlantStore().plants;
+const charecterSet = usePlantStore().characterSet;
+const selectedPlant = ref<Plant | null>(null);
 
-        const featureIcons: Record<string, string> = {
-            has_hair: "🌿",
-            revolute_margin: "🍃",
-        };
+const characterIcons: Record<string, string> = {
+    has_hair: '🌿',
+    revolute_margin: '🍃',
+};
 
-        const handleSelect = (plant: { name: string; features: Record<string, string> }) => {
-            selectedPlant.value = plant;
-        };
+const handleSelect = (plant: Plant) => {
+    selectedPlant.value = plant;
+};
 
-        const clearSelection = () => {
-            selectedPlant.value = null;
-        };
+const clearSelection = () => {
+    selectedPlant.value = null;
+};
 
-        return {
-            plants,
-            selectedPlant,
-            featureIcons,
-            handleSelect,
-            clearSelection,
-        };
-    },
+const selectedCharacters = computed(() => {
+    if (!selectedPlant.value) return [];
+    return selectedPlant.value.characters.map(
+        (characterId) => charecterSet[characterId]
+    );
 });
 </script>
 

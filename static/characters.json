@@ -1,0 +1,835 @@
+[
+    {
+        "id": "1",
+        "character": "Cushion-forming plants",
+        "character_jpn": "クッション状の植物",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "2",
+        "character": "Schopfbäume growth form",
+        "character_jpn": "シュプファウム成長（ヘゴ・ソテツ様樹形）",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "3",
+        "character": "Swollen stems or inflated internodes",
+        "character_jpn": "茎が肥大する・節間が膨張する",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "4",
+        "character": "Climbers with hooks or tendrils",
+        "character_jpn": "鉤・巻きひげのあるつる植物",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "5",
+        "character": "Climbers without hooks or tendrils",
+        "character_jpn": "鉤・巻きひげのないつる植物",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "6",
+        "character": "Plants climbing, with opposite leaves",
+        "character_jpn": "対生葉のつる植物",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "7",
+        "character": "Presence of thorns, spines or prickles",
+        "character_jpn": "とげがある",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "8",
+        "character": "Plants without chlorophyll",
+        "character_jpn": "無葉緑植物",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "9",
+        "character": "Parasitic plants",
+        "character_jpn": "寄生植物",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "10",
+        "character": "Ant plants",
+        "character_jpn": "アリ植物",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "11",
+        "character": "Bulbils",
+        "character_jpn": "珠芽（ムカゴ）をつける",
+        "category": "Distinctive Growth Forms and Plant-body Adaptations",
+        "category_jpn": "特徴的な成長形態・適応"
+    },
+    {
+        "id": "12",
+        "character": "Swollen nodes",
+        "character_jpn": "節が膨らむ",
+        "category": "Stem and Branch Characteristics",
+        "category_jpn": "茎と枝"
+    },
+    {
+        "id": "13",
+        "character": "Winged' stems",
+        "character_jpn": "茎に翼がある",
+        "category": "Stem and Branch Characteristics",
+        "category_jpn": "茎と枝"
+    },
+    {
+        "id": "14",
+        "character": "Twigs pale-coloured, petioles dark",
+        "character_jpn": "枝が淡色で葉柄が暗色",
+        "category": "Stem and Branch Characteristics",
+        "category_jpn": "茎と枝"
+    },
+    {
+        "id": "15",
+        "character": "Flattened young twig portions",
+        "character_jpn": "若枝が扁平",
+        "category": "Stem and Branch Characteristics",
+        "category_jpn": "茎と枝"
+    },
+    {
+        "id": "16",
+        "character": "Supernumerary or serial buds",
+        "character_jpn": "頂芽・腋芽が複数または連続する",
+        "category": "Stem and Branch Characteristics",
+        "category_jpn": "茎と枝"
+    },
+    {
+        "id": "17",
+        "character": "Twigs mimicking compound leaves",
+        "character_jpn": "複葉のような枝",
+        "category": "Stem and Branch Characteristics",
+        "category_jpn": "茎と枝"
+    },
+    {
+        "id": "18",
+        "character": "Wave-like sympodial branching",
+        "character_jpn": "枝は添伸する（階段状の樹形）",
+        "category": "Stem and Branch Characteristics",
+        "category_jpn": "茎と枝"
+    },
+    {
+        "id": "19",
+        "character": "Proleptic shoots",
+        "character_jpn": "頂芽基部から側枝がでる",
+        "category": "Stem and Branch Characteristics",
+        "category_jpn": "茎と枝"
+    },
+    {
+        "id": "20",
+        "character": "White or yellow sap",
+        "character_jpn": "樹液が白・黄色",
+        "category": "Exudates: Saps and Resins",
+        "category_jpn": "滲出物：樹液と樹脂"
+    },
+    {
+        "id": "21",
+        "character": "Black or brown sap",
+        "character_jpn": "樹液が黒・茶色",
+        "category": "Exudates: Saps and Resins",
+        "category_jpn": "滲出物：樹液と樹脂"
+    },
+    {
+        "id": "22",
+        "character": "Red or orange sap",
+        "character_jpn": "樹液が赤・オレンジ",
+        "category": "Exudates: Saps and Resins",
+        "category_jpn": "滲出物：樹液と樹脂"
+    },
+    {
+        "id": "23",
+        "character": "Plants conspicuously resinous upon drying",
+        "character_jpn": "乾燥すると樹脂が目立つ",
+        "category": "Exudates: Saps and Resins",
+        "category_jpn": "滲出物：樹液と樹脂"
+    },
+    {
+        "id": "24",
+        "character": "Resinous exudate",
+        "character_jpn": "滲出物が樹脂性",
+        "category": "Exudates: Saps and Resins",
+        "category_jpn": "滲出物：樹液と樹脂"
+    },
+    {
+        "id": "25",
+        "character": "Crushed leaves with smell of fenugreek",
+        "character_jpn": "潰した葉はフェヌグリーク（メープルシロップ？）の匂い",
+        "category": "Characteristic Smells",
+        "category_jpn": "特徴的な匂い"
+    },
+    {
+        "id": "26",
+        "character": "Crushed leaves or flowers with foul or foetid smell",
+        "character_jpn": "潰した葉・花は悪臭や腐敗臭",
+        "category": "Characteristic Smells",
+        "category_jpn": "特徴的な匂い"
+    },
+    {
+        "id": "27",
+        "character": "Crushed leaves with resinous (turpentine-like) smell",
+        "character_jpn": "潰した葉は樹脂（松根油）の匂い",
+        "category": "Characteristic Smells",
+        "category_jpn": "特徴的な匂い"
+    },
+    {
+        "id": "28",
+        "character": "Other smells",
+        "character_jpn": "その他の匂い",
+        "category": "Characteristic Smells",
+        "category_jpn": "特徴的な匂い"
+    },
+    {
+        "id": "29",
+        "character": "Interpetiolar stipules and stipule-like structures",
+        "character_jpn": "葉柄間托葉および托葉様構造",
+        "category": "Stipule Characters",
+        "category_jpn": "托葉"
+    },
+    {
+        "id": "30",
+        "character": "Clasping stipules",
+        "character_jpn": "托葉は茎を抱く",
+        "category": "Stipule Characters",
+        "category_jpn": "托葉"
+    },
+    {
+        "id": "31",
+        "character": "Pectinate-laciniate stipules",
+        "character_jpn": "櫛状または裂状の托葉",
+        "category": "Stipule Characters",
+        "category_jpn": "托葉"
+    },
+    {
+        "id": "32",
+        "character": "Peltate stipules",
+        "character_jpn": "盾状の托葉",
+        "category": "Stipule Characters",
+        "category_jpn": "托葉"
+    },
+    {
+        "id": "33",
+        "character": "Striate stipules",
+        "character_jpn": "筋状の托葉",
+        "category": "Stipule Characters",
+        "category_jpn": "托葉"
+    },
+    {
+        "id": "34",
+        "character": "Foliaceous stipules",
+        "character_jpn": "葉状の托葉",
+        "category": "Stipule Characters",
+        "category_jpn": "托葉"
+    },
+    {
+        "id": "35",
+        "character": "Petioles enlarged or 'swollen' distally or at both ends",
+        "character_jpn": "葉柄が両端（or どちらか）で肥大・膨らむ",
+        "category": "Petioles and Rachises",
+        "category_jpn": "葉柄と葉軸"
+    },
+    {
+        "id": "36",
+        "character": "Petioles 'swollen' only at the base, in simple leaves",
+        "character_jpn": "単葉で、葉柄が基部のみ膨らむ",
+        "category": "Petioles and Rachises",
+        "category_jpn": "葉柄と葉軸"
+    },
+    {
+        "id": "37",
+        "character": "Petioles 'swollen' at the base, in compound leaves",
+        "character_jpn": "複葉で、葉柄が基部で膨らむ",
+        "category": "Petioles and Rachises",
+        "category_jpn": "葉柄と葉軸"
+    },
+    {
+        "id": "38",
+        "character": "Wrinkled petioles",
+        "character_jpn": "葉柄にしわがある",
+        "category": "Petioles and Rachises",
+        "category_jpn": "葉柄と葉軸"
+    },
+    {
+        "id": "39",
+        "character": "Winged petiole or rachis",
+        "character_jpn": "葉柄・葉軸に翼がある",
+        "category": "Petioles and Rachises",
+        "category_jpn": "葉柄と葉軸"
+    },
+    {
+        "id": "40",
+        "character": "Rachis with swollen nodes",
+        "character_jpn": "葉軸の節が膨らむ",
+        "category": "Petioles and Rachises",
+        "category_jpn": "葉柄と葉軸"
+    },
+    {
+        "id": "41",
+        "character": "Free rachis tip",
+        "character_jpn": "葉軸の先端がとびだす",
+        "category": "Petioles and Rachises",
+        "category_jpn": "葉柄と葉軸"
+    },
+    {
+        "id": "42",
+        "character": "Spirally arranged leaves in opposite-leaved families",
+        "character_jpn": "対生の科で螺旋葉序",
+        "category": "Leaf Arrangement",
+        "category_jpn": "葉序"
+    },
+    {
+        "id": "43",
+        "character": "Opposite leaves in spiral-leaved families",
+        "character_jpn": "互生・螺旋葉序の科で対生",
+        "category": "Leaf Arrangement",
+        "category_jpn": "葉序"
+    },
+    {
+        "id": "44",
+        "character": "Opposite compound leaves",
+        "character_jpn": "対生の複葉",
+        "category": "Leaf Arrangement",
+        "category_jpn": "葉序"
+    },
+    {
+        "id": "45",
+        "character": "Whorled or verticillate leaves; leaves in rosettes",
+        "character_jpn": "輪生",
+        "category": "Leaf Arrangement",
+        "category_jpn": "葉序"
+    },
+    {
+        "id": "46",
+        "character": "Anisophyllous leaf pairs, rosettes, or sequences",
+        "character_jpn": "不等葉性：異形葉の対、ロゼット、または列",
+        "category": "Leaf Form and Size",
+        "category_jpn": "葉の形状と大きさ"
+    },
+    {
+        "id": "47",
+        "character": "Large simple leaves in non-monocots",
+        "character_jpn": "単子葉植物でない大型の単葉",
+        "category": "Leaf Form and Size",
+        "category_jpn": "葉の形状と大きさ"
+    },
+    {
+        "id": "48",
+        "character": "Asymmetric simple leaves",
+        "character_jpn": "非対称な単葉",
+        "category": "Leaf Form and Size",
+        "category_jpn": "葉の形状と大きさ"
+    },
+    {
+        "id": "49",
+        "character": "Digitately compound leaves",
+        "character_jpn": "掌状複葉",
+        "category": "Leaf Form and Size",
+        "category_jpn": "葉の形状と大きさ"
+    },
+    {
+        "id": "50",
+        "character": "Doubly or 3(-4-) pinnate leaves",
+        "character_jpn": "2~4回羽状複葉",
+        "category": "Leaf Form and Size",
+        "category_jpn": "葉の形状と大きさ"
+    },
+    {
+        "id": "51",
+        "character": "Peltate leaves",
+        "character_jpn": "盾状葉",
+        "category": "Leaf Form and Size",
+        "category_jpn": "葉の形状と大きさ"
+    },
+    {
+        "id": "52",
+        "character": "Dentate / serrate (toothed) leaf margin (non-monocots)",
+        "character_jpn": "鋸歯縁（単子葉植物以外）",
+        "category": "Leaf Margins",
+        "category_jpn": "葉の縁"
+    },
+    {
+        "id": "53",
+        "character": "Triplinerved leaves",
+        "character_jpn": "三行脈",
+        "category": "Leaf Venation",
+        "category_jpn": "葉脈"
+    },
+    {
+        "id": "54",
+        "character": "Intramarginal vein",
+        "character_jpn": "葉縁脈（葉縁に沿う葉脈）",
+        "category": "Leaf Venation",
+        "category_jpn": "葉脈"
+    },
+    {
+        "id": "55",
+        "character": "Double marginal vein loops or intramarginal veins",
+        "character_jpn": "葉縁脈は二重",
+        "category": "Leaf Venation",
+        "category_jpn": "葉脈"
+    },
+    {
+        "id": "56",
+        "character": "Parallel secondary venation",
+        "character_jpn": "側脈は平行",
+        "category": "Leaf Venation",
+        "category_jpn": "葉脈"
+    },
+    {
+        "id": "57",
+        "character": "Scalariform tertiary venation",
+        "character_jpn": "三次脈は梯子状",
+        "category": "Leaf Venation",
+        "category_jpn": "葉脈"
+    },
+    {
+        "id": "58",
+        "character": "Leaves drying black (nigrescence)",
+        "character_jpn": "葉は乾くと黒",
+        "category": "Leaf Coloration",
+        "category_jpn": "葉の色"
+    },
+    {
+        "id": "59",
+        "character": "Leaves drying yellow",
+        "character_jpn": "葉は乾くと黄色",
+        "category": "Leaf Coloration",
+        "category_jpn": "葉の色"
+    },
+    {
+        "id": "60",
+        "character": "Young leaves red",
+        "character_jpn": "若葉は赤い",
+        "category": "Leaf Coloration",
+        "category_jpn": "葉の色"
+    },
+    {
+        "id": "61",
+        "character": "Leaves withering red",
+        "character_jpn": "葉は枯れると赤くなる",
+        "category": "Leaf Coloration",
+        "category_jpn": "葉の色"
+    },
+    {
+        "id": "62",
+        "character": "Stellate hairs",
+        "character_jpn": "星状毛がある",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "63",
+        "character": "Scales",
+        "character_jpn": "鱗状毛がある",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "64",
+        "character": "Dendroid hairs",
+        "character_jpn": "樹状毛がある",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "65",
+        "character": "T-shaped hairs",
+        "character_jpn": "T字型の毛",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "66",
+        "character": "Stinging or irritant hairs",
+        "character_jpn": "刺毛または刺激性の毛",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "67",
+        "character": "Glaucous leaves",
+        "character_jpn": "葉はロウ物質で白っぽい",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "68",
+        "character": "Bullate leaves",
+        "character_jpn": "葉は水疱状・波形に隆起する",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "69",
+        "character": "Leaf domatia",
+        "character_jpn": "葉にダニ室（domatia）がある",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "70",
+        "character": "Laminar (l) or petiolar (p) glands",
+        "character_jpn": "葉面・葉柄の蜜腺",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "71",
+        "character": "Dots or dashes in leaf tissue",
+        "character_jpn": "葉を透かすと明・暗の点または短線がある",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "72",
+        "character": "Cystoliths",
+        "character_jpn": "葉内に鍾乳体（非定型の結晶）がある",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "73",
+        "character": "Puncticulate leaf surface",
+        "character_jpn": "微点状の葉の表面",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "74",
+        "character": "Pustulate/papillose leaf surface",
+        "character_jpn": "葉面に小突起状/乳頭状がある",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "75",
+        "character": "Rough leaf surface",
+        "character_jpn": "葉面がざらざらしている",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "76",
+        "character": "Leaves tearing with silky-thread connections",
+        "character_jpn": "葉を裂くと絹糸状の繊維がある",
+        "category": "Indument, Leaf Surface Characteristics and Texture",
+        "category_jpn": "被毛、葉の表面の特徴と質感"
+    },
+    {
+        "id": "77",
+        "character": "Monocarpic plants (death after flowering)",
+        "character_jpn": "単回結実植物（開花後に枯死）",
+        "category": "Life-cycle and Flowering Habits",
+        "category_jpn": "生活環と開花習性"
+    },
+    {
+        "id": "78",
+        "character": "Plants flowering in a leafless state",
+        "character_jpn": "葉がない状態で開花する",
+        "category": "Life-cycle and Flowering Habits",
+        "category_jpn": "生活環と開花習性"
+    },
+    {
+        "id": "79",
+        "character": "Cauliflorous flowering habit (flowers on stems and trunks)",
+        "character_jpn": "幹生花（幹や枝に花が咲く）をつける",
+        "category": "Life-cycle and Flowering Habits",
+        "category_jpn": "生活環と開花習性"
+    },
+    {
+        "id": "80",
+        "character": "Flagelliflory",
+        "character_jpn": "花序は下垂する",
+        "category": "Life-cycle and Flowering Habits",
+        "category_jpn": "生活環と開花習性"
+    },
+    {
+        "id": "81",
+        "character": "Geocarpy",
+        "character_jpn": "地生果",
+        "category": "Life-cycle and Flowering Habits",
+        "category_jpn": "生活環と開花習性"
+    },
+    {
+        "id": "82",
+        "character": "Fasciculate inflorescences and distichous alternate leaves",
+        "character_jpn": "束生花序で二列互生葉",
+        "category": "Inflorescence Form and Position",
+        "category_jpn": "花序の形態と位置"
+    },
+    {
+        "id": "83",
+        "character": "Leaf-opposed' inflorescences",
+        "character_jpn": "花序は葉と対生する",
+        "category": "Inflorescence Form and Position",
+        "category_jpn": "花序の形態と位置"
+    },
+    {
+        "id": "84",
+        "character": "Supra-axillary inflorescences",
+        "character_jpn": "花序は葉腋から少し離れる",
+        "category": "Inflorescence Form and Position",
+        "category_jpn": "花序の形態と位置"
+    },
+    {
+        "id": "85",
+        "character": "Epiphyllous inflorescences",
+        "character_jpn": "葉上花序",
+        "category": "Inflorescence Form and Position",
+        "category_jpn": "花序の形態と位置"
+    },
+    {
+        "id": "86",
+        "character": "Compact inflorescences",
+        "character_jpn": "密生花序",
+        "category": "Inflorescence Form and Position",
+        "category_jpn": "花序の形態と位置"
+    },
+    {
+        "id": "87",
+        "character": "Condensed racemes",
+        "character_jpn": "散房花序",
+        "category": "Inflorescence Form and Position",
+        "category_jpn": "花序の形態と位置"
+    },
+    {
+        "id": "88",
+        "character": "Monomorphic (zygomorphic) flowers",
+        "character_jpn": "単形（左右相称）花",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "89",
+        "character": "Trimerous 'dicots' (groups among Magnoliids and Eudicots)",
+        "character_jpn": "三数性双子葉類（マグノリア類と真双子葉類のグループ）",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "90",
+        "character": "Accrescent calyx",
+        "character_jpn": "萼が肥大化する",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "91",
+        "character": "Corolla (petals) or perianths fimbriate or bifid",
+        "character_jpn": "花冠（花弁）または花被の縁に糸状突起または二裂する",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "92",
+        "character": "Corolla (petals) bearing appendages",
+        "character_jpn": "花冠（花弁）に付属物がある",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "93",
+        "character": "Yellow perianth or corolla (petals)",
+        "character_jpn": "花被または花冠（花弁）が黄色",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "94",
+        "character": "Stamens opposite petals in the flower",
+        "character_jpn": "雄しべは花弁に対生する",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "95",
+        "character": "Numerous stamens",
+        "character_jpn": "雄しべは多数（20~）ある",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "96",
+        "character": "Staminal tube present",
+        "character_jpn": "雄しべ筒がある",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "97",
+        "character": "Stamens bearing appendages or hair tufts",
+        "character_jpn": "雄しべに付属物または毛束がある",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "98",
+        "character": "Basifixed anthers with apical pores or short slits",
+        "character_jpn": "葯は底着し、先端に孔または短い裂け目がある",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "99",
+        "character": "Anther pores opening by valves",
+        "character_jpn": "葯は弁状に裂開する",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "100",
+        "character": "Broad flat stigma",
+        "character_jpn": "柱頭は広く平ら",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "101",
+        "character": "Long forked style",
+        "character_jpn": "花柱は長く二又",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "102",
+        "character": "Double forked style",
+        "character_jpn": "花柱は二回二叉分岐する",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "103",
+        "character": "Excentric style",
+        "character_jpn": "花柱は子房に頂生する",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "104",
+        "character": "Inferior ovary",
+        "character_jpn": "子房下位",
+        "category": "Flower Characters",
+        "category_jpn": "花の特徴"
+    },
+    {
+        "id": "105",
+        "character": "White fruits",
+        "character_jpn": "果実は白色",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "106",
+        "character": "Blue fruits and seeds",
+        "character_jpn": "果実・種子は青色",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "107",
+        "character": "Woody fruits with seeds scattered in the placenta",
+        "character_jpn": "果実は木質で胎座に種子が散らばる",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "108",
+        "character": "Muricate (spiny), tuberculate or rugose fruits",
+        "character_jpn": "果実はとげ状、いぼ状、またはしわがある",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "109",
+        "character": "Winged fruits",
+        "character_jpn": "果実に翼がある",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "110",
+        "character": "Ridged fruits or fruit portions (follicles)",
+        "character_jpn": "果実または一部に稜がある（袋果）",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "111",
+        "character": "Globular/ellipsoid capsules splitting into 5(-6) parts",
+        "character_jpn": "蒴果で球状/楕円形に5（-6）裂する",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "112",
+        "character": "Trilocular capsules",
+        "character_jpn": "3室の蒴果",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "113",
+        "character": "Moniliform fruits",
+        "character_jpn": "果実は数珠状",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "114",
+        "character": "Compound fruits",
+        "character_jpn": "複合果",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "115",
+        "character": "Apocarpous fruits",
+        "character_jpn": "離生心皮果（1つの花に複数果実：集合袋果）",
+        "category": "Fruit Characters",
+        "category_jpn": "果実の特徴"
+    },
+    {
+        "id": "116",
+        "character": "Winged seeds",
+        "character_jpn": "種子に翼がある",
+        "category": "Seed Characters",
+        "category_jpn": "種子の特徴"
+    },
+    {
+        "id": "117",
+        "character": "Comose Seeds",
+        "character_jpn": "種子に冠毛がある",
+        "category": "Seed Characters",
+        "category_jpn": "種子の特徴"
+    },
+    {
+        "id": "118",
+        "character": "Arillate seeds",
+        "character_jpn": "種子に仮種皮がある",
+        "category": "Seed Characters",
+        "category_jpn": "種子の特徴"
+    },
+    {
+        "id": "119",
+        "character": "Ruminate endosperm",
+        "character_jpn": "反芻胚乳",
+        "category": "Seed Characters",
+        "category_jpn": "種子の特徴"
+    }
+]

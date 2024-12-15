@@ -2,10 +2,10 @@
   <div id="app">
     <!-- ヘッダー -->
     <header class="app-header">
-      <h1 class="app-title">植物同定アプリ</h1>
-            <button @click="toggleDarkMode">
-        {{ isDarkMode ? "ライトモード" : "ダークモード" }}
-      </button>
+      <h1 class="app-title">マレシア植物区の同定アプリ</h1>
+            <!-- <button @click="toggleDarkMode">
+        {{ isDarkMode ? "ライトモード" : "ダークモード" }} -->
+      <!-- </button> -->
       <nav class="app-nav">
         <NuxtLink to="/">特徴から検索</NuxtLink>
         <NuxtLink to="/search">名前から検索</NuxtLink>
@@ -24,12 +24,8 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
 
-export default defineComponent({
-  name: 'App',
-});
 </script>
 
 <style scoped>

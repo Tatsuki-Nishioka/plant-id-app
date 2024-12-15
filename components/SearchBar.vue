@@ -2,46 +2,42 @@
     <div>
         <input type="text" v-model="query" placeholder="植物の名前を検索" class="search-input" @input="filterResults" />
         <ul v-if="filteredResults.length" class="results-list">
-            <li v-for="plant in filteredResults" :key="plant.name" @click="selectPlant(plant)" class="result-item">
-                {{ plant.name }}
+            <li v-for="plant in filteredResults" :key="plant.scientificName" @click="selectPlant(plant)"
+                class="result-item">
+                {{ plant.scientificName }}
             </li>
         </ul>
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref, PropType } from "vue";
+<script setup lang="ts">
+import type { Plant } from "~/types/plant";
 
-export default defineComponent({
-    props: {
-        plants: {
-            type: Array as PropType<{ name: string; features: Record<string, string> }[]>,
-            required: true,
-        },
-    },
-    emits: ["select"],
-    setup(props, { emit }) {
-        const query = ref("");
-        const filteredResults = ref(props.plants);
+// props と emit を定義
+const props = defineProps<{
+    plants: Plant[];
+}>();
 
-        const filterResults = () => {
-            filteredResults.value = props.plants.filter((plant) =>
-                plant.name.toLowerCase().includes(query.value.toLowerCase())
-            );
-        };
+const emit = defineEmits<{
+    (e: "select", plant: Plant): void;
+}>();
 
-        const selectPlant = (plant: { name: string; features: Record<string, string> }) => {
-            emit("select", plant);
-        };
+// フィルタリング用のreactiveな変数と関数を定義
+const query = ref("");
+const filteredResults = ref(props.plants);
 
-        return {
-            query,
-            filteredResults,
-            filterResults,
-            selectPlant,
-        };
-    },
-});
+const filterResults = () => {
+    filteredResults.value = props.plants.filter((plant) =>
+        plant.scientificName.toLowerCase().includes(query.value.toLowerCase())
+    );
+};
+const selectPlant = (plant: Plant) => {
+    emit("select", plant);
+};
+
+// props.plants が変更されたときに結果をフィルタリング
+watch(() => props.plants, filterResults);
+
 </script>
 
 <style scoped>

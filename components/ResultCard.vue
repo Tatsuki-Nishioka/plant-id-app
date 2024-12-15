@@ -1,25 +1,21 @@
 <template>
     <div class="result-card">
-        <h3>{{ plant.name }}</h3>
+        <h3>{{ plant.scientificName }}</h3>
         <ul>
-            <li v-for="(value, key) in plant.features" :key="key">
+            <li v-for="(value, key) in plant.characters" :key="key">
                 {{ key }}: {{ value ? "Yes" : "No" }}
             </li>
         </ul>
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
+import type { Plant } from '~/types/plant';
 
-export default defineComponent({
-    props: {
-        plant: {
-            type: Object as () => { name: string; features: Record<string, boolean> },
-            required: true,
-        },
-    },
-});
+const props = defineProps<{ 
+    plant: Plant 
+}>();
+
 </script>
 
 <style scoped>

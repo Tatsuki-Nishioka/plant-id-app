@@ -1,9 +1,9 @@
 <template>
     <div class="filter-panel">
-        <h2 class="question">{{ question }}</h2>
+        <h2 class="question">{{ question.text }}</h2>
         <div class="options">
-            <button v-for="option in options" :key="option.value" class="option-card"
-                @click="selectOption(option.value)">
+            <button v-for="option in options" :key="option.label" class="option-card"
+                :class="{ selected: selectedOption?.value === option.value }" @click="selectOption(option.value)">
                 <span class="icon">{{ option.icon }}</span>
                 <span class="label">{{ option.label }}</span>
             </button>
@@ -11,27 +11,30 @@
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
+import { ref } from 'vue';
+import type { Question, Answer } from '~/pages/index.vue';
 
-export default defineComponent({
-    props: {
-        question: {
-            type: String,
-            required: true,
-        },
-        options: {
-            type: Array as () => { label: string; value: boolean; icon: string }[],
-            required: true,
-        },
-    },
-    emits: ["select"],
-    methods: {
-        selectOption(value: boolean) {
-            this.$emit("select", value);
-        },
-    },
-});
+const props = defineProps<{
+    question: Question;
+}>();
+
+const emit = defineEmits<{
+    (e: 'select', value: Answer): void;
+}>();
+
+const selectedOption = ref<Answer | null>(null);
+
+const options = [
+    { label: "Yes", value: true, icon: "✔️" },
+    { label: "No", value: false, icon: "❌" },
+    { label: "Unknown", value: null, icon: "❔" },
+];
+
+const selectOption = (value: boolean | null) => {
+    selectedOption.value = { key: props.question.key, value };
+    emit('select', selectedOption.value);
+};
 </script>
 
 <style scoped>
@@ -46,25 +49,15 @@ export default defineComponent({
 }
 
 .option-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
+    border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.option-card:hover {
-    background-color: #e0e0e0;
-}
-
-.icon {
-    font-size: 2rem;
-}
-
-.label {
-    margin-top: 0.5rem;
+.option-card.selected {
+    background-color: #007bff;
+    color: white;
 }
 </style>

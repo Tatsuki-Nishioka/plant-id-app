@@ -1,63 +1,65 @@
 <template>
     <div>
-        <ProgressBar :currentStep="currentStep" :totalSteps="questions.length" />
-        <FilterPanel v-if="currentStep < questions.length" :question="questions[currentStep].text"
-            :options="questions[currentStep].options" @select="handleAnswer" />
+        <ProgressBar :currentStep="currentStep" :totalSteps="questions?.length" />
+        <FilterPanel v-if="currentStep < questions?.length" :question="questions[currentStep]"
+            @select="handleAnswer" />
         <div v-else>
             <h2>結果</h2>
-            <div v-for="plant in filteredPlants" :key="plant.name">
+            <div v-for="plant in filteredPlants" :key="plant.scientificName">
                 <ResultCard :plant="plant" />
             </div>
         </div>
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
+import { usePlantStore } from "~/store/plantStore";
 import ProgressBar from "~/components/ProgressBar.vue";
 import FilterPanel from "~/components/FilterPanel.vue";
 import ResultCard from "~/components/ResultCard.vue";
-import plantsData from "~/static/plants-data.json";
 
-export default defineComponent({
-    components: { ProgressBar, FilterPanel, ResultCard },
-    data() {
-        return {
-            currentStep: 0,
-            answers: [] as boolean[],
-            questions: [
-                {
-                    text: "葉の裏面に毛がありますか？",
-                    options: [
-                        { label: "はい", value: true, icon: "🌿" },
-                        { label: "いいえ", value: false, icon: "🍃" },
-                    ],
-                },
-                {
-                    text: "縁が反り返っていますか？",
-                    options: [
-                        { label: "はい", value: true, icon: "🌱" },
-                        { label: "いいえ", value: false, icon: "🌴" },
-                    ],
-                },
-            ],
-        };
+export type Question = {
+    key: string;
+    text: string;
+}
+export type Answer = {
+    key: string;
+    value: boolean | null;
+}
+
+const plantStore = usePlantStore();
+
+const currentStep = ref(0);
+const answers = ref<Answer[]>([]);
+const questions: Question[] = [
+    {
+        key: "1",
+        text: "葉の裏面に毛がありますか？",
     },
-    computed: {
-        filteredPlants() {
-            return (plantsData as any[]).filter((plant) =>
-                this.answers.every((answer, index) => {
-                    const key = Object.keys(this.questions[index].options[0])[0];
-                    return plant.features[key] === answer;
-                })
-            );
-        },
+    {
+        key: "2",
+        text: "縁が反り返っていますか？",
     },
-    methods: {
-        handleAnswer(answer: boolean) {
-            this.answers.push(answer);
-            this.currentStep++;
-        },
-    },
+];
+
+Object.entries(plantStore.characterSet).forEach(([key, character]) => {
+    questions.push({
+        key: key,
+        text: character.character_jpn,
+    });
 });
+
+const filteredPlants = computed(() => {
+    // フィルタリングロジックを追加
+    return plantStore.plants.filter(plant => {
+        // ここにフィルタリング条件を追加
+        return true; // 仮の条件
+    });
+});
+
+const handleAnswer = (answer: Answer) => {
+    answers.value.push(answer);
+    currentStep.value++;
+    console.log(answers.value);
+};
 </script>

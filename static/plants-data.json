@@ -1,16 +1,45 @@
-[
-    {
-        "name": "Shorea robusta",
-        "features": {
-            "has_hair": true,
-            "revolute_margin": false
+{
+    "plant_characters": [
+        {
+            "name": "Dipterocarpaceae",
+            "characters": [1,2],
+            "genera": [
+                {
+                    "name": "Shorea",
+                    "characters": [3, 4],
+                    "species": [
+                        {
+                            "name": "Shorea robusta",
+                            "characters": [5]
+                        },
+                        {
+                            "name": "Shorea almon",
+                            "characters": [6]
+                        }
+                    ]
+                },
+                {
+                    "name": "Dipterocarpus",
+                    "characters": [4, 7],
+                    "species": [
+                        {
+                            "name": "Dipterocarpus alatus",
+                            "characters": [8]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Triuridaceae",
+            "characters": [9, 10, 11, 12],
+            "genera": [
+                {
+                    "name": "Sciaphila",
+                    "characters": [9, 10, 11, 12],
+                    "species": []
+                }
+            ]
         }
-    },
-    {
-        "name": "Dipterocarpus alatus",
-        "features": {
-            "has_hair": false,
-            "revolute_margin": true
-        }
-    }
-]
+    ]
+}

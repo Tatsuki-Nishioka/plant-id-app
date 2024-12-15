@@ -1,29 +1,20 @@
 <template>
-    <div class="feature-card">
-        <div class="icon">{{ icon }}</div>
+    <div class="character-card">
+        <!-- <div class="icon">{{ icon }}</div> -->
         <div class="description">{{ description }}</div>
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
 
-export default defineComponent({
-    props: {
-        icon: {
-            type: String,
-            required: true,
-        },
-        description: {
-            type: String,
-            required: true,
-        },
-    },
-});
+const props = defineProps<{
+    description: String
+}>();
+
 </script>
 
 <style scoped>
-.feature-card {
+.character-card {
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
