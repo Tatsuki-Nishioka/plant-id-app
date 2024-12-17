@@ -3,6 +3,7 @@ import type { Plant, CharacterSet, Character } from '~/types/plant';
 import plantsData from '~/static/plants-data.json';
 import characters from '~/static/characters.json';
 import data227 from '~/static/227.json';
+import master from '~/static/master.json';
 
 export function usePlantService() {
     const plants = ref<Plant[]>([]);
@@ -29,7 +30,7 @@ export function usePlantService() {
         })
 
         // 植物データを読み込む
-        data227.forEach((record: any) => {
+        master.forEach((record: any) => {
             if (record.scientific_name && record.characters?.length) {
                 const plant: Plant = {
                     scientificName: record.scientific_name,
