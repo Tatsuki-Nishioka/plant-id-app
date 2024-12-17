@@ -1,142 +1,84 @@
 <template>
-    <div>
-        <ProgressBar :currentStep="currentStep" :totalSteps="questions?.length"
-            :filteredCount="filteredPlants.length" />
-        <FilterPanel v-if="currentStep < questions?.length" :category="currentCategory"
-            :stepCount="currentCategoryStepCount" :question="questions[currentStep]" @select="handleAnswer"
-            @skip="skipCategory" @show-results="showResults" />
-        <div v-else>
-            <div class="results-header">
-                <h2>結果</h2>
-                <button class="reset-button" @click="resetSearch">もう一度検索する</button>
-            </div>
-            <div v-for="plant in filteredPlants" :key="plant.scientificName">
-                <ResultCard :characterSet="characterSet" :plant="plant" />
-            </div>
-        </div>
+  <div class="index-page">
+    <div class="search-panels">
+      <NuxtLink to="/featureSearch" class="search-panel">
+        <h2>特徴から検索</h2>
+      </NuxtLink>
+      <NuxtLink to="/search" class="search-panel">
+        <h2>名前から検索</h2>
+      </NuxtLink>
     </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-import ProgressBar from "~/components/ProgressBar.vue";
-import FilterPanel from "~/components/FilterPanel.vue";
-import ResultCard from "~/components/ResultCard.vue";
-import { usePlantService } from "~/composables/usePlantService";
-
-export type Question = {
-    category: string;
-    key: string;
-    text: string;
-}
-export type Answer = {
-    key: string;
-    value: boolean | null;
-}
-
-type AnswerMap = Map<string, boolean | null>;
-
-// const plantStore = usePlantStore();
-const plantService = usePlantService();
-plantService.loadPlantData();
-
-const plants = plantService.plants;
-const characterSet = plantService.characterSet;
-
-const currentStep = ref(0);
-// 特徴に対する回答
-const answers = ref<AnswerMap>(new Map());
-// 特徴名の配列;
-const questions = ref<Question[]>([]);
-// key:カテゴリ_日本語, value:質問
-const categories = ref<Map<string, Question[]>>(new Map());
-
-// カテゴリと質問を作成
-Object.entries(characterSet.value).forEach(([key, character]) => {
-    const category = character.categoryJpn;
-    const question = {
-        category: category,
-        key: key,
-        text: character.characterJpn
-    } as Question;
-
-    const tmp = categories.value.get(category) ?? [] as Question[];
-    tmp.push(question);
-
-    categories.value.set(category, tmp);
-    questions.value.push(question);
-});
-
-const currentCategory = computed(() => {
-    return questions.value[currentStep.value].category;
-});
-
-const currentCategoryStepCount = computed(() => {
-    return categories.value.get(currentCategory.value)?.length || 0;
-});
-
-// const currentQuestion = computed(() => categories.value.get(currentCategory.value)?.[0]);
-
-// 回答から植物のリストをフィルタリング
-const filteredPlants = computed(() => {
-    const trueKeys: string[] = [];
-    const falseKeys: string[] = [];
-    answers.value.forEach((answer, key) => {
-        if (answer === true) {
-            trueKeys.push(key);
-        } else if (answer === false) {
-            falseKeys.push(key);
-        }
-    });
-
-    return plants.value.filter(plant => {
-        // すべてのtrueキーを含んでいるかつ、falseキーを含んでいない
-        const hasAllTrueKeys = trueKeys.every(key => plant.characters.includes(key));
-        const hasNoFalseKeys = !falseKeys.some(key => plant.characters.includes(key));
-        return hasAllTrueKeys && hasNoFalseKeys;
-    });
-});
-
-const handleAnswer = (answer: Answer) => {
-    answers.value.set(answer.key, answer.value);
-    currentStep.value++;
-};
-
-const skipCategory = () => {
-    // カテゴリー全体をスキップ
-    categories.value.get(currentCategory.value)?.forEach(q => {
-        answers.value.set(q.key, null);
-    });
-    currentStep.value = answers.value.size;
-};
-
-const showResults = () => {
-    currentStep.value = questions.value.length;
-};
-
-const resetSearch = () => {
-    currentStep.value = 0;
-    answers.value = new Map();
-};
 </script>
 
 <style scoped>
-.results-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
+.index-page {
+  text-align: center;
+  padding: 0;
+  /* 余白を消す */
+  /* height: 100vh; 画面全体を使用 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* 中央に配置 */
+  margin: 0;
+  /* 余白を消す */
 }
 
-.reset-button {
-    padding: 0.5rem 1rem;
-    border: none;
-    background-color: #4caf50;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
+.search-panels {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0;
+  /* 余白を消す */
+  flex-wrap: wrap;
+  /* パネルを折り返す */
+  max-width: 600px;
 }
 
-.reset-button:hover {
-    background-color: #66bb6a;
+.search-panel {
+  flex: 1 1 calc(50% - 1rem);
+  /* パネルを2列に並べる */
+  padding: 3.5rem;
+  /* パネルを大きくする */
+  background-color: #81c784;
+  /* ヘッダーよりも明るい色 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 0.75em;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  color: white;
+  /* 文字を白抜きにする */
+  text-decoration: none;
+  /* リンクの下線を消す */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-panel:hover {
+  background-color: #66bb6a;
+  transform: scale(1.05);
+}
+
+.search-panel h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  /* 文字を大きくする */
+}
+
+@media (max-width: 600px) {
+  .search-panel {
+    flex: 1 1 100%;
+    /* スマホではパネルを縦に並べる */
+    margin-bottom: 0.75em;
+    /* パネル間の余白を追加 */
+  }
 }
 </style>

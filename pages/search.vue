@@ -1,10 +1,10 @@
 <template>
     <div>
-        <h1>植物の特徴検索</h1>
+        <h2>名前から検索</h2>
         <SearchBar :plants="plants" @select="handleSelect" />
 
         <div v-if="selectedPlant" class="plant-details">
-            <h2>{{ selectedPlant.scientificName }}</h2>
+            <h3>{{ selectedPlant.scientificName }}</h3>
             <div>
                 <CharacterCard v-for="character in selectedCharacters" 
                     :key="character.id"
@@ -54,7 +54,7 @@ const selectedCharacters = computed(() => {
 
 <style scoped>
 .plant-details {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 button {
@@ -63,6 +63,7 @@ button {
     color: white;
     border: none;
     border-radius: 4px;
+    margin-top: 0.25em;
     cursor: pointer;
 }
 

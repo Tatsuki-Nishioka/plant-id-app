@@ -47,5 +47,6 @@ const progressWidth = computed(() => {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  font-size: 0.8rem;
 }
 </style>

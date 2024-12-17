@@ -60,7 +60,7 @@ const toggleDetails = () => {
 }
 
 .toggle-icon {
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin-left: 0.5rem;
 }
 

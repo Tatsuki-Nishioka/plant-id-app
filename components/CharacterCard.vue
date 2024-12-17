@@ -19,17 +19,17 @@ const props = defineProps<{
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: 0.75rem;
+    margin-bottom: 0.31rem;
     background-color: #f9f9f9;
 }
 
 .icon {
-    font-size: 2rem;
+    font-size: 1rem;
     margin-right: 1rem;
 }
 
 .description {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 </style>
