@@ -62,6 +62,18 @@ const options = [
     { label: "Unknown", value: null, icon: "❔" },
 ];
 
+// 初期化時に前回の回答を取得
+if (useAnswers().answers.value.size > 0) {
+    const answerBool = useAnswers().getAnswer(props.question.key);
+    if (answerBool !== undefined) {
+        selectedOption.value = {
+            key: props.question.key,
+            value: answerBool,
+            category: props.category
+        };
+    }
+}
+
 const selectOption = (value: boolean | null) => {
     selectedOption.value = {
         key: props.question.key,
