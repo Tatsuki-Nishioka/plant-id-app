@@ -2,8 +2,8 @@
     <div>
         <ProgressBar :currentStep="currentStep" :totalSteps="questions?.length"
             :filteredCount="filteredPlants.length" />
-        <FilterPanel v-if="currentStep < questions?.length" :category="currentCategory"
-            :stepCount="currentCategoryStepCount" :question="questions[currentStep]" :answers="answers"
+        <FilterPanel v-if="currentStep < questions?.length" :category="currentCategory" :firstCategory="firstCategory"
+            :stepCount="currentCategoryStepCount" :question="questions[currentStep]"
             @select="handleAnswer" @prev="prevQuestion" @next="nextQuestion" @skip="skipCategory" @show-results="showResults" />
         <div v-else>
             <div class="results-header">
@@ -21,31 +21,17 @@
 import ProgressBar from "~/components/ProgressBar.vue";
 import FilterPanel from "~/components/FilterPanel.vue";
 import ResultCard from "~/components/ResultCard.vue";
-import { usePlantService } from "~/composables/usePlantService";
+import type { Question, Answer } from "~/types/featureSearch";
 
-export type Question = {
-    category: string;
-    key: string;
-    text: string;
-}
-export type Answer = {
-    category: string;
-    key: string;
-    value: boolean | null;
-}
+const plantData = usePlantData();
+plantData.loadPlantData();
 
-export type AnswerMap = Map<string, boolean | null>;
-
-// const plantStore = usePlantStore();
-const plantService = usePlantService();
-plantService.loadPlantData();
-
-const plants = plantService.plants;
-const characterSet = plantService.characterSet;
+const plants = plantData.plants;
+const characterSet = plantData.characterSet;
+// FilterPanel.vueの初期値用カテゴリ名
+const firstCategory = characterSet.value["1"].categoryJpn;
 
 const currentStep = ref(0);
-// 特徴に対する回答
-const answers = ref<AnswerMap>(new Map());
 // 特徴名の配列;
 const questions = ref<Question[]>([]);
 // key:カテゴリ_日本語, value:質問
@@ -75,13 +61,11 @@ const currentCategoryStepCount = computed(() => {
     return categories.value.get(currentCategory.value)?.length || 0;
 });
 
-// const currentQuestion = computed(() => categories.value.get(currentCategory.value)?.[0]);
-
 // 回答から植物のリストをフィルタリング
 const filteredPlants = computed(() => {
     const trueKeys: string[] = [];
     const falseKeys: string[] = [];
-    answers.value.forEach((answer, key) => {
+    useAnswers().answers.value.forEach((answer, key) => {
         if (answer === true) {
             trueKeys.push(key);
         } else if (answer === false) {
@@ -98,22 +82,16 @@ const filteredPlants = computed(() => {
 });
 
 const handleAnswer = (answer: Answer) => {
-    answers.value.set(answer.key, answer.value);
+    useAnswers().setAnswer(answer.key, answer.value);
     currentStep.value++;
 };
 
 const skipCategory = (skipAnswers: Answer[]) => {
     // カテゴリー全体をスキップ
-    categories.value.get(currentCategory.value)?.forEach(q => {
-        answers.value.set(q.key, null);
-    });
-    // スキップしたカテゴリの回答済みをセット
-    if (skipAnswers.length > 0) {
-        skipAnswers.forEach(answer => {
-            answers.value.set(answer.key, answer.value);
-        });
-    }
-    currentStep.value = answers.value.size;
+    const range = categories.value.get(currentCategory.value)?.map(q => q.key) ?? [];
+    useAnswers().skipRange(range, skipAnswers);
+
+    currentStep.value = useAnswers().answers.value.size;
 };
 
 const showResults = () => {
@@ -122,7 +100,7 @@ const showResults = () => {
 
 const resetSearch = () => {
     currentStep.value = 0;
-    answers.value = new Map();
+    useAnswers().resetAnswers();
 };
 
 const prevQuestion = () => {

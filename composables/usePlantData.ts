@@ -1,11 +1,10 @@
-import { ref } from 'vue';
 import type { Plant, CharacterSet, Character } from '~/types/plant';
 import plantsData from '~/static/plants-data.json';
 import characters from '~/static/characters.json';
 import data227 from '~/static/227.json';
 import master from '~/static/master.json';
 
-export function usePlantService() {
+export function usePlantData() {
     const plants = ref<Plant[]>([]);
     // const families = ref<Family[]>([]);
     const characterSet = ref<CharacterSet>({});

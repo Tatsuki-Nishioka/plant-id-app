@@ -28,8 +28,8 @@
 const route = useRoute();
 const isIndexPage = computed(() => route.path === '/');
 
-const service = usePlantService();
-service.loadPlantData();
+// 植物のマスタデータを取得
+usePlantData().loadPlantData();
 
 </script>
 

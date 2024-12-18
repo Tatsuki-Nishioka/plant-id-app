@@ -14,7 +14,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
 import type { CharacterSet, Plant } from '~/types/plant';
 
 const props = defineProps<{

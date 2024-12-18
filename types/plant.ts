@@ -1,9 +1,7 @@
 /**
- * 植物の特徴を表すインターフェース
- * @export
- * @interface Plant
+ * 植物情報
  */
-export interface Plant {
+export type Plant = {
     /**
      * 学名
      */
@@ -31,40 +29,10 @@ export interface Plant {
     characters: string[];
 }
 
-// /**
-//  * 科の特徴を表すインターフェース
-//  */
-// export interface Family extends Plant {
-//     /**
-//      * 科の名前（日本語）
-//      */
-//     japaneseName: string;
-//     /**
-//      * 属の配列
-//      */
-//     genera: Genus[];
-// }
-
-// /**
-//  * 属の特徴を表すインターフェース
-//  */
-// export interface Genus extends Plant {
-//     /**
-//      * 種の配列
-//      */
-//     species: Species[];
-// }
-
-// /**
-//  * 種の特徴を表すインターフェース
-//  */
-// export interface Species extends Plant {
-// }
-
 /**
- * 植物の特徴を表すインターフェース
+ * 特徴
  */
-export interface Character {
+export type Character = {
     /**
      * 特徴ID
      */
@@ -90,7 +58,7 @@ export interface Character {
 /**
  * 特徴セット
  */
-export interface CharacterSet {
+export type CharacterSet = {
     /**
      * 特徴IDをキーとした特徴のマップ
      */

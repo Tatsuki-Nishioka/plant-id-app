@@ -30,13 +30,13 @@
 </template>
 
 <script setup lang="ts">
-import type { Question, Answer, AnswerMap } from '~/pages/featureSearch.vue';
+import type { Question, Answer } from '~/types/featureSearch';
 
 const props = defineProps<{
     category: string;
     question: Question;
     stepCount: number;
-    answers: AnswerMap;
+    firstCategory: string;
 }>();
 
 const emit = defineEmits<{
@@ -54,7 +54,7 @@ const answersByCurrentCategory = ref<Answer[]>([]);
 // カテゴリの最初の質問かどうか
 const isFirstQuestionInCategory = ref(true);
 // 前のカテゴリ
-const previousCategory = ref("");
+const previousCategory = ref(props.firstCategory);
 
 const options = [
     { label: "Yes", value: true, icon: "✔️" },
@@ -100,7 +100,7 @@ watch(() => isFirstQuestionInCategory.value, (newValue) => {
 
 // 質問が変わったらselectedOptionを更新
 watch(() => props.question, (newQuestion) => {
-    const answerBool = props.answers.get(newQuestion.key);
+    const answerBool = useAnswers().getAnswer(newQuestion.key);
     if (answerBool !== undefined) {
         selectedOption.value = {
             key: newQuestion.key,

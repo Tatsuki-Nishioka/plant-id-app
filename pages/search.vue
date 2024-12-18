@@ -8,7 +8,7 @@
             <div>
                 <CharacterCard v-for="character in selectedCharacters" 
                     :key="character.id"
-                    :icon="characterIcons[character.id] || '🔍'" 
+                    :icon="'🔍'" 
                     :description="character.characterJpn" 
                 />
             </div>
@@ -20,21 +20,13 @@
 <script setup lang="ts">
 import SearchBar from "~/components/SearchBar.vue";
 import CharacterCard from "../components/CharacterCard.vue";
-// import { usePlantStore } from "~/store/plantStore";
-import type { Character, Plant, CharacterSet } from "~/types/plant";
+import type { Plant } from "~/types/plant";
 
-// const plants = usePlantStore().plants;
-// const characterSet = usePlantStore().characterSet;
-const plantService = usePlantService();
-const plants = plantService.plants;
-const characterSet = plantService.characterSet;
+const plantData = usePlantData();
+const plants = plantData.plants;
+const characterSet = plantData.characterSet;
 
 const selectedPlant = ref<Plant | null>(null);
-
-const characterIcons: Record<string, string> = {
-    has_hair: '🌿',
-    revolute_margin: '🍃',
-};
 
 const handleSelect = (plant: Plant) => {
     selectedPlant.value = plant;
