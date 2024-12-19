@@ -1,31 +1,38 @@
 <template>
-    <div class="result-card">
-        <div class="header" @click="toggleDetails">
-            <h3>{{ plant.scientificName }}</h3>
-            <span class="toggle-icon">{{ showDetails ? '▲' : '▼' }}</span>
-        </div>
-        <ul v-if="showDetails">
-            <li v-for="key in plant.characters" :key="key" class="character-item">
-                <span class="character-key">{{ key }}</span>
-                <span class="character-value">：{{ characterSet[key]?.characterJpn }}</span>
-            </li>
-        </ul>
+  <div class="result-card">
+    <div
+      class="header"
+      @click="toggleDetails"
+    >
+      <h3>{{ plant.scientificName }}</h3>
+      <span class="toggle-icon">{{ showDetails ? '▲' : '▼' }}</span>
     </div>
+    <ul v-if="showDetails">
+      <li
+        v-for="key in plant.characters"
+        :key="key"
+        class="character-item"
+      >
+        <span class="character-key">{{ key }}</span>
+        <span class="character-value">：{{ characterSet[key]?.characterJpn }}</span>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script setup lang="ts">
-import type { CharacterSet, Plant } from '~/types/plant';
+import type { CharacterSet, Plant } from '~/types/plant'
 
-const props = defineProps<{
-    plant: Plant;
-    characterSet: CharacterSet;
-}>();
+defineProps<{
+  plant: Plant
+  characterSet: CharacterSet
+}>()
 
-const showDetails = ref(false);
+const showDetails = ref(false)
 
 const toggleDetails = () => {
-    showDetails.value = !showDetails.value;
-};
+  showDetails.value = !showDetails.value
+}
 </script>
 
 <style scoped>

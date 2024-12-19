@@ -1,0 +1,9 @@
+{
+    "tailwindCSS.suggestions": true,
+    "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "ngClass",
+        "ui"
+    ]
+}

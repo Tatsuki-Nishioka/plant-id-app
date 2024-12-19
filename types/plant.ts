@@ -2,65 +2,65 @@
  * 植物情報
  */
 export type Plant = {
-    /**
+  /**
      * 学名
      */
-    scientificName: string;
-    /**
+  scientificName: string
+  /**
      * 名前（日本語）
      */
-    japaneseName: string | null;
-    /**
+  japaneseName: string | null
+  /**
      * 科
      */
-    family: string;
-    /**
+  family: string
+  /**
      * 属
      */
-    genus: string | null;
-    /**
+  genus: string | null
+  /**
      * 種
      */
-    species: string | null;
-    /**
+  species: string | null
+  /**
      * 特徴
      * character idの配列
      */
-    characters: string[];
+  characters: string[]
 }
 
 /**
  * 特徴
  */
 export type Character = {
-    /**
+  /**
      * 特徴ID
      */
-    id: string;
-    /**
+  id: string
+  /**
      * 特徴_英語
      */
-    character: string;
-    /**
+  character: string
+  /**
      * 特徴_日本語
      */
-    characterJpn: string;
-    /**
+  characterJpn: string
+  /**
      * カテゴリ_英語
      */
-    category: string
-    /**
+  category: string
+  /**
      * カテゴリ_日本語
-     */;
-    categoryJpn: string;
+     */
+  categoryJpn: string
 }
 
 /**
  * 特徴セット
  */
 export type CharacterSet = {
-    /**
+  /**
      * 特徴IDをキーとした特徴のマップ
      */
-    [key: string]: Character;
+  [key: string]: Character
 }

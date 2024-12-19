@@ -1,16 +1,16 @@
 <template>
-    <div class="character-card">
-        <!-- <div class="icon">{{ icon }}</div> -->
-        <div class="description">{{ description }}</div>
+  <div class="character-card">
+    <!-- <div class="icon">{{ icon }}</div> -->
+    <div class="description">
+      {{ description }}
     </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-
-const props = defineProps<{
-    description: String
-}>();
-
+defineProps<{
+  description: string
+}>()
 </script>
 
 <style scoped>

@@ -1,10 +1,16 @@
 <template>
   <div class="index-page">
     <div class="search-panels">
-      <NuxtLink to="/featureSearch" class="search-panel">
+      <NuxtLink
+        to="/featureSearch"
+        class="search-panel"
+      >
         <h2>特徴から検索</h2>
       </NuxtLink>
-      <NuxtLink to="/search" class="search-panel">
+      <NuxtLink
+        to="/search"
+        class="search-panel"
+      >
         <h2>名前から検索</h2>
       </NuxtLink>
     </div>
@@ -31,8 +37,8 @@
 .search-panels {
   display: flex;
   justify-content: center;
-  gap: 0.75rem;
-  margin-top: 0;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
   /* 余白を消す */
   flex-wrap: wrap;
   /* パネルを折り返す */
@@ -49,7 +55,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: none;
   border-radius: 8px;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.5em;
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;

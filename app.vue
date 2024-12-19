@@ -12,35 +12,32 @@
     </header>
 
     <!-- メインコンテンツ -->
-    <main>
+    <NContainer fluid>
       <NuxtPage />
-    </main>
+    </NContainer>
 
-    <!-- フッター -->
+    <!-- フッター
     <footer class="app-footer">
       <p>&copy; 2024 植物同定アプリ. All rights reserved.</p>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
 <script setup lang="ts">
-
-const route = useRoute();
-const isIndexPage = computed(() => route.path === '/');
+const route = useRoute()
+const isIndexPage = computed(() => route.path === '/')
 
 // 植物のマスタデータを取得
-usePlantData().loadPlantData();
-
+usePlantData().loadPlantData()
 </script>
 
 <style scoped>
-/* ヘッダーのスタイル */
 .app-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #4caf50;
-  padding: .5rem;
+  padding: 0.5rem;
   color: white;
 }
 
@@ -78,13 +75,13 @@ main {
   min-height: calc(100vh - 120px); /* ヘッダーとフッターの高さを除く */
 }
 
-/* フッターのスタイル */
+/* フッターのスタイル
 .app-footer {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 0.5rem;
-}
+} */
 @media (min-width: 600px) {
   .app-header {
     flex-direction: row;
@@ -96,7 +93,7 @@ main {
   }
 
   .app-nav {
-    margin-top: 0;
+    margin-top: 0.5rem;
   }
 }
 </style>

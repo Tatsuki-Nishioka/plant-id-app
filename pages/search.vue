@@ -1,47 +1,55 @@
 <template>
-    <div>
-        <h2>名前から検索</h2>
-        <SearchBar :plants="plants" @select="handleSelect" />
+  <div>
+    <SearchBar
+      :plants="plants"
+      @select="handleSelect"
+    />
 
-        <div v-if="selectedPlant" class="plant-details">
-            <h3>{{ selectedPlant.scientificName }}</h3>
-            <div>
-                <CharacterCard v-for="character in selectedCharacters" 
-                    :key="character.id"
-                    :icon="'🔍'" 
-                    :description="character.characterJpn" 
-                />
-            </div>
-            <button @click="clearSelection">戻る</button>
-        </div>
+    <div
+      v-if="selectedPlant"
+      class="plant-details"
+    >
+      <h3>{{ selectedPlant.scientificName }}</h3>
+      <div>
+        <CharacterCard
+          v-for="character in selectedCharacters"
+          :key="character.id"
+          :icon="'🔍'"
+          :description="character.characterJpn"
+        />
+      </div>
+      <button @click="clearSelection">
+        戻る
+      </button>
     </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-import SearchBar from "~/components/SearchBar.vue";
-import CharacterCard from "../components/CharacterCard.vue";
-import type { Plant } from "~/types/plant";
+import CharacterCard from '../components/CharacterCard.vue'
+import SearchBar from '~/components/SearchBar.vue'
+import type { Plant } from '~/types/plant'
 
-const plantData = usePlantData();
-const plants = plantData.plants;
-const characterSet = plantData.characterSet;
+const plantData = usePlantData()
+const plants = plantData.plants
+const characterSet = plantData.characterSet
 
-const selectedPlant = ref<Plant | null>(null);
+const selectedPlant = ref<Plant | null>(null)
 
 const handleSelect = (plant: Plant) => {
-    selectedPlant.value = plant;
-};
+  selectedPlant.value = plant
+}
 
 const clearSelection = () => {
-    selectedPlant.value = null;
-};
+  selectedPlant.value = null
+}
 
 const selectedCharacters = computed(() => {
-    if (!selectedPlant.value || !characterSet.value) return [];
-    return selectedPlant.value.characters.map(
-        (characterId) => characterSet.value[characterId]
-    );
-});
+  if (!selectedPlant.value || !characterSet.value) return []
+  return selectedPlant.value.characters.map(
+    characterId => characterSet.value[characterId],
+  )
+})
 </script>
 
 <style scoped>

@@ -7,16 +7,24 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint --ext .ts,.js,.vue --ignore-path .gitignore --fix ."
   },
   "dependencies": {
+    "@nuxt/eslint": "^0.7.3",
+    "@nuxt/ui": "^2.20.0",
     "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@nuxt/eslint-config": "^0.7.3",
     "@nuxt/types": "^2.18.1",
     "@nuxt/typescript-build": "^3.0.2",
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "typescript": "^5.7.2"
   }
 }
