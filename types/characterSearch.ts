@@ -7,6 +7,9 @@ export type Question = {
 export type Answer = {
     category: string;
     key: string;
+    /**
+    * true: Yes, false: No, null: unknown
+    */
     value: boolean | null;
 }
 

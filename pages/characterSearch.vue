@@ -1,9 +1,11 @@
 <template>
     <div>
-        <ProgressBar :currentStep="currentStep" :totalSteps="questions?.length"
-            :filteredCount="filteredPlants.length" />
-        <FilterPanel v-if="currentStep < questions?.length" :category="currentCategory" :firstCategory="firstCategory"
-            :stepCount="currentCategoryStepCount" :question="questions[currentStep]"
+        <ProgressBar
+:current-step="currentStep" :total-steps="questions?.length"
+            :filtered-count="filteredPlants.length" />
+        <FilterPanel
+v-if="currentStep < questions?.length" :category="currentCategory" :first-category="firstCategory"
+            :step-count="currentCategoryStepCount" :question="questions[currentStep]"
             @select="handleAnswer" @prev="prevQuestion" @next="nextQuestion" @skip="skipCategory" @show-results="showResults" />
         <div v-else>
             <div class="results-header">
@@ -11,7 +13,7 @@
                 <button class="reset-button" @click="resetSearch">もう一度検索する</button>
             </div>
             <div v-for="plant in filteredPlants" :key="plant.scientificName">
-                <ResultCard :characterSet="characterSet" :plant="plant" />
+                <ResultCard :character-set="characterSet" :plant="plant" />
             </div>
         </div>
     </div>
@@ -21,7 +23,7 @@
 import ProgressBar from "~/components/ProgressBar.vue";
 import FilterPanel from "~/components/FilterPanel.vue";
 import ResultCard from "~/components/ResultCard.vue";
-import type { Question, Answer } from "~/types/featureSearch";
+import type { Question, Answer } from "~/types/characterSearch";
 
 const plantData = usePlantData();
 plantData.loadPlantData();

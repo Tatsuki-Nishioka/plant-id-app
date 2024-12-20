@@ -1,23 +1,18 @@
 import type { Plant, CharacterSet, Character } from '~/types/plant';
-import plantsData from '~/static/plants-data.json';
 import characters from '~/static/characters.json';
-import data227 from '~/static/227.json';
 import master from '~/static/master.json';
 
 export function usePlantData() {
-    const plants = ref<Plant[]>([]);
-    // const families = ref<Family[]>([]);
-    const characterSet = ref<CharacterSet>({});
-    const isDataLoaded = ref(false);
+    const plants = useState<Plant[]>('plants', () => [])
+    const characterSet = useState<CharacterSet>('characterSet', () => ({}))
+    const isDataLoaded = useState<boolean>('isDataLoaded', () => false)
 
     // データの読み込み
     const loadPlantData = () => {
         if (isDataLoaded.value) return;
 
-        const data = plantsData as any; // JSONデータの型をanyとして読み込む
-
         // 特徴セットを読み込む
-        characters.forEach((record: any) => {
+        characters.forEach((record) => {
             const character: Character = {
                 id: record.id,
                 character: record.character,
@@ -29,15 +24,15 @@ export function usePlantData() {
         })
 
         // 植物データを読み込む
-        master.forEach((record: any) => {
+        master.forEach((record) => {
             if (record.scientific_name && record.characters?.length) {
                 const plant: Plant = {
                     scientificName: record.scientific_name,
-                    japaneseName: record?.japanese_name || null,
+                    japaneseName:  null,
                     family: record.family,
                     genus: record.genus.trim() || null,
                     species: record.species.trim() || null,
-                    characters: record.characters,
+                    characters: record.characters as string[],
                 };
                 plants.value.push(plant);
             }
@@ -62,9 +57,6 @@ export function usePlantData() {
     });
 
     return {
-        // plants: readonly(plants),
-        // // families: readonly(families),
-        // characterSet: readonly(characterSet),
         plants: plants,
         characterSet: characterSet,
         loadPlantData,

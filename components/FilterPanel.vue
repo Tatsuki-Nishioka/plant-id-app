@@ -1,16 +1,17 @@
 <template>
     <div class="filter-panel">
         <div class="category-container">
-            <h2 class="category">{{ category }} <br /><span class="step-count">（{{ stepCount }} ステップ）</span></h2>
+            <h2 class="category">{{ category }} <br ><span class="step-count">（{{ stepCount }} ステップ）</span></h2>
             <transition name="fade" mode="out-in">
-                <div class="question-nav-container" :key="question.key">
+                <div :key="question.key" class="question-nav-container">
                     <button class="nav-button prev" @click="prevQuestion">
                         <span class="nav-button-text">▲</span>
                     </button>
                     <div class="question-container">
                         <h3 class="question">{{ question.text }}</h3>
                         <div class="options">
-                            <button v-for="option in options" :key="option.label" class="option-card"
+                            <button
+v-for="option in options" :key="option.label" class="option-card"
                                 :class="{ selected: selectedOption?.value === option.value }"
                                 @click="selectOption(option.value)">
                                 <span class="icon">{{ option.icon }}</span>
@@ -30,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import type { Question, Answer } from '~/types/featureSearch';
+import type { Question, Answer } from '~/types/characterSearch';
 
 const props = defineProps<{
     category: string;
@@ -42,9 +43,7 @@ const props = defineProps<{
 const emit = defineEmits<{
     (e: 'select', value: Answer): void;
     (e: 'skip', value: Answer[]): void;
-    (e: 'show-results'): void;
-    (e: 'prev'): void;
-    (e: 'next'): void;
+    (e: 'show-results' | 'prev' | 'next'): void;
 }>();
 
 // 質問の回答（選択肢）
@@ -74,7 +73,7 @@ if (useAnswers().answers.value.size > 0) {
     }
 }
 
-const selectOption = (value: boolean | null) => {
+const selectOption = (value: boolean | null): void => {
     selectedOption.value = {
         key: props.question.key,
         value,
@@ -84,19 +83,19 @@ const selectOption = (value: boolean | null) => {
     emit('select', selectedOption.value);
 };
 
-const skipCategory = () => {
+const skipCategory = (): void => {
     emit('skip', answersByCurrentCategory.value);
 };
 
-const showResults = () => {
+const showResults = (): void => {
     emit('show-results');
 };
 
-const prevQuestion = () => {
+const prevQuestion = (): void => {
     emit('prev');
 };
 
-const nextQuestion = () => {
+const nextQuestion = (): void => {
     emit('next');
 };
 
@@ -125,7 +124,7 @@ watch(() => props.question, (newQuestion) => {
 });
 
 // カテゴリと質問が変わったらisFirstQuestionInCategoryを計算し、answersByCurrentCategoryを初期化
-watch([() => props.category, () => props.question], ([newCategory]) => {
+watch([(): string => props.category, (): Question => props.question], ([newCategory]) => {
     if (newCategory !== previousCategory.value) {
         isFirstQuestionInCategory.value = true;
         answersByCurrentCategory.value = [];

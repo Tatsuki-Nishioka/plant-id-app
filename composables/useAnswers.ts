@@ -1,5 +1,5 @@
 import { useState } from "#app";
-import type { Answer, AnswerMap } from '~/types/featureSearch';
+import type { Answer, AnswerMap } from '~/types/characterSearch';
 
 /**
  * 回答の状態管理
@@ -7,17 +7,17 @@ import type { Answer, AnswerMap } from '~/types/featureSearch';
 export function useAnswers() {
     const answers = useState<AnswerMap>("answers", () => new Map());
 
-    const setAnswer = (key: string, value: boolean | null) => {
+    const setAnswer = (key: string, value: boolean | null): void => {
         answers.value.set(key, value);
     }
 
-    const getAnswer = (key: string) => {
+    const getAnswer = (key: string): boolean | null | undefined => {
         return answers.value.get(key);
     }
 
-    const skipRange = (rangeKeys: string[], answered: Answer[]) => {
+    const skipRange = (rangeKeys: string[], answered: Answer[]): void => {
         rangeKeys.forEach(key => {
-            if (!answered.some(a => a.key === key)) {
+            if (!answered.some(a => a.key === key) && !answers.value.has(key)) {
                 answers.value.set(key, null);
             }
         });
@@ -26,7 +26,7 @@ export function useAnswers() {
         })
     }
 
-    const resetAnswers = () => {
+    const resetAnswers = (): void => {
         answers.value.clear();
     }
 

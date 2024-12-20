@@ -16,14 +16,14 @@
 <script setup lang="ts">
 import type { CharacterSet, Plant } from '~/types/plant';
 
-const props = defineProps<{
+defineProps<{
     plant: Plant;
     characterSet: CharacterSet;
 }>();
 
 const showDetails = ref(false);
 
-const toggleDetails = () => {
+const toggleDetails = (): void => {
     showDetails.value = !showDetails.value;
 };
 </script>

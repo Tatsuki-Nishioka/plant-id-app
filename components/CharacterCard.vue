@@ -7,8 +7,8 @@
 
 <script setup lang="ts">
 
-const props = defineProps<{
-    description: String
+defineProps<{
+    description: string
 }>();
 
 </script>

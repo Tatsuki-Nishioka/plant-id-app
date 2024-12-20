@@ -1,7 +1,7 @@
 <template>
     <div class="progress-bar-container">
       <div class="progress-bar">
-        <div class="progress" :style="{ width: progressWidth + '%' }"></div>
+        <div class="progress" :style="{ width: progressWidth + '%' }"/>
       </div>
       <div class="progress-info">
         <span>該当植物数: {{ filteredCount }}</span>

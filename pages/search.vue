@@ -6,7 +6,8 @@
         <div v-if="selectedPlant" class="plant-details">
             <h3>{{ selectedPlant.scientificName }}</h3>
             <div>
-                <CharacterCard v-for="character in selectedCharacters" 
+                <CharacterCard
+v-for="character in selectedCharacters" 
                     :key="character.id"
                     :icon="'🔍'" 
                     :description="character.characterJpn" 

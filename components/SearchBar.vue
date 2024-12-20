@@ -1,9 +1,10 @@
 <template>
     <div>
-        <input type="text" v-model="query" placeholder="特徴を学名から検索" class="search-input" @input="filterResults" />
+        <input v-model="query" type="text" placeholder="特徴を学名から検索" class="search-input" @input="filterResults" >
         <ul v-if="query && filteredResults.length" class="results-list">
-            <li v-for="plant in filteredResults" :key="plant.scientificName" @click="selectPlant(plant)"
-                class="result-item">
+            <li
+v-for="plant in filteredResults" :key="plant.scientificName" class="result-item"
+                @click="selectPlant(plant)">
                 {{ plant.scientificName }}
             </li>
         </ul>
@@ -28,7 +29,7 @@ const query = ref("");
 const filteredResults = ref([] as Plant[]);
 const maxResults = ref(10); // デフォルトの最大表示数
 
-const filterResults = () => {
+const filterResults = (): void => {
   if (!query.value) {
     filteredResults.value = [];
     return;
@@ -39,7 +40,7 @@ const filterResults = () => {
   );
 };
 
-const selectPlant = (plant: Plant) => {
+const selectPlant = (plant: Plant): void => {
   emit("select", plant);
   filteredResults.value = [];
 };
@@ -52,7 +53,7 @@ watch(
   }
 );
 
-const adjustMaxResults = () => {
+const adjustMaxResults = (): void => {
   const itemHeight = 40; // 各リストアイテムの高さ（ピクセル）
   const availableHeight = window.innerHeight - 100; // 利用可能な高さ（ピクセル）
   maxResults.value = Math.floor(availableHeight / itemHeight);
