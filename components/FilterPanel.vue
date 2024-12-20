@@ -190,6 +190,11 @@ watch([() => props.category, () => props.question], ([newCategory]) => {
     margin-top: 1rem;
 }
 
+.question {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
 .options {
     display: flex;
     justify-content: center;

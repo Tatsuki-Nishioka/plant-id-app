@@ -20,14 +20,32 @@
     <div v-else>
       <div class="results-header">
         <h2>結果</h2>
-        <button
-          class="reset-button"
+        <UButton
+          size="md"
           @click="resetSearch"
         >
           もう一度検索する
-        </button>
+        </UButton>
       </div>
-      <div
+      <UAccordion
+        :items="items"
+        :ui="{ item: { base: 'text-xl' } }"
+        size="xl"
+      >
+        <template #item="{ item }">
+          <UContainer class="text-base">
+            <ul>
+              <li
+                v-for="content in item.contents"
+                :key="content"
+              >
+                {{ content }}
+              </li>
+            </ul>
+          </UContainer>
+        </template>
+      </UAccordion>
+      <!-- <div
         v-for="plant in filteredPlants"
         :key="plant.scientificName"
       >
@@ -35,7 +53,7 @@
           :character-set="characterSet"
           :plant="plant"
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -43,7 +61,7 @@
 <script setup lang="ts">
 import ProgressBar from '~/components/ProgressBar.vue'
 import FilterPanel from '~/components/FilterPanel.vue'
-import ResultCard from '~/components/ResultCard.vue'
+// import ResultCard from '~/components/ResultCard.vue'
 import type { Question, Answer } from '~/types/featureSearch'
 
 const plantData = usePlantData()
@@ -115,7 +133,7 @@ const skipCategory = (skipAnswers: Answer[]) => {
   const range = categories.value.get(currentCategory.value)?.map(q => q.key) ?? []
   useAnswers().skipRange(range, skipAnswers)
 
-  currentStep.value = useAnswers().answers.value.size
+  currentStep.value += range.length
 }
 
 const showResults = () => {
@@ -138,6 +156,19 @@ const nextQuestion = () => {
     currentStep.value++
   }
 }
+
+const items = computed(() => {
+  return filteredPlants.value.map((plant) => {
+    return {
+      label: plant.scientificName,
+      contents: plant.characters.map((key) => {
+        const keyText = key.padEnd(4, ' ') + '：'
+        return keyText + characterSet.value[key].characterJpn
+      }),
+      base: 'text-xl',
+    }
+  })
+})
 </script>
 
 <style scoped>

@@ -8,13 +8,14 @@
       <nav v-if="!isIndexPage" class="app-nav">
         <NuxtLink to="/featureSearch">特徴から検索</NuxtLink>
         <NuxtLink to="/search">名前から検索</NuxtLink>
+        <NuxtLink to="/characterDetails">特徴一覧</NuxtLink>
       </nav>
     </header>
 
     <!-- メインコンテンツ -->
-    <NContainer fluid>
+    <UContainer fluid>
       <NuxtPage />
-    </NContainer>
+    </UContainer>
 
     <!-- フッター
     <footer class="app-footer">
@@ -39,6 +40,7 @@ usePlantData().loadPlantData()
   background-color: #4caf50;
   padding: 0.5rem;
   color: white;
+  margin-bottom: 0.5rem;
 }
 
 .app-title-link {
@@ -53,7 +55,7 @@ usePlantData().loadPlantData()
 
 .app-nav {
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
   margin-top: 0.5rem;
 }
 

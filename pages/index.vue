@@ -13,6 +13,12 @@
       >
         <h2>名前から検索</h2>
       </NuxtLink>
+      <NuxtLink
+        to="/characterDetails"
+        class="search-panel"
+      >
+        <h2>特徴一覧</h2>
+      </NuxtLink>
     </div>
   </div>
 </template>

@@ -1,30 +1,21 @@
 <template>
   <div>
-    <UInput
-      v-model="query"
-      type="text"
+    <UCommandPalette
+      v-model="selected"
       placeholder="特徴を学名から検索"
-      class="search-input"
-      @input="filterResults"
+      :groups="groups"
     />
-    <ul
-      v-if="query && filteredResults.length"
-      class="results-list"
-    >
-      <li
-        v-for="plant in filteredResults"
-        :key="plant.scientificName"
-        class="result-item"
-        @click="selectPlant(plant)"
-      >
-        {{ plant.scientificName }}
-      </li>
-    </ul>
   </div>
 </template>
 
 <script setup lang="ts">
 import type { Plant } from '~/types/plant'
+
+type PlantCommand = {
+  id: string
+  label: string
+  plant: Plant
+}
 
 // props と emit を定義
 const props = defineProps<{
@@ -36,26 +27,31 @@ const emit = defineEmits<{
 }>()
 
 // フィルタリング用のreactiveな変数と関数を定義
-
-const query = ref('')
 const filteredResults = ref([] as Plant[])
-const maxResults = ref(10) // デフォルトの最大表示数
+const selected = ref<PlantCommand>({} as PlantCommand)
 
-const filterResults = () => {
-  if (!query.value) {
-    filteredResults.value = []
-    return
-  }
+watch(() => selected.value, (selection) => {
+  emit('select', selection.plant)
+})
 
-  filteredResults.value = props.plants.filter(plant =>
-    plant.scientificName.toLowerCase().includes(query.value.toLowerCase()),
-  )
-}
-
-const selectPlant = (plant: Plant) => {
-  emit('select', plant)
-  filteredResults.value = []
-}
+const groups = [
+  {
+    key: 'plants',
+    commands: props.plants.map((plant, id) => ({
+      id,
+      label: plant.scientificName,
+      plant,
+    })),
+    filter: (query: string, commands: PlantCommand[]) => {
+      if (query) {
+        return commands.filter(plant =>
+          plant.label.toLowerCase().includes(query.toLowerCase()),
+        )
+      }
+      return []
+    },
+  },
+]
 
 // props.plantsが変更されたときにfilteredResultsを更新
 watch(
@@ -64,20 +60,6 @@ watch(
     filteredResults.value = newPlants
   },
 )
-
-const adjustMaxResults = () => {
-  const itemHeight = 40 // 各リストアイテムの高さ（ピクセル）
-  const availableHeight = window.innerHeight - 100 // 利用可能な高さ（ピクセル）
-  maxResults.value = Math.floor(availableHeight / itemHeight)
-}
-
-onMounted(() => {
-  window.addEventListener('resize', adjustMaxResults)
-})
-
-onBeforeUnmount(() => {
-  window.removeEventListener('resize', adjustMaxResults)
-})
 </script>
 
 <style scoped>

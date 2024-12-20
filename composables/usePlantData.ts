@@ -3,10 +3,9 @@ import characters from '~/static/characters.json'
 import master from '~/static/master.json'
 
 export function usePlantData() {
-  const plants = ref<Plant[]>([])
-  // const families = ref<Family[]>([]);
-  const characterSet = ref<CharacterSet>({})
-  const isDataLoaded = ref(false)
+  const plants = useState<Plant[]>('plants', () => [])
+  const characterSet = useState<CharacterSet>('characterSet', () => ({}))
+  const isDataLoaded = useState<boolean>('isDataLoaded', () => false)
 
   // データの読み込み
   const loadPlantData = () => {
