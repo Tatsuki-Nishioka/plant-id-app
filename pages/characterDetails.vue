@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-        <h3>カテゴリーと特徴一覧</h3>
         <div v-for="category in categoryList" :key="category.label" class="accordion">
             <div class="accordion-header-parent" @click="toggle(category)">
                 <p>{{ category.label }}</p>
@@ -10,7 +9,8 @@
                 <div class="category-description">
                     <p>{{ category.content }}</p> <!-- カテゴリの説明を追加 -->
                 </div>
-                <div v-for="character in charactersMap.get(category.category) ?? []" :key="character.label"
+                <div
+                    v-for="character in charactersMap.get(category.category) ?? []" :key="character.label"
                     class="card">
                     <div class="accordion-header" @click="toggle(character)">
                         <p>{{ character.label }}</p>

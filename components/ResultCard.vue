@@ -35,7 +35,7 @@ const toggleDetails = (): void => {
     border-radius: 8px;
     background-color: #fff;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
     /* 影を追加 */
     transition: box-shadow 0.3s ease;
     /* 影のトランジションを追加 */
@@ -44,7 +44,7 @@ const toggleDetails = (): void => {
 }
 
 .result-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.075);
     /* ホバー時の影を追加 */
 }
 
