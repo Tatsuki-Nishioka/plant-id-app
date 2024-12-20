@@ -11,7 +11,7 @@
                         <h3 class="question">{{ question.text }}</h3>
                         <div class="options">
                             <button
-v-for="option in options" :key="option.label" class="option-card"
+                                v-for="option in options" :key="option.label" class="option-card"
                                 :class="{ selected: selectedOption?.value === option.value }"
                                 @click="selectOption(option.value)">
                                 <span class="icon">{{ option.icon }}</span>

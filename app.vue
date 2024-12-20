@@ -6,8 +6,9 @@
         <h1 class="app-title">マレシア植物区の同定アプリ</h1>
       </NuxtLink>
       <nav v-if="!isIndexPage" class="app-nav">
-        <NuxtLink to="/featureSearch">特徴から検索</NuxtLink>
+        <NuxtLink to="/characterSearch">特徴から検索</NuxtLink>
         <NuxtLink to="/search">名前から検索</NuxtLink>
+        <NuxtLink to="/characterDetails">特徴一覧</NuxtLink>
       </nav>
     </header>
 
@@ -16,10 +17,6 @@
       <NuxtPage />
     </main>
 
-    <!-- フッター -->
-    <footer class="app-footer">
-      <p>&copy; 2024 植物同定アプリ. All rights reserved.</p>
-    </footer>
   </div>
 </template>
 
@@ -56,7 +53,7 @@ usePlantData().loadPlantData();
 
 .app-nav {
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
   margin-top: 0.5rem;
 }
 

@@ -3,7 +3,7 @@
         <input v-model="query" type="text" placeholder="特徴を学名から検索" class="search-input" @input="filterResults" >
         <ul v-if="query && filteredResults.length" class="results-list">
             <li
-v-for="plant in filteredResults" :key="plant.scientificName" class="result-item"
+                v-for="plant in filteredResults" :key="plant.scientificName" class="result-item"
                 @click="selectPlant(plant)">
                 {{ plant.scientificName }}
             </li>
@@ -74,6 +74,9 @@ onBeforeUnmount(() => {
     padding: 0.5rem;
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc; /* ボーダーのスタイル */
 }
 
 .results-list {

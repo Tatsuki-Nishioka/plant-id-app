@@ -1,18 +1,9 @@
 <template>
-    <div>
-        <h2>名前から検索</h2>
+    <div class="container">
         <SearchBar :plants="plants" @select="handleSelect" />
 
         <div v-if="selectedPlant" class="plant-details">
-            <h3>{{ selectedPlant.scientificName }}</h3>
-            <div>
-                <CharacterCard
-v-for="character in selectedCharacters" 
-                    :key="character.id"
-                    :icon="'🔍'" 
-                    :description="character.characterJpn" 
-                />
-            </div>
+            <ResultCard class="result-card" :character-set="characterSet" :plant="selectedPlant" />
             <button @click="clearSelection">戻る</button>
         </div>
     </div>
@@ -20,7 +11,7 @@ v-for="character in selectedCharacters"
 
 <script setup lang="ts">
 import SearchBar from "~/components/SearchBar.vue";
-import CharacterCard from "../components/CharacterCard.vue";
+import ResultCard from "~/components/ResultCard.vue";
 import type { Plant } from "~/types/plant";
 
 const plantData = usePlantData();
@@ -37,20 +28,24 @@ const clearSelection = () => {
     selectedPlant.value = null;
 };
 
-const selectedCharacters = computed(() => {
-    if (!selectedPlant.value || !characterSet.value) return [];
-    return selectedPlant.value.characters.map(
-        (characterId) => characterSet.value[characterId]
-    );
-});
 </script>
 
 <style scoped>
+.container h3{
+    margin: 0.5rem 0 0.5rem;
+}
 .plant-details {
     margin-top: 0.5rem;
 }
 
+.result-card {
+    position: relative;
+    z-index: 1; /* ボタンより前に表示 */
+}
+
 button {
+    position: fixed;
+    bottom: 1rem;
     padding: 0.5rem 1rem;
     background-color: #4caf50;
     color: white;
@@ -58,6 +53,7 @@ button {
     border-radius: 4px;
     margin-top: 0.25em;
     cursor: pointer;
+    z-index: 0;
 }
 
 button:hover {

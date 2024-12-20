@@ -1,7 +1,7 @@
 <template>
     <div class="result-card">
         <div class="header" @click="toggleDetails">
-            <h3>{{ plant.scientificName }}</h3>
+            <h4>{{ plant.scientificName }}</h4>
             <span class="toggle-icon">{{ showDetails ? '▲' : '▼' }}</span>
         </div>
         <ul v-if="showDetails">
@@ -35,7 +35,7 @@ const toggleDetails = (): void => {
     border-radius: 8px;
     background-color: #fff;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     /* 影を追加 */
     transition: box-shadow 0.3s ease;
     /* 影のトランジションを追加 */
@@ -44,7 +44,7 @@ const toggleDetails = (): void => {
 }
 
 .result-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.075);
     /* ホバー時の影を追加 */
 }
 
@@ -54,7 +54,7 @@ const toggleDetails = (): void => {
     align-items: center;
 }
 
-.result-card h3 {
+.result-card h4 {
     margin: 0;
 }
 
@@ -65,7 +65,7 @@ const toggleDetails = (): void => {
 
 .result-card ul {
     margin-top: 1rem;
-    padding-left: 1rem;
+    padding-left: 0.25rem;
     list-style-type: none;
     /* デフォルトのリストスタイルを消す */
 }

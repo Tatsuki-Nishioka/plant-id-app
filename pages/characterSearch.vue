@@ -1,10 +1,10 @@
 <template>
     <div>
         <ProgressBar
-:current-step="currentStep" :total-steps="questions?.length"
+            :current-step="currentStep" :total-steps="questions?.length"
             :filtered-count="filteredPlants.length" />
         <FilterPanel
-v-if="currentStep < questions?.length" :category="currentCategory" :first-category="firstCategory"
+            v-if="currentStep < questions?.length" :category="currentCategory" :first-category="firstCategory"
             :step-count="currentCategoryStepCount" :question="questions[currentStep]"
             @select="handleAnswer" @prev="prevQuestion" @next="nextQuestion" @skip="skipCategory" @show-results="showResults" />
         <div v-else>
@@ -124,7 +124,6 @@ const nextQuestion = () => {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
 }
 
 .reset-button {
