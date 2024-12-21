@@ -11,7 +11,7 @@
                         <span class="nav-button-text">▲</span>
                     </button>
                     <div class="question-container">
-                        <div class="question-info-container">
+                        <div class="question-info-container" @click="showModal(question)">
                             <h3 class="question">{{ question.text }}</h3>
                             <span class="question-info">ⓘ</span>
                         </div>
@@ -30,10 +30,11 @@
                     </button>
                 </div>
             </transition>
-            <button class="skip-button" @click="skipCategory">{{ skipButtonText }}</button>
+            <button class="skip-button" @click="skipCategory">カテゴリをスキップ</button>
             <button class="result-button" @click="showResults">結果を見る</button>
         </div>
     </div>
+    <CharacterModal v-model:model-value="isModalVisible" :title=modalTitle :content=modalContent />
 </template>
 
 <script setup lang="ts">
@@ -60,6 +61,10 @@ const answersByCurrentCategory = ref<Answer[]>([]);
 const isFirstQuestionInCategory = ref(true);
 // 前のカテゴリ
 const previousCategory = ref(props.firstCategory);
+// モーダルの表示状態
+const isModalVisible = ref(false);
+const modalTitle = ref('');
+const modalContent = ref('');
 
 const options = [
     { label: "Yes", value: true, icon: "✔️" },
@@ -78,6 +83,14 @@ if (useAnswers().answers.value.size > 0) {
         };
     }
 }
+
+// モーダルの内容作成・表示
+const showModal = (question: Question) => {
+    isModalVisible.value = true;
+
+    modalTitle.value = question.text;
+    modalContent.value = "詳細を表示" // usePlantData().characterSet.value[question.key]?.characterDetailJpn ?? '詳細情報がありません';
+};
 
 const selectOption = (value: boolean | null): void => {
     selectedOption.value = {
@@ -104,10 +117,6 @@ const prevQuestion = (): void => {
 const nextQuestion = (): void => {
     emit('next');
 };
-
-const skipButtonText = computed(() => {
-    return isFirstQuestionInCategory.value ? 'カテゴリをスキップ' : 'カテゴリの残りをスキップ';
-});
 
 watch(() => isFirstQuestionInCategory.value, (newValue) => {
     if (newValue) {
@@ -174,7 +183,8 @@ watch([(): string => props.category, (): Question => props.question], ([newCateg
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 1rem;
+    padding: 1rem;
+    margin: 0 1rem  ;
     color: gray;
 }
 

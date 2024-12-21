@@ -1,11 +1,13 @@
 <template>
-    <div v-if="isVisible" class="modal-overlay" @click.self="close">
-        <div class="modal-content">
-            <h3>{{ title }}</h3>
-            <p>{{ content }}</p>
-            <button @click="close">閉じる</button>
+    <Transition name="fade">
+        <div v-if="isVisible" class="modal-overlay" @click.self="close">
+            <div class="modal-content">
+                <h3>{{ title }}</h3>
+                <p>{{ content }}</p>
+                <button @click="close">閉じる</button>
+            </div>
         </div>
-    </div>
+    </Transition>
 </template>
 
 <script setup lang="ts">
@@ -57,6 +59,7 @@ watch(() => props.modelValue, (newValue) => {
     margin: 0;
     font-weight: bold;
     color: #333;
+    text-align: center;
     border-bottom: 1.5px solid #ccc; /* 下線を追加 */
     padding-bottom: 0.25rem; /* 下線とテキストの間にスペースを追加 */
 }
@@ -83,29 +86,12 @@ button:hover {
     background-color: #45a049;
 }
 
-
-/* メディアクエリを使用してレスポンシブ対応 */
-@media (min-width: 600px) {
-  .modal-content {
-    width: 80%; /* 600px以上の画面幅では80%に設定 */
-  }
+/* フェードイン・フェードアウトのトランジション */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.15s;
 }
 
-@media (min-width: 768px) {
-  .modal-content {
-    width: 70%; /* 768px以上の画面幅では70%に設定 */
-  }
-}
-
-@media (min-width: 1024px) {
-  .modal-content {
-    width: 60%; /* 1024px以上の画面幅では60%に設定 */
-  }
-}
-
-@media (min-width: 1280px) {
-  .modal-content {
-    width: 50%; /* 1280px以上の画面幅では50%に設定 */
-  }
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0.7;
 }
 </style>
