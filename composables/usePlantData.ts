@@ -24,19 +24,7 @@ export function usePlantData() {
         })
 
         // 植物データを読み込む
-        master.forEach((record) => {
-            if (record.scientific_name && record.characters?.length) {
-                const plant: Plant = {
-                    scientificName: record.scientific_name,
-                    japaneseName:  null,
-                    family: record.family,
-                    genus: record.genus.trim() || null,
-                    species: record.species.trim() || null,
-                    characters: record.characters as string[],
-                };
-                plants.value.push(plant);
-            }
-        })
+        plants.value = master as Plant[];
 
         isDataLoaded.value = true;
     }

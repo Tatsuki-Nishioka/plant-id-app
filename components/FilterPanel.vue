@@ -1,14 +1,20 @@
 <template>
     <div class="filter-panel">
         <div class="category-container">
-            <h2 class="category">{{ category }} <br ><span class="step-count">（{{ stepCount }} ステップ）</span></h2>
+            <h2 class="category">{{ category }}
+                <br >
+                <span class="step-count">（{{ stepCount }} ステップ）</span>
+            </h2>
             <transition name="fade" mode="out-in">
                 <div :key="question.key" class="question-nav-container">
                     <button class="nav-button prev" @click="prevQuestion">
                         <span class="nav-button-text">▲</span>
                     </button>
                     <div class="question-container">
-                        <h3 class="question">{{ question.text }}</h3>
+                        <div class="question-info-container">
+                            <h3 class="question">{{ question.text }}</h3>
+                            <span class="question-info">ⓘ</span>
+                        </div>
                         <div class="options">
                             <button
                                 v-for="option in options" :key="option.label" class="option-card"
@@ -151,6 +157,25 @@ watch([(): string => props.category, (): Question => props.question], ([newCateg
 .category {
     font-size: 1.25rem;
     margin: 0;
+}
+
+.question-info-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question {
+    text-align: center;
+    flex: 1;
+}
+
+.question-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1rem;
+    color: gray;
 }
 
 .question-container {

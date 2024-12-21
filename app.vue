@@ -60,7 +60,7 @@ usePlantData().loadPlantData();
 .app-nav a {
   color: white;
   text-decoration: none;
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 4px;
   background-color: #66bb6a;
 }

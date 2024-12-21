@@ -5,26 +5,38 @@
             <span class="toggle-icon">{{ showDetails ? '▲' : '▼' }}</span>
         </div>
         <ul v-if="showDetails">
-            <li v-for="key in plant.characters" :key="key" class="character-item">
+            <li v-for="key in plant.characters" :key="key" class="character-item" @click="showModal(key)">
                 <span class="character-key">{{ key }}</span>
-                <span class="character-value">：{{ characterSet[key]?.characterJpn }}</span>
+                <span class="character-colon">：</span>
+                <span class="character-value">{{ characterSet[key]?.characterJpn }}</span>
+                <span class="character-info-button">ⓘ</span>
             </li>
         </ul>
+        <CharacterModal v-model:model-value="isModalVisible" :title="modalTitle" :content="modalContent" />
     </div>
 </template>
 
 <script setup lang="ts">
 import type { CharacterSet, Plant } from '~/types/plant';
 
-defineProps<{
+const props = defineProps<{
     plant: Plant;
     characterSet: CharacterSet;
 }>();
 
 const showDetails = ref(false);
+const isModalVisible = ref(false);
+const modalTitle = ref('');
+const modalContent = ref('');
 
 const toggleDetails = (): void => {
     showDetails.value = !showDetails.value;
+};
+
+const showModal = (key: string) => {
+    modalTitle.value = props.characterSet[key]?.characterJpn;
+    modalContent.value = '詳細情報がありません/r/nここにデータがいっぱい入ります';
+    isModalVisible.value = true;
 };
 </script>
 
@@ -41,6 +53,7 @@ const toggleDetails = (): void => {
     /* 影のトランジションを追加 */
     margin-bottom: 0.125rem;
     /* 要素間の間隔を追加 */
+    -webkit-tap-highlight-color: transparent; /* スマホでのクリック時の選択色を消す */
 }
 
 .result-card:hover {
@@ -73,14 +86,29 @@ const toggleDetails = (): void => {
 .character-item {
     display: flex;
     justify-content: space-between;
+    padding-bottom: .25rem;
 }
 
 .character-key {
     flex: 0 0 3ch;
     /* 固定幅を設定してキーの位置を揃える */
+    text-align: left;
+}
+
+.character-colon {
+    text-align: left;
 }
 
 .character-value {
     flex: 1;
+    margin-right: 0.5rem;
+}
+
+.character-info-button {
+    background: none;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    font-size: 1rem;
 }
 </style>

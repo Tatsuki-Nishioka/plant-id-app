@@ -7,17 +7,21 @@ export type Plant = {
      */
     scientificName: string;
     /**
-     * 名前（日本語）
-     */
-    japaneseName: string | null;
-    /**
      * 科
      */
     family: string;
     /**
+     * 科_日本語
+     */
+    familyJpn: string;
+    /**
      * 属
      */
     genus: string | null;
+    /**
+     * 属_日本語
+     */
+    genusJpn: string | null;
     /**
      * 種
      */
