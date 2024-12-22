@@ -4,7 +4,16 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   app: {
-    baseURL: '/plant-id-app/'
+    baseURL: '/plant-id-app/',
+    head: {
+      meta: [
+          {name: "theme-color", content: "#326CB3"},
+      ],
+      link: [
+          {rel: 'icon', href: `/favicon.ico`, sizes: "48x48"},
+          {rel: 'apple-touch-icon', href: `/apple-touch-icon-180x180.png`},
+      ],
+  },
   },
 
   nitro: {
@@ -13,5 +22,48 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ['@nuxt/eslint']
+  modules: ['@nuxt/eslint', '@vite-pwa/nuxt'],
+  pwa: {
+    registerType: "autoUpdate", // 多分なくてもよい
+    manifest: {
+        name: 'マレシア植物区の植物同定アプリ',
+        description: "マレシア植物区の植物同定アプリ",
+        theme_color: "#4caf50", // テーマカラー
+        lang: "ja",
+        short_name: "マレシア植物同定",
+        start_url: "/",
+        display: "standalone",
+        background_color: "#ffffff",
+        icons: [
+            {
+                "src": "pwa-64x64.png",
+                "sizes": "64x64",
+                "type": "image/png"
+            },
+            {
+                "src": "pwa-192x192.png",
+                "sizes": "192x192",
+                "type": "image/png"
+            },
+            {
+                "src": "pwa-512x512.png",
+                "sizes": "512x512",
+                "type": "image/png"
+            },
+            {
+                "src": "maskable-icon-512x512.png",
+                "sizes": "512x512",
+                "type": "image/png",
+                "purpose": "maskable"
+            }
+        ],
+    },
+    workbox: { // なんか必要
+        navigateFallback: null
+    },
+    devOptions: { // テスト用
+        enabled: true,
+        type: "module"
+    },
+},
 })

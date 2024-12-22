@@ -14,6 +14,7 @@
 
     <!-- メインコンテンツ -->
     <main>
+      <NuxtPwaManifest />
       <NuxtPage />
     </main>
 
