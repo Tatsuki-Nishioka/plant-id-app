@@ -88,8 +88,8 @@ if (useAnswers().answers.value.size > 0) {
 const showModal = (question: Question) => {
     isModalVisible.value = true;
 
-    modalTitle.value = question.text;
-    modalContent.value = "詳細を表示" // usePlantData().characterSet.value[question.key]?.characterDetailJpn ?? '詳細情報がありません';
+    modalTitle.value = question.key + ". " + question.text;
+    modalContent.value = usePlantData().characterSet.value[question.key]?.characterDetailJpn ?? '詳細情報がありません';
 };
 
 const selectOption = (value: boolean | null): void => {

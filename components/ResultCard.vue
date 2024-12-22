@@ -34,8 +34,8 @@ const toggleDetails = (): void => {
 };
 
 const showModal = (key: string) => {
-    modalTitle.value = props.characterSet[key]?.characterJpn;
-    modalContent.value = '詳細情報がありません/r/nここにデータがいっぱい入ります';
+    modalTitle.value = key + ". " + props.characterSet[key]?.characterJpn;
+    modalContent.value = usePlantData().characterSet.value[key]?.characterDetailJpn ?? '詳細情報がありません';
     isModalVisible.value = true;
 };
 </script>

@@ -1,10 +1,12 @@
-import type { Plant, CharacterSet, Character } from '~/types/plant';
+import type { Plant, CharacterSet, Character, CategorySet, Category } from '~/types/plant';
 import characters from '~/static/characters.json';
+import categoryData from '~/static/categories.json';
 import master from '~/static/master.json';
 
 export function usePlantData() {
     const plants = useState<Plant[]>('plants', () => [])
     const characterSet = useState<CharacterSet>('characterSet', () => ({}))
+    const categorySet = useState<CategorySet>('categorySet', () => ({}))
     const isDataLoaded = useState<boolean>('isDataLoaded', () => false)
 
     // データの読み込み
@@ -12,15 +14,13 @@ export function usePlantData() {
         if (isDataLoaded.value) return;
 
         // 特徴セットを読み込む
-        characters.forEach((record) => {
-            const character: Character = {
-                id: record.id,
-                character: record.character,
-                characterJpn: record.character_jpn,
-                category: record.category,
-                categoryJpn: record.category_jpn,
-            };
+        characters.forEach((character: Character) => {
             characterSet.value[character.id] = character;
+        })
+
+        // カテゴリを読み込む
+        categoryData.forEach((category: Category) => {
+            categorySet.value[category.id] = category;
         })
 
         // 植物データを読み込む
@@ -39,14 +39,10 @@ export function usePlantData() {
         return plants.value.filter(plant => characters.every(f => plant.characters.includes(f)));
     };
 
-    onMounted(() => {
-        // データを読み込む
-        loadPlantData();
-    });
-
     return {
         plants: plants,
         characterSet: characterSet,
+        categorySet: categorySet,
         loadPlantData,
         searchByName,
         searchByCharacters,

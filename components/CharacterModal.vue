@@ -1,13 +1,15 @@
 <template>
-    <Transition name="fade">
+    <transition name="fade">
         <div v-if="isVisible" class="modal-overlay" @click.self="close">
             <div class="modal-content">
-                <h3>{{ title }}</h3>
-                <p>{{ content }}</p>
-                <button @click="close">閉じる</button>
+                <h3 class="modal-title">{{ title }}</h3>
+                <div class="modal-body">
+                    <p>{{ content }}</p>
+                </div>
+                <button class="bottom-button" @click="close">閉じる</button>
             </div>
         </div>
-    </Transition>
+    </transition>
 </template>
 
 <script setup lang="ts">
@@ -48,29 +50,46 @@ watch(() => props.modelValue, (newValue) => {
 }
 
 .modal-content {
+    position: relative;
     background: white;
     padding: 1rem;
     border-radius: 8px;
     max-width: 500px;
     width: 80%;
+    max-height: 80vh;
+    /* ビューポートの高さの80%に制限 */
+    display: flex;
+    flex-direction: column;
 }
 
-.modal-content h3 {
-    margin: 0;
+.modal-title {
+    margin: 0 0 0.5rem;
     font-weight: bold;
-    color: #333;
     text-align: center;
-    border-bottom: 1.5px solid #ccc; /* 下線を追加 */
-    padding-bottom: 0.25rem; /* 下線とテキストの間にスペースを追加 */
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.25rem;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
 }
 
-.modal-content p {
-    margin: 1rem 0;
+.modal-body {
+    overflow-y: auto;
+    /* コンテンツが大きい場合にスクロール可能に */
+    flex-grow: 1;
+}
+
+.modal-body p {
+    margin: 0;
     font-size: 0.9rem;
     color: #666;
+    line-height: 1.5;
+    /* 文字列の高さを広げる */
 }
 
-button {
+.bottom-button {
     float: right;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
@@ -79,19 +98,23 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    right: 0.5rem;
 }
 
-button:hover {
+.bottom-button:hover {
     background-color: #45a049;
 }
 
 /* フェードイン・フェードアウトのトランジション */
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.15s;
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
 }
 
-.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
-  opacity: 0.7;
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active in <2.1.8 */
+    {
+    opacity: 0;
 }
 </style>

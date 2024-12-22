@@ -1,27 +1,26 @@
 <template>
-    <div class="container">
-        <div v-for="category in categoryList" :key="category.label" class="accordion">
-            <div class="accordion-header-parent" @click="toggle(category)">
-                <p>{{ category.label }}</p>
-                <span class="toggle-icon">{{ category.isOpen ? '▲' : '▼' }}</span>
-            </div>
-            <div v-if="category.isOpen" class="accordion-content">
-                <div class="category-description">
-                    <p>{{ category.content }}</p> <!-- カテゴリの説明を追加 -->
+    <div>
+        <div class="container">
+            <div v-for="category in categoryList" :key="category.label" class="accordion">
+                <div class="accordion-header-parent" @click="toggle(category)">
+                    <p>{{ category.label }}</p>
+                    <span class="toggle-icon">{{ category.isOpen ? '▲' : '▼' }}</span>
                 </div>
-                <div
-                    v-for="character in charactersMap.get(category.category) ?? []" :key="character.label"
-                    class="card">
-                    <div class="accordion-header" @click="toggle(character)">
-                        <p>{{ character.label }}</p>
-                        <span class="toggle-icon-child">{{ character.isOpen ? '▲' : '▼' }}</span>
+                <div v-if="category.isOpen" class="accordion-content">
+                    <div class="category-description">
+                        <p>{{ category.content }}</p> <!-- カテゴリの説明を追加 -->
                     </div>
-                    <div v-if="character.isOpen" class="accordion-content">
-                        <p>{{ character.content }}</p>
+                    <div v-for="character in charactersMap.get(category.category) ?? []" :key="character.label"
+                        class="card">
+                        <div class="accordion-header" @click="showModal(character)">
+                            <p>{{ character.label }}</p>
+                            <span class="info-icon">ⓘ</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <CharacterModal v-model:model-value="isModalVisible" :title="modalTitle" :content="modalContent" />
     </div>
 </template>
 
@@ -31,42 +30,54 @@ type Item = {
     category: string;
     label: string;
     content: string;
-    isOpen?: boolean;
+    isOpen: boolean;
 };
 
 const characterSet = usePlantData().characterSet;
+const categorySet = usePlantData().categorySet;
 const charactersMap = ref(new Map<string, Item[]>());
 const categoryList = ref<Item[]>([]);
-let count = 0
+// モーダルの表示状態
+const isModalVisible = ref(false);
+const modalTitle = ref('');
+const modalContent = ref('');
+
 Object.entries(characterSet.value).forEach(([_key, character]) => {
     const temp: Item = {
-        category: character.categoryJpn,
+        category: categorySet.value[character.categoryId].categoryJpn,
         label: character.id + '. ' + character.characterJpn,
-        content: 'ここに説明がいっぱいはいります',
+        content: character.characterDetailJpn,
         isOpen: false,
     };
-    const items = charactersMap.value.get(character.categoryJpn) || [];
+    const categoryJpn = categorySet.value[character.categoryId].categoryJpn;
+    const items = charactersMap.value.get(categoryJpn) || [];
     items.push(temp);
-    charactersMap.value.set(character.categoryJpn, items);
+    charactersMap.value.set(categoryJpn, items);
+});
 
-    if (!categoryList.value.some(c => c.category === character.categoryJpn)) {
-        const labelText = 'カテゴリー' + ++count + '. ' + character.categoryJpn
-        categoryList.value.push({
-            category: character.categoryJpn,
-            label: labelText,
-            content: 'カテゴリの説明がここに入ります',
-            isOpen: false,
-        });
-    }
+Object.entries(categorySet.value).forEach(([_key, category]) => {
+    categoryList.value.push({
+        category: category.categoryJpn,
+        label: category.id + '. ' + category.categoryJpn,
+        content: category.detailJpn,
+        isOpen: false,
+    });
 });
 
 const toggle = (item: Item) => {
     item.isOpen = !item.isOpen;
 };
+
+// モーダルの内容作成・表示
+const showModal = (item: Item) => {
+    isModalVisible.value = true;
+
+    modalTitle.value = item.label;
+    modalContent.value = item.content;
+};
 </script>
 
 <style scoped>
-
 .container {
     padding: .1rem;
 }
@@ -104,8 +115,8 @@ const toggle = (item: Item) => {
     margin-left: 0.5rem;
 }
 
-.toggle-icon-child {
-    font-size: 0.5rem;
+.info-icon {
+    font-size: 1rem;
     margin-right: 0.5rem;
 }
 
@@ -121,9 +132,8 @@ const toggle = (item: Item) => {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: .25rem;
-    margin-left: .25rem;
-    margin-right: .25rem;
+    margin: 0 .25rem .25rem;
+    padding: 0.25rem 0;
 }
 
 .accordion-content {
@@ -134,7 +144,8 @@ const toggle = (item: Item) => {
 
 .category-description {
     margin: .5rem 0 1rem;
-    color: #66bb6a; /* 緑色の文字色 */
+    color: #66bb6a;
+    /* 緑色の文字色 */
 }
 
 .card {
@@ -142,7 +153,8 @@ const toggle = (item: Item) => {
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     /* 影を追加 */
-    transition: box-shadow 0.3s ease;;
+    transition: box-shadow 0.3s ease;
+    ;
 }
 
 .card p {

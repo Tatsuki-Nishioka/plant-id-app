@@ -50,13 +50,43 @@ export type Character = {
      */
     characterJpn: string;
     /**
+     * 特徴詳細
+     */
+    characterDetail: string;
+    /**
+     * 特徴詳細_日本語
+     */
+    characterDetailJpn: string;
+    /**
+     * カテゴリID
+     */
+    categoryId: string;
+}
+
+/**
+ * カテゴリ
+ */
+export type Category = {
+    /**
+     * カテゴリID
+     */
+    id: string;
+    /**
      * カテゴリ_英語
      */
-    category: string
+    category: string;
     /**
      * カテゴリ_日本語
-     */;
+     */
     categoryJpn: string;
+    /**
+     * カテゴリの説明_英語
+     */
+    detail: string;
+    /**
+     * カテゴリの説明_日本語
+     */
+    detailJpn: string;
 }
 
 /**
@@ -67,4 +97,14 @@ export type CharacterSet = {
      * 特徴IDをキーとした特徴のマップ
      */
     [key: string]: Character;
+}
+
+/**
+ * カテゴリセット
+ */
+export type CategorySet = {
+    /**
+     * カテゴリIDをキーとしたカテゴリのマップ
+     */
+    [key: string]: Category;
 }

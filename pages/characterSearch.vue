@@ -30,8 +30,9 @@ plantData.loadPlantData();
 
 const plants = plantData.plants;
 const characterSet = plantData.characterSet;
+const categorySet = plantData.categorySet;
 // FilterPanel.vueの初期値用カテゴリ名
-const firstCategory = characterSet.value["1"].categoryJpn;
+const firstCategory = categorySet.value["1"].categoryJpn;
 
 const currentStep = ref(0);
 // 特徴名の配列;
@@ -41,7 +42,7 @@ const categories = ref<Map<string, Question[]>>(new Map());
 
 // カテゴリと質問を作成
 Object.entries(characterSet.value).forEach(([key, character]) => {
-    const category = character.categoryJpn;
+    const category = categorySet.value[character.categoryId].categoryJpn;
     const question = {
         category: category,
         key: key,

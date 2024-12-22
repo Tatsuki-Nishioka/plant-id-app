@@ -1,0 +1,121 @@
+[
+	{
+		"id": "1",
+		"category": "Distinctive Growth Forms and Plant-body Adaptations",
+		"categoryJpn": "特徴的な成長形態・適応",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "2",
+		"category": "Stem and Branch Characteristics",
+		"categoryJpn": "茎と枝",
+		"detail": "The tropical botanist would notice a great variety of features that sometimes aid recognition of species in the field, and so make notes of some of these on labels of herbarium specimens. For example, the shedding of leaves is a normal feature of plants, but exceptionally whole branches are shed, e.g., in Ardisia (Primulaceae, including Myrsinaceae), Cananga (Annonaceae) and Gnetum (Gnetaceae). However, here we list a number of characters that are perhaps easier to recognise from both field and herbarium specimens.",
+		"detailJpn": "熱帯植物学者は、時折、種の認識を助ける多様な特徴に気づくことがあり、これらのいくつかを標本ラベルに記録する。例えば、葉の落葉は植物の通常の特徴であるが、例外的に全体の枝が落ちることもある。例えば、サクラソウ科（旧ヤブコウジ科）のArdisia、バンレイシ科のCananga、グネツム科のGnetumがその例である。しかし、ここでは、フィールドおよび標本の両方からより認識しやすい特徴をいくつか挙げる。"
+	},
+	{
+		"id": "3",
+		"category": "Exudates: Saps and Resins",
+		"categoryJpn": "滲出物：樹液と樹脂",
+		"detail": "Plant exudates, such as saps and resins, can be characteristic, e.g.. some produce a sticky latex when bruised or cut. The sap may be white, or even colourless or transparent, but sometimes a distinctive colour may slowly develop. This character is also difficult to perceive directly from herbarium material, but is often noted by collectors. Less common, but nevertheless impressive, are those species with green sap, which we know in only two cases: Kingiodendron (formerly Prioria. Leguminosae) and some Phyllanthus, e.g., P. balgooyi (Phyllanthaceae). Also, Melanolepis multiglandulosa (Euphorbiaceae) twigs exude a bluish sap when bruised!",
+		"detailJpn": "植物の樹液や樹脂などの分泌物は特徴的であることがあり、例えば、傷つけたり切ったりすると粘着性のラテックスを生成することがある。樹液は白色、無色、透明であることもあるが、時には特有の色がゆっくりと現れることもある。この特徴は標本から直接知覚するのは難しいが、採集者によってしばしば記録される。あまり一般的ではないが、それでも印象的なのは、緑色の樹液を持つ種で、これは二つの例のみが知られている：Kingiodendron（以前はPrioria、マメ科）と一部のPhyllanthus属（ex. コミカンソウ科のP. balgooyi）。また、トウダイグサ科のMelanolepis multiglandulosaの小枝は、傷つけると青みがかった樹液を分泌する。"
+	},
+	{
+		"id": "4",
+		"category": "Characteristic Smells",
+		"categoryJpn": "特徴的な匂い",
+		"detail": "Distinctive smells when a branch or stem is cut, or when leaves are torn or crushed, can give good clues to identifying some taxa. Thus, bruised bark (or sometimes crushed leaves) could release the smell of almonds (Prunus), garlic (Scorodocarpus), sugarcane (Xanthophyllum), wintergreen or salicylic acid (Gaultheria), or be fragrant (Magnolia p.p.), and so on. Not all smells are distinctive and here, only two types that are persistent even on herbarium specimens are listed",
+		"detailJpn": "枝や茎を切ったとき、または葉を裂いたり潰したりしたときに特有の匂いがすることは、いくつかの分類群を特定するための良い手掛かりとなる。例えば、傷つけた樹皮（または時には潰した葉）は、アーモンド（Prunus）、ニンニク（Scorodocarpus）、サトウキビ（Xanthophyllum）、ウィンターグリーンやサリチル酸（Gaultheria）の匂いを放ったり、芳香を放ったり（Magnolia属の一部）、といった特徴がある。しかし、すべての匂いが特徴的なわけではない。ここでは、標本においても持続する二つのタイプの臭いのみをリストに含める。"
+	},
+	{
+		"id": "5",
+		"category": "Stipule Characters",
+		"categoryJpn": "托葉",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "6",
+		"category": "Petioles and Rachises",
+		"categoryJpn": "葉柄と葉軸",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "7",
+		"category": "Leaf Arrangement",
+		"categoryJpn": "葉序",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "8",
+		"category": "Leaf Form and Size",
+		"categoryJpn": "葉の形状と大きさ",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "9",
+		"category": "Leaf Margins",
+		"categoryJpn": "葉の縁",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "10",
+		"category": "Leaf Venation",
+		"categoryJpn": "葉脈",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "11",
+		"category": "Leaf Coloration",
+		"categoryJpn": "葉の色",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "12",
+		"category": "Indument, Leaf Surface Characteristics and Texture",
+		"categoryJpn": "被毛、葉の表面の特徴と質感",
+		"detail": "Many characters that pertain to leaf surfaces ante indument are helpful in Many chion, but many more, such as shagreened leaf upper surfaces (e.g., in identificatiom, Gnetaceae and Tinomiscium, Menispermaceae), ought to be better explored for their utility. The apparently shagreened leaf upper surface in some explored (subgenus Abbottia. Rubiaceae) is not a surface feature per se, but due to the many fine subparallel veinlets being prominent upon drying",
+		"detailJpn": "葉の表面および被覆毛に関する多くの特徴は、識別に役立つが、例えばザラザラした葉の上面（グネツム科やツヅラフジ科のTinomiscium）など、さらに多くの特徴がその有用性をよりよく探求されるべきである。一部の植物（アカネ科の亜属Abbottia）の葉の上面がザラザラしているように見えるのは、表面の特徴そのものではなく、乾燥時に目立つ多くの細かい亜平行脈のためである。"
+	},
+	{
+		"id": "13",
+		"category": "Life-cycle and Flowering Habits",
+		"categoryJpn": "生活環と開花習性",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "14",
+		"category": "Inflorescence Form and Position",
+		"categoryJpn": "花序の形態と位置",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "15",
+		"category": "Flower Characters",
+		"categoryJpn": "花の特徴",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "16",
+		"category": "Fruit Characters",
+		"categoryJpn": "果実の特徴",
+		"detail": "",
+		"detailJpn": ""
+	},
+	{
+		"id": "17",
+		"category": "Seed Characters",
+		"categoryJpn": "種子の特徴",
+		"detail": "",
+		"detailJpn": ""
+	}
+]

@@ -1,835 +1,954 @@
 [
-    {
-        "id": "1",
-        "character": "Cushion-forming plants",
-        "character_jpn": "クッション状の植物",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "2",
-        "character": "Schopfbäume growth form",
-        "character_jpn": "シュプファウム成長（ヘゴ・ソテツ様樹形）",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "3",
-        "character": "Swollen stems or inflated internodes",
-        "character_jpn": "茎が肥大する・節間が膨張する",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "4",
-        "character": "Climbers with hooks or tendrils",
-        "character_jpn": "鉤・巻きひげのあるつる植物",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "5",
-        "character": "Climbers without hooks or tendrils",
-        "character_jpn": "鉤・巻きひげのないつる植物",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "6",
-        "character": "Plants climbing, with opposite leaves",
-        "character_jpn": "対生葉のつる植物",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "7",
-        "character": "Presence of thorns, spines or prickles",
-        "character_jpn": "とげがある",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "8",
-        "character": "Plants without chlorophyll",
-        "character_jpn": "無葉緑植物",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "9",
-        "character": "Parasitic plants",
-        "character_jpn": "寄生植物",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "10",
-        "character": "Ant plants",
-        "character_jpn": "アリ植物",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "11",
-        "character": "Bulbils",
-        "character_jpn": "珠芽（ムカゴ）をつける",
-        "category": "Distinctive Growth Forms and Plant-body Adaptations",
-        "category_jpn": "特徴的な成長形態・適応"
-    },
-    {
-        "id": "12",
-        "character": "Swollen nodes",
-        "character_jpn": "節が膨らむ",
-        "category": "Stem and Branch Characteristics",
-        "category_jpn": "茎と枝"
-    },
-    {
-        "id": "13",
-        "character": "Winged' stems",
-        "character_jpn": "茎に翼がある",
-        "category": "Stem and Branch Characteristics",
-        "category_jpn": "茎と枝"
-    },
-    {
-        "id": "14",
-        "character": "Twigs pale-coloured, petioles dark",
-        "character_jpn": "枝が淡色で葉柄が暗色",
-        "category": "Stem and Branch Characteristics",
-        "category_jpn": "茎と枝"
-    },
-    {
-        "id": "15",
-        "character": "Flattened young twig portions",
-        "character_jpn": "若枝が扁平",
-        "category": "Stem and Branch Characteristics",
-        "category_jpn": "茎と枝"
-    },
-    {
-        "id": "16",
-        "character": "Supernumerary or serial buds",
-        "character_jpn": "頂芽・腋芽が複数または連続する",
-        "category": "Stem and Branch Characteristics",
-        "category_jpn": "茎と枝"
-    },
-    {
-        "id": "17",
-        "character": "Twigs mimicking compound leaves",
-        "character_jpn": "複葉のような枝",
-        "category": "Stem and Branch Characteristics",
-        "category_jpn": "茎と枝"
-    },
-    {
-        "id": "18",
-        "character": "Wave-like sympodial branching",
-        "character_jpn": "枝は添伸する（階段状の樹形）",
-        "category": "Stem and Branch Characteristics",
-        "category_jpn": "茎と枝"
-    },
-    {
-        "id": "19",
-        "character": "Proleptic shoots",
-        "character_jpn": "頂芽基部から側枝がでる",
-        "category": "Stem and Branch Characteristics",
-        "category_jpn": "茎と枝"
-    },
-    {
-        "id": "20",
-        "character": "White or yellow sap",
-        "character_jpn": "樹液が白・黄色",
-        "category": "Exudates: Saps and Resins",
-        "category_jpn": "滲出物：樹液と樹脂"
-    },
-    {
-        "id": "21",
-        "character": "Black or brown sap",
-        "character_jpn": "樹液が黒・茶色",
-        "category": "Exudates: Saps and Resins",
-        "category_jpn": "滲出物：樹液と樹脂"
-    },
-    {
-        "id": "22",
-        "character": "Red or orange sap",
-        "character_jpn": "樹液が赤・オレンジ",
-        "category": "Exudates: Saps and Resins",
-        "category_jpn": "滲出物：樹液と樹脂"
-    },
-    {
-        "id": "23",
-        "character": "Plants conspicuously resinous upon drying",
-        "character_jpn": "乾燥すると樹脂が目立つ",
-        "category": "Exudates: Saps and Resins",
-        "category_jpn": "滲出物：樹液と樹脂"
-    },
-    {
-        "id": "24",
-        "character": "Resinous exudate",
-        "character_jpn": "滲出物が樹脂性",
-        "category": "Exudates: Saps and Resins",
-        "category_jpn": "滲出物：樹液と樹脂"
-    },
-    {
-        "id": "25",
-        "character": "Crushed leaves with smell of fenugreek",
-        "character_jpn": "潰した葉はフェヌグリーク（メープルシロップ？）の匂い",
-        "category": "Characteristic Smells",
-        "category_jpn": "特徴的な匂い"
-    },
-    {
-        "id": "26",
-        "character": "Crushed leaves or flowers with foul or foetid smell",
-        "character_jpn": "潰した葉・花は悪臭や腐敗臭",
-        "category": "Characteristic Smells",
-        "category_jpn": "特徴的な匂い"
-    },
-    {
-        "id": "27",
-        "character": "Crushed leaves with resinous (turpentine-like) smell",
-        "character_jpn": "潰した葉は樹脂（松根油）の匂い",
-        "category": "Characteristic Smells",
-        "category_jpn": "特徴的な匂い"
-    },
-    {
-        "id": "28",
-        "character": "Other smells",
-        "character_jpn": "その他の匂い",
-        "category": "Characteristic Smells",
-        "category_jpn": "特徴的な匂い"
-    },
-    {
-        "id": "29",
-        "character": "Interpetiolar stipules and stipule-like structures",
-        "character_jpn": "葉柄間托葉および托葉様構造",
-        "category": "Stipule Characters",
-        "category_jpn": "托葉"
-    },
-    {
-        "id": "30",
-        "character": "Clasping stipules",
-        "character_jpn": "托葉は茎を抱く",
-        "category": "Stipule Characters",
-        "category_jpn": "托葉"
-    },
-    {
-        "id": "31",
-        "character": "Pectinate-laciniate stipules",
-        "character_jpn": "櫛状または裂状の托葉",
-        "category": "Stipule Characters",
-        "category_jpn": "托葉"
-    },
-    {
-        "id": "32",
-        "character": "Peltate stipules",
-        "character_jpn": "盾状の托葉",
-        "category": "Stipule Characters",
-        "category_jpn": "托葉"
-    },
-    {
-        "id": "33",
-        "character": "Striate stipules",
-        "character_jpn": "筋状の托葉",
-        "category": "Stipule Characters",
-        "category_jpn": "托葉"
-    },
-    {
-        "id": "34",
-        "character": "Foliaceous stipules",
-        "character_jpn": "葉状の托葉",
-        "category": "Stipule Characters",
-        "category_jpn": "托葉"
-    },
-    {
-        "id": "35",
-        "character": "Petioles enlarged or 'swollen' distally or at both ends",
-        "character_jpn": "葉柄が両端（or どちらか）で肥大・膨らむ",
-        "category": "Petioles and Rachises",
-        "category_jpn": "葉柄と葉軸"
-    },
-    {
-        "id": "36",
-        "character": "Petioles 'swollen' only at the base, in simple leaves",
-        "character_jpn": "単葉で、葉柄が基部のみ膨らむ",
-        "category": "Petioles and Rachises",
-        "category_jpn": "葉柄と葉軸"
-    },
-    {
-        "id": "37",
-        "character": "Petioles 'swollen' at the base, in compound leaves",
-        "character_jpn": "複葉で、葉柄が基部で膨らむ",
-        "category": "Petioles and Rachises",
-        "category_jpn": "葉柄と葉軸"
-    },
-    {
-        "id": "38",
-        "character": "Wrinkled petioles",
-        "character_jpn": "葉柄にしわがある",
-        "category": "Petioles and Rachises",
-        "category_jpn": "葉柄と葉軸"
-    },
-    {
-        "id": "39",
-        "character": "Winged petiole or rachis",
-        "character_jpn": "葉柄・葉軸に翼がある",
-        "category": "Petioles and Rachises",
-        "category_jpn": "葉柄と葉軸"
-    },
-    {
-        "id": "40",
-        "character": "Rachis with swollen nodes",
-        "character_jpn": "葉軸の節が膨らむ",
-        "category": "Petioles and Rachises",
-        "category_jpn": "葉柄と葉軸"
-    },
-    {
-        "id": "41",
-        "character": "Free rachis tip",
-        "character_jpn": "葉軸の先端がとびだす",
-        "category": "Petioles and Rachises",
-        "category_jpn": "葉柄と葉軸"
-    },
-    {
-        "id": "42",
-        "character": "Spirally arranged leaves in opposite-leaved families",
-        "character_jpn": "対生の科で螺旋葉序",
-        "category": "Leaf Arrangement",
-        "category_jpn": "葉序"
-    },
-    {
-        "id": "43",
-        "character": "Opposite leaves in spiral-leaved families",
-        "character_jpn": "互生・螺旋葉序の科で対生",
-        "category": "Leaf Arrangement",
-        "category_jpn": "葉序"
-    },
-    {
-        "id": "44",
-        "character": "Opposite compound leaves",
-        "character_jpn": "対生の複葉",
-        "category": "Leaf Arrangement",
-        "category_jpn": "葉序"
-    },
-    {
-        "id": "45",
-        "character": "Whorled or verticillate leaves; leaves in rosettes",
-        "character_jpn": "輪生",
-        "category": "Leaf Arrangement",
-        "category_jpn": "葉序"
-    },
-    {
-        "id": "46",
-        "character": "Anisophyllous leaf pairs, rosettes, or sequences",
-        "character_jpn": "不等葉性：異形葉の対、ロゼット、または列",
-        "category": "Leaf Form and Size",
-        "category_jpn": "葉の形状と大きさ"
-    },
-    {
-        "id": "47",
-        "character": "Large simple leaves in non-monocots",
-        "character_jpn": "大型の単葉（単子葉植物以外）",
-        "category": "Leaf Form and Size",
-        "category_jpn": "葉の形状と大きさ"
-    },
-    {
-        "id": "48",
-        "character": "Asymmetric simple leaves",
-        "character_jpn": "非対称な単葉",
-        "category": "Leaf Form and Size",
-        "category_jpn": "葉の形状と大きさ"
-    },
-    {
-        "id": "49",
-        "character": "Digitately compound leaves",
-        "character_jpn": "掌状複葉",
-        "category": "Leaf Form and Size",
-        "category_jpn": "葉の形状と大きさ"
-    },
-    {
-        "id": "50",
-        "character": "Doubly or 3(-4-) pinnate leaves",
-        "character_jpn": "2~4回羽状複葉",
-        "category": "Leaf Form and Size",
-        "category_jpn": "葉の形状と大きさ"
-    },
-    {
-        "id": "51",
-        "character": "Peltate leaves",
-        "character_jpn": "盾状葉",
-        "category": "Leaf Form and Size",
-        "category_jpn": "葉の形状と大きさ"
-    },
-    {
-        "id": "52",
-        "character": "Dentate / serrate (toothed) leaf margin (non-monocots)",
-        "character_jpn": "鋸歯縁（単子葉植物以外）",
-        "category": "Leaf Margins",
-        "category_jpn": "葉の縁"
-    },
-    {
-        "id": "53",
-        "character": "Triplinerved leaves",
-        "character_jpn": "三行脈",
-        "category": "Leaf Venation",
-        "category_jpn": "葉脈"
-    },
-    {
-        "id": "54",
-        "character": "Intramarginal vein",
-        "character_jpn": "葉縁脈（葉縁に沿う葉脈）",
-        "category": "Leaf Venation",
-        "category_jpn": "葉脈"
-    },
-    {
-        "id": "55",
-        "character": "Double marginal vein loops or intramarginal veins",
-        "character_jpn": "葉縁脈は二重",
-        "category": "Leaf Venation",
-        "category_jpn": "葉脈"
-    },
-    {
-        "id": "56",
-        "character": "Parallel secondary venation",
-        "character_jpn": "側脈は平行",
-        "category": "Leaf Venation",
-        "category_jpn": "葉脈"
-    },
-    {
-        "id": "57",
-        "character": "Scalariform tertiary venation",
-        "character_jpn": "三次脈は梯子状",
-        "category": "Leaf Venation",
-        "category_jpn": "葉脈"
-    },
-    {
-        "id": "58",
-        "character": "Leaves drying black (nigrescence)",
-        "character_jpn": "葉は乾くと黒",
-        "category": "Leaf Coloration",
-        "category_jpn": "葉の色"
-    },
-    {
-        "id": "59",
-        "character": "Leaves drying yellow",
-        "character_jpn": "葉は乾くと黄色",
-        "category": "Leaf Coloration",
-        "category_jpn": "葉の色"
-    },
-    {
-        "id": "60",
-        "character": "Young leaves red",
-        "character_jpn": "若葉は赤い",
-        "category": "Leaf Coloration",
-        "category_jpn": "葉の色"
-    },
-    {
-        "id": "61",
-        "character": "Leaves withering red",
-        "character_jpn": "葉は枯れると赤くなる",
-        "category": "Leaf Coloration",
-        "category_jpn": "葉の色"
-    },
-    {
-        "id": "62",
-        "character": "Stellate hairs",
-        "character_jpn": "星状毛がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "63",
-        "character": "Scales",
-        "character_jpn": "鱗状毛がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "64",
-        "character": "Dendroid hairs",
-        "character_jpn": "樹状毛がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "65",
-        "character": "T-shaped hairs",
-        "character_jpn": "T字型の毛",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "66",
-        "character": "Stinging or irritant hairs",
-        "character_jpn": "刺毛または刺激性の毛",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "67",
-        "character": "Glaucous leaves",
-        "character_jpn": "葉はロウ物質で白っぽい",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "68",
-        "character": "Bullate leaves",
-        "character_jpn": "葉は水疱状・波形に隆起する",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "69",
-        "character": "Leaf domatia",
-        "character_jpn": "葉にダニ室（domatia）がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "70",
-        "character": "Laminar (l) or petiolar (p) glands",
-        "character_jpn": "葉面・葉柄の蜜腺",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "71",
-        "character": "Dots or dashes in leaf tissue",
-        "character_jpn": "葉を透かすと明・暗の点または短線がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "72",
-        "character": "Cystoliths",
-        "character_jpn": "葉内に鍾乳体（非定型の結晶）がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "73",
-        "character": "Puncticulate leaf surface",
-        "character_jpn": "葉面に微点状の穴がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "74",
-        "character": "Pustulate/papillose leaf surface",
-        "character_jpn": "葉面に小突起状/乳頭状がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "75",
-        "character": "Rough leaf surface",
-        "character_jpn": "葉面がざらざらしている",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "76",
-        "character": "Leaves tearing with silky-thread connections",
-        "character_jpn": "葉を裂くと絹糸状の繊維がある",
-        "category": "Indument, Leaf Surface Characteristics and Texture",
-        "category_jpn": "被毛、葉の表面の特徴と質感"
-    },
-    {
-        "id": "77",
-        "character": "Monocarpic plants (death after flowering)",
-        "character_jpn": "単回結実植物（開花後に枯死）",
-        "category": "Life-cycle and Flowering Habits",
-        "category_jpn": "生活環と開花習性"
-    },
-    {
-        "id": "78",
-        "character": "Plants flowering in a leafless state",
-        "character_jpn": "葉がない状態で開花する",
-        "category": "Life-cycle and Flowering Habits",
-        "category_jpn": "生活環と開花習性"
-    },
-    {
-        "id": "79",
-        "character": "Cauliflorous flowering habit (flowers on stems and trunks)",
-        "character_jpn": "幹生花（幹や枝に花が咲く）をつける",
-        "category": "Life-cycle and Flowering Habits",
-        "category_jpn": "生活環と開花習性"
-    },
-    {
-        "id": "80",
-        "character": "Flagelliflory",
-        "character_jpn": "花序は下垂する",
-        "category": "Life-cycle and Flowering Habits",
-        "category_jpn": "生活環と開花習性"
-    },
-    {
-        "id": "81",
-        "character": "Geocarpy",
-        "character_jpn": "地生果",
-        "category": "Life-cycle and Flowering Habits",
-        "category_jpn": "生活環と開花習性"
-    },
-    {
-        "id": "82",
-        "character": "Fasciculate inflorescences and distichous alternate leaves",
-        "character_jpn": "束生花序で二列互生葉",
-        "category": "Inflorescence Form and Position",
-        "category_jpn": "花序の形態と位置"
-    },
-    {
-        "id": "83",
-        "character": "Leaf-opposed' inflorescences",
-        "character_jpn": "花序は葉と対生する",
-        "category": "Inflorescence Form and Position",
-        "category_jpn": "花序の形態と位置"
-    },
-    {
-        "id": "84",
-        "character": "Supra-axillary inflorescences",
-        "character_jpn": "花序は葉腋から少し離れる",
-        "category": "Inflorescence Form and Position",
-        "category_jpn": "花序の形態と位置"
-    },
-    {
-        "id": "85",
-        "character": "Epiphyllous inflorescences",
-        "character_jpn": "葉上花序",
-        "category": "Inflorescence Form and Position",
-        "category_jpn": "花序の形態と位置"
-    },
-    {
-        "id": "86",
-        "character": "Compact inflorescences",
-        "character_jpn": "密生花序",
-        "category": "Inflorescence Form and Position",
-        "category_jpn": "花序の形態と位置"
-    },
-    {
-        "id": "87",
-        "character": "Condensed racemes",
-        "character_jpn": "散房花序",
-        "category": "Inflorescence Form and Position",
-        "category_jpn": "花序の形態と位置"
-    },
-    {
-        "id": "88",
-        "character": "Monomorphic (zygomorphic) flowers",
-        "character_jpn": "単形（左右相称）花",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "89",
-        "character": "Trimerous 'dicots' (groups among Magnoliids and Eudicots)",
-        "character_jpn": "三数性双子葉類（マグノリア類と真双子葉類のグループ）",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "90",
-        "character": "Accrescent calyx",
-        "character_jpn": "萼が肥大化する",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "91",
-        "character": "Corolla (petals) or perianths fimbriate or bifid",
-        "character_jpn": "花冠（花弁）または花被の縁に糸状突起または二裂する",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "92",
-        "character": "Corolla (petals) bearing appendages",
-        "character_jpn": "花冠（花弁）に付属物がある",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "93",
-        "character": "Yellow perianth or corolla (petals)",
-        "character_jpn": "花被または花冠（花弁）が黄色",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "94",
-        "character": "Stamens opposite petals in the flower",
-        "character_jpn": "雄しべは花弁に対生する",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "95",
-        "character": "Numerous stamens",
-        "character_jpn": "雄しべは多数（20~）ある",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "96",
-        "character": "Staminal tube present",
-        "character_jpn": "雄しべ筒がある",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "97",
-        "character": "Stamens bearing appendages or hair tufts",
-        "character_jpn": "雄しべに付属物または毛束がある",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "98",
-        "character": "Basifixed anthers with apical pores or short slits",
-        "character_jpn": "葯は底着し、先端に孔または短い裂け目がある",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "99",
-        "character": "Anther pores opening by valves",
-        "character_jpn": "葯は弁状に裂開する",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "100",
-        "character": "Broad flat stigma",
-        "character_jpn": "柱頭は広く平ら",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "101",
-        "character": "Long forked style",
-        "character_jpn": "花柱は長く二又",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "102",
-        "character": "Double forked style",
-        "character_jpn": "花柱は二回二叉分岐する",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "103",
-        "character": "Excentric style",
-        "character_jpn": "花柱は子房に頂生する",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "104",
-        "character": "Inferior ovary",
-        "character_jpn": "子房下位",
-        "category": "Flower Characters",
-        "category_jpn": "花の特徴"
-    },
-    {
-        "id": "105",
-        "character": "White fruits",
-        "character_jpn": "果実は白色",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "106",
-        "character": "Blue fruits and seeds",
-        "character_jpn": "果実・種子は青色",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "107",
-        "character": "Woody fruits with seeds scattered in the placenta",
-        "character_jpn": "果実は木質で胎座に種子が散らばる",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "108",
-        "character": "Muricate (spiny), tuberculate or rugose fruits",
-        "character_jpn": "果実はとげ状、いぼ状、またはしわがある",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "109",
-        "character": "Winged fruits",
-        "character_jpn": "果実に翼がある",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "110",
-        "character": "Ridged fruits or fruit portions (follicles)",
-        "character_jpn": "果実または一部に稜がある（袋果）",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "111",
-        "character": "Globular/ellipsoid capsules splitting into 5(-6) parts",
-        "character_jpn": "蒴果で球状/楕円形に5（-6）裂する",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "112",
-        "character": "Trilocular capsules",
-        "character_jpn": "3室の蒴果",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "113",
-        "character": "Moniliform fruits",
-        "character_jpn": "果実は数珠状",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "114",
-        "character": "Compound fruits",
-        "character_jpn": "複合果",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "115",
-        "character": "Apocarpous fruits",
-        "character_jpn": "離生心皮果（1つの花に複数果実：集合袋果）",
-        "category": "Fruit Characters",
-        "category_jpn": "果実の特徴"
-    },
-    {
-        "id": "116",
-        "character": "Winged seeds",
-        "character_jpn": "種子に翼がある",
-        "category": "Seed Characters",
-        "category_jpn": "種子の特徴"
-    },
-    {
-        "id": "117",
-        "character": "Comose Seeds",
-        "character_jpn": "種子に冠毛がある",
-        "category": "Seed Characters",
-        "category_jpn": "種子の特徴"
-    },
-    {
-        "id": "118",
-        "character": "Arillate seeds",
-        "character_jpn": "種子に仮種皮がある",
-        "category": "Seed Characters",
-        "category_jpn": "種子の特徴"
-    },
-    {
-        "id": "119",
-        "character": "Ruminate endosperm",
-        "character_jpn": "反芻胚乳",
-        "category": "Seed Characters",
-        "category_jpn": "種子の特徴"
-    }
+	{
+		"id": "1",
+		"character": "Cushion-forming plants",
+		"characterJpn": "クッション状の植物",
+		"characterDetail": "'Cushion plants' are distinctive because of the compact masses they form when well-developed. Whereas this is much encountered in the Andes of South America and New Zealand, it is not common in Malesia, where good examples are only seen in alpine vegetation on high mountains, such as in New Guinea.",
+		"characterDetailJpn": "「クッション植物」は、十分に発達すると緻密な塊が形成されることが特徴です。この植物は南アメリカのアンデス山脈やニュージーランドでよく見られますが、マレシア植物区では一般的ではありません。良い例はニューギニアのような高山の高地植生でのみ見られます。",
+		"categoryId": "1"
+	},
+	{
+		"id": "2",
+		"character": "Schopfbäume growth form",
+		"characterJpn": "シュプファウム成長（ヘゴ・ソテツ様樹形）",
+		"characterDetail": "As explained in van Balgooy (1997), this is a German term for \"trees more or less shaped like an umbrella: unbranched or little branched and usually with large, crowded leaves\" (much like the habit of Cycas).",
+		"characterDetailJpn": "van Balgooy（1997）で定義されているように、「傘のような形をした樹木：枝分かれしていないか、ほとんど枝分かれしておらず、通常は大きく密集した葉を持つ」という意味のドイツ語の用語です（ソテツの仲間の形に非常に近い）。",
+		"categoryId": "1"
+	},
+	{
+		"id": "3",
+		"character": "Swollen stems or inflated internodes",
+		"characterJpn": "茎が肥大する・節間が膨張する",
+		"characterDetail": "Some plants develop swollen, gouty stems. Hollow, ant-inhabited swollen stems occur in the Hydnophytinae; but most swollen stems appear to be specialised water- storage organs, as in some Impatiens. Swollen stems also tide the plant over harsh periods (e.g., severe drought) when they survive as underground 'lignotubers'; this adaptation seems more common in Australia but rarer in Malesia.",
+		"characterDetailJpn": "肥大し、膨らんだ茎を発達させる植物。中空でアリが住む膨れた茎はHydnophytinae（アリダマの仲間）に見られる。しかし、いくつかのImpatiensのように、ほとんどの肥大する茎は、特殊化した水の貯蔵器官である。また、肥大する茎は、過酷な時期（ex. 厳しい干ばつ）を地下の「リグノチューバー」として生存に役立つ。この適応はオーストラリアでは一般的だが、マレシア植物区では稀であるようだ。",
+		"categoryId": "1"
+	},
+	{
+		"id": "4",
+		"character": "Climbers with hooks or tendrils",
+		"characterJpn": "鉤・巻きひげのあるつる植物",
+		"characterDetail": "Climbing plants ascend their supports (often adjacent plants) through various means. Some have special adaptations, such as tendrils that coil around other structures (e.g., Cucurbitaceae or Vitaceae); some others have short branches developing into hooks, such as in the gambir vine, Uncaria; or thorny leaf midribs or specialised thorny extensions ('cirri' and 'flagella') as in many rattans (climbing palms). Still others (not listed here) climb using side branches that twist around supports, such as in many climbing Annonaceae and some Leguminosae, and other means.",
+		"characterDetailJpn": "つる植物は、様々な方法で植物体を支え（多くの場合、隣接する植物に）登る。他の構造物に巻き付く巻きひげ（ex. ウリ科・ブドウ科）などの特殊化した適応機構がある。他の特徴として、フック状に発達する短い枝（ex. カギカズラ属Uncaria）や、多くのラタン（つる性のヤシ）のように、棘のある葉の中肋や特別な棘のある延伸部分（cirriやflagella）がある。また、この特著のリストには入っていないが、多くのつる性バンレイシ科や一部のマメ科のように、支持体に巻き付く側枝を使って登る植物もある。他の方法で登る植物もある。",
+		"categoryId": "1"
+	},
+	{
+		"id": "5",
+		"character": "Climbers without hooks or tendrils",
+		"characterJpn": "鉤・巻きひげのないつる植物",
+		"characterDetail": "Many plants climb with twining stems (e.g., Menispermaceae, many Leguminosae) or by adhesive roots developing along the stems (e.g., many Araceae), i.e., they do not develop very specialised climbing organs. Some others climb by entanglement of their often sympodially extending shoots with neighbouring plants as in clambering bamboos.",
+		"characterDetailJpn": "巻きつく茎（ex. ツヅラフジ科や多くのマメ科）や、茎に沿って発達する付着根（ex. 多くのサトイモ科）を使って登るつる植物。つまり、非常に特殊化した登攀器官を発達させない。また、這い上がる竹のように、仮軸として伸びるシュートを、隣接する植物に絡ませることで登る植物もある。",
+		"categoryId": "1"
+	},
+	{
+		"id": "6",
+		"character": "Plants climbing, with opposite leaves",
+		"characterJpn": "対生葉のつる植物",
+		"characterDetail": "Whether or not twining, climbing with the assistance of adhesive roots, or with other specialised structures, the climbing habit in plants with opposite leaves helps distinguish some taxa easily, e.g., many Apocynaceae, Bignoniaceae and Rubiaceae.",
+		"characterDetailJpn": "巻きつくか、付着根を使うか、その他の特殊な構造を用いるかに関わらず、対生葉を持つ「つる」は、いくつかの分類群を容易に区別できる。例えば、多くのキョウチクトウ科、ノウゼンカズラ科、アカネ科が該当する。",
+		"categoryId": "1"
+	},
+	{
+		"id": "7",
+		"character": "Presence of thorns, spines or prickles",
+		"characterJpn": "とげがある",
+		"characterDetail": "Plants can develop hard pointed structures. These are distinguishable as thorns (which are modified, usually short axillary branches), spines (modified stipules, leaves, or leaf parts), or prickles (small pointed outgrowths from the epidermis or cortical tissue of a stem or other organ). Plants are said to be armed' when such structures are present, but this feature is sometimes lost in adult phases, e.g., Bridelia penangiana (Phyllanthaceae) or Cratoxylum sumatranum (Hypericaceae).",
+		"characterDetailJpn": "植物は硬く尖った構造を発達させることがある。尖った構造は、茎針 thorn（通常、短い腋生枝が変形したもの）、葉針 spine（托葉、葉、または葉の一部が変形したもの）、刺状突起体 prickle（茎や他の器官の表皮または外皮組織からの小さな尖った突起）として区別される。このような構造が存在する場合、植物は「武装している」と言われるが、この特徴は成長段階で失われることもある。例えば、コミカンソウ科のBridelia penangianaやオトギリソウ科のCratoxylum sumatranumがある。",
+		"categoryId": "1"
+	},
+	{
+		"id": "8",
+		"character": "Plants without chlorophyll",
+		"characterJpn": "無葉緑植物",
+		"characterDetail": "Such 'echlorophyllose' plants were once simply called saprophytes, but they are referred to with the more technical term mycoheterotrophs (as they depend on the intermediacy of fungal partners the true saprophytes that break down dead matter to substances they can absorb). Examples are found in Triuridaceae and among some orchids (Aphyllorchis, Lecanorchis), also in holoparasites such as Rafflesia and Balanophora, which grow upon and form tissue connections with their host plants.",
+		"characterDetailJpn": "「無葉緑植物」はかつて単純に腐生植物と呼ばれていたが、現在ではより技術的な用語である菌従属栄養植物と呼ばれる（真の腐生植物は、死んだ有機物を分解して吸収可能な物質に変える真菌のパートナーに依存しているため）。例としては、ホンゴウソウ科や一部のラン科（Aphyllorchis、Lecanorchis）の植物があり、また、宿主植物に寄生して組織接続を形成する全寄生植物（holoparasite）であるラフレシアやツチトリモチも含まれる。",
+		"categoryId": "1"
+	},
+	{
+		"id": "9",
+		"character": "Parasitic plants",
+		"characterJpn": "寄生植物",
+		"characterDetail": "Parasites simply refer to those plants that derive nutrients and water from other ('host') plants via tissue ('haustorial') connections. Parasites that retain photosynthetic (green) tissue, usually leaves, are described as hemi-parasites, e.g., Loranthaceae and Santalaceae (incl. Viscaceae). Those that are entirely devoid of green tissue, and thus wholly dependent on their hosts, have been called holoparasites (h), e.g., Balanophoraceae and Rafflesiaceae.",
+		"characterDetailJpn": "寄生植物とは、組織（吸器）の接続を通して他の植物（宿主）から栄養と水を得る植物を指す。光合成を行う（緑色の）組織、通常は葉を保持している寄生植物は半寄生植物と呼ばれ、例えばオオバヤドリギ科やビャクダン科（ヤドリギ科を含む）が含まれる。緑色の組織を完全に欠き、宿主に完全に依存しているものは全寄生植物（holoparasite）と呼ばれ、例えばツチトリモチ科やラフレシア科がそれに該当する。",
+		"categoryId": "1"
+	},
+	{
+		"id": "10",
+		"character": "Ant plants",
+		"characterJpn": "アリ植物",
+		"characterDetail": "Ant plants or 'myrmecophytes' are those that form consistent associations with ants. Some have adaptations that encourage ants to live in their structures, such as in the epiphytic Hydnophytum alliance (Rubiaceae) that develops swollen stem tubers riddled with anastomosing channels which ants inhabit. Endospermum and Macaranga (Euphorbiaceae) also have such ant-plant species. The list here is certainly incomplete as more examples are being encountered with closer study. Some plant taxa also have glands on leaves and petioles that attract ants rather consistently; these are listed under Character 70 (laminar or petiolar glands).",
+		"characterDetailJpn": "アリ植物（myrmecophyte）は、アリと一貫した関係を持つ植物である。いくつかの植物は、アリがその構造内に住むことを促す適応を持っており、例えば、着生植物であるアカネ科のHydnophytum連は、アリが住む通路が連結し散在する膨れた茎の塊を発達させる。トウダイグサ科のEndospermumやMacarangaにも、このようなアリ植物が存在する。このリストは不完全であり、詳細な研究によって、継続して多くの例が発見されている。いくつかの分類群には、葉や葉柄にアリを引き寄せる腺を持つものもあり、これらはCharacter 70（葉や葉柄の腺）に分類される。",
+		"categoryId": "1"
+	},
+	{
+		"id": "11",
+		"character": "Bulbils",
+		"characterJpn": "珠芽（ムカゴ）をつける",
+		"characterDetail": "Bulbils are short vegetative shoots that sometimes develop in association with reproductive (flowering) structures but are clonally the same as the parent plant, and not produced through any sexual reproduction. They are often ensheathed in bracts and distended, looking like and sometimes easily mistaken for flower buds or young fruits. Such vegetative bulbils also act as diaspores, and may be dispersed to form new clonally identical individuals. Bulbils are common among ferns, less so in flowering plants (such as the aroid Remusatia vivipara).",
+		"characterDetailJpn": "珠芽（ムカゴ）は、しばしば生殖（開花）構造と関連して発達する短い栄養シュートであるが、クローン的には親植物と同じであり、有性生殖を通じて生産されるものではない。珠芽はしばしば苞に包まれて膨らみ、花芽や若い果実と見間違えやすいことがある。このような栄養珠芽は散布体としても機能し、新しいクローン的に同一の個体を形成するために散布されることがある。珠芽はシダ植物に一般的で、被子植物（例えば、サトイモ科のRemusatia vivipara）では少ない。",
+		"categoryId": "1"
+	},
+	{
+		"id": "12",
+		"character": "Swollen nodes",
+		"characterJpn": "節が膨らむ",
+		"characterDetail": "Some plants have conspicuously thickened or swollen nodes, such as in Acanthaceae and Piperaceae. In some cases, this feature needs to be interpreted because the distensions are often due to enlarged sap-filled tissue that collapses with drying, and resembles collapsed shrunken portions in herbarium material.",
+		"characterDetailJpn": "キツネノマゴ科やコショウ科のように、肥厚または膨れた節が目立つ植物。この特徴は、解釈が必要な場合がある。膨れはしばしば樹液を含んだ組織が膨張したものであり、乾燥すると収縮して崩壊し、標本資料では崩壊した収縮部分に見えることがあるからである。",
+		"categoryId": "2"
+	},
+	{
+		"id": "13",
+		"character": "Winged' stems",
+		"characterJpn": "茎に翼がある",
+		"characterDetail": "In some plants the stem or branches may develop longitudinal ridges or flanges ('winged'). The winged stems of Sphaeranthus (Asteraceae) illustrate this well.",
+		"characterDetailJpn": "茎や枝が縦方向の隆起やつば（「翼」）を発達させる植物がある。キク科のSphaeranthusの翼のある茎が良い例である。",
+		"categoryId": "2"
+	},
+	{
+		"id": "14",
+		"character": "Twigs pale-coloured, petioles dark",
+		"characterJpn": "枝が淡色で葉柄が暗色",
+		"characterDetail": "In dried material of many Oleaceae and other plants, twigs can be pale coloured and conspicuous in their contrast with the darker petioles and leaves. This character may occur sporadically in many groups, so here we offer only some common examples.",
+		"characterDetailJpn": "多くのモクセイ科などの乾燥標本では、小枝が淡い色をしており、より暗い色の葉柄や葉との対比が目立つことがある。この特徴は多くの分類群で散発的に見られることがあるため、ここでは一般的な例のみが含まれる。",
+		"categoryId": "2"
+	},
+	{
+		"id": "15",
+		"character": "Flattened young twig portions",
+		"characterJpn": "若枝が扁平",
+		"characterDetail": "This character may occur sporadically among various groups, so here we list the more familiar examples.",
+		"characterDetailJpn": "この特徴はさまざまなグループで散発的に見られることがあるため、ここではよりよく知られている例を挙げる。",
+		"categoryId": "2"
+	},
+	{
+		"id": "16",
+		"character": "Supernumerary or serial buds",
+		"characterJpn": "頂芽・腋芽が複数または連続する",
+		"characterDetail": "Plants mostly have solitary axillary buds but a number have more than one, usually several and in a row in each leaf axil, e.g., Anisophyllea and Capparis quiniflora. This list is expected to be very incomplete as more observations become opportunistically possible.",
+		"characterDetailJpn": "植物は通常、単一の腋芽を持つが、一部の植物は複数の腋芽を持ち、通常は各葉腋に数個が並んでいる。例えば、アニソフィレア属やCapparis quinifloraがその例である。このリストは非常に不完全であり、さらなる研究が期待される。",
+		"categoryId": "2"
+	},
+	{
+		"id": "17",
+		"character": "Twigs mimicking compound leaves",
+		"characterJpn": "複葉のような枝",
+		"characterDetail": "These have been called 'phyllomorphic branches' (i.e., branches resembling leaves). They are recognisable as twigs by the presence of axillary buds in the individual leaf axils.",
+		"characterDetailJpn": "これらは「葉状枝」と呼ばれる（葉に似た枝）。個々の葉腋に腋芽が存在することで、小枝として識別できる。",
+		"categoryId": "2"
+	},
+	{
+		"id": "18",
+		"character": "Wave-like sympodial branching",
+		"characterJpn": "枝は添伸する（階段状の樹形）",
+		"characterDetail": "An easily perceived feature of Terminalia trees is the wave-like sympodial branch system, which develops successively higher orders of outwardly directed, then upturned, branch segments. This is sometimes more easily observed and preserved in specimens including more than one such branch segment in the outer parts of crowns. Various modes of branch development produce superficially similar wave-like branch sequences that have been generally called \"Terminalia branching (e.g., Baccaurea, Elaeocarpus) although not strictly the same as the pattern in Terminalia; many collectors, however, note 'Terminalia' branching as a general reference to any branching pattern that produces noticeable wave-like sequences",
+		"characterDetailJpn": "さまざまな分枝の発達様式が、表面的に似た波状の分枝シーケンスを生み出し、一般的に「Terminalia分枝」（例えば、BaccaureaやElaeocarpus）と呼ばれるが、Terminaliaのパターンとは厳密には同じではない。しかし、多くの採集者は、目立つ波状のシーケンスを生じる任意の分枝パターンを総称して「Terminalia分枝」として記録する。",
+		"categoryId": "2"
+	},
+	{
+		"id": "19",
+		"character": "Proleptic shoots",
+		"characterJpn": "頂芽基部から側枝がでる",
+		"characterDetail": "These shoots develop episodically (also seasonally), visibly as cohorts of newly extending shoot portions, where the initial leaves are not well-developed and are merely scale-like, progressively bearing larger and then normal-sized leaves. The production of shoots or branches discontinuously, i.e., with a period of rest after the development of the preceding shoots bearing them, is also described as proleptic. There are some families where this is characteristic for their taxa, but recognition of this character depends much on branch sequences being collected also. The list can be built up some more with individual experience. Sometimes this is more evident in vertical stem or shoot development, rather than along branches and so proleptic shoot sequences may not be collected or noted.",
+		"characterDetailJpn": "これらの側枝は断続的（または季節的）に発達し、新たに伸びるシュートの一群として現れる。初期の葉は十分に発達せず、単に鱗片状であり、次第に大きくなって通常の大きさの葉を持つようになる。シュートや枝が断続的に生産される、つまり、前のシュートが発達した後に休止期間があることを、Proleptic（予備的）と表現する。この特徴で識別できる科も存在するが、この特徴を認識するには枝の連続性を確認することが重要である。経験を積むことでより識別できるようになる。時に、この特徴は枝よりも垂直の茎やシュートの発達でより明瞭になるため、Prolepticなシュートの連続性が収集・記録されないこともある。",
+		"categoryId": "2"
+	},
+	{
+		"id": "20",
+		"character": "White or yellow sap",
+		"characterJpn": "樹液が白・黄色",
+		"characterDetail": "White (milky) sap is common in many plants (e.g.. Moraceae and Sapotaceae), but yellow sap (indicated by Y after a name in the list here) is frequently produced by members of the Clusiaceae.",
+		"characterDetailJpn": "白色（乳状）の樹液は多くの植物（例えば、クワ科やアカテツ科）で一般的であるが、黄色の樹液は、オトギリソウ科の頻繁に見られる。",
+		"categoryId": "3"
+	},
+	{
+		"id": "21",
+		"character": "Black or brown sap",
+		"characterJpn": "樹液が黒・茶色",
+		"characterDetail": "Black sap, or sap that rapidly darkens upon exposure, is found in most Anacardiaceae.",
+		"characterDetailJpn": "黒色の樹液、また、空気にさらされると急速に黒くなる樹液は、ウルシ科の多くの植物に見られる。",
+		"categoryId": "3"
+	},
+	{
+		"id": "22",
+		"character": "Red or orange sap",
+		"characterJpn": "樹液が赤・オレンジ",
+		"characterDetail": "Red sap (blood-like in colour) is characteristic of Myristicaceae and various other groups; again, sometimes the sap is transparent at first and becomes red after some time (even a few hours) following exposure. Sometimes the sap is just slightly reddish.",
+		"characterDetailJpn": "赤色の樹液（血液のような色）は、ニクズク科およびその他のさまざまなグループに特徴的である。再び、樹液は最初は透明であるが、露出後しばらく（数時間後）して赤くなることもある。樹液がわずかに赤みを帯びることもある。",
+		"categoryId": "3"
+	},
+	{
+		"id": "23",
+		"character": "Plants conspicuously resinous upon drying",
+		"characterJpn": "乾燥すると樹脂が目立つ",
+		"characterDetail": "Some plants become conspicuously resinous as they are dried, so much so that in some cases, the specimens stick to the newspaper in which they are dried! A good example is Quintinia (Paracryphiaceae).",
+		"characterDetailJpn": "乾燥すると顕著に樹脂が目立つ植物。場合によっては標本が乾燥させる際に使用する新聞紙にくっついてしまうこともある。良い例として、パラクリフィア科のQuintiniaが挙げられる。",
+		"categoryId": "3"
+	},
+	{
+		"id": "24",
+		"character": "Resinous exudate",
+		"characterJpn": "滲出物が樹脂性",
+		"characterDetail": "Some plant exudates are sticky and colourless on initial exposure (i.e., when the tissue is first cut) and often aromatic (or smelling like turpentine). Sometimes this exudate hardens and is collected for use (as copal or damar), e.g., Agathis (Araucariaceae) and Shorea (Dipterocarpaceae).",
+		"characterDetailJpn": "いくつかの植物の樹液は、初めて露出したとき（組織が最初に切られたとき）には粘着性があり無色で、しばしば芳香を放つ（またはテレピン油・松根油のような匂いがする）。この樹液は時折硬化し、copalやdamarのように収集されて利用されることがある。例えば、ナンヨウスギ科のAgathisやフタバガキ科のShoreaがその例である。",
+		"categoryId": "3"
+	},
+	{
+		"id": "25",
+		"character": "Crushed leaves with smell of fenugreek",
+		"characterJpn": "潰した葉はフェヌグリーク（メープルシロップ？）の匂い",
+		"characterDetail": "Plants can produce the smell of fenugreek, a common ingredient used in soups. We sometimes call these 'Maggi plants' (after a brand of instant noodles). The persistent smell of fenugreek can still be well detected in some herbarium specimens of Mallotus (Euphorbiaceae) and Polyscias (Araliaceae) even after a hundred years.",
+		"characterDetailJpn": "植物は、スープに使用される一般的な材料であるフェヌグリークの香りを発することがある。これらの植物を「Maggi plants」と呼ぶこともある（インスタントラーメンのブランド名に由来）。トウダイグサ科のMallotusやウコギ科のPolysciasの一部の標本では、100年経っても持続するフェヌグリークの香りがよく検出されることがある。",
+		"categoryId": "4"
+	},
+	{
+		"id": "26",
+		"character": "Crushed leaves or flowers with foul or foetid smell",
+		"characterJpn": "潰した葉・花は悪臭や腐敗臭",
+		"characterDetail": "Collectors often make note of plants that have a strong, disagreeable smell, often only noticeable after bruising the leaves and later disappearing in the herbarium. Paederia foetida (Rubiaceae) is a good example. In some plants it is the flower that emits a foul smell, e.g. many Araceae; in that case '(flowers)' is added behind the name of the taxon.",
+		"characterDetailJpn": "採集者は、強い不快な臭いを持つ植物についてよく記録することがある。この臭いは、葉を傷つけた後にのみ感じられ、後に標本では消えることが多い。例えば、アカネ科のPaederia foetidaが良い例である。一部の植物では、花が悪臭を放つ場合があり、例えば多くのサトイモ科の植物がその例である。その場合、分類群の名前の後に「（花）」と追加される。",
+		"categoryId": "4"
+	},
+	{
+		"id": "27",
+		"character": "Crushed leaves with resinous (turpentine-like) smell",
+		"characterJpn": "潰した葉は樹脂（松根油）の匂い",
+		"characterDetail": "Some plants emit a resinous (turpentine-like) smell when their leaves are crushed.",
+		"characterDetailJpn": "葉をつぶすと樹脂のような（テレピン油・松根油のような）香りを放つ。",
+		"categoryId": "4"
+	},
+	{
+		"id": "28",
+		"character": "Other smells",
+		"characterJpn": "その他の匂い",
+		"characterDetail": "",
+		"characterDetailJpn": "",
+		"categoryId": "4"
+	},
+	{
+		"id": "29",
+		"character": "Interpetiolar stipules and stipule-like structures",
+		"characterJpn": "葉柄間托葉および托葉様構造",
+		"characterDetail": "Plants with leaves occurring in pairs may produce stipules between the petioles, most commonly seen in Rhizophoraceae and Rubiaceae. Sometimes, as in Mussaendopsis (Rubiaceae), the stipules are distinguished as 'intrapetiolar', with each stipule apparently in an axillary rather than interpetiolar position. The strict definition of stipule may be contentious in some cases but here we include such fleshy lobe-like or scale-like structures that occur at the petiole bases and which are sometimes fused into a cuplike structure around the node, as in Cyrtophyllum, Fagraea (Gentianaceae), etc.; and also the intrapetiolar raised ridges (r) in some Melastomataceae and Apocynaceae.",
+		"characterDetailJpn": "葉が対生する植物は、葉柄の間に托葉を形成することがあり、これは特にヒルギ科やアカネ科でよく見られる。Mussaendopsis（アカネ科）のように、托葉が「葉柄内托葉」として区別され、各托葉が葉柄間ではなく腋生位置にあるように見えることもある。托葉の厳密な定義は場合によっては議論の余地があるが、ここでは葉柄の基部に発生する肉質の葉状または鱗片状の構造を含み、時には節の周りにカップ状の構造として融合することもある（Cyrtophyllum、Fagraea（リンドウ科）など）。また、一部のノボタン科やキョウチクトウ科に見られる葉柄内の隆起（r）も含める。",
+		"categoryId": "5"
+	},
+	{
+		"id": "30",
+		"character": "Clasping stipules",
+		"characterJpn": "托葉は茎を抱く",
+		"characterDetail": "These are broadly attached stipules accompanying spirally or alternately arranged leaves, and often almost encircling the node. Often, they are hood-like. They leave a ring-like or annular scar, such as found in many Moraceae and Magnoliaceae. In the Araliaceae, stipules are typically in an 'intrapetiolar' position, often fused to and difficult to distinguish from the petiole base.",
+		"characterDetailJpn": "らせん状または互生の葉に付随する広く付着した托葉であり、多くの場合、節をほぼ取り囲んでいる。しばしばフード状である。モクレン科やクワ科の多くに見られるように、リング状の托葉痕を残す。ウコギ科では、托葉は典型的に「葉柄内托葉」の位置にあり、しばしば葉柄基部に融合しており、区別が難しいことが多い。",
+		"categoryId": "5"
+	},
+	{
+		"id": "31",
+		"character": "Pectinate-laciniate stipules",
+		"characterJpn": "櫛状または裂状の托葉",
+		"characterDetail": "Such stipules are divided into narrow lobes or segments, often regularly slender, sometimes irregular (laciniate).",
+		"characterDetailJpn": "托葉が、狭い葉片または断片に分かれており、しばしば規則正しく細長く、時には不規則（裂状）である",
+		"categoryId": "5"
+	},
+	{
+		"id": "32",
+		"character": "Peltate stipules",
+		"characterJpn": "盾状の托葉",
+		"characterDetail": "Stipules attached away from their margin and not at one end are called peltate. Trisyngyne (Nothofagus p.p., Nothofagaceae) typically has peltate stipules.",
+		"characterDetailJpn": "托葉の縁が付着せず、付着部位が縁でない托葉は、盾状托葉と呼ばれる。Trisyngyne（ナンキョクブナ属の一部、ナンキョクブナ科）は、典型的に盾状托葉を持つ。",
+		"categoryId": "5"
+	},
+	{
+		"id": "33",
+		"character": "Striate stipules",
+		"characterJpn": "筋状の托葉",
+		"characterDetail": "Such stipules have conspicuous longitudinal lines or ridges on their surface (e.g.. Rinorea, Violaceae).",
+		"characterDetailJpn": "托葉は表面に目立つ縦のラインや隆起がある（例えば、Rinorea属、スミレ科）。",
+		"categoryId": "5"
+	},
+	{
+		"id": "34",
+		"character": "Foliaceous stipules",
+		"characterJpn": "葉状の托葉",
+		"characterDetail": "Foliaceous stipules are conspicuously large (often a centimetre or more across), sometimes even resembling miniature leaves, and they do not show any significant divisions; e.g., in many Macaranga (Euphorbiaceae), Dipterocarpus (Dipterocarpaceae), etc. In some cases, the 'stipules' are actually the lowermost pair of leaflets in pinnately compound leaves: Canarium (Burseraceae), Lepisanthes and Pometia (Sapindaceae).",
+		"characterDetailJpn": "葉状托葉は非常に大きく（しばしば幅が1cm以上）、時には小さな葉に似ており、明確な分裂は見られない。例えば、多くのMacaranga属（トウダイグサ科）やフタバガキ属（フタバガキ科）などが該当する。場合によっては、「托葉」は実際には羽状複葉の最下部の一対の小葉であることもある。例として、Canarium属（カンラン科）、Lepisanthes属およびPometia属（ムクロジ科）がある。",
+		"categoryId": "5"
+	},
+	{
+		"id": "35",
+		"character": "Petioles enlarged or 'swollen' distally or at both ends",
+		"characterJpn": "葉柄が両端（or どちらか）で肥大・膨らむ",
+		"characterDetail": "In a number of plants, the petioles are 'swollen' at their apical part near the junction with the leaf blade. Such swellings resemble broader cylindrical portions. Some plants have such a swelling both at the top and at the base of the petiole bipulvinate (e.g., many Euphorbiaceae and some Malvaceae).",
+		"characterDetailJpn": "葉柄が葉身との接合部近くの先端部分で「膨らむ」。このような膨らみは、より広い円筒状の部分に似ている。いくつかの植物では、葉柄の先端と基部の両方にこのような膨らみがあり、両側葉枕（ex. 多くのトウダイグサ科や一部のアオイ科）が見られる。",
+		"categoryId": "6"
+	},
+	{
+		"id": "36",
+		"character": "Petioles 'swollen' only at the base, in simple leaves",
+		"characterJpn": "単葉で、葉柄が基部のみ膨らむ",
+		"characterDetail": "A number of simple-leafed plants also have a subcylindric or barrel-shaped swelling at the petiole base, e.g. Magnolia (Magnoliaceae) and Mangifera (Anacardiaceae).",
+		"characterDetailJpn": "多くの単葉の植物にも、葉柄基部に亜円筒形または樽形の膨らみがある。例えば、モクレン科のモクレン属やウルシ科のマンゴー属がその例である。",
+		"categoryId": "6"
+	},
+	{
+		"id": "37",
+		"character": "Petioles 'swollen' at the base, in compound leaves",
+		"characterJpn": "複葉で、葉柄が基部で膨らむ",
+		"characterDetail": "The petiole can be much enlarged or swollen in many plants. There are several variations:\n\n(a) In a number of compound-leafed families, the petiole base flares out conspicuously, developing a concave upper side (e.g.. some Anacardiaceae, Meliaceae, Sapindaceae; commonly Burseraceae). Sometimes, the swelling and　its concavity are slight, the latter resembling a slight groove or even absent with the upper (dorsal) surface quite flat: Anacardiaceae (e.g., Pentaspadon and Rhus), Meliaceae (e.g., Azadirachta, Heynea, Pseudoclausena, Reinwardtiodendron, Sandoricum, Xylocarpus), Sapindaceae (e.g., Arytera, Cubilia, Glenniea, Guioa, Harpullia, Lepisanthes, Mischocarpus, Rhysotoechia, Tristiropsis, Zollingeria) and Simaroubaceae (Eurycoma).\n\n(b) Among Connaraceae and Leguminosae, this swelling is somewhat cylindric or barrel-shaped with only slight taper and has been called a 'pulvinus (the term is sometimes generally applied to include any kind of swelling including those mentioned above).\n\n(c) In other cases, the swelling is pronounced and knoblike (without any concavity), e.g., some Glycosmis and Micromelum (Rutaceae).",
+		"characterDetailJpn": "葉柄が多くの植物で肥大または膨らんでいることがある。この膨らみにはいくつかのバリエーションが存在する：\n\n(a) 多くの複葉の科では、葉柄基部が顕著に広がり、上側が凹んだ形状を発達させる（ex. 一部のウルシ科、センダン科、ムクロジ科；カンラン科一般）。時に、膨らみとその凹みがわずかであり、後者はわずかな溝のように見えるか、まったくなく上側（背側）がかなり平らである場合もある：ウルシ科（ex. PentaspadonやRhus）、センダン科（ex. Azadirachta、Heynea、Pseudoclausena、Reinwardtiodendron、Sandoricum、Xylocarpus）、ムクロジ科（ex. Arytera、Cubilia、Glenniea、Guioa、Harpullia、Lepisanthes、Mischocarpus、Rhysotoechia、Tristiropsis、Zollingeria）およびニガキ科（Eurycoma）。\n\n(b) マメモドキ科とマメ科の中では、この膨らみはやや円筒形または樽形で、わずかに先細りし、「葉枕」と呼ばれることがある（この用語は上記に述べた膨らみを含むあらゆる種類の膨らみに一般的に適用されることもある）。\n\n(c) 他のケースでは、膨らみが顕著であり、こぶ状で（凹みがなく）、例えば、一部のGlycosmisやMicromelum（ミカン科）がその例である。",
+		"categoryId": "6"
+	},
+	{
+		"id": "38",
+		"character": "Wrinkled petioles",
+		"characterJpn": "葉柄にしわがある",
+		"characterDetail": "Such petioles develop closely set ridges giving a transversely wrinkled appearance; the wrinkles can be minute, e.g., in Gonocaryum (Cardiopteridaceae), requiring a lens to appreciate.",
+		"characterDetailJpn": "葉柄が、隆起を密に発達させ、横方向にしわが寄った外観を呈する。このしわは非常に小さく、例えば、Gonocaryum（ヤマイモモドキ科）の場合、レンズを使わないと確認できないことがある。",
+		"categoryId": "6"
+	},
+	{
+		"id": "39",
+		"character": "Winged petiole or rachis",
+		"characterJpn": "葉柄・葉軸に翼がある",
+		"characterDetail": "This is seen in simple leaves that have a distinct, smaller thin blade of tissue ('wing') along the sides of the petiole, such as in some Dillenia species (Dilleniaceae); or in compound leaves where the rachis (midrib of the compound leaf) develops narrow to conspicuous 'wings', e.g., Guioa (Sapindaceae).",
+		"characterDetailJpn": "葉柄の両側に明確で小さな薄い組織の葉身（「翼」）を持つ単葉に見られる。例えば、Dillenia属（ビワモドキ科）の一部が該当する。また、複葉では、葉軸（複葉の中肋）が狭いものから顕著な「翼」を発達させる場合もある。例えば、ムクロジ科のGuioa属がその例である。",
+		"categoryId": "6"
+	},
+	{
+		"id": "40",
+		"character": "Rachis with swollen nodes",
+		"characterJpn": "葉軸の節が膨らむ",
+		"characterDetail": "These are enlarged 'nodes' (junctions where leaflets emerge or attach) along the rachis or midrib of a compound leaf. Sometimes such points are somewhat jointed and the rachis may break easily at such nodes, e.g., in Oroxylum (Bignoniaceae). They may shrink during drying, e.g., in Picrasma (Simaroubaceae) and Walsura (Meliaceae).",
+		"characterDetailJpn": "複葉の葉軸や中肋に沿った「節」（小葉が出現または付着する接合部）が拡大したものである。時には、このような点がやや関節状になり、葉軸がその節で簡単に折れることがある。例えば、Oroxylum（ノウゼンカズラ科）がその例である。乾燥すると収縮することがあり、例えば、Picrasma（ニガキ科）やWalsura（センダン科）がその例である。",
+		"categoryId": "6"
+	},
+	{
+		"id": "41",
+		"character": "Free rachis tip",
+		"characterJpn": "葉軸の先端がとびだす",
+		"characterDetail": "This refers to the free rachis extension found in some compound leaves, e.g.. many Sapindaceae.",
+		"characterDetailJpn": "複葉にしばしば見られるフリーな葉軸の延長部分を指す。例えば、多くのムクロジ科が該当する。",
+		"categoryId": "6"
+	},
+	{
+		"id": "42",
+		"character": "Spirally arranged leaves in opposite-leaved families",
+		"characterJpn": "対生の科で螺旋葉序",
+		"characterDetail": "Opposite or spirally arranged leaves can be found together in a number of families. Sometimes, a family is predominantly opposite-leaved but a few members have spirally arranged leaves, e.g. Apocynaceae in which Cerbera has spirally arranged leaves.",
+		"characterDetailJpn": "対生とらせん状の葉序は、多くの科で一緒に見られることがある。時に、科の大部分が対生だが、いくつかの種はらせん状の葉序の場合がある。例えば、キョウチクトウ科では、Cerbera属がらせん状の葉序である。",
+		"categoryId": "7"
+	},
+	{
+		"id": "43",
+		"character": "Opposite leaves in spiral-leaved families",
+		"characterJpn": "互生・螺旋葉序の科で対生",
+		"characterDetail": "Some families have predominantly alternate or spirally arranged leaves. A few members have opposite leaves, e.g., Ilex (Aquifoliaceae), Sarcosperma (Sapotaceae).",
+		"characterDetailJpn": "いくつかの科では、主に互生またはらせん状の葉序である。しかし、一部の種は対生の場合がある。例えば、モチノキ科のモチノキ属やアカテツ科のSarcosperma属がその例である。",
+		"categoryId": "7"
+	},
+	{
+		"id": "44",
+		"character": "Opposite compound leaves",
+		"characterJpn": "対生の複葉",
+		"characterDetail": "These are oppositely arranged leaves that are pinnate, bipinnate, or palmately compound, e.g., many Cunoniaceae and Bignoniaceae.",
+		"characterDetailJpn": "対生の羽状複葉、二回羽状複葉、または掌状複葉の葉を指す。例えば、多くのクノニア科やノウゼンカズラ科が該当する。",
+		"categoryId": "7"
+	},
+	{
+		"id": "45",
+		"character": "Whorled or verticillate leaves; leaves in rosettes",
+		"characterJpn": "輪生",
+		"characterDetail": "A leaf arrangement with more than two leaves inserted at the same level is called verticillate, e.g., Alstonia (Apocynaceae). Spirally arranged leaves forming tight rosettes on the shoots are not the same but listed here because often they can present the same impression: these are annotated (r).",
+		"characterDetailJpn": "同じ高さに３枚以上の葉がある葉序は、輪生と呼ばれる。例えば、キョウチクトウ科のAlstonia属が該当する。シュート上に密なロゼットを形成するらせん葉序は輪生ではないが、しばしば同じ印象を与えるため、ここに記載される：これらは（r）で注釈される。",
+		"categoryId": "7"
+	},
+	{
+		"id": "46",
+		"character": "Anisophyllous leaf pairs, rosettes, or sequences",
+		"characterJpn": "不等葉性：異形葉の対、ロゼット、または列",
+		"characterDetail": "This refers mainly to the markedly unequal sizes between a pair of opposite leaves.This is often seen in many Acanthaceae and Rubiaceae and in Mallotus miquelianus (Euphorbiaceae). In some plants with crowded rosette leaf arrangements (basically tight spirals), such as Trigonostemon (Euphorbiaceae), the rosettes have leaves of different sizes. Also, some plants, such as Dacrycarpus (Podocarpaceae) have smaller leaves preceding larger leaves on the ultimate twig sequences.",
+		"characterDetailJpn": "主に、対生する一対の葉の間で、顕著に不均等なサイズであること。この現象は、多くのキツネノマゴ科やアカネ科、そしてトウダイグサ科のMallotus miquelianusでよく見られる。密集したロゼット状の葉序（基本的には密な螺旋）のいくつかの植物、例えばトウダイグサ科のTrigonostemonでは、ロゼットが異なるサイズの葉を持つ。また、ナンヨウスギ科のDacrycarpusのように、最終的な小枝の連続において、小さな葉が大きな葉の前にある植物もある。",
+		"categoryId": "8"
+	},
+	{
+		"id": "47",
+		"character": "Large simple leaves in non-monocots",
+		"characterJpn": "大型の単葉（単子葉植物以外）",
+		"characterDetail": "We include in this category, those taxa with mature leaves exceeding 40 cm long or broad. Familiar examples include Campnosperma (Anacardiaceae) and Dillenia (Dilleniaceae).",
+		"characterDetailJpn": "成熟した葉が長さまたは幅40cmを超える分類群を指す。身近な例として、ウルシ科のCampnospermaや、ビワモドキ科のDilleniaが挙げられる。",
+		"categoryId": "8"
+	},
+	{
+		"id": "48",
+		"character": "Asymmetric simple leaves",
+		"characterJpn": "非対称な単葉",
+		"characterDetail": "Unlike in the case of compound leaves, asymmetric simple leaves are less often encountered, e.g., Pterospermum (Malvaceae).",
+		"characterDetailJpn": "複葉の場合とは異なり、非対称の単葉はあまりない。例えば、アオイ科のPterospermumがその例である。",
+		"categoryId": "8"
+	},
+	{
+		"id": "49",
+		"character": "Digitately compound leaves",
+		"characterJpn": "掌状複葉",
+		"characterDetail": "Such leaves are divided, right down to the top of the petiole, into three or more segments or leaflets, as commonly in Schefflera (Araliaceae). Plants with deeply lobed leaves (the segments not completely divided from one another), sometimes simply called palmate or palmately lobed, as well as palms, are not included.",
+		"characterDetailJpn": "葉柄の先端までに至るまで3つ以上の分裂や小葉に分かれている。これはウコギ科のシェフレラに一般的に見られる。深く切れ込んだ葉（分裂が完全に分離していないもの）、単に掌状に切れ込んだ葉や、ヤシ類は含まれない。",
+		"categoryId": "8"
+	},
+	{
+		"id": "50",
+		"character": "Doubly or 3(-4-) pinnate leaves",
+		"characterJpn": "2~4回羽状複葉",
+		"characterDetail": "Doubly (or 2-) pinnate leaves have two rows of axes along a central midrib (rachis) which themselves bear two rows of leaflets (eg., Melia, Meliaceae). Further pinnate division of such a leaf produces the 3(-4-) pinnate condition (eg.. Moringa, Moringaceae).",
+		"characterDetailJpn": "二回羽状複葉は、中央の中肋（葉軸）に沿って2列の軸があり、それ自体が2列の小葉を持つ（例：センダン科のセンダン属）。このような葉がさらに羽状に分裂すると、三回（または四回）羽状複葉の状態になる（例：ワサビノキ科のワサビノキ属）。",
+		"categoryId": "8"
+	},
+	{
+		"id": "51",
+		"character": "Peltate leaves",
+		"characterJpn": "盾状葉",
+		"characterDetail": "Peltate leaves have their petiole attached away from the leaf margin or base, as in Nymphaea water-lilies (Nymphaeaceae).",
+		"characterDetailJpn": "盾状葉は、葉柄が葉の縁や基部から離れた位置に付着している葉を指す。例えば、スイレン科のスイレン（Nymphaea）の葉がその例である。",
+		"categoryId": "8"
+	},
+	{
+		"id": "52",
+		"character": "Dentate / serrate (toothed) leaf margin (non-monocots)",
+		"characterJpn": "鋸歯縁（単子葉植物以外）",
+		"characterDetail": "Dentate leaf margins are the norm in very few families of Malesian plants, marked by the annotation 'all taxa' in the list below; common in some families such as Asteraceae and Theaceae; and rare in others such as Rhizophoraceae. Overall, few families of tropical plants have dentate leaf margins.",
+		"characterDetailJpn": "葉の縁が鋸歯状であることは、マレシア植物区の植物のごく少数の科で標準的であり、以下のリストでは「すべての分類群」という注釈が付けられている。キク科やツバキ科のような一部の科では一般的であり、ヒルギ科などの他の科では稀である。全体的に見て、熱帯植物の科で鋸歯状の葉の縁を持つものは少ない。",
+		"categoryId": "9"
+	},
+	{
+		"id": "53",
+		"character": "Triplinerved leaves",
+		"characterJpn": "三行脈",
+		"characterDetail": "Triplinerved leaves have, in addition to the midrib, a pair of veins from the leaf base that typically reach near or beyond midway to the leaf tip (e.g. Ficus, Moraceae), or even right to the tip (e.g. Cinnamomum, Lauraceae). Although less commonly used, the term actinodromous has also been applied to this venation, with the advantage that it could include an additional pair of veins (thus making five in all) or even two, from the leaf base, also a common condition.",
+		"characterDetailJpn": "三行脈葉は、主脈に加えて、葉の基部から一対の葉脈が出ており、通常は葉先に向かって中ほど近くまたはそれを超えて伸びる（例：クワ科のイチジク属）、あるいは葉先まで伸びる（例：クスノキ科のクスノキ属）。あまり一般的ではないが、三行脈には放射状脈行（actinodromous）という用語も適用され、少なくとも五行脈（全体で五本）や、さらには基部から追加の一対の葉脈を持つ場合も含めることができるという利点がある。",
+		"categoryId": "10"
+	},
+	{
+		"id": "54",
+		"character": "Intramarginal vein",
+		"characterJpn": "葉縁脈（葉縁に沿う葉脈）",
+		"characterDetail": "Generally refers to the leaf having a vein all along and just inside its margin, as is the typical venation of Syzygium and allies (Myrtaceae). It is sometimes not easy to distinguish between a leaf with intramarginal vein, a triplinerved leaf, and a leaf in which the distal loops of the secondary veins join together near the margin.",
+		"characterDetailJpn": "一般的には、葉の縁に沿って内側に葉脈が走る葉を指し、これはフトモモ科のSyzygium属やその近縁種に典型的な葉脈構造である。葉縁脈を持つ葉、三行脈葉、そして二次脈の外側の輪が縁近くで合流する葉の区別は、時に容易ではないことがある。",
+		"categoryId": "10"
+	},
+	{
+		"id": "55",
+		"character": "Double marginal vein loops or intramarginal veins",
+		"characterJpn": "葉縁脈は二重",
+		"characterDetail": "Here there are two apparent intramarginal veins, or a double series of vein loops along the leaf margin.",
+		"characterDetailJpn": "二つの明確な葉縁脈、または葉の縁に沿った二重の葉脈のループがある。",
+		"categoryId": "10"
+	},
+	{
+		"id": "56",
+		"character": "Parallel secondary venation",
+		"characterJpn": "側脈は平行",
+		"characterDetail": "This highly unmistakable venation type typically has numerous, very closely parallel secondary veins neatly arranged along both sides of the leaf midrib.",
+		"characterDetailJpn": "この非常に特徴的な葉脈タイプは、通常、非常に密に並んだ平行な二次脈が葉の中央の主脈の両側に整然と配置されている。",
+		"categoryId": "10"
+	},
+	{
+		"id": "57",
+		"character": "Scalariform tertiary venation",
+		"characterJpn": "三次脈は梯子状",
+		"characterDetail": "This venation type is also distinctive, with closely spaced, subparallel tertiary vein connections giving a ladderlike formation between the secondary veins.",
+		"characterDetailJpn": "この葉脈タイプも特徴的で、密に配置された亜平行な三次脈（二次側脈）が二次脈（側脈）の間に梯子状の構造を形成している。",
+		"categoryId": "10"
+	},
+	{
+		"id": "58",
+		"character": "Leaves drying black (nigrescence)",
+		"characterJpn": "葉は乾くと黒",
+		"characterDetail": "In a number of taxa, leaves typically turn blackish upon drying.",
+		"characterDetailJpn": "多くの分類群では、葉が乾燥すると黒っぽくなるのが一般的である。",
+		"categoryId": "11"
+	},
+	{
+		"id": "59",
+		"character": "Leaves drying yellow",
+		"characterJpn": "葉は乾くと黄色",
+		"characterDetail": "The leaves of some plants dry yellowish, such as in many Symplocos (Symplocaceae) and Xanthophyllum (Polygalaceae).\n [It does not mean that if leaves wither yellow on the plant, they will maintain that colour upon drying. Morinda leaves, for example, wither yellow but dry black.]",
+		"characterDetailJpn": " いくつかの植物の葉は乾燥すると黄色っぽくなる。例えば、多くのハイノキ科のSymplocos属やヒメハギ科のXanthophyllum属がそれに該当する。 \n ※但し、植物上で葉が枯れる際に黄色くなる場合でも、乾燥後にその色を保持するわけではない。例えば、アカネ科のMorinda属の葉は枯れるときに黄色くなるが、乾燥すると黒くなる。",
+		"categoryId": "11"
+	},
+	{
+		"id": "60",
+		"character": "Young leaves red",
+		"characterJpn": "若葉は赤い",
+		"characterDetail": "This is a feature that is again only sometimes noted in collectors' labels, so is a character that is often not easily accessible for use. Here we offer only some common examples, as no doubt field observations, as yet not systematically documented, will reveal many more examples.",
+		"characterDetailJpn": "この特徴は、採集者のラベルに記載されることがあるものの、しばしば利用しにくい特徴である。ここでは、一般的な例のみを挙げるにとどめるが、体系的に文書化されていない現地観察によって、さらに多くの例が明らかになることは間違いない。",
+		"categoryId": "11"
+	},
+	{
+		"id": "61",
+		"character": "Leaves withering red",
+		"characterJpn": "葉は枯れると赤くなる",
+		"characterDetail": "This, too, is a field character that is both interesting and not sufficiently documented in collectors' labels. In the Malesian region, Elaeocarpus (Elaeocarpaceae) furnishes a consistent example of leaves withering red.",
+		"characterDetailJpn": "これもまた、興味深い生体の特徴でありながら、採集者のラベルには十分に記載されていない特徴である。マレシア植物区では、ホルトノキ科のホルトノキ属が葉が赤く枯れる典型的な例である。",
+		"categoryId": "11"
+	},
+	{
+		"id": "62",
+		"character": "Stellate hairs",
+		"characterJpn": "星状毛がある",
+		"characterDetail": "Some plants have stellate hairs on leaves (especially young leaves), shoot apices, stipules, and sometimes also flower parts (calyx, corolla) and fruit surfaces. Often, those on the vegetative parts, in particular leaves, are most readily observed, Stellate hairs include those arranged in star-shaped bundles, either with arms radiating outwards or the hairs apparently grouped in tufts (e.g., Dipterocarpaceae). They are quite common in Dipterocarpaceae, Euphorbiaceae and Malvaceaed Sterculioideae. In Rhododendron (Ericaceae) they are actually much divided scales.",
+		"characterDetailJpn": "葉（特に若い葉）、シュートの頂端、托葉、そして時には花の部分（萼、花冠）や果実の表面に星状毛を持つ。しばしば、栄養部分、特に葉に見られる星状毛が最も観察しやすい。星状毛は、放射状に広がる腕を持つものや、毛が房状に集まったもの（例：フタバガキ科）を含む。星状毛はフタバガキ科、トウダイグサ科、アオイ科のSterculioideae亜科に非常に一般的である。ツツジ属（ツツジ科）では、実際には非常に細かく分かれた鱗片である。",
+		"categoryId": "12"
+	},
+	{
+		"id": "63",
+		"character": "Scales",
+		"characterJpn": "鱗状毛がある",
+		"characterDetail": "These are units of indument that are often flattened and thin, even scarious, sometimes attached at one end, and in other cases rounded or discoid and attached in the middle. They can also be lobed or variously lacerate. They are easily observed on the leaves of many species of Durio (Malvaceae), Elaeagnus (Elaeagnaceae) and Rhododendron (Ericaceae).",
+		"characterDetailJpn": "しばしば平たく薄い（時には薄膜状）の被覆毛の単位で、一端で付着していることもあれば、丸形または円盤形で中央に付着していることもある。また、裂片状やさまざまに裂けた形状を持つこともある。これらは、アオイ科のドリアン属、グミ科のグミ属、およびツツジ科のツツジ属の多くの種の葉で容易に観察できる。",
+		"categoryId": "12"
+	},
+	{
+		"id": "64",
+		"character": "Dendroid hairs",
+		"characterJpn": "樹状毛がある",
+		"characterDetail": "These hairs resemble miniature trees, with a main elongate portion and some processes at the distal end. There is a rich and imaginative terminology for such hairs and their variants, used by different people (including 'candelabra trichomes'). This indument type is rare, seen, for example, in Erycibe (Convolvulaceae).",
+		"characterDetailJpn": "これらの毛は、ミニチュアの木のような形状をしており、主軸が長く伸び、先端にいくつかの突起を持つ。このような毛およびその変種には、さまざまな豊かな想像力を働かせた用語が使われており、「シャンデリア毛状体」なども含まれる。この被覆毛のタイプは稀であり、例えば、ヒルガオ科のErycibe属に見られる。",
+		"categoryId": "12"
+	},
+	{
+		"id": "65",
+		"character": "T-shaped hairs",
+		"characterJpn": "T字型の毛",
+		"characterDetail": "T-shaped hairs are attached away from both ends, somewhere along their length, and not at one 'basal' end. They have also been called 'Y-shaped' hairs, 'medifixed hairs, or 'balance' hairs.",
+		"characterDetailJpn": "T字型の毛は、両端から離れた位置、すなわち毛の途中で付着しており、片方の「基部」で付着しているわけではない。このような毛は、「Y字型の毛」、「中間付着毛」、または「バランス毛」とも呼ばれる。",
+		"categoryId": "12"
+	},
+	{
+		"id": "66",
+		"character": "Stinging or irritant hairs",
+		"characterJpn": "刺毛または刺激性の毛",
+		"characterDetail": "Stinging hairs are those needle-shaped hairs that are pointed and easily irritate the skin, as found in Mucuna (Leguminosae) and most bamboos (Poaceae). In the Urticaceae, irritation from the so-called 'nettle hairs' is mostly due to chemical substances. In some Malvaceae (Brachychiton, Neesia), such stinging hairs are found all over the inner surface of the fruit carpels; these are indicated by '(fruit)' after the name.",
+		"characterDetailJpn": "刺毛（Stinging hair）は、針のような形状をしており、先端が尖っていて皮膚を容易に刺激する毛のことを指す。例えば、マメ科のMucuna属や多くの竹（イネ科）に見られる。イラクサ科では、いわゆる「nettle hairs」による刺激は主に化学物質によるものである。アオイ科の一部（Brachychiton属やNeesia属）では、果実の心皮の内側全体にこのような刺毛が見られる。これらは名前の後に「（果実）」と記載される。",
+		"categoryId": "12"
+	},
+	{
+		"id": "67",
+		"character": "Glaucous leaves",
+		"characterJpn": "葉はロウ物質で白っぽい",
+		"characterDetail": "Leaves appearing whitish, blue-greyish, or pale underneath due to a covering of waxy substance are called glaucous. This is commonly seen in many pioneer plant species, where the waxy covering presumably reduces water loss, but is also generally common in the Lauraceae, for instance. The waxy layer melts when the leaf is held over a flame.",
+		"characterDetailJpn": "葉の裏側が、白、青灰色、または淡色に見えるのは、ろう質の物質で覆われているためであり、これを「粉白状（glaucous）」と呼ぶ。これは、多くのパイオニア植物種に一般的に見られ、ろう質の被覆が水分損失を減少させると考えられているが、例えばクスノキ科にも一般的に見られる。このろう質の層は、葉を炎にかざすと溶ける。",
+		"categoryId": "12"
+	},
+	{
+		"id": "68",
+		"character": "Bullate leaves",
+		"characterJpn": "葉は水疱状・波形に隆起する",
+		"characterDetail": "This condition occurs when the leaf veins are deeply sunken in the lamina, and the enclosed parts bulge, so that the upper surface looks bubbly. It has also been called a 'blistered' or 'washboard' texture. More and more taxa in different families are found to have bullateness whether slight or pronounced, so the following serves more as a start-up list.",
+		"characterDetailJpn": "この特徴は、葉の葉脈が葉身に深く沈み込み、囲まれた部分が膨らむことで、上面が泡状に見える場合に発生する。「水ぶくれ状」や「洗濯板状」とも呼ばれる。さまざまな科の多くの分類群で、わずかにまたは顕著にこの膨らみが見られることがわかってきており、以下はその出発点としてのリストである。",
+		"categoryId": "12"
+	},
+	{
+		"id": "69",
+		"character": "Leaf domatia",
+		"characterJpn": "葉にダニ室（domatia）がある",
+		"characterDetail": "Domatia (singular: domatium) are small patches on the lower leaf surface, usually in vein axils, that are enclosed by dense hair tufts or membranous structures, or are simple cavities; minute mites or insects (often ants) may live in or frequent them. This list is built up from a 1966 compilation by Dr M. Jacobs.",
+		"characterDetailJpn": "ダニ室（複：Domatia. 単：Domatium）は、通常、葉の裏面の葉脈の腋にある小さな部分で、密集した毛束や膜状の構造に囲まれているか、単純な空洞である。微小なダニや昆虫（しばしばアリ）がそこに住むか、頻繁に訪れることがある。このリストは、1966年にDr. M. Jacobsによって編纂されたものに基づいている。",
+		"categoryId": "12"
+	},
+	{
+		"id": "70",
+		"character": "Laminar (l) or petiolar (p) glands",
+		"characterJpn": "葉面・葉柄の蜜腺",
+		"characterDetail": "Spots, patches, or special structures bearing secretory tissue known as glands, may occur on the leaf lamina (usually underside, but more rarely, upperside) or petiole. Such glands may have a distinctive shape or form, such as crateriform glands (Quassia, Simaroubaceae; Xanthophyllum, Polygalaceae), relatively conspicuous black glandular patches (Prunus, Rosaceae), small scattered glands (Myxopyrum, Oleaceae), 'pearl glands' (Flemingia, Leguminosae; some Macaranga, Euphorbiaceae), or the slightly concave-tipped stalked glands (which we playfully call 'Shrek-ears', after the cartoon character) in Croton (Euphorbiaceae). If no special notation (p) or (1) is indicated following the names, the glands mostly occur on both petiole and lamina. The dark bacterial nodules in the leaves of many Pavetta spp. (Rubiaceae) are not secretory and so are not, strictly, glands, although they are very conspicuous and often assumed to be glands by collectors.",
+		"characterDetailJpn": "斑点、パッチ、または腺と呼ばれる分泌組織を持つ特別な構造が、葉身（通常は裏側だが、まれに表側）や葉柄に見られることがある。これらの腺は、特有の形状や形式を持つことがあり、例えば、噴火口状の腺（ニガキ科のQuassia属、ヒメハギ科のXanthophyllum属）、比較的目立つ黒い腺斑（バラ科のサクラ属）、小さく散在する腺（モクセイ科のMyxopyrum属）、\"真珠腺\"（マメ科のFlemingia属、トウダイグサ科の一部のマカランガ属）、クロトン属（トウダイグサ科）のわずかに凹んだ先端を持つ柄付き腺（漫画キャラクターにちなみ、\"シュレックの耳\"と呼ばれる）などがある。名前の後に特別な注釈（p）や（1）が付いていない場合、腺は主に葉柄と葉身の両方に見られる。多くのPavetta属（アカネ科）の葉に見られる暗い細菌の結節は分泌性ではなく、厳密には腺ではないが、非常に目立ち、しばしば採集者によって腺と見なされることがある。",
+		"categoryId": "12"
+	},
+	{
+		"id": "71",
+		"character": "Dots or dashes in leaf tissue",
+		"characterJpn": "葉を透かすと明・暗の点または短線がある",
+		"characterDetail": "These very tiny dots or dashes are visible using handlens when the leaf is held Theist strong light: translucent and oil-containing glands (e.g., Rutaceae) of coloured, usually red, brown- or even black. The darker dots are sometimes formed from tannin or resin deposits.",
+		"characterDetailJpn": "非常に小さな点や単線は、ルーペを使用して葉を強い光にかざすと確認できる。これらは、透明で油を含む腺（ex. ミカン科）であり、通常は赤、茶色、または黒色であることが多い。暗い点は、時折、タンニンや樹脂の沈着物から形成されることがある。",
+		"categoryId": "12"
+	},
+	{
+		"id": "72",
+		"character": "Cystoliths",
+		"characterJpn": "葉内に鍾乳体（非定型の結晶）がある",
+		"characterDetail": "Cystoliths are mineral inclusions (usually calcium carbonate or silica) in some leaf cells of certain plants. Where they are distributed near or at the leaf surface, they may be visible (using handlens or microscope) as raised pale dots or dashes (often translucent and glistening when strong light is shining on or through the leaf). The elongate needle-like crystals have also been called 'raphides' and occur in over 200 plant families; here we list some examples we know of among Malesian plants.",
+		"characterDetailJpn": "Cystolithsは、特定の植物の葉細胞内に含まれる鉱物（通常は炭酸カルシウムまたはシリカ）である。これらが葉の表面付近や表面に分布している場合、ルーペや顕微鏡を使用して、盛り上がった淡色の点や線（強い光が葉に当たったり透過したりすると、しばしば透明で輝く）として確認できる。細長い針状の結晶は「raphides」とも呼ばれ、200以上の科に見られる。ここでは、マレシア植物区の中で知られているいくつかの例を挙げる。",
+		"categoryId": "12"
+	},
+	{
+		"id": "73",
+		"character": "Puncticulate leaf surface",
+		"characterJpn": "微点状の葉の表面",
+		"characterDetail": "This is a leaf surface with innumerable tiny pits or depressions like pin-pricks.",
+		"characterDetailJpn": "葉の表面に無数の小さな穴やくぼみがある状態で、ピンで刺したようなものを指す。",
+		"categoryId": "12"
+	},
+	{
+		"id": "74",
+		"character": "Pustulate/papillose leaf surface",
+		"characterJpn": "葉面に小突起状/乳頭状がある",
+		"characterDetail": "This is a leaf surface texture formed by tiny raised swellings, often appearing dull.",
+		"characterDetailJpn": "葉の表面に小さな隆起が形成されることで生じる葉面であり、しばしば鈍く見える。",
+		"categoryId": "12"
+	},
+	{
+		"id": "75",
+		"character": "Rough leaf surface",
+		"characterJpn": "葉面がざらざらしている",
+		"characterDetail": "A very rough leaf surface, often sandpapery to the touch; this is typical of Tetracera (Dilleniaceae), for example.",
+		"characterDetailJpn": "非常に粗い葉の表面で、触るとしばしばサンドペーパーのように感じられる。例えば、ビワモドキ科のTetraceraに典型的である。",
+		"categoryId": "12"
+	},
+	{
+		"id": "76",
+		"character": "Leaves tearing with silky-thread connections",
+		"characterJpn": "葉を裂くと絹糸状の繊維がある",
+		"characterDetail": "Fresh material shows this character most clearly, although even seasoned collectors rarely make note of this while taking the specimens. The thread-connections could be the spiral rings of tracheids or dried contents of resin ducts. This list is desperately incomplete and requires more observation both in fresh material as well as in herbarium specimens.",
+		"characterDetailJpn": "新鮮な材料ではこの特徴が最も明確に見られるが、熟練の採集者でさえ標本を採取する際にこれを記録することは稀である。糸状の接続は、仮道管の螺旋状のリングや樹脂道の乾燥した内容物である可能性がある。このリストは非常に不完全であり、新鮮な材料と標本の両方でさらなる観察が必要である。",
+		"categoryId": "12"
+	},
+	{
+		"id": "77",
+		"character": "Monocarpic plants (death after flowering)",
+		"characterJpn": "単回結実植物（開花後に枯死）",
+		"characterDetail": "This category refers to perennial plants rather than annuals. Such plants produce one or more inflorescences at the main shoot apex or on all major shoot apices, and then senesce and die, such as in the Sago palm, Metroxylon (Arecaceae). This is of course difficult to know only from herbarium material, unless notes or direct observations have been made. In some cases, the shoot appears to die down but the root stock remains and resprouts later, so these are not really monocarpic, e.g., some Argostemma (Rubiaceae), Musa (Musaceae) and Paraboea (Gesneriaceae).",
+		"characterDetailJpn": "一年生植物ではなく多年生植物を指す。この特徴の植物は、主茎の頂端またはすべての主要なシュートの頂端に一つ以上の花序を生産し、その後老化して枯死する。例えば、サゴヤシ（ArecaceaeのMetroxylon）がその例である。これは、注釈や直接の観察がない限り、標本のみからは知ることが難しい場合がある。場合によっては、シュートが枯れるように見えるが、根茎が残り、後で再生することがあるため、これらは実際には単回性植物ではない。例えば、アカネ科のArgostemmaの一部、バショウ科のMusa、そしてイワタバコ科のParaboeaがその例である。",
+		"categoryId": "13"
+	},
+	{
+		"id": "78",
+		"character": "Plants flowering in a leafless state",
+		"characterJpn": "葉がない状態で開花する",
+		"characterDetail": "Some plants flower just before or as they drop their leaves, or as a new leaf flush develops, such as the trees Tetrameles (Tetramelaceae) and Firmiana (Malvaceae), whereas other plants are naturally leafless (1), e.g., Taeniophyllum (Orchidaceae) or Cynanchum (Apocynaceae).",
+		"characterDetailJpn": "葉を落とす直前または葉を落とす時期に、あるいは新しい葉が展開する際に開花する植物。例えば、テトラメレス科のTetramelesやアオイ科のFirmianaの木がその例である。一方で、他の植物は自然に無葉（l）の状態である。例えば、ラン科のTaeniophyllumやキョウチクトウ科のCynanchumがその例である。",
+		"categoryId": "13"
+	},
+	{
+		"id": "79",
+		"character": "Cauliflorous flowering habit (flowers on stems and trunks)",
+		"characterJpn": "幹生花（幹や枝に花が咲く）をつける",
+		"characterDetail": "Cauliflory is a term to describe flowers (and subsequently fruits) borne on the stems or trunks of plants. This is also a character that is either noted on specimen labels, represented by flowering material attached to sliced-off pieces of trunk bark or stems, or otherwise possibly overlooked. In many species, such as Saurauia (Actinidiaceae), Cauliflory is a flowering expression of later, more mature phases of growth, and flowering in the leaf axils is also found in young specimens or concurrently with cauliflorous behaviour.",
+		"characterDetailJpn": "幹生花（Cauliflory）は、植物の茎や幹に直接咲く花（およびその後の果実）を指す用語である。この特徴は、標本ラベルに記載されるか、幹や茎の切り取った部分に付着した開花資料とされるか、あるいは見落とされる可能性がある。多くの種、例えばSaurauia属（マタタビ科）のように、幹生花は成長の後期、より成熟した段階での開花形質であり、若い標本では葉腋での開花も見られるか、幹生花の行動と同時に見られる。",
+		"categoryId": "13"
+	},
+	{
+		"id": "80",
+		"character": "Flagelliflory",
+		"characterJpn": "花序は下垂する",
+		"characterDetail": "This refers to the production of long, deflexed to pendulous inflorescences.",
+		"characterDetailJpn": "長く、下向きまたは垂れ下がった花序を指す。",
+		"categoryId": "13"
+	},
+	{
+		"id": "81",
+		"character": "Geocarpy",
+		"characterJpn": "地生果",
+		"characterDetail": "In this condition, the inflorescence creeps over the ground surface or just underneath, e.g., in the geocarpic figs. Ficus spp. (Moraceae), or begins development above. ground but later enters the soil, e.g., the groundnut, Arachis (Leguminosae).",
+		"characterDetailJpn": "花序が地表面を這うか、またはその直下を這う特徴。例えば、地中果を持つイチジク属（クワ科）がその例である。また、地表で発達を始め、その後土壌に入る場合もある。ラッカセイ（マメ科のArachis）がその例である。",
+		"categoryId": "13"
+	},
+	{
+		"id": "82",
+		"character": "Fasciculate inflorescences and distichous alternate leaves",
+		"characterJpn": "束生花序で二列互生葉",
+		"characterDetail": "A comparatively small number of plants have this characteristic combination.",
+		"characterDetailJpn": "この特徴的な組み合わせは比較的少数の植物でみられる。",
+		"categoryId": "14"
+	},
+	{
+		"id": "83",
+		"character": "Leaf-opposed' inflorescences",
+		"characterJpn": "花序は葉と対生する",
+		"characterDetail": "When the inflorescence is neither terminal to a shoot nor occurring in the leaf axil, but in a position opposite to the leaf, this special condition results. In some plants from opposite-leaved families (marked (r) in our list below) where one leaf is reduced at each node, and the basically terminal inflorescence gets pushed to one side by the development of an axillary branch, 'leaf-opposed' inflorescences could also result.",
+		"characterDetailJpn": "花序がシュートの頂端でもなく、葉腋にも発生せず、葉に対して反対側の位置にある場合、この特別な特徴となる。対生葉を持つ科の一部の植物（以下のリストで（r）とマークされている）では、各節で一方の葉が縮小し、基本的に頂生の花序が腋生枝の発達によって一方に押しやられることで、「葉に対向する」花序が生じることがある。",
+		"categoryId": "14"
+	},
+	{
+		"id": "84",
+		"character": "Supra-axillary inflorescences",
+		"characterJpn": "花序は葉腋から少し離れる",
+		"characterDetail": "In such forms, the flower or inflorescence does not develop within the leaf axil but a little above it.",
+		"characterDetailJpn": "花や花序は葉腋内ではなく、その少し上に発達する。",
+		"categoryId": "14"
+	},
+	{
+		"id": "85",
+		"character": "Epiphyllous inflorescences",
+		"characterJpn": "葉上花序",
+		"characterDetail": "In such rare instances, the main axis (peduncle or 'stalk') of the inflorescence, or pedicel in the case of a single flower, is fused with a leaf.\n\n[This should not be confused with the two-winged stems and branches in the cactus Epiphyllum (Cactaceae; cultivated in Malesia), where the inflorescences develop from the axils of highly reduced bract-like leaves, the whole superficially resembling a leafy structure bearing inflorescences directly.]",
+		"characterDetailJpn": "稀。花序の主軸（花柄または「茎」）や、単一の花の場合は小花柄が、葉と融合する。\n\n※サボテン科のEpiphyllum属（マレシア植物区で栽培されている）に見られる二翼を持つ茎や枝と混同してはならない。Epiphyllum属では、花序が非常に縮小した苞状の葉の腋から発達し、全体が花序を直接持つ葉状の構造に見える。",
+		"categoryId": "14"
+	},
+	{
+		"id": "86",
+		"character": "Compact inflorescences",
+		"characterJpn": "密生花序",
+		"characterDetail": "Such inflorescences have all the flowers crowding over an expanded end of the inflorescence axis, or tightly bunched together in a compact, dish-like or ball-like cluster.",
+		"characterDetailJpn": "すべての花が花序軸の広がる方向の端に密集しているか、緻密で皿状または球状の集まりでしっかりとした束になる。",
+		"categoryId": "14"
+	},
+	{
+		"id": "87",
+		"character": "Condensed racemes",
+		"characterJpn": "散房花序",
+		"characterDetail": "A raceme is an inflorescence typically with an elongate simple (unbranched) axis and individually stalked flowers along part of its length, as found in many plants. When the inflorescence is condensed (short), the flowers are generally fewer and close together, distinctive of fewer plant groups.\n\n[In certain cases. however, somewhat condensed racemes can bear many flowers that give a ball-like or club-like cluster: this is included above, 'compact inflorescences'.]",
+		"characterDetailJpn": "総状花序（raceme）は、通常、細長い単純（分枝しない）な軸を持ち、その軸の一部に沿って個別に柄を持つ花が配置される花序で、多くの植物で見られる。花序が凝縮（短縮）している場合、花の数は一般に少なく、互いに近接しているため、少数の植物群に特有である。\n\n※但し、場合によっては、やや凝縮された総状花序が多数の花を持ち、球状または棍棒状の集まりを形成することがある。これは「緻密な花序」として上記に含まれる。",
+		"categoryId": "14"
+	},
+	{
+		"id": "88",
+		"character": "Monomorphic (zygomorphic) flowers",
+		"characterJpn": "単形（左右相称）花",
+		"characterDetail": "The floral symmetry is monomorphic (sometimes referred to as 'zygomorphic or 'bilaterally symmetrical') when there is a single plane along which the flower may be divided into two expectedly identical parts; conversely, it is polymorphic (also *actinomorphic' or 'radially symmetrical') when this is possible along more than one plane. In some cases, flowers are only weakly monomorphic, such as in some Caprifoliaceae or Malpighiaceae, where one of five petals is slightly enlarged and the remaining four in a flower are visibly oriented into two sets (this is sometimes difficult to ascertain in dried herbarium specimens).",
+		"characterDetailJpn": "花の対称性が単形（monomorphic、「左右相称」または「二側対称」とも呼ばれる）の場合、花を二つの同一の部分に分けることができる単一の平面が存在する。反対に、多形（polymorphic、または「放射相称」または「放射対称」）の場合、複数の平面に沿って分けることが可能である。場合によっては、花が弱く単形であることもあり、例えばスイカズラ科やキントラノオ科の一部では、5つの花弁のうち1つがやや大きく、残りの4つが花内で二つのセットに視覚的に配置されている（これは乾燥した標本では確認が難しいこともある）。",
+		"categoryId": "15"
+	},
+	{
+		"id": "89",
+		"character": "Trimerous 'dicots' (groups among Magnoliids and Eudicots)",
+		"characterJpn": "三数性双子葉類（マグノリア類と真双子葉類のグループ）",
+		"characterDetail": "The 'dicots\" have mainly pentamerous (5-merous) flowers, with trimerous (3-merous) flowers occurring in a comparatively small number of families.",
+		"characterDetailJpn": "「双子葉植物（dicots）」は主に五数性（5数性）の花を持ち、三数性（3数性）の花は比較的少数の科に見られる。",
+		"categoryId": "15"
+	},
+	{
+		"id": "90",
+		"character": "Accrescent calyx",
+		"characterJpn": "萼が肥大化する",
+		"characterDetail": "An accrescent calyx is one that increases in size with age (during the transition from flower to fruit maturity), e.g., in Diospyros (Ebenaceae) and many dipterocarps (Dipterocarpaceae).",
+		"characterDetailJpn": "成長性の萼（accrescent calyx）とは、花から果実の成熟への移行期間中にサイズが大きくなる萼を指す。例えば、カキノキ科のDiospyrosや多くのフタバガキ科の植物がその例である。",
+		"categoryId": "15"
+	},
+	{
+		"id": "91",
+		"character": "Corolla (petals) or perianths fimbriate or bifid",
+		"characterJpn": "花冠（花弁）または花被の縁に糸状突起または二裂する",
+		"characterDetail": "the corolla or petals are finete plythed (Flicacarpus. Elaeocarpaceae, In theommon example) or notched to deeply bifid (indicated in brackets after the name, e.g.. Erycibe, Convolvulaceae, and Dichapetalum, Dichapetalaceae). In Passifloraceae (including Turneraceae), the corona is fimbriate.",
+		"characterDetailJpn": "花冠または花弁が細かく裂けている（例えば、ホルトノキ科のFlicacarpusが一般的な例）か、切れ込みが入って深く二裂している（名前の後に括弧で示される、例えば、ヒルガオ科のErycibeやカイナンボク科のDichapetalum）。トケイソウ科（Turneraceaeを含む）では、副花冠が縁毛状である。",
+		"categoryId": "15"
+	},
+	{
+		"id": "92",
+		"character": "Corolla (petals) bearing appendages",
+		"characterJpn": "花冠（花弁）に付属物がある",
+		"characterDetail": "The corolla (or petal) in some flowers bears a differently shaped part attached to it, referred to as an appendage ('an additional part'). In some Apocynaceae, the appendages are conspicuously protruding and form a circle around the floral centre and are referred to as a corona ('crown'), e.g., Melodinus and Strophanthus.",
+		"characterDetailJpn": "いくつかの花の花冠（または花弁）には、異なる形状の部分が付着しており、これは付属体（「追加の部分」）と呼ばれる。キョウチクトウ科のいくつかの花では、付属体が目立って突出しており、花の中心の周りに円を形成して「副花冠（コロナ）」と呼ばれる。例えば、MelodinusやStrophanthusがその例である。",
+		"categoryId": "15"
+	},
+	{
+		"id": "93",
+		"character": "Yellow perianth or corolla (petals)",
+		"characterJpn": "花被または花冠（花弁）が黄色",
+		"characterDetail": "Among indigenous Malesian plants, yellow is not a common flower colour in the sense of occurring in very many taxa, although some often-encountered taxa such as Dillenia spp. (Dilleniaceae) have yellow flowers. This requires to have been noted down in herbarium specimen labels.",
+		"characterDetailJpn": "マレシア植物区の在来植物の中では、黄色は、非常に多くの分類群に見られる一般的な花の色ではない。ただし、ビワモドキ科のDillenia属のような頻繁に見かける分類群では黄色い花が見られる。この特徴は、標本ラベルに記載されている必要がある。",
+		"categoryId": "15"
+	},
+	{
+		"id": "94",
+		"character": "Stamens opposite petals in the flower",
+		"characterJpn": "雄しべは花弁に対生する",
+		"characterDetail": "The more usual case is for stamens to alternate with petals, or tepals (when petals are absent), so here the less common situation is noted for the relatively fewer families. (This tends to characterise entire families.)",
+		"characterDetailJpn": "より一般的なケースは、雄蕊が花弁または花被片（花弁がない場合）と交互に配置されることである。ここでは、比較的少数の科に見られる、より珍しい状況を示す。この特徴は、全体として科全体を特徴づける傾向がある。",
+		"categoryId": "15"
+	},
+	{
+		"id": "95",
+		"character": "Numerous stamens",
+		"characterJpn": "雄しべは多数（20~）ある",
+		"characterDetail": "This condition is defined as having more than 20 fertile stamens in a flower (e.g.. Myrtaceae).",
+		"characterDetailJpn": "1つの花に20本以上の有性雄蕊を持つことを指す（ex. フトモモ科）。",
+		"categoryId": "15"
+	},
+	{
+		"id": "96",
+		"character": "Staminal tube present",
+		"characterJpn": "雄しべ筒がある",
+		"characterDetail": "This is formed by fusion of filaments to varying degrees but most often as a distinct tube, the top of which bears the anthers either directly or on short filardistinct strands.",
+		"characterDetailJpn": "花糸がさまざまな程度で融合することによって形成されるが、最も一般的には、明確な管状構造として現れる。その頂部には、葯が直接または短い糸状の束上に配置される。",
+		"categoryId": "15"
+	},
+	{
+		"id": "97",
+		"character": "Stamens bearing appendages or hair tufts",
+		"characterJpn": "雄しべに付属物または毛束がある",
+		"characterDetail": "The flowers of some plants have stamens bearing hair tufts, scales or various appendages on the filaments, or directly on the anthers.",
+		"characterDetailJpn": "花糸または葯に直接、毛の束、鱗片、またはさまざまな付属体を持つこと。",
+		"categoryId": "15"
+	},
+	{
+		"id": "98",
+		"character": "Basifixed anthers with apical pores or short slits",
+		"characterJpn": "葯は底着し、先端に孔または短い裂け目がある",
+		"characterDetail": "Basifixed anthers opening by apical pores or very short slits are common only in relatively few families. For taxa that also have pores but open by valves, see the next category.",
+		"characterDetailJpn": "基部で固定された葯が、先端の孔または非常に短い裂け目で開くのは、比較的少数の科でのみ一般的である。孔も持つが、弁で開く分類群については、99のカテゴリーを参照。",
+		"categoryId": "15"
+	},
+	{
+		"id": "99",
+		"character": "Anther pores opening by valves",
+		"characterJpn": "葯は弁状に裂開する",
+		"characterDetail": "Here, one or more 'window-like' structures are formed by valves (flaps) that lift up to open the pores. This is a characteristic feature in Lauraceae anthers.",
+		"characterDetailJpn": "1つまたは複数の「窓のような」構造が弁（flaps）によって形成され、これが持ち上がって孔を開く。この特徴は、クスノキ科の葯に見られる特性である。",
+		"categoryId": "15"
+	},
+	{
+		"id": "100",
+		"character": "Broad flat stigma",
+		"characterJpn": "柱頭は広く平ら",
+		"characterDetail": "This kind of stigma is most easily seen in Garcinia (Clusiaceae) and Ilex (Aquifoliaceae) flowers and fruits, as a broad flat structure appressed onto the ovary or fruit apex.",
+		"characterDetailJpn": "この種の柱頭は、Garcinia属（オトギリソウ科）やモチノキ属（モチノキ科）の花や果実で最も容易に見られる。これは、子房や果実の頂部に密着した広く平らな構造である。",
+		"categoryId": "15"
+	},
+	{
+		"id": "101",
+		"character": "Long forked style",
+		"characterJpn": "花柱は長く二又",
+		"characterDetail": "The style is almost completely divided into two divergent arms",
+		"characterDetailJpn": "花柱がほぼ完全に二つの分岐した腕に分かれる。",
+		"categoryId": "15"
+	},
+	{
+		"id": "102",
+		"character": "Double forked style",
+		"characterJpn": "花柱は二回二叉分岐する",
+		"characterDetail": "This condition is like the previous one, but each style arm forks again!",
+		"characterDetailJpn": "花柱が二又の特徴に似ているが、各花柱の腕がさらに分岐する。",
+		"categoryId": "15"
+	},
+	{
+		"id": "103",
+		"character": "Excentric style",
+		"characterJpn": "花柱は子房に頂生する",
+		"characterDetail": "In this type, the style is not positioned terminally, but is basal or laterally on the ovary or fruit. This is common in the Sapindaceae and Sabiaceae.",
+		"characterDetailJpn": "花柱は終端に位置せず、子房または果実の基部や側面に位置している。これは、ムクロジ科およびアワブキ科に一般的である。",
+		"categoryId": "15"
+	},
+	{
+		"id": "104",
+		"character": "Inferior ovary",
+		"characterJpn": "子房下位",
+		"characterDetail": "When the ovary is completely embedded in the hypanthium and positioned below the other floral parts, it is termed inferior. In cases like the Rubiaceae and Caprifoliaceae, it is the rule; in still other families like Dipterocarpaceae, inferior ovaries are the exception. Still others have a semi-inferior ovary (indicated so in our list).",
+		"characterDetailJpn": "子房が、完全に花托筒に埋め込まれ、他の花部よりも下に位置している場合、それは「子房下位」と呼ばれる。アカネ科やスイカズラ科のような場合では、これが標準である。一方で、フタバガキ科のような科では、子房下位は例外である。さらに他の科では、半子房下位のものもある（リストでそのように示されている）。",
+		"categoryId": "15"
+	},
+	{
+		"id": "105",
+		"character": "White fruits",
+		"characterJpn": "果実は白色",
+		"characterDetail": "Fruits most often ripen yellow, red or black. Comparatively fewer fruits ripen white. This kind of character is recorded by collectors on specimen labels.",
+		"characterDetailJpn": "果実は、最も一般的には黄色、赤、または黒に熟す。比較的少数の果実が白に熟す。この特徴は、採集者が標本ラベルに記録するものである。",
+		"categoryId": "16"
+	},
+	{
+		"id": "106",
+		"character": "Blue fruits and seeds",
+		"characterJpn": "果実・種子は青色",
+		"characterDetail": "Fruits that ripen blue are rather unusual. Again, recognition of this character from dried specimens is dependent on collectors having recorded fruit colour.",
+		"characterDetailJpn": "青く熟す果実はかなり珍しい。この特徴を乾燥標本から認識するには、採集者が果実の色を記録していなければならない。",
+		"categoryId": "16"
+	},
+	{
+		"id": "107",
+		"character": "Woody fruits with seeds scattered in the placenta",
+		"characterJpn": "果実は木質で胎座に種子が散らばる",
+		"characterDetail": "Large woody fruits that contain many seeds scattered in the placenta are also distinctive, such as in species of Hydnocarpus (Achariaceae) and Xanthophyllum (Polygalaceae).",
+		"characterDetailJpn": "多くの種子が胎座に散在している、大きな木質の果実も特徴的である。例えば、アカリア科のHydnocarpus属やヒメハギ科のXanthophyllum属の種がその例である。",
+		"categoryId": "16"
+	},
+	{
+		"id": "108",
+		"character": "Muricate (spiny), tuberculate or rugose fruits",
+		"characterJpn": "果実はとげ状、いぼ状、またはしわがある",
+		"characterDetail": "These fruits have soft processes (e.g., Nephelium, Sapindaceae), stiff spines (e.g. Castanopsis, Fagaceae), short tubercles (e.g., Xerospermum, Sapindaceae) or a rugose (rough-patterned) surface (e.g., Parinari, Chrysobalanaceae)",
+		"characterDetailJpn": "これらの果実は、柔らかい突起（ex.ムクロジ科のNephelium属）、硬い棘（ex. ブナ科のシイ属）、短い突起（ex. ムクロジ科のXerospermum属）または粗い模様の表面（ex. クリソバラヌス科のParinari属）がある。",
+		"categoryId": "16"
+	},
+	{
+		"id": "109",
+		"character": "Winged fruits",
+		"characterJpn": "果実に翼がある",
+		"characterDetail": "Laminate (thin, wing-like) appendages on or accompanying fruits are of different origin: in Dipterocarpaceae the wings are formed by accrescent calyx lobes; in Engelhardia (Juglandaceae) the bracts are the 'wings'; in Combretum (Combretaceae) the fruit surface is provided with thin laminate wings; and in Pterocarpus (Leguminosae) the fruit is a samara (flat, with a laminate extension around).",
+		"characterDetailJpn": "果実に付随する薄い翼状の付属物（Laminate）は異なる起源を持つ。フタバガキ科では、翼は成長する萼片によって形成される。クルミ科のEngelhardia属では、苞が「翼」となる。シクンシ科のCombretum属では、果実の表面に薄い翼が付く。そして、マメ科のPterocarpus属では、果実はsamara（平らで、周囲に翼状の拡張部を持つ）である。",
+		"categoryId": "16"
+	},
+	{
+		"id": "110",
+		"character": "Ridged fruits or fruit portions (follicles)",
+		"characterJpn": "果実または一部に稜がある（袋果）",
+		"characterDetail": "Fruits with conspicuous longitudinal ridges are typical of a number of plants",
+		"characterDetailJpn": "果実に顕著な縦方向の隆起を持つものは、多くの植物に典型的である。",
+		"categoryId": "16"
+	},
+	{
+		"id": "111",
+		"character": "Globular/ellipsoid capsules splitting into 5(-6) parts",
+		"characterJpn": "蒴果で球状/楕円形に5（-6）裂する",
+		"characterDetail": "These are rounded, globular or ellipsoid fruits that split at the top when mature.",
+		"characterDetailJpn": "これらは、成熟すると頂部で裂ける丸い、球状または楕円形の果実である。",
+		"categoryId": "16"
+	},
+	{
+		"id": "112",
+		"character": "Trilocular capsules",
+		"characterJpn": "3室の蒴果",
+		"characterDetail": "To the Malesian botanist, trilocular capsules, or fruits splitting on maturity to reveal three seed chambers within, immediately suggest the rubber-tree family (Euphorbiaceae) or Phyllanthus family (Phyllanthaceae), but in fact they are found also in a small number of other families.",
+		"characterDetailJpn": "マレシア植物区の植物学者にとって、三室の蒴果、すなわち成熟時に裂けて三つの種子室を露出する果実は、すぐにトウダイグサ科やアブラナ科を連想させるが、実際には他の少数の科にも見られる。",
+		"categoryId": "16"
+	},
+	{
+		"id": "113",
+		"character": "Moniliform fruits",
+		"characterJpn": "果実は数珠状",
+		"characterDetail": "A fruit is described as moniliform when it resembles a string of beads, ie., a slender, elongated fruit constricted between seed chambers.",
+		"characterDetailJpn": "果実がビーズの連なりのように見える場合、つまり、種子室の間がくびれている細長い果実を「数珠状（Moniliform）」と表現する。",
+		"categoryId": "16"
+	},
+	{
+		"id": "114",
+		"character": "Compound fruits",
+		"characterJpn": "複合果",
+		"characterDetail": "These are the fruit heads where several to many fruits are connate into a single structure, e.g., Artocarpus (Moraceae), Rubus (Rosaceae) and Nauclea (Rubiaceae).",
+		"characterDetailJpn": "これらは、いくつかから多数の果実が融合して一つの構造を形成する果実頭である。例えば、クワ科のパンノキ属（Artocarpus）、バラ科のキイチゴ属（Rubus）、およびアカネ科のナウクレア属（Nauclea）がその例である。",
+		"categoryId": "16"
+	},
+	{
+		"id": "115",
+		"character": "Apocarpous fruits",
+		"characterJpn": "離生心皮果（1つの花に複数果実：集合袋果）",
+		"characterDetail": "These are fruits in which the carpels are partially free, e.g., in Dillenia (Dilleniaceae), Illicium (Schisandraceae), or completely free, e.g., many Annonaceae.",
+		"characterDetailJpn": "心皮が部分的に自由である果実（例えば、ビワモドキ科のDillenia属やマツブサ科のIllicium属）、または、完全に自由である果実（ex. バンレイシ科の多く）である。",
+		"categoryId": "16"
+	},
+	{
+		"id": "116",
+		"character": "Winged seeds",
+		"characterJpn": "種子に翼がある",
+		"characterDetail": "These are seeds provided with a thin, often membranous, wing-like extension, usually more pronounced at one end, or on opposite sides or all around",
+		"characterDetailJpn": "薄くしばしば膜状の翼状の拡張部を持つ種子であり、通常は一端、または両側、もしくは全体にわたって顕著に見られる。",
+		"categoryId": "17"
+	},
+	{
+		"id": "117",
+		"character": "Comose Seeds",
+		"characterJpn": "種子に冠毛がある",
+		"characterDetail": "Seeds provided with hair tufts are described as comose. In some seeds there is a single tuft of hairs at one end, in some others two conspicuous opposite hair tufts are found.",
+		"characterDetailJpn": "毛束を持つ種子は、綿毛（comose）をもつと表現される。いくつかの種子では一端に一つの毛束があり、他の種子では対向する二つの顕著な毛束が見られる。",
+		"categoryId": "17"
+	},
+	{
+		"id": "118",
+		"character": "Arillate seeds",
+		"characterJpn": "種子に仮種皮がある",
+		"characterDetail": "Some seeds have a more-or-less fleshy and coloured 'jacket\" around the seed. formed by an outgrowth of the funicle; this jacket is the seed aril. Other seeds may have a similar cover called a sarcotesta, which is developed from the outer part of the seed coat directly and so is attached all over the seed surface; these are also grouped here for their similar appearance (many specimen labels will generally note one type or the other).",
+		"characterDetailJpn": "いくつかの種子は、種子の周りに多かれ少なかれ肉質で色の付いた「ジャケット」を持っており、これは珠柄の成長によって形成される。このジャケットは種子の仮種皮（aril）である。他の種子は、肉質種皮（sarcotesta）と呼ばれる類似の覆いを持つことがあり、これは種皮の外側部分から直接発達し、種子の表面全体に付着している。これらも外観が似ているため、ここに分類される（多くの標本ラベルには、一方のタイプまたはもう一方のタイプが記載されていることが多い）。",
+		"categoryId": "17"
+	},
+	{
+		"id": "119",
+		"character": "Ruminate endosperm",
+		"characterJpn": "反芻胚乳",
+		"characterDetail": "The seed endosperm is ruminate when it makes an uneven boundary with the seed coat, especially when it is intruded by ingrowths of the seed coat. When conspicuously ruminate, the endosperm in cross section looks like 'brains'. Notwithstanding, Bayer & Appel (1996) have pointed out that in some cases (Dipterocarpaceae p.p., Malvaceae p.p.) the endosperm has been absorbed as the embryo matures, leaving only 'ruminate cotyledons' or 'ruminate embryos'. We have not included additional families from their list because their examples may not apply to Malesian plants and, as they correctly note, the list cannot be complete as more will (need to) be specifically discovered in due time. Families listed by Bayer & Appel (1996) that occur in Malesia but not in our list include: Acanthaceae (Andrographis), Ancistrocladaceae, Apiaceae, Asparagaceae (incl. Agavaceae, Dracaena, etc.), Commelinaceae, Cornaceae, Euphorbiaceae, Marantaceae, Olacaceae, Oxalidaceae, Poaceae, Proteaceae, Rhamnaceae. Santalaceae (incl. Viscaceae), Scrophulariaceae (incl. Buddleja).",
+		"characterDetailJpn": "種子の胚乳が、種皮と不均一な境界を形成し、特に種皮の成長で侵入される場合、「反芻胚乳」と呼ばれる。明らかに隆起している場合、胚乳の断面は「脳」のように見える。それにもかかわらず、Bayer & Appel（1996）は、いくつかのケース（フタバガキ科の一部、アオイ科の一部）では、胚乳が胚の成熟とともに吸収され、結果として「隆起子葉ruminate cotyledons」または「隆起胚ruminate embryos」だけが残ることを指摘している。彼らのリストから追加の科を含めていないのは、彼らの例がマレシアの植物には当てはまらない可能性があり、正しく指摘されているように、このリストは完全ではなく、さらに具体的な発見が必要となるためである。Bayer & Appel（1996）によってリストアップされ、マレシアに存在するが我々のリストには含まれていない科には、以下のものがある：キツネノマゴ科（Andrographis）、ツクバネカズラ科、セリ科、キジカクシ科（アガベ科、ドラセナ属などを含む）、ツユクサ科、ミズキ科、トウダイグサ科、クズウコン科、モクセイ科、カタバミ科、イネ科、ヤマモガシ科、クロウメモドキ科、ビャクダン科（ヤドリギ科を含む）、ゴマノハグサ科（フジウツギ属を含む）。",
+		"categoryId": "17"
+	}
 ]
