@@ -29,14 +29,59 @@ export function usePlantData() {
         isDataLoaded.value = true;
     }
 
-    // 名前検索
-    const searchByName = (name: string): Plant[] => {
-        return plants.value.filter(plant => plant.scientificName.includes(name));
+    /**
+     * 上位分類の植物を取得（属以上の分類）
+     * @return {*}  {Plant[]}
+     */
+    const getHigherTaxa = (): Plant[] => {
+        return plants.value.filter((plant) => plant.species === "");
     };
 
-    // 特徴検索
-    const searchByCharacters = (characters: string[]): Plant[] => {
-        return plants.value.filter(plant => characters.every(f => plant.characters.includes(f)));
+    /**
+     * 下位分類の植物を取得（種以下）
+     * @return {*}  {Plant[]}
+     */
+    const getLowerTaxa = (): Plant[] => {
+        return plants.value.filter((plant) => plant.species !== "");
+    };
+
+    /**
+     * 上位分類の植物
+     * すべてのtrueキーを含んでいる
+     * @param trueKeys 
+     * @returns 
+     */
+    const filterHigherTaxa = (
+        trueKeys: string[]
+    ): Plant[] => {
+        return getHigherTaxa().filter((plant) => {
+            if (trueKeys.length === 0) return true;
+            return trueKeys.every((key) => plant.characters.includes(key));
+        });
+    };
+
+    /**
+     * 下位分類の植物
+     * すべてのtrueキーを含んでいる
+     * かつfalseキーを含んでいない
+     * @param trueKeys 
+     * @param falseKeys 
+     * @returns 
+     */
+    const filterLowerTaxa = (
+        trueKeys: string[],
+        falseKeys: string[]
+    ): Plant[] => {
+        return getLowerTaxa().filter((plant) => {
+            const hasAllTrueKeys =
+                trueKeys.length === 0
+                    ? true
+                    : trueKeys.every((key) => plant.characters.includes(key));
+            const hasNoFalseKeys = !falseKeys.some((key) =>
+                plant.characters.includes(key)
+            );
+            return hasAllTrueKeys && hasNoFalseKeys;
+        });
     };
 
     return {
@@ -44,7 +89,9 @@ export function usePlantData() {
         characterSet: characterSet,
         categorySet: categorySet,
         loadPlantData,
-        searchByName,
-        searchByCharacters,
+        getHigherTaxa,
+        getLowerTaxa,
+        filterHigherTaxa,
+        filterLowerTaxa
     };
 }

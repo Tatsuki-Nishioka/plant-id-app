@@ -184,7 +184,9 @@ watch([(): string => props.category, (): Question => props.question], ([newCateg
     top: 0;
     right: 0;
     padding: 1rem;
-    margin: 0 1rem  ;
+    margin: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
     color: gray;
 }
 

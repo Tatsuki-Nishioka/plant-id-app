@@ -43,7 +43,7 @@ const showModal = (key: string) => {
 <style scoped>
 .result-card {
     border: 1px solid #ccc;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     border-radius: 8px;
     background-color: #fff;
     cursor: pointer;
@@ -72,12 +72,12 @@ const showModal = (key: string) => {
 }
 
 .toggle-icon {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     margin-left: 0.5rem;
 }
 
 .result-card ul {
-    margin-top: 1rem;
+    margin: 1rem 0 0.5rem;
     padding-left: 0.25rem;
     list-style-type: none;
     /* デフォルトのリストスタイルを消す */

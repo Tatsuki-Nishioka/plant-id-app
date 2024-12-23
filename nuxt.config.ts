@@ -58,8 +58,9 @@ export default defineNuxtConfig({
             }
         ],
     },
-    workbox: { // なんか必要
-        navigateFallback: null
+    workbox: {
+        globPatterns: ['**/*.{js,css,html,png,svg,ico,webmanifest}'],
+        navigateFallback: '/'
     },
     devOptions: { // テスト用
         enabled: true,

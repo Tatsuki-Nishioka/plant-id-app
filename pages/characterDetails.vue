@@ -10,7 +10,8 @@
                     <div class="category-description">
                         <p>{{ category.content }}</p> <!-- カテゴリの説明を追加 -->
                     </div>
-                    <div v-for="character in charactersMap.get(category.category) ?? []" :key="character.label"
+                    <div
+                        v-for="character in charactersMap.get(category.category) ?? []" :key="character.label"
                         class="card">
                         <div class="accordion-header" @click="showModal(character)">
                             <p>{{ character.label }}</p>
@@ -33,7 +34,6 @@ type Item = {
     isOpen: boolean;
 };
 
-const characterSet = usePlantData().characterSet;
 const categorySet = usePlantData().categorySet;
 const charactersMap = ref(new Map<string, Item[]>());
 const categoryList = ref<Item[]>([]);
@@ -42,7 +42,7 @@ const isModalVisible = ref(false);
 const modalTitle = ref('');
 const modalContent = ref('');
 
-Object.entries(characterSet.value).forEach(([_key, character]) => {
+Object.entries(usePlantData().characterSet.value).forEach(([_key, character]) => {
     const temp: Item = {
         category: categorySet.value[character.categoryId].categoryJpn,
         label: character.id + '. ' + character.characterJpn,
@@ -88,7 +88,7 @@ const showModal = (item: Item) => {
 
 .accordion {
     border: 1px solid #ccc;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     padding-bottom: 0;
     border-radius: 8px;
     background-color: #fff;
@@ -117,6 +117,7 @@ const showModal = (item: Item) => {
 
 .info-icon {
     font-size: 1rem;
+    font-weight: bolder;
     margin-right: 0.5rem;
 }
 
@@ -124,8 +125,9 @@ const showModal = (item: Item) => {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     color: #66bb6a;
+    font-weight: bold;
 }
 
 .accordion-header {
@@ -134,6 +136,7 @@ const showModal = (item: Item) => {
     align-items: center;
     margin: 0 .25rem .25rem;
     padding: 0.25rem 0;
+    font-weight: bold;
 }
 
 .accordion-content {
@@ -159,14 +162,5 @@ const showModal = (item: Item) => {
 
 .card p {
     margin: .25rem;
-}
-
-.card-header {
-    padding: 0.25rem;
-    background-color: #e0e0e0;
-}
-
-.card-content {
-    padding: 0.25rem;
 }
 </style>
