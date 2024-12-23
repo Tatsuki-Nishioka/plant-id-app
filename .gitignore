@@ -82,6 +82,7 @@ web_modules/
 .nitro
 .cache
 dist
+docs/
 
 # Gatsby files
 .cache/

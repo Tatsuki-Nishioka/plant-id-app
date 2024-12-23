@@ -30,49 +30,73 @@ export function usePlantData() {
     }
 
     /**
-     * 上位分類の植物を取得（属以上の分類）
+     * 科を取得
      * @return {*}  {Plant[]}
      */
-    const getHigherTaxa = (): Plant[] => {
-        return plants.value.filter((plant) => plant.species === "");
+    const getFamilies = (): Plant[] => {
+        return plants.value.filter((plant) => plant.species === "" && plant.genus === "");
     };
 
     /**
-     * 下位分類の植物を取得（種以下）
+     * 属を取得
      * @return {*}  {Plant[]}
      */
-    const getLowerTaxa = (): Plant[] => {
+    const getGenera = (): Plant[] => {
+        return plants.value.filter((plant) => plant.species === "" && plant.genus !== "");
+    }
+
+
+    /**
+     * 種を取得
+     * @return {*}  {Plant[]}
+     */
+    const getSpecies = (): Plant[] => {
         return plants.value.filter((plant) => plant.species !== "");
     };
 
     /**
-     * 上位分類の植物
+     * 科を特徴でフィルタ
      * すべてのtrueキーを含んでいる
      * @param trueKeys 
      * @returns 
      */
-    const filterHigherTaxa = (
+    const filterFamilies = (
         trueKeys: string[]
     ): Plant[] => {
-        return getHigherTaxa().filter((plant) => {
+        return getFamilies().filter((plant) => {
             if (trueKeys.length === 0) return true;
             return trueKeys.every((key) => plant.characters.includes(key));
         });
     };
 
     /**
-     * 下位分類の植物
+     * 属を特徴でフィルタ
+     * すべてのtrueキーを含んでいる
+     * @param trueKeys 
+     * @returns 
+     */
+        const filterGenera = (
+            trueKeys: string[]
+        ): Plant[] => {
+            return getGenera().filter((plant) => {
+                if (trueKeys.length === 0) return true;
+                return trueKeys.every((key) => plant.characters.includes(key));
+            });
+        };
+
+    /**
+     * 種を特徴でフィルタ
      * すべてのtrueキーを含んでいる
      * かつfalseキーを含んでいない
      * @param trueKeys 
      * @param falseKeys 
      * @returns 
      */
-    const filterLowerTaxa = (
+    const filterSpecies = (
         trueKeys: string[],
         falseKeys: string[]
     ): Plant[] => {
-        return getLowerTaxa().filter((plant) => {
+        return getSpecies().filter((plant) => {
             const hasAllTrueKeys =
                 trueKeys.length === 0
                     ? true
@@ -89,9 +113,11 @@ export function usePlantData() {
         characterSet: characterSet,
         categorySet: categorySet,
         loadPlantData,
-        getHigherTaxa,
-        getLowerTaxa,
-        filterHigherTaxa,
-        filterLowerTaxa
+        getFamilies,
+        getGenera,
+        getSpecies,
+        filterFamilies,
+        filterGenera,
+        filterSpecies,
     };
 }

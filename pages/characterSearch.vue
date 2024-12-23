@@ -12,10 +12,12 @@
                 <div class="tabs">
                     <input id="radio-1" v-model="selectedTaxa" type="radio" value="all">
                     <label class="tab" for="radio-1">すべて</label>
-                    <input id="radio-2" v-model="selectedTaxa" type="radio" value="higher">
-                    <label class="tab" for="radio-2">科～属</label>
-                    <input id="radio-3" v-model="selectedTaxa" type="radio" value="lower">
-                    <label class="tab" for="radio-3">種</label>
+                    <input id="radio-2" v-model="selectedTaxa" type="radio" value="family">
+                    <label class="tab" for="radio-2">科</label>
+                    <input id="radio-3" v-model="selectedTaxa" type="radio" value="genus">
+                    <label class="tab" for="radio-3">属</label>
+                    <input id="radio-4" v-model="selectedTaxa" type="radio" value="species">
+                    <label class="tab" for="radio-4">種</label>
                     <span class="glider"/>
                 </div>
                 <button class="reset-button" @click="resetSearch">もう一度検索する</button>
@@ -85,21 +87,26 @@ const taxa = computed(() => {
         }
     });
 
-    const higherTaxa = plantData.filterHigherTaxa(trueKeys);
-    const lowerTaxa = plantData.filterLowerTaxa(trueKeys, falseKeys);
-    const allTaxa = higherTaxa.concat(lowerTaxa);
+    const families = plantData.filterFamilies(trueKeys);
+    const genera = plantData.filterGenera(trueKeys);
+    const species = plantData.filterSpecies(trueKeys, falseKeys);
+    const allTaxa = [...families, ...genera, ...species];
 
-    return { higherTaxa, lowerTaxa, allTaxa };
+    return { families, genera, species, allTaxa };
 });
 
 // 結果画面の選択分類群を監視
 const filteredPlants = computed(() => {
-    if (selectedTaxa.value === 'all') {
-        return taxa.value.allTaxa;
-    } else if (selectedTaxa.value === 'higher') {
-        return taxa.value.higherTaxa;
-    } else {
-        return taxa.value.lowerTaxa;
+    switch (selectedTaxa.value) {
+        case 'family':
+            return taxa.value.families;
+        case 'genus':
+            return taxa.value.genera;
+        case 'species':
+            return taxa.value.species;
+        case 'all':
+        default:
+            return taxa.value.allTaxa;
     }
 });
 
@@ -140,6 +147,10 @@ const prevQuestion = () => {
 
 const nextQuestion = () => {
     if (currentStep.value < questions.value.length - 1) {
+        const key = (currentStep.value + 1).toString();
+        if (useAnswers().getAnswer(key) === undefined) { 
+            useAnswers().setAnswer(key, null);
+        }
         currentStep.value++;
     }
 };
@@ -190,7 +201,7 @@ const nextQuestion = () => {
     align-items: center;
     justify-content: center;
     height: 1.5rem;
-    width: 3rem;
+    width: 2.5rem;
     font-size: .8rem;
     color: black;
     font-weight: 500;
@@ -215,11 +226,15 @@ const nextQuestion = () => {
     transform: translateX(200%);
 }
 
+.tabs input[id="radio-4"]:checked~.glider {
+    transform: translateX(300%);
+}
+
 .glider {
     position: absolute;
     display: flex;
-    height: 1.5rem;
-    width: 3rem;
+    height: 1.75rem;
+    width: 2.5rem;
     background-color: #e6eef9;
     z-index: 1;
     border-radius: 4px;
