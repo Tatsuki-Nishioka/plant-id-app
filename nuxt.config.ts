@@ -31,6 +31,7 @@ export default defineNuxtConfig({
         theme_color: "#4caf50", // テーマカラー
         lang: "ja",
         short_name: "マレシア植物同定",
+        scope: "/plant-id-app/",
         start_url: "/plant-id-app/",
         display: "standalone",
         background_color: "#ffffff",
