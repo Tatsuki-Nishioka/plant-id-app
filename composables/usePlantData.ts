@@ -5,14 +5,12 @@ import master from '~/static/master.json';
 
 export function usePlantData() {
     const plants = useState<Plant[]>('plants', () => [])
+    const families = useState<Plant[]>('families', () => [])
+    const genera = useState<Plant[]>('genera', () => [])
+    const species = useState<Plant[]>('species', () => [])
     const characterSet = useState<CharacterSet>('characterSet', () => ({}))
     const categorySet = useState<CategorySet>('categorySet', () => ({}))
     const isDataLoaded = useState<boolean>('isDataLoaded', () => false)
-
-    // 内部でのみ使用する変数をrefで定義
-    const families = ref<Plant[]>([]);
-    const genera = ref<Plant[]>([]);
-    const species = ref<Plant[]>([]);
 
     // データの読み込み
     const loadPlantData = () => {
