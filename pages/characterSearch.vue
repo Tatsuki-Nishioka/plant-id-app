@@ -23,7 +23,7 @@
                 <button class="reset-button" @click="resetSearch">もう一度検索する</button>
             </div>
             <div v-for="plant in filteredPlants" :key="plant.scientificName">
-                <ResultCard :character-set="characterSet" :plant="plant" />
+                <ResultCard :plant="plant" />
             </div>
         </div>
     </div>

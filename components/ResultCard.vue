@@ -1,49 +1,70 @@
 <template>
     <div class="result-card">
-        <div class="header" @click="toggleDetails">
-            <h4>{{ plant.scientificName }}</h4>
-            <span class="toggle-icon">{{ showDetails ? '▲' : '▼' }}</span>
+        <div class="family-name">{{ familyName }}</div>
+        <div class="card-container">
+            <div class="header" @click="toggleDetails">
+                <h4>{{ plant.scientificName }}</h4>
+                <span class="toggle-icon">{{ showDetails ? '▲' : '▼' }}</span>
+            </div>
+            <ul v-if="showDetails">
+                <li class="plant-name">{{ japaneseName }}</li>
+                <li v-for="key in plant.characters" :key="key" class="character-item" @click="showModal(key)">
+                    <span class="character-key">{{ key }}</span>
+                    <span class="character-colon">：</span>
+                    <span class="character-value">{{ characterSet[key]?.characterJpn }}</span>
+                    <span class="character-info-button">ⓘ</span>
+                </li>
+            </ul>
         </div>
-        <ul v-if="showDetails">
-            <li v-for="key in plant.characters" :key="key" class="character-item" @click="showModal(key)">
-                <span class="character-key">{{ key }}</span>
-                <span class="character-colon">：</span>
-                <span class="character-value">{{ characterSet[key]?.characterJpn }}</span>
-                <span class="character-info-button">ⓘ</span>
-            </li>
-        </ul>
         <CharacterModal v-model:model-value="isModalVisible" :title="modalTitle" :content="modalContent" />
     </div>
 </template>
 
 <script setup lang="ts">
-import type { CharacterSet, Plant } from '~/types/plant';
+import type { Plant } from '~/types/plant';
 
 const props = defineProps<{
     plant: Plant;
-    characterSet: CharacterSet;
 }>();
 
+// マスタデータの取得
+const characterSet = usePlantData().characterSet;
+
+// 画面の表示内容と制御
 const showDetails = ref(false);
 const isModalVisible = ref(false);
 const modalTitle = ref('');
 const modalContent = ref('');
+
+const familyName = computed(() => {
+    if (props.plant.genus === '') return props.plant.familyJpn || '　';
+    return props.plant.family;
+});
+
+const japaneseName = computed(() => {
+    if (props.plant.genus === '') return '';
+
+    let name = props.plant.familyJpn
+    if (props.plant.genusJpn) name += ' / ' + props.plant.genusJpn
+    return name;
+});
 
 const toggleDetails = (): void => {
     showDetails.value = !showDetails.value;
 };
 
 const showModal = (key: string) => {
-    modalTitle.value = key + ". " + props.characterSet[key]?.characterJpn;
-    modalContent.value = usePlantData().characterSet.value[key]?.characterDetailJpn ?? '詳細情報がありません';
+    modalTitle.value = key + ". " + characterSet.value[key]?.characterJpn;
+    modalContent.value = characterSet.value[key]?.characterDetailJpn ?? '詳細情報がありません';
     isModalVisible.value = true;
 };
 </script>
 
 <style scoped>
 .result-card {
+    flex-direction: column;
     border: 1px solid #ccc;
-    padding: 0.75rem 1rem;
+    padding: 0 1rem 0.75rem;
     border-radius: 8px;
     background-color: #fff;
     cursor: pointer;
@@ -53,12 +74,24 @@ const showModal = (key: string) => {
     /* 影のトランジションを追加 */
     margin-bottom: 0.125rem;
     /* 要素間の間隔を追加 */
-    -webkit-tap-highlight-color: transparent; /* スマホでのクリック時の選択色を消す */
+    -webkit-tap-highlight-color: transparent;
+    /* スマホでのクリック時の選択色を消す */
 }
 
 .result-card:hover {
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.075);
     /* ホバー時の影を追加 */
+}
+
+.family-name {
+    font-size: 0.65rem;
+    color: #666;
+    place-self: flex-end;
+    margin-right: 0.75rem;
+}
+
+.card-container {
+    flex-direction: row;
 }
 
 .header {
@@ -68,17 +101,25 @@ const showModal = (key: string) => {
 }
 
 .result-card h4 {
+    font-size: 1rem;
     margin: 0;
 }
 
 .toggle-icon {
     font-size: 0.5rem;
-    margin-left: 0.5rem;
+}
+
+.plant-name {
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    place-self: flex-end;
 }
 
 .result-card ul {
-    margin: 1rem 0 0.5rem;
+    margin: 0.25rem 0 0.5rem;
     padding-left: 0.25rem;
+    font-size: 0.9rem;
     list-style-type: none;
     /* デフォルトのリストスタイルを消す */
 }

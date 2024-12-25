@@ -137,6 +137,7 @@ const showModal = (item: Item) => {
     margin: 0 .25rem .25rem;
     padding: 0.25rem 0;
     font-weight: bold;
+    font-size: 0.9rem;
 }
 
 .accordion-content {

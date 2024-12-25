@@ -14,11 +14,6 @@
 <script setup lang="ts">
 import type { Plant } from "~/types/plant";
 
-// props と emit を定義
-const props = defineProps<{
-    plants: Plant[];
-}>();
-
 const emit = defineEmits<{
     (e: "select", plant: Plant): void;
 }>();
@@ -27,7 +22,6 @@ const emit = defineEmits<{
 
 const query = ref("");
 const filteredResults = ref([] as Plant[]);
-const maxResults = ref(10); // デフォルトの最大表示数
 
 const filterResults = (): void => {
   if (!query.value) {
@@ -35,7 +29,7 @@ const filterResults = (): void => {
     return;
   }
 
-  filteredResults.value = props.plants.filter((plant) =>
+  filteredResults.value = usePlantData().plants.value.filter((plant) =>
     plant.scientificName.toLowerCase().includes(query.value.toLowerCase())
   );
 };
@@ -44,28 +38,6 @@ const selectPlant = (plant: Plant): void => {
   emit("select", plant);
   filteredResults.value = [];
 };
-
-// props.plantsが変更されたときにfilteredResultsを更新
-watch(
-  () => props.plants,
-  (newPlants) => {
-    filteredResults.value = newPlants;
-  }
-);
-
-const adjustMaxResults = (): void => {
-  const itemHeight = 40; // 各リストアイテムの高さ（ピクセル）
-  const availableHeight = window.innerHeight - 100; // 利用可能な高さ（ピクセル）
-  maxResults.value = Math.floor(availableHeight / itemHeight);
-};
-
-onMounted(() => {
-  window.addEventListener("resize", adjustMaxResults);
-});
-
-onBeforeUnmount(() => {
-  window.removeEventListener("resize", adjustMaxResults);
-});
 </script>
 
 <style scoped>

@@ -9,6 +9,11 @@ export function usePlantData() {
     const categorySet = useState<CategorySet>('categorySet', () => ({}))
     const isDataLoaded = useState<boolean>('isDataLoaded', () => false)
 
+    // 内部でのみ使用する変数をrefで定義
+    const families = ref<Plant[]>([]);
+    const genera = ref<Plant[]>([]);
+    const species = ref<Plant[]>([]);
+
     // データの読み込み
     const loadPlantData = () => {
         if (isDataLoaded.value) return;
@@ -24,35 +29,52 @@ export function usePlantData() {
         })
 
         // 植物データを読み込む
-        plants.value = master as Plant[];
+        plants.value = master.map((record) => {
+            const japaneseName = record.japanese.startsWith('-') ? '' : record.japanese
+
+            const plant= {} as Plant;
+            plant.characters = record.characters
+            plant.scientificName = record.scientificName
+            if (record.species === '' && record.genus === '') { 
+                plant.family = record.family
+                plant.genus = ''
+                plant.species = ''
+                plant.familyJpn = japaneseName
+                plant.genusJpn = ''
+            } else if (record.species === '' && record.genus !== '') { 
+                plant.family = record.family
+                plant.genus = record.genus
+                plant.species = ''
+                plant.familyJpn = ''
+                plant.genusJpn = japaneseName
+            } else if (record.species !== '') { 
+                plant.family = record.family
+                plant.genus = record.genus
+                plant.species = record.species
+                plant.familyJpn = ''
+                plant.genusJpn = ''
+            }
+            return plant;
+        })
+        // データを科・属・種に分割
+        // 科
+        families.value = plants.value.filter((plant) => plant.species === '' && plant.genus === '')
+        // 属
+        // 科の和名を補完
+        genera.value = plants.value.filter((plant) => plant.species === '' && plant.genus !== '')
+        for (const genus of genera.value) {
+            genus.familyJpn = families.value.find((family) => family.family === genus.family)?.familyJpn ?? ''
+        }
+        // 種
+        // 属・科の和名を補完
+        species.value = plants.value.filter((plant) => plant.species !== '')
+        for (const speciesIte of species.value) {
+            speciesIte.familyJpn = families.value.find((family) => family.family === speciesIte.family)?.familyJpn ?? ''
+            speciesIte.genusJpn = genera.value.find((genus) => genus.genus === speciesIte.genus)?.genusJpn ?? ''
+        }
 
         isDataLoaded.value = true;
     }
-
-    /**
-     * 科を取得
-     * @return {*}  {Plant[]}
-     */
-    const getFamilies = (): Plant[] => {
-        return plants.value.filter((plant) => plant.species === "" && plant.genus === "");
-    };
-
-    /**
-     * 属を取得
-     * @return {*}  {Plant[]}
-     */
-    const getGenera = (): Plant[] => {
-        return plants.value.filter((plant) => plant.species === "" && plant.genus !== "");
-    }
-
-
-    /**
-     * 種を取得
-     * @return {*}  {Plant[]}
-     */
-    const getSpecies = (): Plant[] => {
-        return plants.value.filter((plant) => plant.species !== "");
-    };
 
     /**
      * 科を特徴でフィルタ
@@ -63,7 +85,7 @@ export function usePlantData() {
     const filterFamilies = (
         trueKeys: string[]
     ): Plant[] => {
-        return getFamilies().filter((plant) => {
+        return families.value.filter((plant) => {
             if (trueKeys.length === 0) return true;
             return trueKeys.every((key) => plant.characters.includes(key));
         });
@@ -78,7 +100,7 @@ export function usePlantData() {
         const filterGenera = (
             trueKeys: string[]
         ): Plant[] => {
-            return getGenera().filter((plant) => {
+            return genera.value.filter((plant) => {
                 if (trueKeys.length === 0) return true;
                 return trueKeys.every((key) => plant.characters.includes(key));
             });
@@ -96,7 +118,7 @@ export function usePlantData() {
         trueKeys: string[],
         falseKeys: string[]
     ): Plant[] => {
-        return getSpecies().filter((plant) => {
+        return species.value.filter((plant) => {
             const hasAllTrueKeys =
                 trueKeys.length === 0
                     ? true
@@ -113,9 +135,6 @@ export function usePlantData() {
         characterSet: characterSet,
         categorySet: categorySet,
         loadPlantData,
-        getFamilies,
-        getGenera,
-        getSpecies,
         filterFamilies,
         filterGenera,
         filterSpecies,

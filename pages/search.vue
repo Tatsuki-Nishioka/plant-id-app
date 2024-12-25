@@ -1,9 +1,9 @@
 <template>
     <div class="container">
-        <SearchBar :plants="plants" @select="handleSelect" />
+        <SearchBar @select="handleSelect" />
 
         <div v-if="selectedPlant" class="plant-details">
-            <ResultCard class="result-card" :character-set="characterSet" :plant="selectedPlant" />
+            <ResultCard class="result-card" :plant="selectedPlant" />
             <button @click="clearSelection">戻る</button>
         </div>
     </div>
@@ -13,10 +13,6 @@
 import SearchBar from "~/components/SearchBar.vue";
 import ResultCard from "~/components/ResultCard.vue";
 import type { Plant } from "~/types/plant";
-
-const plantData = usePlantData();
-const plants = plantData.plants;
-const characterSet = plantData.characterSet;
 
 const selectedPlant = ref<Plant | null>(null);
 

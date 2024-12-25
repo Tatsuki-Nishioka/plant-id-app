@@ -118,12 +118,6 @@ const nextQuestion = (): void => {
     emit('next');
 };
 
-watch(() => isFirstQuestionInCategory.value, (newValue) => {
-    if (newValue) {
-        answersByCurrentCategory.value = [];
-    }
-});
-
 // 質問が変わったらselectedOptionを更新
 watch(() => props.question, (newQuestion) => {
     const answerBool = useAnswers().getAnswer(newQuestion.key);
@@ -142,13 +136,17 @@ watch(() => props.question, (newQuestion) => {
 watch([(): string => props.category, (): Question => props.question], ([newCategory]) => {
     if (newCategory !== previousCategory.value) {
         isFirstQuestionInCategory.value = true;
-        answersByCurrentCategory.value = [];
         previousCategory.value = newCategory;
     } else {
         isFirstQuestionInCategory.value = false;
     }
 });
 
+watch(() => isFirstQuestionInCategory.value, (newValue) => {
+    if (newValue) {
+        answersByCurrentCategory.value = [];
+    }
+});
 </script>
 
 <style scoped>
