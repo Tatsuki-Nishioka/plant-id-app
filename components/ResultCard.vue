@@ -87,7 +87,7 @@ const showModal = (key: string) => {
     font-size: 0.65rem;
     color: #666;
     place-self: flex-end;
-    margin-right: 0.75rem;
+    margin: 0.1rem 0.5rem 0 0;
 }
 
 .card-container {
