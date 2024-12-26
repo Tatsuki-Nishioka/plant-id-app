@@ -1,13 +1,13 @@
 <template>
     <div class="result-card">
-        <div class="family-name">{{ familyName }}</div>
+        <div class="family-name">{{ getFamilyName() }}</div>
         <div class="card-container">
             <div class="header" @click="toggleDetails">
                 <h4>{{ plant.scientificName }}</h4>
                 <span class="toggle-icon">{{ showDetails ? '▲' : '▼' }}</span>
             </div>
             <ul v-if="showDetails">
-                <li class="plant-name">{{ japaneseName }}</li>
+                <li class="plant-name">{{ getJapaneseName() }}</li>
                 <li v-for="key in plant.characters" :key="key" class="character-item" @click="showModal(key)">
                     <span class="character-key">{{ key }}</span>
                     <span class="character-colon">：</span>
@@ -36,18 +36,15 @@ const isModalVisible = ref(false);
 const modalTitle = ref('');
 const modalContent = ref('');
 
-const familyName = computed(() => {
+const getFamilyName = () => {
     if (props.plant.genus === '') return props.plant.familyJpn || '　';
     return props.plant.family;
-});
+};
 
-const japaneseName = computed(() => {
-    if (props.plant.genus === '') return '';
-
-    let name = props.plant.familyJpn
-    if (props.plant.genusJpn) name += ' / ' + props.plant.genusJpn
-    return name;
-});
+const getJapaneseName = () => {
+    if (props.plant.genus === '' || (props.plant.familyJpn === '' && props.plant.genusJpn === '')) return '';
+    return (props.plant.familyJpn || '-') + ' / ' + (props.plant.genusJpn || '-');
+};
 
 const toggleDetails = (): void => {
     showDetails.value = !showDetails.value;

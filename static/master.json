@@ -547,7 +547,7 @@
     "family": "Begoniaceae",
     "genus": "",
     "species": "",
-    "japanese": "シュウカイドウ科",
+    "japanese": "ベゴニア科",
     "characters": [
       "43",
       "48",
@@ -1379,7 +1379,7 @@
     "family": "Datiscaceae",
     "genus": "",
     "species": "",
-    "japanese": "ダチスカ科",
+    "japanese": "ダティスカ科",
     "characters": [
       "63",
       "70",
@@ -1641,7 +1641,7 @@
     "family": "Escalloniaceae",
     "genus": "",
     "species": "",
-    "japanese": "-",
+    "japanese": "エスカロニア科",
     "characters": [
       "45",
       "52",
@@ -1896,7 +1896,7 @@
     "family": "Haloragaceae",
     "genus": "",
     "species": "",
-    "japanese": "-",
+    "japanese": "アリノトウグサ科",
     "characters": [
       "45",
       "52",
@@ -2026,7 +2026,7 @@
     "family": "Hydroleaceae",
     "genus": "",
     "species": "",
-    "japanese": "ハイドロレア科",
+    "japanese": "ヒドロレア科",
     "characters": [
       "7"
     ]
@@ -2435,7 +2435,7 @@
     "family": "Loranthaceae",
     "genus": "",
     "species": "",
-    "japanese": "マツグミ科",
+    "japanese": "オオバヤドリギ科",
     "characters": [
       "9",
       "10",
@@ -3868,7 +3868,7 @@
     "family": "Smilacaceae",
     "genus": "",
     "species": "",
-    "japanese": "シオデ科",
+    "japanese": "サルトリイバラ科",
     "characters": [
       "4",
       "5",
@@ -3962,7 +3962,7 @@
     "family": "Stylidiaceae",
     "genus": "",
     "species": "",
-    "japanese": "スチリジウム科",
+    "japanese": "スティリジウム科",
     "characters": [
       "88",
       "91",
@@ -4236,7 +4236,7 @@
     "family": "Xyridaceae",
     "genus": "",
     "species": "",
-    "japanese": "-",
+    "japanese": "トウエンソウ科",
     "characters": [
       "1",
       "86",
@@ -4525,7 +4525,7 @@
     "family": "Cannabaceae(Ulmaceae p.p.)",
     "genus": "",
     "species": "",
-    "japanese": "カンナ属baceae(ニレ科 p.p.)",
+    "japanese": "アサ科(ニレ科 p.p.)",
     "characters": [
       "18",
       "26",
@@ -4587,7 +4587,7 @@
     "family": "Cornaceae(incl. Alangiaceae/Nyssaceae)",
     "genus": "",
     "species": "",
-    "japanese": "ミズキ科(incl. Alangiaceae/ヌマミズキ属ceae)",
+    "japanese": "ミズキ科(incl. Alangiaceae/Nyssaceae)",
     "characters": [
       "5",
       "7",
@@ -4667,7 +4667,7 @@
     "family": "Dipentodontaceae(Celastraceae p.p.)",
     "genus": "",
     "species": "",
-    "japanese": "ジペントドン科(ニシキギ科 p.p.)",
+    "japanese": "ディペントドン科(ニシキギ科 p.p.)",
     "characters": [
       "52",
       "69",
@@ -4933,7 +4933,7 @@
     "family": "Leeaceae(Vitaceae)",
     "genus": "",
     "species": "",
-    "japanese": "オオウドノキ属ceae(ブドウ科)",
+    "japanese": "Leeaceae(ブドウ科)",
     "characters": [
       "7",
       "12",
@@ -4954,7 +4954,7 @@
     "family": "Lythraceae(incl. Sonneratiaceae/Trapaceae)",
     "genus": "",
     "species": "",
-    "japanese": "ミソハギ科(incl. ハマザクロ属ceae/ヒシ属ceae)",
+    "japanese": "ミソハギ科(incl. Sonneratiaceae/Trapaceae)",
     "characters": [
       "7",
       "12",
@@ -5106,7 +5106,7 @@
     "family": "Olacaceae p.p.(Ximeniaceae)",
     "genus": "",
     "species": "",
-    "japanese": "オラクス科 p.p.(Cupressocyparisimeniaceae)",
+    "japanese": "オラクス科 p.p.(キシメニア科)",
     "characters": [
       "7",
       "58",
@@ -5161,7 +5161,7 @@
     "family": "Passifloraceae(incl. Turneraceae)",
     "genus": "",
     "species": "",
-    "japanese": "トケイソウ科(incl. ツルネラ属ceae)",
+    "japanese": "トケイソウ科(incl. Turneraceae)",
     "characters": [
       "4",
       "6",
@@ -5226,7 +5226,7 @@
     "family": "Pentastemonaceae(Stemonaceae)",
     "genus": "",
     "species": "",
-    "japanese": "クササンタンカ属temonaceae(ビャクブ科)",
+    "japanese": "Pentastemonaceae(ビャクブ科)",
     "characters": [
       "11",
       "104",
@@ -5477,7 +5477,7 @@
     "family": "Sapindaceae(incl. Aceraceae)",
     "genus": "",
     "species": "",
-    "japanese": "ムクロジ科(incl. カエデ属aceae)",
+    "japanese": "ムクロジ科(incl. Aceraceae)",
     "characters": [
       "2",
       "4",
@@ -5556,7 +5556,7 @@
     "family": "Sonneratiaceae(Lythraceae)",
     "genus": "",
     "species": "",
-    "japanese": "ハマザクロ属ceae(ミソハギ科)",
+    "japanese": "Sonneratiaceae(ミソハギ科)",
     "characters": [
       "12",
       "54",
@@ -5641,7 +5641,7 @@
     "family": "Tetramelaceae(Datiscaceae)",
     "genus": "",
     "species": "",
-    "japanese": "テトラメレス科(ダチスカ科)",
+    "japanese": "テトラメレス科(ダティスカ科)",
     "characters": [
       "51",
       "70",
@@ -5706,7 +5706,7 @@
     "family": "Trapaceae(Lythraceae)",
     "genus": "",
     "species": "",
-    "japanese": "ヒシ属ceae(ミソハギ科)",
+    "japanese": "Trapaceae(ミソハギ科)",
     "characters": [
       "52",
       "108"
@@ -5717,7 +5717,7 @@
     "family": "Turneraceae(Passifloraceae)",
     "genus": "",
     "species": "",
-    "japanese": "ツルネラ属ceae(トケイソウ科)",
+    "japanese": "Turneraceae(トケイソウ科)",
     "characters": [
       "70"
     ]
@@ -5738,7 +5738,7 @@
     "family": "Ulmaceae p.p.(Cannabaceae)",
     "genus": "",
     "species": "",
-    "japanese": "ニレ科 p.p.(カンナ属baceae)",
+    "japanese": "ニレ科 p.p.(アサ科)",
     "characters": [
       "18",
       "26",
@@ -5829,7 +5829,7 @@
     "family": "Vitaceae(incl. Leeaceae)",
     "genus": "",
     "species": "",
-    "japanese": "ブドウ科(incl. オオウドノキ属ceae)",
+    "japanese": "ブドウ科(incl. Leeaceae)",
     "characters": [
       "2",
       "3",
@@ -5863,7 +5863,7 @@
     "family": "Ximeniaceae(Olacaceae p.p.)",
     "genus": "",
     "species": "",
-    "japanese": "Cupressocyparisimeniaceae(オラクス科 p.p.)",
+    "japanese": "キシメニア科(オラクス科 p.p.)",
     "characters": [
       "7",
       "58",
@@ -6097,7 +6097,7 @@
     "family": "Elaeocarpaceae",
     "genus": "Aceratium",
     "species": "",
-    "japanese": "カエデ属atium",
+    "japanese": "-",
     "characters": [
       "43",
       "91",
@@ -6311,7 +6311,7 @@
     "family": "Rubiaceae",
     "genus": "Adinauclea",
     "species": "",
-    "japanese": "タニワタリノキ属uclea",
+    "japanese": "-",
     "characters": [
       "86"
     ]
@@ -6632,7 +6632,7 @@
     "family": "Euphorbiaceae",
     "genus": "Agrostistachys",
     "species": "",
-    "japanese": "ヌカボ属tachys",
+    "japanese": "-",
     "characters": [
       "2",
       "16",
@@ -8528,7 +8528,7 @@
     "family": "Apocynaceae",
     "genus": "Asterostemma",
     "species": "",
-    "japanese": "シオン属ostemma",
+    "japanese": "-",
     "characters": [
       "108"
     ]
@@ -9137,7 +9137,7 @@
     "family": "Begoniaceae",
     "genus": "Begonia",
     "species": "",
-    "japanese": "シュウカイドウ属",
+    "japanese": "ベゴニア属",
     "characters": [
       "43",
       "48",
@@ -10331,7 +10331,7 @@
     "family": "Cannabaceae/Ulmaceae p.p.",
     "genus": "Cannabis",
     "species": "",
-    "japanese": "カンナ属bis",
+    "japanese": "アサ属",
     "characters": [
       "49"
     ]
@@ -11466,7 +11466,7 @@
     "family": "Lauraceae",
     "genus": "Cinnadenia",
     "species": "",
-    "japanese": "フサガヤ属denia",
+    "japanese": "-",
     "characters": [
       "95",
       "99"
@@ -13038,7 +13038,7 @@
     "family": "Malvaceae",
     "genus": "Cullenia",
     "species": "",
-    "japanese": "オランダビユ属ia",
+    "japanese": "-",
     "characters": [
       "108"
     ]
@@ -15585,7 +15585,7 @@
     "family": "Polygalaceae",
     "genus": "Eriandra",
     "species": "",
-    "japanese": "オサラン属ndra",
+    "japanese": "-",
     "characters": [
       "70",
       "118"
@@ -15942,7 +15942,7 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "species": "",
-    "japanese": "-",
+    "japanese": "ニシキギ属",
     "characters": [
       "5",
       "6",
@@ -19762,7 +19762,7 @@
     "family": "Schisandraceae",
     "genus": "Kadsura",
     "species": "",
-    "japanese": "カズラ属",
+    "japanese": "サネカズラ属",
     "characters": [
       "5",
       "71",
@@ -20404,7 +20404,7 @@
     "family": "Vitaceae",
     "genus": "Leea",
     "species": "",
-    "japanese": "オオウドノキ属",
+    "japanese": "ウドノキ属",
     "characters": [
       "2",
       "7",
@@ -22007,7 +22007,7 @@
     "family": "Melastomataceae",
     "genus": "Medinilla",
     "species": "",
-    "japanese": "オオバヤドリノボタン属",
+    "japanese": "ヤドリノボタン属",
     "characters": [
       "5",
       "6",
@@ -22028,7 +22028,7 @@
     "family": "Melastomataceae",
     "genus": "Medinilla tapete-magicum",
     "species": "",
-    "japanese": "オオバヤドリノボタン属 tapete-magicum",
+    "japanese": "ヤドリノボタン属 tapete-magicum",
     "characters": [
       "79"
     ]
@@ -22842,7 +22842,7 @@
     "family": "Ericaceae",
     "genus": "Monotropastrum",
     "species": "",
-    "japanese": "シャクジョウソウ属strum",
+    "japanese": "ギンリョウソウ属",
     "characters": [
       "8"
     ]
@@ -23069,7 +23069,7 @@
     "family": "Myristicaceae",
     "genus": "Myristica",
     "species": "",
-    "japanese": "-",
+    "japanese": "ニクズク属",
     "characters": [
       "10",
       "13",
@@ -24093,7 +24093,7 @@
     "family": "Asteraceae",
     "genus": "Olearia",
     "species": "",
-    "japanese": "オリーブ属ria",
+    "japanese": "オレアリア属",
     "characters": [
       "62",
       "68",
@@ -24890,7 +24890,7 @@
     "family": "Anacardiaceae",
     "genus": "Parishia",
     "species": "",
-    "japanese": "ツクバネソウ属hia",
+    "japanese": "-",
     "characters": [
       "20",
       "21",
@@ -25192,7 +25192,7 @@
     "family": "Anacardiaceae",
     "genus": "Pentaspadon",
     "species": "",
-    "japanese": "クササンタンカ属padon",
+    "japanese": "-",
     "characters": [
       "18",
       "21",
@@ -25205,7 +25205,7 @@
     "family": "Stemonaceae/Pentastemonaceae",
     "genus": "Pentastemona",
     "species": "",
-    "japanese": "クササンタンカ属temona",
+    "japanese": "-",
     "characters": [
       "11",
       "104",
@@ -25538,7 +25538,7 @@
     "family": "Leguminosae",
     "genus": "Phylacium",
     "species": "",
-    "japanese": "イワダレソウ属cium",
+    "japanese": "-",
     "characters": [
       "5"
     ]
@@ -27058,7 +27058,7 @@
     "family": "Vitaceae",
     "genus": "Pterisanthes",
     "species": "",
-    "japanese": "イノモトソウ属anthes",
+    "japanese": "-",
     "characters": [
       "4",
       "80",
@@ -27697,7 +27697,7 @@
     "family": "Rhizophoraceae",
     "genus": "Rhizophora",
     "species": "",
-    "japanese": "オオバヒルギ属",
+    "japanese": "ヤエヤマヒルギ属",
     "characters": [
       "18",
       "29",
@@ -29148,7 +29148,7 @@
     "family": "Triuridaceae",
     "genus": "Sciaphila",
     "species": "",
-    "japanese": "ウエマツソウ属",
+    "japanese": "ホンゴウソウ属",
     "characters": [
       "8",
       "103",
@@ -29664,7 +29664,7 @@
     "family": "Smilacaceae",
     "genus": "Smilax",
     "species": "",
-    "japanese": "シオデ属",
+    "japanese": "サルトリイバラ属",
     "characters": [
       "4",
       "7",
@@ -30000,7 +30000,7 @@
     "family": "Cunoniaceae",
     "genus": "Spiraeanthemum",
     "species": "",
-    "japanese": "シモツケ属nthemum",
+    "japanese": "-",
     "characters": [
       "69",
       "70",
@@ -30537,7 +30537,7 @@
     "family": "Stylidiaceae",
     "genus": "Stylidium",
     "species": "",
-    "japanese": "スチリジウム属",
+    "japanese": "スティリジウム属",
     "characters": [
       "88",
       "91",
@@ -31086,7 +31086,7 @@
     "family": "Bignoniaceae",
     "genus": "Tecomanthe",
     "species": "",
-    "japanese": "ヒメノウゼンカズラ属nthe",
+    "japanese": "-",
     "characters": [
       "5",
       "6",
@@ -31550,7 +31550,7 @@
     "family": "Menispermaceae",
     "genus": "Tiliacora",
     "species": "",
-    "japanese": "シナノキ属cora",
+    "japanese": "-",
     "characters": [
       "79",
       "119"
@@ -32077,7 +32077,7 @@
     "family": "Fagaceae",
     "genus": "Trigonobalanus",
     "species": "",
-    "japanese": "-",
+    "japanese": "カクミガシ属",
     "characters": [
       "19",
       "45",
@@ -33209,7 +33209,7 @@
     "family": "Asteraceae",
     "genus": "Xanthium",
     "species": "",
-    "japanese": "-",
+    "japanese": "オナモミ属",
     "characters": [
       "108"
     ]
@@ -33388,7 +33388,7 @@
     "family": "Xanthorrhoeaceae",
     "genus": "Xanthorrhoea",
     "species": "",
-    "japanese": "-",
+    "japanese": "ススキノキ属",
     "characters": [
       "2",
       "24"
@@ -33435,7 +33435,7 @@
     "family": "Ximeniaceae/Olacacaceae p.p.",
     "genus": "Ximenia",
     "species": "",
-    "japanese": "-",
+    "japanese": "キシメニア属",
     "characters": [
       "7",
       "58",
@@ -33491,7 +33491,7 @@
     "family": "Salicaceae/Flacourtiaceae p.p.",
     "genus": "Xylosma",
     "species": "",
-    "japanese": "-",
+    "japanese": "クスドイゲ属",
     "characters": [
       "7",
       "70",
@@ -33513,7 +33513,7 @@
     "family": "Xyridaceae",
     "genus": "Xyris",
     "species": "",
-    "japanese": "-",
+    "japanese": "トウエンソウ属",
     "characters": [
       "1",
       "86",
@@ -34462,7 +34462,7 @@
     "family": "Loranthaceae",
     "genus": "Loranthus(Lepidella)",
     "species": "",
-    "japanese": "-",
+    "japanese": "ホザキヤドリギ属(Lepidella)",
     "characters": [
       "9"
     ]

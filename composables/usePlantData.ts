@@ -128,6 +128,21 @@ export function usePlantData() {
         });
     };
 
+    /**
+     * 植物の分類群を取得
+     * @param plant 
+     * @returns {string} species, genus, family
+     */
+    const getTaxa = (plant: Plant): string => {
+        if (plant.species !== '') {
+            return 'species';
+        } else if (plant.genus !== '') {
+            return 'genus';
+        } else {
+            return 'family';
+        }
+    }
+
     return {
         plants: plants,
         characterSet: characterSet,
@@ -136,5 +151,6 @@ export function usePlantData() {
         filterFamilies,
         filterGenera,
         filterSpecies,
+        getTaxa
     };
 }

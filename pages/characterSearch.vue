@@ -2,7 +2,7 @@
     <div>
         <ProgressBar
             :current-step="currentStep" :total-steps="questions?.length"
-            :filtered-count="filteredPlants.length" />
+            :filtered-count="filteredPlantsCount" />
         <FilterPanel
             v-if="currentStep < questions?.length" :category="currentCategory" :first-category="firstCategory"
             :step-count="currentCategoryStepCount" :question="questions[currentStep]" @select="handleAnswer"
@@ -22,8 +22,10 @@
                 </div>
                 <button class="reset-button" @click="resetSearch">もう一度検索する</button>
             </div>
-            <div v-for="plant in filteredPlants" :key="plant.scientificName">
-                <ResultCard :plant="plant" />
+            <div v-for="plant in filteredTaxa.allTaxa" :key="plant.scientificName">
+                <ResultCard 
+                    v-show="usePlantData().getTaxa(plant) === selectedTaxa || selectedTaxa === 'all'" 
+                    :plant="plant" />
             </div>
         </div>
     </div>
@@ -76,7 +78,7 @@ const currentCategoryStepCount = computed(() => {
 });
 
 // 回答から植物のリストをフィルタリング
-const taxa = computed(() => {
+const filteredTaxa = computed(() => {
     const trueKeys: string[] = [];
     const falseKeys: string[] = [];
     useAnswers().answers.value.forEach((answer, key) => {
@@ -96,17 +98,17 @@ const taxa = computed(() => {
 });
 
 // 結果画面の選択分類群を監視
-const filteredPlants = computed(() => {
+const filteredPlantsCount = computed(() => {
     switch (selectedTaxa.value) {
         case 'family':
-            return taxa.value.families;
+            return filteredTaxa.value.families.length;
         case 'genus':
-            return taxa.value.genera;
+            return filteredTaxa.value.genera.length;
         case 'species':
-            return taxa.value.species;
+            return filteredTaxa.value.species.length;
         case 'all':
         default:
-            return taxa.value.allTaxa;
+            return filteredTaxa.value.allTaxa.length;
     }
 });
 
