@@ -19,7 +19,6 @@ export default defineNuxtConfig({
   nitro: {
     output: {
       dir: 'docs', // GitHub Pagesのデフォルトディレクトリに合わせて出力ディレクトリを設定
-      publicDir: 'dist', // 静的ファイルのディレクトリを設定
     }
   },
 
