@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         description: "マレシア植物区の植物同定アプリ",
         theme_color: "#4caf50", // テーマカラー
         lang: "ja",
-        short_name: "マレシア植物同定",
+        short_name: "マレシア植物同定アプリ",
         scope: process.env.NUXT_APP_BASE_URL || '/',
         start_url: process.env.NUXT_APP_BASE_URL || '/',
         display: "standalone",
