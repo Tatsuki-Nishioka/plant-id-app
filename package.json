@@ -6,6 +6,7 @@
     "build": "nuxi build",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
+    "deploy": "nuxt build --preset github_pages",
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare",
     "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/icon.svg"
