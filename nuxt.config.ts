@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   app: {
-    baseURL: '/plant-id-app/',
+    baseURL: process.env.NUXT_APP_BASE_URL || '/',
     head: {
       meta: [
           {name: "theme-color", content: "#326CB3"},
@@ -31,8 +31,8 @@ export default defineNuxtConfig({
         theme_color: "#4caf50", // テーマカラー
         lang: "ja",
         short_name: "マレシア植物同定",
-        scope: "/plant-id-app/",
-        start_url: "/plant-id-app/",
+        scope: process.env.NUXT_APP_BASE_URL || '/',
+        start_url: process.env.NUXT_APP_BASE_URL || '/',
         display: "standalone",
         background_color: "#ffffff",
         icons: [
@@ -61,7 +61,7 @@ export default defineNuxtConfig({
     },
     workbox: {
         globPatterns: ['**/*.{js,css,html,png,svg,ico,webmanifest}'],
-        navigateFallback: '/'
+        navigateFallback: process.env.NUXT_APP_BASE_URL || '/'
     },
     devOptions: { // テスト用
         enabled: true,
