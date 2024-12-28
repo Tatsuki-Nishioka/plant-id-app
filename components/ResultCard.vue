@@ -37,13 +37,13 @@ const modalTitle = ref('');
 const modalContent = ref('');
 
 const getFamilyName = () => {
-    if (props.plant.genus === '') return props.plant.familyJpn || '　';
+    if (props.plant.genus === '') return props.plant.familyJpn ;
     return props.plant.family;
 };
 
 const getJapaneseName = () => {
-    if (props.plant.genus === '' || (props.plant.familyJpn === '' && props.plant.genusJpn === '')) return '';
-    return (props.plant.familyJpn || '-') + ' / ' + (props.plant.genusJpn || '-');
+    if (props.plant.genus === '' || (props.plant.familyJpn === '-' && props.plant.genusJpn === '-')) return '';
+    return props.plant.familyJpn + ' | ' + props.plant.genusJpn;
 };
 
 const toggleDetails = (): void => {

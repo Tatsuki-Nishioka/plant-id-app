@@ -27,49 +27,15 @@ export function usePlantData() {
         })
 
         // 植物データを読み込む
-        plants.value = master.map((record) => {
-            const japaneseName = record.japanese.startsWith('-') ? '' : record.japanese
+        plants.value = master as Plant[];
 
-            const plant= {} as Plant;
-            plant.characters = record.characters
-            plant.scientificName = record.scientificName
-            if (record.species === '' && record.genus === '') { 
-                plant.family = record.family
-                plant.genus = ''
-                plant.species = ''
-                plant.familyJpn = japaneseName
-                plant.genusJpn = ''
-            } else if (record.species === '' && record.genus !== '') { 
-                plant.family = record.family
-                plant.genus = record.genus
-                plant.species = ''
-                plant.familyJpn = ''
-                plant.genusJpn = japaneseName
-            } else if (record.species !== '') { 
-                plant.family = record.family
-                plant.genus = record.genus
-                plant.species = record.species
-                plant.familyJpn = ''
-                plant.genusJpn = ''
-            }
-            return plant;
-        })
         // データを科・属・種に分割
         // 科
         families.value = plants.value.filter((plant) => plant.species === '' && plant.genus === '')
         // 属
-        // 科の和名を補完
         genera.value = plants.value.filter((plant) => plant.species === '' && plant.genus !== '')
-        for (const genus of genera.value) {
-            genus.familyJpn = families.value.find((family) => family.family === genus.family)?.familyJpn ?? ''
-        }
         // 種
-        // 属・科の和名を補完
         species.value = plants.value.filter((plant) => plant.species !== '')
-        for (const speciesIte of species.value) {
-            speciesIte.familyJpn = families.value.find((family) => family.family === speciesIte.family)?.familyJpn ?? ''
-            speciesIte.genusJpn = genera.value.find((genus) => genus.genus === speciesIte.genus)?.genusJpn ?? ''
-        }
 
         isDataLoaded.value = true;
     }

@@ -63,6 +63,7 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Nuxt
+        # see packag.json & https://nuxt.com/deploy/github-pages
         run: NUXT_APP_BASE_URL=/plant-id-app/ ${{ steps.detect-package-manager.outputs.manager }} run deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
