@@ -2,6 +2,8 @@ name: Convert CSV to JSON
 
 on:
   pull_request:
+    paths:
+      - 'resource/csv/master.csv'
     branches:
       - main
 
