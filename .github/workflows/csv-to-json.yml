@@ -41,14 +41,9 @@ jobs:
 
       - name: Commit changes
         run: |
-          if git diff --quiet HEAD; then
-            echo "No changes to commit in master.json"
-            exit 1
-          else
-            git add static/master.json
-            git commit -m "Update master.json"
-            git push origin HEAD:${{ github.head_ref }}
-          fi
+          git add static/master.json
+          git commit -m "Update master.json"
+          git push origin HEAD:${{ github.head_ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
