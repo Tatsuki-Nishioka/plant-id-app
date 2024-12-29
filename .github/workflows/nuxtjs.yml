@@ -66,7 +66,7 @@ jobs:
         # see packag.json & https://nuxt.com/deploy/github-pages
         run: NUXT_APP_BASE_URL=/plant-id-app/ ${{ steps.detect-package-manager.outputs.manager }} run deploy
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs/public
 
