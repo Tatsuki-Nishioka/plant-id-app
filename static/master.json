@@ -6226,8 +6226,8 @@
     "family": "Leguminosae",
     "genus": "Acacia",
     "species": "Acacia pennata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカシア属",
     "characters": [
       "4"
     ]
@@ -6261,8 +6261,8 @@
     "family": "Euphorbiaceae",
     "genus": "Acalypha",
     "species": "Acalypha brachystachya",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "エノキグサ属",
     "characters": [
       "12"
     ]
@@ -6272,8 +6272,8 @@
     "family": "Euphorbiaceae",
     "genus": "Acalypha",
     "species": "Acalypha lanceolata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "エノキグサ属",
     "characters": [
       "12"
     ]
@@ -6283,7 +6283,7 @@
     "family": "Dilleniaceae",
     "genus": "Acrotrema",
     "species": "Acrotrema costatum",
-    "familyJpn": "-",
+    "familyJpn": "ビワモドキ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -6376,8 +6376,8 @@
     "family": "Acanthaceae",
     "genus": "Acanthus",
     "species": "Acanthus ebracteatus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キツネノマゴ科",
+    "genusJpn": "ハアザミ属",
     "characters": [
       "73"
     ]
@@ -6387,8 +6387,8 @@
     "family": "Acanthaceae",
     "genus": "Acanthus",
     "species": "Acanthus ilicifolius",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キツネノマゴ科",
+    "genusJpn": "ハアザミ属",
     "characters": [
       "73"
     ]
@@ -6506,7 +6506,7 @@
     "family": "Lauraceae",
     "genus": "Actinodaphne",
     "species": "Actinodaphne macrophylla",
-    "familyJpn": "-",
+    "familyJpn": "クスノキ科",
     "genusJpn": "-",
     "characters": [
       "19"
@@ -6517,7 +6517,7 @@
     "family": "Lauraceae",
     "genus": "Actinodaphne",
     "species": "Actinodaphne maingayi",
-    "familyJpn": "-",
+    "familyJpn": "クスノキ科",
     "genusJpn": "-",
     "characters": [
       "45"
@@ -6636,8 +6636,8 @@
     "family": "Pentaphylacaceae",
     "genus": "Adinandra",
     "species": "Adinandra dumosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "サカキ科",
+    "genusJpn": "ナガエサカキ属",
     "characters": [
       "82"
     ]
@@ -6722,7 +6722,7 @@
     "family": "Rutaceae",
     "genus": "Aegle",
     "species": "Aegle marmelos",
-    "familyJpn": "-",
+    "familyJpn": "ミカン科",
     "genusJpn": "-",
     "characters": [
       "95"
@@ -6971,7 +6971,7 @@
     "family": "Meliaceae",
     "genus": "Aglaia",
     "species": "Aglaia lawii",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "39"
@@ -7011,7 +7011,7 @@
     "family": "Euphorbiaceae",
     "genus": "Agrostistachys",
     "species": "Agrostistachys indica",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "16",
@@ -7023,7 +7023,7 @@
     "family": "Euphorbiaceae",
     "genus": "Agrostistachys",
     "species": "Agrostistachys longifolia",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "30"
@@ -7034,7 +7034,7 @@
     "family": "Euphorbiaceae",
     "genus": "Agrostistachys",
     "species": "Agrostistachys sessilifolia",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "2"
@@ -7058,7 +7058,7 @@
     "family": "Rubiaceae",
     "genus": "Aidia",
     "species": "Aidia densiflora",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "83"
@@ -7098,8 +7098,8 @@
     "family": "Simaroubaceae",
     "genus": "Ailanthus",
     "species": "Ailanthus integrifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ニガキ科",
+    "genusJpn": "ニワウルシ属",
     "characters": [
       "6153",
       "59",
@@ -7116,8 +7116,8 @@
     "family": "Cornaceae",
     "genus": "Alangium",
     "species": "Alangium griffithii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミズキ科",
+    "genusJpn": "ウリノキ属",
     "characters": [
       "48"
     ]
@@ -7127,8 +7127,8 @@
     "family": "Cornaceae",
     "genus": "Alangium",
     "species": "Alangium salvifolium",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミズキ科",
+    "genusJpn": "ウリノキ属",
     "characters": [
       "5",
       "7"
@@ -7139,8 +7139,8 @@
     "family": "Cornaceae",
     "genus": "Alangium",
     "species": "Alangium scandens",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミズキ科",
+    "genusJpn": "ウリノキ属",
     "characters": [
       "5"
     ]
@@ -7193,8 +7193,8 @@
     "family": "Euphorbiaceae",
     "genus": "Alchornea",
     "species": "Alchornea borneensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "アミガサギリ属",
     "characters": [
       "79"
     ]
@@ -7368,8 +7368,8 @@
     "family": "Zingiberaceae",
     "genus": "Alpinia",
     "species": "Alpinia domatifera",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ショウガ科",
+    "genusJpn": "ハナミョウガ属",
     "characters": [
       "10"
     ]
@@ -7416,7 +7416,7 @@
     "family": "Cucurbitaceae",
     "genus": "Alsomitra",
     "species": "Alsomitra suberosa",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "13"
@@ -7445,7 +7445,7 @@
     "family": "Apocynaceae",
     "genus": "Alstonia",
     "species": "Alstonia pneumatophora",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "3"
@@ -7456,7 +7456,7 @@
     "family": "Apocynaceae",
     "genus": "Alstonia",
     "species": "Alstonia spatulata",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "45"
@@ -7644,7 +7644,7 @@
     "family": "Vitaceae",
     "genus": "Ampelocissus",
     "species": "Ampelocissus elegans",
-    "familyJpn": "-",
+    "familyJpn": "ブドウ科",
     "genusJpn": "-",
     "characters": [
       "35"
@@ -7668,8 +7668,8 @@
     "family": "Vitaceae",
     "genus": "Ampelopsis",
     "species": "Ampelopsis cantoniensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ブドウ科",
+    "genusJpn": "ノブドウ属",
     "characters": [
       "50"
     ]
@@ -7716,7 +7716,7 @@
     "family": "Loranthaceae",
     "genus": "Amylotheca",
     "species": "Amylotheca duthieana",
-    "familyJpn": "-",
+    "familyJpn": "オオバヤドリギ科",
     "genusJpn": "-",
     "characters": [
       "45"
@@ -7755,8 +7755,8 @@
     "family": "Anacardiaceae",
     "genus": "Anacardium",
     "species": "Anacardium occidentale",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウルシ科",
+    "genusJpn": "カシューナット属",
     "characters": [
       "21"
     ]
@@ -7782,7 +7782,7 @@
     "family": "Aptandraceae/Olacaceae p.p.",
     "genus": "Anacolosa",
     "species": "Anacolosa cauliflora",
-    "familyJpn": "-",
+    "familyJpn": "アプタンドラ科/オラクス科 p.p.",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -7880,7 +7880,7 @@
     "family": "Annonaceae",
     "genus": "Anaxagorea",
     "species": "Anaxagorea javanica",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "89"
@@ -7906,8 +7906,8 @@
     "family": "Ancistrocladaceae",
     "genus": "Ancistrocladus",
     "species": "Ancistrocladus tectorius",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツクバネカズラ科",
+    "genusJpn": "ツクバネカズラ属",
     "characters": [
       "4"
     ]
@@ -7982,8 +7982,8 @@
     "family": "Anisophylleaceae",
     "genus": "Anisophyllea",
     "species": "Anisophyllea beccariana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アニソフィレア科",
+    "genusJpn": "アニソフィレア属",
     "characters": [
       "53"
     ]
@@ -7993,8 +7993,8 @@
     "family": "Anisophylleaceae",
     "genus": "Anisophyllea",
     "species": "Anisophyllea corneri",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アニソフィレア科",
+    "genusJpn": "アニソフィレア属",
     "characters": [
       "16"
     ]
@@ -8004,8 +8004,8 @@
     "family": "Anisophylleaceae",
     "genus": "Anisophyllea",
     "species": "Anisophyllea ferruginea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アニソフィレア科",
+    "genusJpn": "アニソフィレア属",
     "characters": [
       "16"
     ]
@@ -8281,7 +8281,7 @@
     "family": "Meliaceae",
     "genus": "Aphanamixis",
     "species": "Aphanamixis polystachya",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "73"
@@ -8364,7 +8364,7 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Aporosa",
     "species": "Aporosa bullatissima",
-    "familyJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -8375,7 +8375,7 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Aporosa",
     "species": "Aporosa frutescens",
-    "familyJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "59"
@@ -8386,7 +8386,7 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Aporosa",
     "species": "Aporosa symplocoides",
-    "familyJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "110"
@@ -8446,8 +8446,8 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "species": "Aralia merrillii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウコギ科",
+    "genusJpn": "タラノキ属",
     "characters": [
       "50"
     ]
@@ -8482,7 +8482,7 @@
     "family": "Torricelliaceae/Araliaceae p.p.",
     "genus": "Aralidium",
     "species": "Aralidium pinnatifidum",
-    "familyJpn": "-",
+    "familyJpn": "トリケリア科/ウコギ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "105"
@@ -8540,8 +8540,8 @@
     "family": "Leguminosae",
     "genus": "Archidendron",
     "species": "Archidendron alatum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカハダノキ属",
     "characters": [
       "39"
     ]
@@ -8551,8 +8551,8 @@
     "family": "Leguminosae",
     "genus": "Archidendron",
     "species": "Archidendron aruense",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカハダノキ属",
     "characters": [
       "10"
     ]
@@ -8562,8 +8562,8 @@
     "family": "Leguminosae",
     "genus": "Archidendron",
     "species": "Archidendron brachycarpum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカハダノキ属",
     "characters": [
       "10"
     ]
@@ -8573,8 +8573,8 @@
     "family": "Leguminosae",
     "genus": "Archidendron",
     "species": "Archidendron brevipes",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカハダノキ属",
     "characters": [
       "10"
     ]
@@ -8584,8 +8584,8 @@
     "family": "Leguminosae",
     "genus": "Archidendron",
     "species": "Archidendron ellipticum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカハダノキ属",
     "characters": [
       "16"
     ]
@@ -8595,8 +8595,8 @@
     "family": "Leguminosae",
     "genus": "Archidendron",
     "species": "Archidendron hispidum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカハダノキ属",
     "characters": [
       "39"
     ]
@@ -8606,8 +8606,8 @@
     "family": "Leguminosae",
     "genus": "Archidendron",
     "species": "Archidendron jiringa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカハダノキ属",
     "characters": [
       "50"
     ]
@@ -8617,8 +8617,8 @@
     "family": "Leguminosae",
     "genus": "Archidendron",
     "species": "Archidendron pteropum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "アカハダノキ属",
     "characters": [
       "39",
       "113"
@@ -8675,7 +8675,7 @@
     "family": "Annonaceae",
     "genus": "Artabotrys",
     "species": "Artabotrys hexapetalus",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -8711,7 +8711,7 @@
     "family": "Araliaceae",
     "genus": "Arthrophyllum",
     "species": "Arthrophyllum diversifolium",
-    "familyJpn": "-",
+    "familyJpn": "ウコギ科",
     "genusJpn": "-",
     "characters": [
       "40"
@@ -8722,7 +8722,7 @@
     "family": "Araliaceae",
     "genus": "Arthrophyllum",
     "species": "Arthrophyllum montanum",
-    "familyJpn": "-",
+    "familyJpn": "ウコギ科",
     "genusJpn": "-",
     "characters": [
       "40"
@@ -8763,8 +8763,8 @@
     "family": "Moraceae",
     "genus": "Artocarpus",
     "species": "Artocarpus anisophyllus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クワ科",
+    "genusJpn": "パンノキ属",
     "characters": [
       "37"
     ]
@@ -8854,8 +8854,8 @@
     "family": "Arecaceae",
     "genus": "Areca",
     "species": "Areca catechu",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤシ科",
+    "genusJpn": "ビンロウジュ属",
     "characters": [
       "79",
       "119"
@@ -8918,7 +8918,7 @@
     "family": "Convolvulaceae",
     "genus": "Argyreia",
     "species": "Argyreia nuda",
-    "familyJpn": "-",
+    "familyJpn": "ヒルガオ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -8929,7 +8929,7 @@
     "family": "Convolvulaceae",
     "genus": "Argyreia",
     "species": "Argyreia sphaerocephala",
-    "familyJpn": "-",
+    "familyJpn": "ヒルガオ科",
     "genusJpn": "-",
     "characters": [
       "80"
@@ -8978,8 +8978,8 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "species": "Aristolochia crassinervia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウマノスズクサ科",
+    "genusJpn": "ウマノスズクサ属",
     "characters": [
       "13"
     ]
@@ -9016,8 +9016,8 @@
     "family": "Asparagaceae",
     "genus": "Asparagus",
     "species": "Asparagus densiflorus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キジカクシ科",
+    "genusJpn": "クサスギカズラ属",
     "characters": [
       "94"
     ]
@@ -9104,7 +9104,7 @@
     "family": "Melastomataceae",
     "genus": "Astronia",
     "species": "Astronia alata",
-    "familyJpn": "-",
+    "familyJpn": "ノボタン科",
     "genusJpn": "-",
     "characters": [
       "13",
@@ -9116,7 +9116,7 @@
     "family": "Melastomataceae",
     "genus": "Astronia",
     "species": "Astronia quadrangulata",
-    "familyJpn": "-",
+    "familyJpn": "ノボタン科",
     "genusJpn": "-",
     "characters": [
       "13"
@@ -9260,8 +9260,8 @@
     "family": "Oxalidaceae",
     "genus": "Averrhoa",
     "species": "Averrhoa carambola",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カタバミ科",
+    "genusJpn": "ゴレンシ属",
     "characters": [
       "118"
     ]
@@ -9271,8 +9271,8 @@
     "family": "Oxalidaceae",
     "genus": "Averrhoa",
     "species": "Averrhoa leucopetala",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カタバミ科",
+    "genusJpn": "ゴレンシ属",
     "characters": [
       "110"
     ]
@@ -9308,7 +9308,7 @@
     "family": "Crypteroniaceae",
     "genus": "Axinandra",
     "species": "Axinandra alata",
-    "familyJpn": "-",
+    "familyJpn": "クリプテロニア科",
     "genusJpn": "-",
     "characters": [
       "13"
@@ -9354,7 +9354,7 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Baccaurea",
     "species": "Baccaurea angulata",
-    "familyJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "110"
@@ -9365,7 +9365,7 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Baccaurea",
     "species": "Baccaurea macrophylla",
-    "familyJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "34"
@@ -9376,7 +9376,7 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Baccaurea",
     "species": "Baccaurea trigonocarpa",
-    "familyJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "110"
@@ -9409,7 +9409,7 @@
     "family": "Myrtaceae",
     "genus": "Baeckea",
     "species": "Baeckea frutescens",
-    "familyJpn": "-",
+    "familyJpn": "フトモモ科",
     "genusJpn": "-",
     "characters": [
       "27"
@@ -9471,8 +9471,8 @@
     "family": "Balanophoraceae",
     "genus": "Balanophora",
     "species": "Balanophora fungosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツチトリモチ科",
+    "genusJpn": "ツチトリモチ属",
     "characters": [
       "9"
     ]
@@ -9573,7 +9573,7 @@
     "family": "Loranthaceae",
     "genus": "Barathranthus",
     "species": "Barathranthus axanthus",
-    "familyJpn": "-",
+    "familyJpn": "オオバヤドリギ科",
     "genusJpn": "-",
     "characters": [
       "46"
@@ -9621,8 +9621,8 @@
     "family": "Lecythidaceae",
     "genus": "Barringtonia",
     "species": "Barringtonia conoidea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "サガリバナ科",
+    "genusJpn": "サガリバナ属",
     "characters": [
       "19",
       "95",
@@ -9634,8 +9634,8 @@
     "family": "Lecythidaceae",
     "genus": "Barringtonia",
     "species": "Barringtonia filirachis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "サガリバナ科",
+    "genusJpn": "サガリバナ属",
     "characters": [
       "80"
     ]
@@ -9671,8 +9671,8 @@
     "family": "Leguminosae",
     "genus": "Bauhinia",
     "species": "Bauhinia scandens",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ハカマカズラ属",
     "characters": [
       "109"
     ]
@@ -9682,8 +9682,8 @@
     "family": "Leguminosae",
     "genus": "Bauhinia",
     "species": "Bauhinia viridescens",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ハカマカズラ属",
     "characters": [
       "7"
     ]
@@ -9734,8 +9734,8 @@
     "family": "Begoniaceae",
     "genus": "Begonia",
     "species": "Begonia areolata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ベゴニア科",
+    "genusJpn": "ベゴニア属",
     "characters": [
       "68"
     ]
@@ -9745,8 +9745,8 @@
     "family": "Begoniaceae",
     "genus": "Begonia",
     "species": "Begonia bipinnatifida",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ベゴニア科",
+    "genusJpn": "ベゴニア属",
     "characters": [
       "50"
     ]
@@ -9756,8 +9756,8 @@
     "family": "Begoniaceae",
     "genus": "Begonia",
     "species": "Begonia integrifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ベゴニア科",
+    "genusJpn": "ベゴニア属",
     "characters": [
       "48"
     ]
@@ -9864,8 +9864,8 @@
     "family": "Rhamnaceae",
     "genus": "Berchemia",
     "species": "Berchemia affinis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クロウメモドキ科",
+    "genusJpn": "クマヤナギ属",
     "characters": [
       "65"
     ]
@@ -9915,7 +9915,7 @@
     "family": "Centroplacaceae",
     "genus": "Bhesa",
     "species": "Bhesa paniculata",
-    "familyJpn": "-",
+    "familyJpn": "セントロプラクス科",
     "genusJpn": "-",
     "characters": [
       "60",
@@ -10054,7 +10054,7 @@
     "family": "Euphorbiaceae",
     "genus": "Blumeodendron",
     "species": "Blumeodendron kurzii",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "23"
@@ -10065,7 +10065,7 @@
     "family": "Euphorbiaceae",
     "genus": "Blumeodendron",
     "species": "Blumeodendron tokbrai",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "35"
@@ -10137,7 +10137,7 @@
     "family": "Zingiberaceae",
     "genus": "Boesenbergia",
     "species": "Boesenbergia hutchinsonii",
-    "familyJpn": "-",
+    "familyJpn": "ショウガ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -10148,7 +10148,7 @@
     "family": "Zingiberaceae",
     "genus": "Boesenbergia",
     "species": "Boesenbergia variegata",
-    "familyJpn": "-",
+    "familyJpn": "ショウガ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -10199,7 +10199,7 @@
     "family": "Euphorbiaceae",
     "genus": "Borneodendron",
     "species": "Borneodendron aenigmaticum",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "22",
@@ -10238,7 +10238,7 @@
     "family": "Euphorbiaceae",
     "genus": "Botryophora",
     "species": "Botryophora geniculata",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "112"
@@ -10262,7 +10262,7 @@
     "family": "Anacardiaceae",
     "genus": "Bouea",
     "species": "Bouea oppositifolia",
-    "familyJpn": "-",
+    "familyJpn": "ウルシ科",
     "genusJpn": "-",
     "characters": [
       "43"
@@ -10310,7 +10310,7 @@
     "family": "Rubiaceae",
     "genus": "Bungarimba",
     "species": "Bungarimba ridsdalei",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "46"
@@ -10442,8 +10442,8 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Bridelia",
     "species": "Bridelia cf penangiana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
+    "genusJpn": "マルヤマカンコノキ属",
     "characters": [
       "7"
     ]
@@ -10453,8 +10453,8 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Bridelia",
     "species": "Bridelia pustulata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
+    "genusJpn": "マルヤマカンコノキ属",
     "characters": [
       "57"
     ]
@@ -10488,8 +10488,8 @@
     "family": "Moraceae",
     "genus": "Broussonetia",
     "species": "Broussonetia kurzii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クワ科",
+    "genusJpn": "カジノキ属",
     "characters": [
       "5"
     ]
@@ -10538,7 +10538,7 @@
     "family": "Simaroubaceae",
     "genus": "Brucea",
     "species": "Brucea mollis",
-    "familyJpn": "-",
+    "familyJpn": "ニガキ科",
     "genusJpn": "-",
     "characters": [
       "40"
@@ -10639,7 +10639,7 @@
     "family": "Rutaceae",
     "genus": "Burkillanthus",
     "species": "Burkillanthus malaccensis",
-    "familyJpn": "-",
+    "familyJpn": "ミカン科",
     "genusJpn": "-",
     "characters": [
       "7",
@@ -10688,7 +10688,7 @@
     "family": "Leguminosae",
     "genus": "Butea",
     "species": "Butea monosperma",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "3"
@@ -10775,8 +10775,8 @@
     "family": "Leguminosae",
     "genus": "Caesalpinia",
     "species": "Caesalpinia bonduc",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ジャケツイバラ属",
     "characters": [
       "50",
       "108"
@@ -10787,8 +10787,8 @@
     "family": "Leguminosae",
     "genus": "Caesalpinia",
     "species": "Caesalpinia oppositifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ジャケツイバラ属",
     "characters": [
       "6",
       "29",
@@ -10848,7 +10848,7 @@
     "family": "Arecaceae",
     "genus": "Calamus",
     "species": "Calamus ornatus",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -10870,8 +10870,8 @@
     "family": "Orchidaceae",
     "genus": "Bulbophyllum",
     "species": "Bulbophyllum beccarii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ラン科",
+    "genusJpn": "マメヅタラン属",
     "characters": [
       "5"
     ]
@@ -10893,7 +10893,7 @@
     "family": "Leguminosae",
     "genus": "Callerya",
     "species": "Callerya nieuwenhuisii",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -10926,8 +10926,8 @@
     "family": "Lamiaceae",
     "genus": "Callicarpa",
     "species": "Callicarpa longifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "ムラサキシキブ属",
     "characters": [
       "105"
     ]
@@ -10937,8 +10937,8 @@
     "family": "Lamiaceae",
     "genus": "Callicarpa",
     "species": "Callicarpa saccata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "ムラサキシキブ属",
     "characters": [
       "10"
     ]
@@ -11086,8 +11086,8 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "species": "Capparis assamica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フウチョウボク科",
+    "genusJpn": "フウチョウボク属",
     "characters": [
       "80"
     ]
@@ -11097,8 +11097,8 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "species": "Capparis buwaldae",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フウチョウボク科",
+    "genusJpn": "フウチョウボク属",
     "characters": [
       "10"
     ]
@@ -11108,8 +11108,8 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "species": "Capparis quiniflora",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フウチョウボク科",
+    "genusJpn": "フウチョウボク属",
     "characters": [
       "16"
     ]
@@ -11119,8 +11119,8 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "species": "Capparis trinervia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フウチョウボク科",
+    "genusJpn": "フウチョウボク属",
     "characters": [
       "53"
     ]
@@ -11130,8 +11130,8 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "species": "Capparis zeylanica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フウチョウボク科",
+    "genusJpn": "フウチョウボク属",
     "characters": [
       "16"
     ]
@@ -11160,7 +11160,7 @@
     "family": "Rhizophoraceae",
     "genus": "Carallia",
     "species": "Carallia caryophylloidea",
-    "familyJpn": "-",
+    "familyJpn": "ヒルギ科",
     "genusJpn": "-",
     "characters": [
       "56"
@@ -11195,7 +11195,7 @@
     "family": "Melastomataceae",
     "genus": "Campimia",
     "species": "Campimia auriculata",
-    "familyJpn": "-",
+    "familyJpn": "ノボタン科",
     "genusJpn": "-",
     "characters": [
       "39"
@@ -11247,7 +11247,7 @@
     "family": "Annonaceae",
     "genus": "Cananga",
     "species": "Cananga odorata",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "16"
@@ -11281,7 +11281,7 @@
     "family": "Burseraceae",
     "genus": "Canarium",
     "species": "Canarium odontophyllum",
-    "familyJpn": "-",
+    "familyJpn": "カンラン科",
     "genusJpn": "-",
     "characters": [
       "31"
@@ -11292,7 +11292,7 @@
     "family": "Burseraceae",
     "genus": "Canarium",
     "species": "Canarium vulgare",
-    "familyJpn": "-",
+    "familyJpn": "カンラン科",
     "genusJpn": "-",
     "characters": [
       "89"
@@ -11463,8 +11463,8 @@
     "family": "Arecaceae",
     "genus": "Caryota",
     "species": "Caryota maxima",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤシ科",
+    "genusJpn": "クジャクヤシ属",
     "characters": [
       "50"
     ]
@@ -11493,7 +11493,7 @@
     "family": "Salicaceae/Flacourtiaceae p.p.",
     "genus": "Casearia",
     "species": "Casearia amplectens",
-    "familyJpn": "-",
+    "familyJpn": "ヤナギ科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "34"
@@ -11504,7 +11504,7 @@
     "family": "Salicaceae/Flacourtiaceae p.p.",
     "genus": "Casearia",
     "species": "Casearia auriculata",
-    "familyJpn": "-",
+    "familyJpn": "ヤナギ科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "34"
@@ -11515,7 +11515,7 @@
     "family": "Salicaceae/Flacourtiaceae p.p.",
     "genus": "Casearia",
     "species": "Casearia rugulosa",
-    "familyJpn": "-",
+    "familyJpn": "ヤナギ科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "108"
@@ -11546,8 +11546,8 @@
     "family": "Leguminosae",
     "genus": "Cassia",
     "species": "Cassia javanica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ナンバンサイカチ属",
     "characters": [
       "7",
       "32"
@@ -11558,8 +11558,8 @@
     "family": "Leguminosae",
     "genus": "Cassia",
     "species": "Cassia siamea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ナンバンサイカチ属",
     "characters": [
       "18"
     ]
@@ -11583,8 +11583,8 @@
     "family": "Lauraceae",
     "genus": "Cassytha",
     "species": "Cassytha filiformis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クスノキ科",
+    "genusJpn": "スナヅル属",
     "characters": [
       "9"
     ]
@@ -11657,8 +11657,8 @@
     "family": "Cannabaceae/Ulmaceae p.p.",
     "genus": "Celtis",
     "species": "Celtis cinnamomea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アサ科/ニレ科 p.p.",
+    "genusJpn": "エノキ属",
     "characters": [
       "26"
     ]
@@ -11668,8 +11668,8 @@
     "family": "Cannabaceae/Ulmaceae p.p.",
     "genus": "Celtis",
     "species": "Celtis hildebrandii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アサ科/ニレ科 p.p.",
+    "genusJpn": "エノキ属",
     "characters": [
       "48"
     ]
@@ -11784,8 +11784,8 @@
     "family": "Cunoniaceae",
     "genus": "Ceratopetalum",
     "species": "Ceratopetalum succirubrum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クノニア科",
+    "genusJpn": "セラトペタルム属",
     "characters": [
       "22"
     ]
@@ -11795,8 +11795,8 @@
     "family": "Fagaceae",
     "genus": "Castanopsis",
     "species": "Castanopsis hypophoenicea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ブナ科",
+    "genusJpn": "シイ属",
     "characters": [
       "108"
     ]
@@ -11959,8 +11959,8 @@
     "family": "Apocynaceae",
     "genus": "Cerbera",
     "species": "Cerbera floribunda",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キョウチクトウ科",
+    "genusJpn": "ミフクラギ属",
     "characters": [
       "106"
     ]
@@ -11970,8 +11970,8 @@
     "family": "Apocynaceae",
     "genus": "Cerbera",
     "species": "Cerbera odollam",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キョウチクトウ科",
+    "genusJpn": "ミフクラギ属",
     "characters": [
       "42"
     ]
@@ -12125,7 +12125,7 @@
     "family": "Apocynaceae",
     "genus": "Chilocarpus",
     "species": "Chilocarpus tuberculatus",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "108"
@@ -12208,7 +12208,7 @@
     "family": "Meliaceae",
     "genus": "Chukrasia",
     "species": "Chukrasia tabularis",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "85"
@@ -12271,8 +12271,8 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "species": "Chionanthus acuminatus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モクセイ科",
+    "genusJpn": "ヒトツバタゴ属",
     "characters": [
       "45"
     ]
@@ -12282,8 +12282,8 @@
     "family": "Lauraceae",
     "genus": "Cinnamomum",
     "species": "Cinnamomum iners",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クスノキ科",
+    "genusJpn": "ニッケイ属",
     "characters": [
       "99"
     ]
@@ -12293,8 +12293,8 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "species": "Chionanthus balgooyana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モクセイ科",
+    "genusJpn": "ヒトツバタゴ属",
     "characters": [
       "108"
     ]
@@ -12304,8 +12304,8 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "species": "Chionanthus macrobotrys",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モクセイ科",
+    "genusJpn": "ヒトツバタゴ属",
     "characters": [
       "6"
     ]
@@ -12315,8 +12315,8 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "species": "Chionanthus pluriflorus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モクセイ科",
+    "genusJpn": "ヒトツバタゴ属",
     "characters": [
       "108"
     ]
@@ -12326,8 +12326,8 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "species": "Chionanthus ramiflorus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モクセイ科",
+    "genusJpn": "ヒトツバタゴ属",
     "characters": [
       "14"
     ]
@@ -12337,8 +12337,8 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "species": "Chionanthus rugosus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モクセイ科",
+    "genusJpn": "ヒトツバタゴ属",
     "characters": [
       "108"
     ]
@@ -12368,7 +12368,7 @@
     "family": "Meliaceae",
     "genus": "Chisocheton",
     "species": "Chisocheton myrmecophilus",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -12379,7 +12379,7 @@
     "family": "Meliaceae",
     "genus": "Chisocheton",
     "species": "Chisocheton patens",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "41"
@@ -12417,8 +12417,8 @@
     "family": "Chloranthaceae",
     "genus": "Chloranthus",
     "species": "Chloranthus erectus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "センリョウ科",
+    "genusJpn": "チャラン属",
     "characters": [
       "12"
     ]
@@ -12428,8 +12428,8 @@
     "family": "Chloranthaceae",
     "genus": "Chloranthus",
     "species": "Chloranthus henryi",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "センリョウ科",
+    "genusJpn": "チャラン属",
     "characters": [
       "45"
     ]
@@ -12529,8 +12529,8 @@
     "family": "Vitaceae",
     "genus": "Cissus",
     "species": "Cissus quadrangularis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ブドウ科",
+    "genusJpn": "セイシカズラ属",
     "characters": [
       "13"
     ]
@@ -12621,7 +12621,7 @@
     "family": "Malvaceae",
     "genus": "Clappertonia",
     "species": "Clappertonia ficifolia",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "108"
@@ -12670,7 +12670,7 @@
     "family": "Euphorbiaceae",
     "genus": "Cleidion",
     "species": "Cleidion spiciflorum",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "102"
@@ -12699,7 +12699,7 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Cleistanthus",
     "species": "Cleistanthus hirsutulus",
-    "familyJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "82",
@@ -12778,8 +12778,8 @@
     "family": "Lamiaceae",
     "genus": "Clerodendrum",
     "species": "Clerodendrum deflexum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "クサギ属",
     "characters": [
       "10",
       "86"
@@ -12790,8 +12790,8 @@
     "family": "Lamiaceae",
     "genus": "Clerodendrum",
     "species": "Clerodendrum fistulosum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "クサギ属",
     "characters": [
       "3"
     ]
@@ -12801,8 +12801,8 @@
     "family": "Lamiaceae",
     "genus": "Clerodendrum",
     "species": "Clerodendrum paniculatum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "クサギ属",
     "characters": [
       "52"
     ]
@@ -12812,8 +12812,8 @@
     "family": "Lamiaceae",
     "genus": "Clerodendrum",
     "species": "Clerodendrum phyllomega",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "クサギ属",
     "characters": [
       "10"
     ]
@@ -12823,8 +12823,8 @@
     "family": "Lamiaceae",
     "genus": "Clerodendrum",
     "species": "Clerodendrum schmidtii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "クサギ属",
     "characters": [
       "35"
     ]
@@ -12942,8 +12942,8 @@
     "family": "Menispermaceae",
     "genus": "Cocculus",
     "species": "Cocculus laurifolius",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツヅラフジ科",
+    "genusJpn": "アオツヅラフジ属",
     "characters": [
       "53",
       "91"
@@ -12954,8 +12954,8 @@
     "family": "Menispermaceae",
     "genus": "Cocculus",
     "species": "Cocculus orbiculatus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツヅラフジ科",
+    "genusJpn": "アオツヅラフジ属",
     "characters": [
       "91"
     ]
@@ -12980,7 +12980,7 @@
     "family": "Bixaceae",
     "genus": "Cochlospermum",
     "species": "Cochlospermum religiosum",
-    "familyJpn": "-",
+    "familyJpn": "ベニノキ科",
     "genusJpn": "-",
     "characters": [
       "95"
@@ -13041,8 +13041,8 @@
     "family": "Campanulaceae",
     "genus": "Codonopsis",
     "species": "Codonopsis javanica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キキョウ科",
+    "genusJpn": "ツルニンジン属",
     "characters": [
       "5"
     ]
@@ -13145,8 +13145,8 @@
     "family": "Rhamnaceae",
     "genus": "Colubrina",
     "species": "Colubrina anomala",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クロウメモドキ科",
+    "genusJpn": "ヤエヤマハマナツメ属",
     "characters": [
       "53"
     ]
@@ -13194,8 +13194,8 @@
     "family": "Combretaceae",
     "genus": "Combretum",
     "species": "Combretum quadrangulare",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シクンシ科",
+    "genusJpn": "シクンシ属",
     "characters": [
       "7"
     ]
@@ -13216,8 +13216,8 @@
     "family": "Commelinaceae",
     "genus": "Commelina",
     "species": "Commelina benghalensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツユクサ科",
+    "genusJpn": "ツユクサ属",
     "characters": [
       "81"
     ]
@@ -13275,8 +13275,8 @@
     "family": "Connaraceae",
     "genus": "Connarus",
     "species": "Connarus grandis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメモドキ科",
+    "genusJpn": "マメモドキ属",
     "characters": [
       "16"
     ]
@@ -13308,7 +13308,7 @@
     "family": "Leguminosae",
     "genus": "Copaifera",
     "species": "Copaifera palustris",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "71"
@@ -13332,8 +13332,8 @@
     "family": "Rubiaceae",
     "genus": "Coprosma",
     "species": "Coprosma archboldiana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "コプロスマ属",
     "characters": [
       "1"
     ]
@@ -13370,8 +13370,8 @@
     "family": "Malvaceae",
     "genus": "Corchorus",
     "species": "Corchorus trilocularis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "ツナソ属",
     "characters": [
       "25"
     ]
@@ -13396,8 +13396,8 @@
     "family": "Boraginaceae",
     "genus": "Cordia",
     "species": "Cordia alliodora",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ムラサキ科",
+    "genusJpn": "カキバチシャノキ属",
     "characters": [
       "10"
     ]
@@ -13407,8 +13407,8 @@
     "family": "Boraginaceae",
     "genus": "Cordia",
     "species": "Cordia sebestena",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ムラサキ科",
+    "genusJpn": "カキバチシャノキ属",
     "characters": [
       "102"
     ]
@@ -13494,7 +13494,7 @@
     "family": "Arecaceae",
     "genus": "Corypha",
     "species": "Corypha umbraculifera",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "77"
@@ -13625,7 +13625,7 @@
     "family": "Hypericaceae",
     "genus": "Cratoxylum",
     "species": "Cratoxylum formosum",
-    "familyJpn": "-",
+    "familyJpn": "オトギリソウ科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -13687,7 +13687,7 @@
     "family": "Bignoniaceae",
     "genus": "Crescentia",
     "species": "Crescentia alata",
-    "familyJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
     "genusJpn": "-",
     "characters": [
       "39",
@@ -13711,8 +13711,8 @@
     "family": "Amaryllidaceae",
     "genus": "Crinum",
     "species": "Crinum asiaticum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒガンバナ科",
+    "genusJpn": "ハマオモト属",
     "characters": [
       "104"
     ]
@@ -13770,8 +13770,8 @@
     "family": "Euphorbiaceae",
     "genus": "Croton",
     "species": "Croton caudatus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "ハズ属",
     "characters": [
       "5",
       "70"
@@ -13796,7 +13796,7 @@
     "family": "Leguminosae",
     "genus": "Crudia",
     "species": "Crudia bantamensis",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "80"
@@ -13807,7 +13807,7 @@
     "family": "Leguminosae",
     "genus": "Crudia",
     "species": "Crudia subsimplicifolia",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "35"
@@ -13834,8 +13834,8 @@
     "family": "Crypteroniaceae",
     "genus": "Crypteronia",
     "species": "Crypteronia griffithii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クリプテロニア科",
+    "genusJpn": "クリプテロニア属",
     "characters": [
       "10",
       "47"
@@ -13877,7 +13877,7 @@
     "family": "Araceae",
     "genus": "Cryptocoryne",
     "species": "Cryptocoryne cordata var. grabowski",
-    "familyJpn": "-",
+    "familyJpn": "サトイモ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -14032,7 +14032,7 @@
     "family": "Annonaceae",
     "genus": "Cyathocalyx",
     "species": "Cyathocalyx biovulatus",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -14056,8 +14056,8 @@
     "family": "Cycadaceae",
     "genus": "Cycas",
     "species": "Cycas clivicola",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ソテツ科",
+    "genusJpn": "ソテツ属",
     "characters": [
       "19"
     ]
@@ -14161,7 +14161,7 @@
     "family": "Leguminosae",
     "genus": "Cynometra",
     "species": "Cynometra cauliflora",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "79",
@@ -14185,8 +14185,8 @@
     "family": "Cyperaceae",
     "genus": "Cyperus",
     "species": "Cyperus hyalinus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カヤツリグサ科",
+    "genusJpn": "カヤツリグサ属",
     "characters": [
       "25"
     ]
@@ -14209,7 +14209,7 @@
     "family": "Urticaceae",
     "genus": "Cypholophus",
     "species": "Cypholophus chamaephyton",
-    "familyJpn": "-",
+    "familyJpn": "イラクサ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -14220,7 +14220,7 @@
     "family": "Urticaceae",
     "genus": "Cypholophus",
     "species": "Cypholophus nummularis",
-    "familyJpn": "-",
+    "familyJpn": "イラクサ科",
     "genusJpn": "-",
     "characters": [
       "46"
@@ -14288,7 +14288,7 @@
     "family": "Orchidaceae",
     "genus": "Cystorchis",
     "species": "Cystorchis aphylla",
-    "familyJpn": "-",
+    "familyJpn": "ラン科",
     "genusJpn": "-",
     "characters": [
       "8",
@@ -14314,7 +14314,7 @@
     "family": "Podocarpaceae",
     "genus": "Dacrycarpus",
     "species": "Dacrycarpus imbricatus",
-    "familyJpn": "-",
+    "familyJpn": "マキ科",
     "genusJpn": "-",
     "characters": [
       "17",
@@ -14354,7 +14354,7 @@
     "family": "Burseraceae",
     "genus": "Dacryodes",
     "species": "Dacryodes nervosa",
-    "familyJpn": "-",
+    "familyJpn": "カンラン科",
     "genusJpn": "-",
     "characters": [
       "62"
@@ -14406,7 +14406,7 @@
     "family": "Arecaceae",
     "genus": "Daemonorops",
     "species": "Daemonorops ingens",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "11"
@@ -14433,8 +14433,8 @@
     "family": "Leguminosae",
     "genus": "Dalbergia",
     "species": "Dalbergia parviflora",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ツルサイカチ属",
     "characters": [
       "7"
     ]
@@ -14508,8 +14508,8 @@
     "family": "Daphniphyllaceae",
     "genus": "Daphniphyllum",
     "species": "Daphniphyllum laurinum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ユズリハ科",
+    "genusJpn": "ユズリハ属",
     "characters": [
       "108"
     ]
@@ -14531,7 +14531,7 @@
     "family": "Annonaceae",
     "genus": "Dasymaschalon",
     "species": "Dasymaschalon dasymaschalum",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "67",
@@ -14617,7 +14617,7 @@
     "family": "Amaranthaceae",
     "genus": "Deeringia",
     "species": "Deeringia amaranthoides",
-    "familyJpn": "-",
+    "familyJpn": "ヒユ科",
     "genusJpn": "-",
     "characters": [
       "80"
@@ -14694,7 +14694,7 @@
     "family": "Urticaceae",
     "genus": "Dendrocnide",
     "species": "Dendrocnide kajewskii",
-    "familyJpn": "-",
+    "familyJpn": "イラクサ科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -14705,7 +14705,7 @@
     "family": "Urticaceae",
     "genus": "Dendrocnide",
     "species": "Dendrocnide peltata",
-    "familyJpn": "-",
+    "familyJpn": "イラクサ科",
     "genusJpn": "-",
     "characters": [
       "51"
@@ -14716,7 +14716,7 @@
     "family": "Urticaceae",
     "genus": "Dendrocnide",
     "species": "Dendrocnide photiniphylla",
-    "familyJpn": "-",
+    "familyJpn": "イラクサ科",
     "genusJpn": "-",
     "characters": [
       "66"
@@ -14727,8 +14727,8 @@
     "family": "Leguminosae",
     "genus": "Dendrolobium",
     "species": "Dendrolobium umbellatum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ナハキハギ属",
     "characters": [
       "113"
     ]
@@ -14749,8 +14749,8 @@
     "family": "Araliaceae",
     "genus": "Dendropanax",
     "species": "Dendropanax borneensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウコギ科",
+    "genusJpn": "カクレミノ属",
     "characters": [
       "71"
     ]
@@ -14774,7 +14774,7 @@
     "family": "Loranthaceae",
     "genus": "Dendropthoe",
     "species": "Dendropthoe constricta",
-    "familyJpn": "-",
+    "familyJpn": "オオバヤドリギ科",
     "genusJpn": "-",
     "characters": [
       "9"
@@ -14828,8 +14828,8 @@
     "family": "Leguminosae",
     "genus": "Derris",
     "species": "Derris thyrsiflora",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ドクフジ属",
     "characters": [
       "71"
     ]
@@ -14867,7 +14867,7 @@
     "family": "Annonaceae",
     "genus": "Desmos",
     "species": "Desmos chinensis",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -14902,7 +14902,7 @@
     "family": "Leguminosae",
     "genus": "Dialium",
     "species": "Dialium procerum",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "35"
@@ -14925,7 +14925,7 @@
     "family": "Xanthorrhoeaceae",
     "genus": "Dianella",
     "species": "Dianella ensifolia",
-    "familyJpn": "-",
+    "familyJpn": "ススキノキ科",
     "genusJpn": "-",
     "characters": [
       "98"
@@ -15124,8 +15124,8 @@
     "family": "Dilleniaceae",
     "genus": "Dillenia",
     "species": "Dillenia beccariana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビワモドキ科",
+    "genusJpn": "ビワモドキ属",
     "characters": [
       "98"
     ]
@@ -15135,8 +15135,8 @@
     "family": "Dilleniaceae",
     "genus": "Dillenia",
     "species": "Dillenia bolsteri",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビワモドキ科",
+    "genusJpn": "ビワモドキ属",
     "characters": [
       "79"
     ]
@@ -15146,8 +15146,8 @@
     "family": "Dilleniaceae",
     "genus": "Dillenia",
     "species": "Dillenia indica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビワモドキ科",
+    "genusJpn": "ビワモドキ属",
     "characters": [
       "90"
     ]
@@ -15157,8 +15157,8 @@
     "family": "Dilleniaceae",
     "genus": "Dillenia",
     "species": "Dillenia luzonica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビワモドキ科",
+    "genusJpn": "ビワモドキ属",
     "characters": [
       "93"
     ]
@@ -15168,8 +15168,8 @@
     "family": "Dilleniaceae",
     "genus": "Dillenia",
     "species": "Dillenia megalantha",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビワモドキ科",
+    "genusJpn": "ビワモドキ属",
     "characters": [
       "30"
     ]
@@ -15179,8 +15179,8 @@
     "family": "Dilleniaceae",
     "genus": "Dillenia",
     "species": "Dillenia pentagyna",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビワモドキ科",
+    "genusJpn": "ビワモドキ属",
     "characters": [
       "75"
     ]
@@ -15190,8 +15190,8 @@
     "family": "Dilleniaceae",
     "genus": "Dillenia",
     "species": "Dillenia suffruticosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビワモドキ科",
+    "genusJpn": "ビワモドキ属",
     "characters": [
       "118"
     ]
@@ -15245,7 +15245,7 @@
     "family": "Euphorbiaceae",
     "genus": "Dimorphocalyx",
     "species": "Dimorphocalyx muricatus",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "108"
@@ -15268,7 +15268,7 @@
     "family": "Poaceae",
     "genus": "Dinochloa",
     "species": "Dinochloa prunifera",
-    "familyJpn": "-",
+    "familyJpn": "イネ科",
     "genusJpn": "-",
     "characters": [
       "77"
@@ -15315,8 +15315,8 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "species": "Dioscorea esculenta",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤマノイモ科",
+    "genusJpn": "ヤマノイモ属",
     "characters": [
       "65"
     ]
@@ -15326,8 +15326,8 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "species": "Dioscorea laurifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤマノイモ科",
+    "genusJpn": "ヤマノイモ属",
     "characters": [
       "109"
     ]
@@ -15367,8 +15367,8 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "species": "Diospyros andamanicus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カキノキ科",
+    "genusJpn": "カキノキ属",
     "characters": [
       "10"
     ]
@@ -15378,8 +15378,8 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "species": "Diospyros blancoi",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カキノキ科",
+    "genusJpn": "カキノキ属",
     "characters": [
       "70"
     ]
@@ -15389,8 +15389,8 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "species": "Diospyros montana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カキノキ科",
+    "genusJpn": "カキノキ属",
     "characters": [
       "7"
     ]
@@ -15400,8 +15400,8 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "species": "Diospyros pilosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カキノキ科",
+    "genusJpn": "カキノキ属",
     "characters": [
       "90"
     ]
@@ -15411,8 +15411,8 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "species": "Diospyros pilosanthera",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カキノキ科",
+    "genusJpn": "カキノキ属",
     "characters": [
       "84"
     ]
@@ -15422,8 +15422,8 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "species": "Diospyros toposia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "カキノキ科",
+    "genusJpn": "カキノキ属",
     "characters": [
       "59"
     ]
@@ -15523,7 +15523,7 @@
     "family": "Orchidaceae",
     "genus": "Dipodium",
     "species": "Dipodium scandens",
-    "familyJpn": "-",
+    "familyJpn": "ラン科",
     "genusJpn": "-",
     "characters": [
       "5"
@@ -15559,8 +15559,8 @@
     "family": "Dipterocarpaceae",
     "genus": "Dipterocarpus",
     "species": "Dipterocarpus applanatus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フタバガキ科",
+    "genusJpn": "フタバガキ属",
     "characters": [
       "30"
     ]
@@ -15570,8 +15570,8 @@
     "family": "Dipterocarpaceae",
     "genus": "Dipterocarpus",
     "species": "Dipterocarpus crinitus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フタバガキ科",
+    "genusJpn": "フタバガキ属",
     "characters": [
       "62"
     ]
@@ -15581,8 +15581,8 @@
     "family": "Dipterocarpaceae",
     "genus": "Dipterocarpus",
     "species": "Dipterocarpus elongatus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フタバガキ科",
+    "genusJpn": "フタバガキ属",
     "characters": [
       "62"
     ]
@@ -15592,8 +15592,8 @@
     "family": "Dipterocarpaceae",
     "genus": "Dipterocarpus",
     "species": "Dipterocarpus grandiflorus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フタバガキ科",
+    "genusJpn": "フタバガキ属",
     "characters": [
       "109"
     ]
@@ -15620,8 +15620,8 @@
     "family": "Apocynaceae",
     "genus": "Dischidia",
     "species": "Dischidia astephana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キョウチクトウ科",
+    "genusJpn": "フクロカズラ属",
     "characters": [
       "6",
       "10"
@@ -15662,7 +15662,7 @@
     "family": "Melastomataceae",
     "genus": "Dissochaeta",
     "species": "Dissochaeta pallida",
-    "familyJpn": "-",
+    "familyJpn": "ノボタン科",
     "genusJpn": "-",
     "characters": [
       "97"
@@ -15738,7 +15738,7 @@
     "family": "Bignoniaceae",
     "genus": "Dolichandrone",
     "species": "Dolichandrone spathacea",
-    "familyJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
     "genusJpn": "-",
     "characters": [
       "44",
@@ -15788,7 +15788,7 @@
     "family": "Euphorbiaceae",
     "genus": "Doryxylon",
     "species": "Doryxylon spinosum",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -15839,7 +15839,7 @@
     "family": "Thymelaeaceae",
     "genus": "Drapetes",
     "species": "Drapetes ericoides",
-    "familyJpn": "-",
+    "familyJpn": "ジンチョウゲ科",
     "genusJpn": "-",
     "characters": [
       "1"
@@ -15946,7 +15946,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Dryobalanops",
     "species": "Dryobalanops keithii",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "56"
@@ -15979,8 +15979,8 @@
     "family": "Putranjivaceae/Euphorbiaceae p.p.",
     "genus": "Drypetes",
     "species": "Drypetes eriocarpa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "プトランジーバ科/トウダイグサ科 p.p.",
+    "genusJpn": "ハツバキ属",
     "characters": [
       "31"
     ]
@@ -15990,8 +15990,8 @@
     "family": "Putranjivaceae/Euphorbiaceae p.p.",
     "genus": "Drypetes",
     "species": "Drypetes perreticulata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "プトランジーバ科/トウダイグサ科 p.p.",
+    "genusJpn": "ハツバキ属",
     "characters": [
       "33"
     ]
@@ -16014,7 +16014,7 @@
     "family": "Lythraceae",
     "genus": "Duabanga",
     "species": "Duabanga grandiflora",
-    "familyJpn": "-",
+    "familyJpn": "ミソハギ科",
     "genusJpn": "-",
     "characters": [
       "111"
@@ -16049,8 +16049,8 @@
     "family": "Leguminosae",
     "genus": "Dunbaria",
     "species": "Dunbaria rubella",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ノアズキ属",
     "characters": [
       "70"
     ]
@@ -16089,8 +16089,8 @@
     "family": "Malvaceae",
     "genus": "Durio",
     "species": "Durio carinatus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "ドリアン属",
     "characters": [
       "118"
     ]
@@ -16100,8 +16100,8 @@
     "family": "Malvaceae",
     "genus": "Durio",
     "species": "Durio graveolens",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "ドリアン属",
     "characters": [
       "96"
     ]
@@ -16160,7 +16160,7 @@
     "family": "Meliaceae",
     "genus": "Dysoxylum",
     "species": "Dysoxylum caulostachyum",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "110"
@@ -16171,7 +16171,7 @@
     "family": "Meliaceae",
     "genus": "Dysoxylum",
     "species": "Dysoxylum variabile",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "34"
@@ -16240,8 +16240,8 @@
     "family": "Elaeagnaceae",
     "genus": "Elaeagnus",
     "species": "Elaeagnus triflora",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "グミ科",
+    "genusJpn": "グミ属",
     "characters": [
       "62"
     ]
@@ -16282,8 +16282,8 @@
     "family": "Elaeocarpaceae",
     "genus": "Elaeocarpus",
     "species": "Elaeocarpus gustaviifolius",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ホルトノキ科",
+    "genusJpn": "ホルトノキ属",
     "characters": [
       "47"
     ]
@@ -16293,8 +16293,8 @@
     "family": "Elaeocarpaceae",
     "genus": "Elaeocarpus",
     "species": "Elaeocarpus hygrophilus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ホルトノキ科",
+    "genusJpn": "ホルトノキ属",
     "characters": [
       "18"
     ]
@@ -16304,8 +16304,8 @@
     "family": "Elaeocarpaceae",
     "genus": "Elaeocarpus",
     "species": "Elaeocarpus lingualis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ホルトノキ科",
+    "genusJpn": "ホルトノキ属",
     "characters": [
       "10"
     ]
@@ -16315,8 +16315,8 @@
     "family": "Elaeocarpaceae",
     "genus": "Elaeocarpus",
     "species": "Elaeocarpus myrmecophilus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ホルトノキ科",
+    "genusJpn": "ホルトノキ属",
     "characters": [
       "10"
     ]
@@ -16326,8 +16326,8 @@
     "family": "Elaeocarpaceae",
     "genus": "Elaeocarpus",
     "species": "Elaeocarpus nitidus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ホルトノキ科",
+    "genusJpn": "ホルトノキ属",
     "characters": [
       "91"
     ]
@@ -16363,7 +16363,7 @@
     "family": "Euphorbiaceae",
     "genus": "Elateriospermum",
     "species": "Elateriospermum tapos",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "60"
@@ -16460,7 +16460,7 @@
     "family": "Connaraceae",
     "genus": "Ellipanthus",
     "species": "Ellipanthus beccarii var. peltata",
-    "familyJpn": "-",
+    "familyJpn": "マメモドキ科",
     "genusJpn": "-",
     "characters": [
       "51"
@@ -16638,8 +16638,8 @@
     "family": "Araceae",
     "genus": "Epipremnum",
     "species": "Epipremnum giganteum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "サトイモ科",
+    "genusJpn": "ハブカズラ属",
     "characters": [
       "5"
     ]
@@ -16763,8 +16763,8 @@
     "family": "Eriocaulaceae",
     "genus": "Eriocaulon",
     "species": "Eriocaulon kinabaluensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ホシクサ科",
+    "genusJpn": "ホシクサ属",
     "characters": [
       "1"
     ]
@@ -16808,8 +16808,8 @@
     "family": "Convolvulaceae",
     "genus": "Erycibe",
     "species": "Erycibe ramiflora",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルガオ科",
+    "genusJpn": "ホルトカズラ属",
     "characters": [
       "79"
     ]
@@ -16867,7 +16867,7 @@
     "family": "Euphorbiaceae",
     "genus": "Endospermum",
     "species": "Endospermum peltatum",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -16896,7 +16896,7 @@
     "family": "Juglandaceae",
     "genus": "Engelhardia",
     "species": "Engelhardia serrata",
-    "familyJpn": "-",
+    "familyJpn": "クルミ科",
     "genusJpn": "-",
     "characters": [
       "109"
@@ -16907,8 +16907,8 @@
     "family": "Leguminosae",
     "genus": "Erythrina",
     "species": "Erythrina variegata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "デイコ属",
     "characters": [
       "62"
     ]
@@ -16933,8 +16933,8 @@
     "family": "Erythropalaceae",
     "genus": "Erythropalum",
     "species": "Erythropalum scandens",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "エリトロパルム科",
+    "genusJpn": "エリトロパルム属",
     "characters": [
       "106"
     ]
@@ -16983,8 +16983,8 @@
     "family": "Erythroxylaceae",
     "genus": "Erythroxylum",
     "species": "Erythroxylum cuneatum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コカ科",
+    "genusJpn": "コカ属",
     "characters": [
       "15"
     ]
@@ -17022,7 +17022,7 @@
     "family": "Asteraceae",
     "genus": "Euchiton",
     "species": "Euchiton breviscapum",
-    "familyJpn": "-",
+    "familyJpn": "キク科",
     "genusJpn": "-",
     "characters": [
       "1"
@@ -17078,7 +17078,7 @@
     "family": "Arecaceae",
     "genus": "Eugeissona",
     "species": "Eugeissona utilis",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -17143,8 +17143,8 @@
     "family": "Euphorbiaceae",
     "genus": "Euphorbia",
     "species": "Euphorbia cotinifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "トウダイグサ属",
     "characters": [
       "45"
     ]
@@ -17205,8 +17205,8 @@
     "family": "Pentaphylacaceae",
     "genus": "Eurya",
     "species": "Eurya acuminata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "サカキ科",
+    "genusJpn": "ヒサカキ属",
     "characters": [
       "82"
     ]
@@ -17231,7 +17231,7 @@
     "family": "Simaroubaceae",
     "genus": "Eurycoma",
     "species": "Eurycoma longifolia",
-    "familyJpn": "-",
+    "familyJpn": "ニガキ科",
     "genusJpn": "-",
     "characters": [
       "2"
@@ -17290,7 +17290,7 @@
     "family": "Ochnaceae",
     "genus": "Euthemis",
     "species": "Euthemis leucocarpa",
-    "familyJpn": "-",
+    "familyJpn": "オクナ科",
     "genusJpn": "-",
     "characters": [
       "105"
@@ -17333,7 +17333,7 @@
     "family": "Euphorbiaceae",
     "genus": "Extortaria",
     "species": "Extortaria agallocha",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "61"
@@ -17393,7 +17393,7 @@
     "family": "Gentianaceae",
     "genus": "Fagraea",
     "species": "Fagraea auriculata",
-    "familyJpn": "-",
+    "familyJpn": "リンドウ科",
     "genusJpn": "-",
     "characters": [
       "20",
@@ -17405,7 +17405,7 @@
     "family": "Gentianaceae",
     "genus": "Fagraea",
     "species": "Fagraea ridleyi",
-    "familyJpn": "-",
+    "familyJpn": "リンドウ科",
     "genusJpn": "-",
     "characters": [
       "20",
@@ -17481,8 +17481,8 @@
     "family": "Rutaceae",
     "genus": "Feroniella",
     "species": "Feroniella lucida",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミカン科",
+    "genusJpn": "フェロニエラ属",
     "characters": [
       "7"
     ]
@@ -17507,7 +17507,7 @@
     "family": "Menispermaceae",
     "genus": "Fibraurea",
     "species": "Fibraurea tinctoria",
-    "familyJpn": "-",
+    "familyJpn": "ツヅラフジ科",
     "genusJpn": "-",
     "characters": [
       "35"
@@ -17558,8 +17558,8 @@
     "family": "Moraceae",
     "genus": "Ficus",
     "species": "Ficus deltoidea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クワ科",
+    "genusJpn": "イチジク属",
     "characters": [
       "70"
     ]
@@ -17580,8 +17580,8 @@
     "family": "Moraceae",
     "genus": "Ficus",
     "species": "Ficus diversifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クワ科",
+    "genusJpn": "イチジク属",
     "characters": [
       "59"
     ]
@@ -17591,8 +17591,8 @@
     "family": "Moraceae",
     "genus": "Ficus",
     "species": "Ficus obscura var. borneensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クワ科",
+    "genusJpn": "イチジク属",
     "characters": [
       "10"
     ]
@@ -17602,8 +17602,8 @@
     "family": "Moraceae",
     "genus": "Ficus",
     "species": "Ficus uncinata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クワ科",
+    "genusJpn": "イチジク属",
     "characters": [
       "48"
     ]
@@ -17660,7 +17660,7 @@
     "family": "Proteaceae",
     "genus": "Finschia",
     "species": "Finschia chloroxantha",
-    "familyJpn": "-",
+    "familyJpn": "ヤマモガシ科",
     "genusJpn": "-",
     "characters": [
       "103"
@@ -17688,8 +17688,8 @@
     "family": "Malvaceae",
     "genus": "Firmiana",
     "species": "Firmiana malayana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "アオギリ属",
     "characters": [
       "115"
     ]
@@ -17723,7 +17723,7 @@
     "family": "Primulaceae",
     "genus": "Fittingia",
     "species": "Fittingia tubiflora",
-    "familyJpn": "-",
+    "familyJpn": "サクラソウ科",
     "genusJpn": "-",
     "characters": [
       "80"
@@ -17750,7 +17750,7 @@
     "family": "Salicaceae/Flacourtiaceae p.p.",
     "genus": "Flacourtia",
     "species": "Flacourtia inermis",
-    "familyJpn": "-",
+    "familyJpn": "ヤナギ科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "60"
@@ -17772,8 +17772,8 @@
     "family": "Flagellariaceae",
     "genus": "Flagellaria",
     "species": "Flagellaria indica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウツルモドキ科",
+    "genusJpn": "トウツルモドキ属",
     "characters": [
       "4"
     ]
@@ -17862,7 +17862,7 @@
     "family": "Leguminosae",
     "genus": "Fordia",
     "species": "Fordia hemsleyana",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "88"
@@ -17940,7 +17940,7 @@
     "family": "Rubiaceae",
     "genus": "Gaertnera",
     "species": "Gaertnera fractiflexa",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "80"
@@ -17951,7 +17951,7 @@
     "family": "Rubiaceae",
     "genus": "Gaertnera",
     "species": "Gaertnera grisea",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "29"
@@ -18000,7 +18000,7 @@
     "family": "Pandaceae/Euphorbiaceae p.p.",
     "genus": "Galearia",
     "species": "Galearia celebica",
-    "familyJpn": "-",
+    "familyJpn": "パンダ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -18011,7 +18011,7 @@
     "family": "Pandaceae/Euphorbiaceae p.p.",
     "genus": "Galearia",
     "species": "Galearia fulva",
-    "familyJpn": "-",
+    "familyJpn": "パンダ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "80"
@@ -18034,8 +18034,8 @@
     "family": "Orchidaceae",
     "genus": "Galeola",
     "species": "Galeola nudifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ラン科",
+    "genusJpn": "ツチアケビ属",
     "characters": [
       "8"
     ]
@@ -18070,7 +18070,7 @@
     "family": "Sapotaceae",
     "genus": "Ganua",
     "species": "Ganua pallida",
-    "familyJpn": "-",
+    "familyJpn": "アカテツ科",
     "genusJpn": "-",
     "characters": [
       "45"
@@ -18108,8 +18108,8 @@
     "family": "Clusiaceae",
     "genus": "Garcinia",
     "species": "Garcinia griffithii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フクギ科",
+    "genusJpn": "フクギ属",
     "characters": [
       "20"
     ]
@@ -18119,8 +18119,8 @@
     "family": "Clusiaceae",
     "genus": "Garcinia",
     "species": "Garcinia hombroniana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フクギ科",
+    "genusJpn": "フクギ属",
     "characters": [
       "100"
     ]
@@ -18130,8 +18130,8 @@
     "family": "Clusiaceae",
     "genus": "Garcinia",
     "species": "Garcinia nervosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フクギ科",
+    "genusJpn": "フクギ属",
     "characters": [
       "47"
     ]
@@ -18160,8 +18160,8 @@
     "family": "Rubiaceae",
     "genus": "Gardenia",
     "species": "Gardenia beamanii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "クチナシ属",
     "characters": [
       "23"
     ]
@@ -18171,8 +18171,8 @@
     "family": "Rubiaceae",
     "genus": "Gardenia",
     "species": "Gardenia chanii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "クチナシ属",
     "characters": [
       "23"
     ]
@@ -18182,8 +18182,8 @@
     "family": "Rubiaceae",
     "genus": "Gardenia",
     "species": "Gardenia coronaria",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "クチナシ属",
     "characters": [
       "78"
     ]
@@ -18193,8 +18193,8 @@
     "family": "Rubiaceae",
     "genus": "Gardenia",
     "species": "Gardenia griffithii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "クチナシ属",
     "characters": [
       "104"
     ]
@@ -18204,8 +18204,8 @@
     "family": "Rubiaceae",
     "genus": "Gardenia",
     "species": "Gardenia mutabilis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "クチナシ属",
     "characters": [
       "93"
     ]
@@ -18227,7 +18227,7 @@
     "family": "Rubiaceae",
     "genus": "Gardeniopsis",
     "species": "Gardeniopsis longifolia",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "33"
@@ -18317,8 +18317,8 @@
     "family": "Ericaceae",
     "genus": "Gaultheria",
     "species": "Gaultheria leucocarpa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツツジ科",
+    "genusJpn": "シラタマノキ属",
     "characters": [
       "105"
     ]
@@ -18526,7 +18526,7 @@
     "family": "Cannabaceae/Ulmaceae p.p.",
     "genus": "Gironniera",
     "species": "Gironniera fasciculata",
-    "familyJpn": "-",
+    "familyJpn": "アサ科/ニレ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "82"
@@ -18678,7 +18678,7 @@
     "family": "Anacardiaceae",
     "genus": "Gluta",
     "species": "Gluta velutina",
-    "familyJpn": "-",
+    "familyJpn": "ウルシ科",
     "genusJpn": "-",
     "characters": [
       "21"
@@ -18704,8 +18704,8 @@
     "family": "Rutaceae",
     "genus": "Glycosmis",
     "species": "Glycosmis cyanocarpa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミカン科",
+    "genusJpn": "ハナシンボウギ属",
     "characters": [
       "106"
     ]
@@ -18786,7 +18786,7 @@
     "family": "Stemonuraceae",
     "genus": "Gomphandra",
     "species": "Gomphandra cumingiana",
-    "familyJpn": "-",
+    "familyJpn": "ステモヌルス科",
     "genusJpn": "-",
     "characters": [
       "105"
@@ -18797,7 +18797,7 @@
     "family": "Stemonuraceae",
     "genus": "Gomphandra",
     "species": "Gomphandra quadrifida",
-    "familyJpn": "-",
+    "familyJpn": "ステモヌルス科",
     "genusJpn": "-",
     "characters": [
       "97",
@@ -18809,7 +18809,7 @@
     "family": "Stemonuraceae",
     "genus": "Gomphandra",
     "species": "Gomphandra quadrifida var.triplinervis",
-    "familyJpn": "-",
+    "familyJpn": "ステモヌルス科",
     "genusJpn": "-",
     "characters": [
       "53"
@@ -18836,7 +18836,7 @@
     "family": "Ochnaceae",
     "genus": "Gomphia",
     "species": "Gomphia serrata",
-    "familyJpn": "-",
+    "familyJpn": "オクナ科",
     "genusJpn": "-",
     "characters": [
       "55"
@@ -18947,7 +18947,7 @@
     "family": "Thymelaeaceae",
     "genus": "Gonystylus",
     "species": "Gonystylus areolatus",
-    "familyJpn": "-",
+    "familyJpn": "ジンチョウゲ科",
     "genusJpn": "-",
     "characters": [
       "47",
@@ -18959,7 +18959,7 @@
     "family": "Thymelaeaceae",
     "genus": "Gonystylus",
     "species": "Gonystylus confusus",
-    "familyJpn": "-",
+    "familyJpn": "ジンチョウゲ科",
     "genusJpn": "-",
     "characters": [
       "71"
@@ -19052,8 +19052,8 @@
     "family": "Malvaceae",
     "genus": "Grewia",
     "species": "Grewia laevigata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "ウオトギリ属",
     "characters": [
       "25"
     ]
@@ -19095,7 +19095,7 @@
     "family": "Sapindaceae",
     "genus": "Guioa",
     "species": "Guioa pleuropteris",
-    "familyJpn": "-",
+    "familyJpn": "ムクロジ科",
     "genusJpn": "-",
     "characters": [
       "112"
@@ -19106,7 +19106,7 @@
     "family": "Sapindaceae",
     "genus": "Guioa",
     "species": "Guioa pubescens",
-    "familyJpn": "-",
+    "familyJpn": "ムクロジ科",
     "genusJpn": "-",
     "characters": [
       "69"
@@ -19154,7 +19154,7 @@
     "family": "Cucurbitaceae",
     "genus": "Gymnopetalum",
     "species": "Gymnopetalum chinense",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "110"
@@ -19165,7 +19165,7 @@
     "family": "Cucurbitaceae",
     "genus": "Gymnopetalum",
     "species": "Gymnopetalum orientale",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "91"
@@ -19176,7 +19176,7 @@
     "family": "Cucurbitaceae",
     "genus": "Gymnopetalum",
     "species": "Gymnopetalum scabrum",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "75"
@@ -19212,7 +19212,7 @@
     "family": "Rubiaceae",
     "genus": "Gynochthodes",
     "species": "Gynochthodes umbellata",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "6"
@@ -19270,7 +19270,7 @@
     "family": "Thymelaeaceae",
     "genus": "Gyrinops",
     "species": "Gyrinops caudata",
-    "familyJpn": "-",
+    "familyJpn": "ジンチョウゲ科",
     "genusJpn": "-",
     "characters": [
       "56"
@@ -19396,8 +19396,8 @@
     "family": "Hanguanaceae",
     "genus": "Hanguana",
     "species": "Hanguana neglecta",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ハングアナ科",
+    "genusJpn": "ハングアナ属",
     "characters": [
       "100"
     ]
@@ -19407,7 +19407,7 @@
     "family": "Zingiberaceae",
     "genus": "Haplochorema",
     "species": "Haplochorema pauciflorum",
-    "familyJpn": "-",
+    "familyJpn": "ショウガ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -19433,7 +19433,7 @@
     "family": "Bignoniaceae",
     "genus": "Haplophragma",
     "species": "Haplophragma adenophyllum",
-    "familyJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
     "genusJpn": "-",
     "characters": [
       "62"
@@ -19489,7 +19489,7 @@
     "family": "Sapindaceae",
     "genus": "Harpullia",
     "species": "Harpullia myrmecophila",
-    "familyJpn": "-",
+    "familyJpn": "ムクロジ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -19516,7 +19516,7 @@
     "family": "Rutaceae",
     "genus": "Harrisonia",
     "species": "Harrisonia perforata",
-    "familyJpn": "-",
+    "familyJpn": "ミカン科",
     "genusJpn": "-",
     "characters": [
       "39"
@@ -19578,8 +19578,8 @@
     "family": "Rubiaceae",
     "genus": "Hedyotis",
     "species": "Hedyotis pterita",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "フタバムグラ属",
     "characters": [
       "109"
     ]
@@ -19589,8 +19589,8 @@
     "family": "Rubiaceae",
     "genus": "Hedyotis",
     "species": "Hedyotis trichoclada",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "フタバムグラ属",
     "characters": [
       "1"
     ]
@@ -19634,8 +19634,8 @@
     "family": "Proteaceae",
     "genus": "Helicia",
     "species": "Helicia bullata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤマモガシ科",
+    "genusJpn": "ヤマモガシ属",
     "characters": [
       "68"
     ]
@@ -19645,8 +19645,8 @@
     "family": "Proteaceae",
     "genus": "Helicia",
     "species": "Helicia forbesiana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤマモガシ科",
+    "genusJpn": "ヤマモガシ属",
     "characters": [
       "10"
     ]
@@ -19656,8 +19656,8 @@
     "family": "Proteaceae",
     "genus": "Helicia",
     "species": "Helicia peltata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤマモガシ科",
+    "genusJpn": "ヤマモガシ属",
     "characters": [
       "51"
     ]
@@ -19771,8 +19771,8 @@
     "family": "Malvaceae",
     "genus": "Heritiera",
     "species": "Heritiera littoralis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "サキシマスオウノキ属",
     "characters": [
       "110"
     ]
@@ -19801,8 +19801,8 @@
     "family": "Hernandiaceae",
     "genus": "Hernandia",
     "species": "Hernandia nymphaeifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ハスノハギリ科",
+    "genusJpn": "ハスノハギリ属",
     "characters": [
       "90"
     ]
@@ -19824,7 +19824,7 @@
     "family": "Rutaceae",
     "genus": "Hesperethusa",
     "species": "Hesperethusa crenulata",
-    "familyJpn": "-",
+    "familyJpn": "ミカン科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -19859,7 +19859,7 @@
     "family": "Bignoniaceae",
     "genus": "Heterophragma",
     "species": "Heterophragma sulfureum",
-    "familyJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
     "genusJpn": "-",
     "characters": [
       "62"
@@ -19895,7 +19895,7 @@
     "family": "Apocynaceae",
     "genus": "Heterostemma",
     "species": "Heterostemma cuspidatum",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "13"
@@ -19959,8 +19959,8 @@
     "family": "Dilleniaceae",
     "genus": "Hibbertia",
     "species": "Hibbertia scandens",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビワモドキ科",
+    "genusJpn": "ヒバーチア属",
     "characters": [
       "26"
     ]
@@ -19970,8 +19970,8 @@
     "family": "Malvaceae",
     "genus": "Hibiscus",
     "species": "Hibiscus tiliaceus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "フヨウ属",
     "characters": [
       "111"
     ]
@@ -20073,7 +20073,7 @@
     "family": "Poaceae",
     "genus": "Holttumochloa",
     "species": "Holttumochloa magica",
-    "familyJpn": "-",
+    "familyJpn": "イネ科",
     "genusJpn": "-",
     "characters": [
       "16"
@@ -20101,7 +20101,7 @@
     "family": "Euphorbiaceae",
     "genus": "Homalanthus",
     "species": "Homalanthus fastuosus",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -20125,7 +20125,7 @@
     "family": "Salicaceae/Flacourtiaceae p.p.",
     "genus": "Homalium",
     "species": "Homalium foetidum",
-    "familyJpn": "-",
+    "familyJpn": "ヤナギ科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "26"
@@ -20150,8 +20150,8 @@
     "family": "Araceae",
     "genus": "Homalomena",
     "species": "Homalomena asperifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "サトイモ科",
+    "genusJpn": "セントンイモ属",
     "characters": [
       "75"
     ]
@@ -20192,7 +20192,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Hopea",
     "species": "Hopea plagata",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "95"
@@ -20235,7 +20235,7 @@
     "family": "Myristicaceae",
     "genus": "Horsfieldia",
     "species": "Horsfieldia grandis",
-    "familyJpn": "-",
+    "familyJpn": "ニクズク科",
     "genusJpn": "-",
     "characters": [
       "75"
@@ -20246,7 +20246,7 @@
     "family": "Myristicaceae",
     "genus": "Horsfieldia",
     "species": "Horsfieldia sylvestris",
-    "familyJpn": "-",
+    "familyJpn": "ニクズク科",
     "genusJpn": "-",
     "characters": [
       "17"
@@ -20284,8 +20284,8 @@
     "family": "Saururaceae",
     "genus": "Houttuynia",
     "species": "Houttuynia cordata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ドクダミ科",
+    "genusJpn": "ドクダミ属",
     "characters": [
       "28"
     ]
@@ -20318,8 +20318,8 @@
     "family": "Apocynaceae",
     "genus": "Hoya",
     "species": "Hoya finlaysonii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キョウチクトウ科",
+    "genusJpn": "サクララン属",
     "characters": [
       "86"
     ]
@@ -20329,8 +20329,8 @@
     "family": "Apocynaceae",
     "genus": "Hoya",
     "species": "Hoya lacunosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キョウチクトウ科",
+    "genusJpn": "サクララン属",
     "characters": [
       "87"
     ]
@@ -20368,7 +20368,7 @@
     "family": "Linaceae",
     "genus": "Hugonia",
     "species": "Hugonia costata",
-    "familyJpn": "-",
+    "familyJpn": "アマ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -20379,7 +20379,7 @@
     "family": "Linaceae",
     "genus": "Hugonia",
     "species": "Hugonia jenkinsii",
-    "familyJpn": "-",
+    "familyJpn": "アマ科",
     "genusJpn": "-",
     "characters": [
       "110"
@@ -20460,7 +20460,7 @@
     "family": "Achariaceae/Flacourtiaceae p.p.",
     "genus": "Hydnocarpus",
     "species": "Hydnocarpus alcalae",
-    "familyJpn": "-",
+    "familyJpn": "アカリア科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -20471,7 +20471,7 @@
     "family": "Achariaceae/Flacourtiaceae p.p.",
     "genus": "Hydnocarpus",
     "species": "Hydnocarpus polypetala",
-    "familyJpn": "-",
+    "familyJpn": "アカリア科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "79",
@@ -20546,8 +20546,8 @@
     "family": "Hydroleaceae",
     "genus": "Hydrolea",
     "species": "Hydrolea spinosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒドロレア科",
+    "genusJpn": "ヒドロレア属",
     "characters": [
       "7"
     ]
@@ -20645,8 +20645,8 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "species": "Ilex cymosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モチノキ科",
+    "genusJpn": "モチノキ属",
     "characters": [
       "14"
     ]
@@ -20705,8 +20705,8 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "species": "Impatiens oncidioides",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツリフネソウ科",
+    "genusJpn": "ツリフネソウ属",
     "characters": [
       "93"
     ]
@@ -20792,7 +20792,7 @@
     "family": "Leguminosae",
     "genus": "Inga",
     "species": "Inga edulis",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "39"
@@ -20891,8 +20891,8 @@
     "family": "Convolvulaceae",
     "genus": "Ipomoea",
     "species": "Ipomoea horsfalliae",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルガオ科",
+    "genusJpn": "サツマイモ属",
     "characters": [
       "49"
     ]
@@ -20924,8 +20924,8 @@
     "family": "Convolvulaceae",
     "genus": "Ipomoea",
     "species": "Ipomoea aculeata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルガオ科",
+    "genusJpn": "サツマイモ属",
     "characters": [
       "7"
     ]
@@ -20935,8 +20935,8 @@
     "family": "Convolvulaceae",
     "genus": "Ipomoea",
     "species": "Ipomoea alba",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルガオ科",
+    "genusJpn": "サツマイモ属",
     "characters": [
       "7"
     ]
@@ -20946,8 +20946,8 @@
     "family": "Convolvulaceae",
     "genus": "Ipomoea",
     "species": "Ipomoea muricata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルガオ科",
+    "genusJpn": "サツマイモ属",
     "characters": [
       "7"
     ]
@@ -21149,7 +21149,7 @@
     "family": "Rubiaceae",
     "genus": "Jackiopsis",
     "species": "Jackiopsis ornata",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "31"
@@ -21222,8 +21222,8 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "species": "Jasminum elongatum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モクセイ科",
+    "genusJpn": "ソケイ属",
     "characters": [
       "7"
     ]
@@ -21326,7 +21326,7 @@
     "family": "Calophyllaceae",
     "genus": "Kayea",
     "species": "Kayea calophylloides",
-    "familyJpn": "-",
+    "familyJpn": "カロフィルム科",
     "genusJpn": "-",
     "characters": [
       "56"
@@ -21337,7 +21337,7 @@
     "family": "Calophyllaceae",
     "genus": "Kayea",
     "species": "Kayea grandis",
-    "familyJpn": "-",
+    "familyJpn": "カロフィルム科",
     "genusJpn": "-",
     "characters": [
       "56"
@@ -21438,7 +21438,7 @@
     "family": "Myristicaceae",
     "genus": "Knema",
     "species": "Knema kostermansiana",
-    "familyJpn": "-",
+    "familyJpn": "ニクズク科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -21449,7 +21449,7 @@
     "family": "Myristicaceae",
     "genus": "Knema",
     "species": "Knema latericia ssp. ridleyi",
-    "familyJpn": "-",
+    "familyJpn": "ニクズク科",
     "genusJpn": "-",
     "characters": [
       "89"
@@ -21499,7 +21499,7 @@
     "family": "Euphorbiaceae",
     "genus": "Koilodepas",
     "species": "Koilodepas longifolia",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "31"
@@ -21510,7 +21510,7 @@
     "family": "Euphorbiaceae",
     "genus": "Koilodepas",
     "species": "Koilodepas pectinata",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "31",
@@ -21547,7 +21547,7 @@
     "family": "Leguminosae",
     "genus": "Koompassia",
     "species": "Koompassia malaccensis",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "109"
@@ -21583,7 +21583,7 @@
     "family": "Apocynaceae",
     "genus": "Kopsia",
     "species": "Kopsia arborea",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "61"
@@ -21621,7 +21621,7 @@
     "family": "Arecaceae",
     "genus": "Korthalsia",
     "species": "Korthalsia rostrata",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "67"
@@ -21711,7 +21711,7 @@
     "family": "Primulaceae",
     "genus": "Labisia",
     "species": "Labisia longistyla",
-    "familyJpn": "-",
+    "familyJpn": "サクラソウ科",
     "genusJpn": "-",
     "characters": [
       "106"
@@ -21868,8 +21868,8 @@
     "family": "Urticaceae",
     "genus": "Laportea",
     "species": "Laportea decumana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "イラクサ科",
+    "genusJpn": "ムカゴイラクサ属",
     "characters": [
       "68"
     ]
@@ -21966,8 +21966,8 @@
     "family": "Vitaceae",
     "genus": "Leea",
     "species": "Leea aculeata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ブドウ科",
+    "genusJpn": "ウドノキ属",
     "characters": [
       "40"
     ]
@@ -21977,8 +21977,8 @@
     "family": "Vitaceae",
     "genus": "Leea",
     "species": "Leea angulata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ブドウ科",
+    "genusJpn": "ウドノキ属",
     "characters": [
       "96"
     ]
@@ -22191,7 +22191,7 @@
     "family": "Apocynaceae",
     "genus": "Leuconotis",
     "species": "Leuconotis eugenifolius",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "54"
@@ -22202,7 +22202,7 @@
     "family": "Leguminosae",
     "genus": "Leucostegane",
     "species": "Leucostegane latistipulata",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "34"
@@ -22265,7 +22265,7 @@
     "family": "Arecaceae",
     "genus": "Licuala",
     "species": "Licuala orbicularis",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "96"
@@ -22432,8 +22432,8 @@
     "family": "Fagaceae",
     "genus": "Lithocarpus",
     "species": "Lithocarpus bullata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ブナ科",
+    "genusJpn": "マテバシイ属",
     "characters": [
       "68"
     ]
@@ -22465,8 +22465,8 @@
     "family": "Lauraceae",
     "genus": "Litsea",
     "species": "Litsea collina",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クスノキ科",
+    "genusJpn": "ハマビワ属",
     "characters": [
       "99"
     ]
@@ -22476,8 +22476,8 @@
     "family": "Lauraceae",
     "genus": "Litsea",
     "species": "Litsea garciae",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クスノキ科",
+    "genusJpn": "ハマビワ属",
     "characters": [
       "19"
     ]
@@ -22547,7 +22547,7 @@
     "family": "Primulaceae/Myrsinaceae",
     "genus": "Loheria",
     "species": "Loheria magnifolia",
-    "familyJpn": "-",
+    "familyJpn": "サクラソウ科/Myrsinaceae",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -22558,7 +22558,7 @@
     "family": "Primulaceae/Myrsinaceae",
     "genus": "Loheria",
     "species": "Loheria reiniana",
-    "familyJpn": "-",
+    "familyJpn": "サクラソウ科/Myrsinaceae",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -22623,7 +22623,7 @@
     "family": "Celastraceae",
     "genus": "Lophopetalum",
     "species": "Lophopetalum sessilifolium",
-    "familyJpn": "-",
+    "familyJpn": "ニシキギ科",
     "genusJpn": "-",
     "characters": [
       "13"
@@ -22634,7 +22634,7 @@
     "family": "Celastraceae",
     "genus": "Lophopetalum",
     "species": "Lophopetalum wightianum",
-    "familyJpn": "-",
+    "familyJpn": "ニシキギ科",
     "genusJpn": "-",
     "characters": [
       "112"
@@ -22717,8 +22717,8 @@
     "family": "Onagraceae",
     "genus": "Ludwigia",
     "species": "Ludwigia octovalvis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカバナ科",
+    "genusJpn": "チョウジタデ属",
     "characters": [
       "61"
     ]
@@ -22754,7 +22754,7 @@
     "family": "Rutaceae",
     "genus": "Lunasia",
     "species": "Lunasia amara",
-    "familyJpn": "-",
+    "familyJpn": "ミカン科",
     "genusJpn": "-",
     "characters": [
       "47",
@@ -22793,8 +22793,8 @@
     "family": "Solanaceae",
     "genus": "Lycium",
     "species": "Lycium chinense",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ナス科",
+    "genusJpn": "クコ属",
     "characters": [
       "7"
     ]
@@ -22854,8 +22854,8 @@
     "family": "Proteaceae",
     "genus": "Macadamia",
     "species": "Macadamia hildebrandii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤマモガシ科",
+    "genusJpn": "マカダミア属",
     "characters": [
       "80"
     ]
@@ -22899,8 +22899,8 @@
     "family": "Euphorbiaceae",
     "genus": "Macaranga",
     "species": "Macaranga beccariana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "オオバギ属",
     "characters": [
       "51",
       "67"
@@ -22911,8 +22911,8 @@
     "family": "Euphorbiaceae",
     "genus": "Macaranga",
     "species": "Macaranga fimbriata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "オオバギ属",
     "characters": [
       "91"
     ]
@@ -22922,8 +22922,8 @@
     "family": "Euphorbiaceae",
     "genus": "Macaranga",
     "species": "Macaranga gigantea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "オオバギ属",
     "characters": [
       "34"
     ]
@@ -22933,8 +22933,8 @@
     "family": "Euphorbiaceae",
     "genus": "Macaranga",
     "species": "Macaranga tanarius",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "オオバギ属",
     "characters": [
       "51"
     ]
@@ -22944,8 +22944,8 @@
     "family": "Euphorbiaceae",
     "genus": "Macaranga",
     "species": "Macaranga trachyphylla",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "オオバギ属",
     "characters": [
       "75"
     ]
@@ -22970,7 +22970,7 @@
     "family": "Sapotaceae",
     "genus": "Madhuca",
     "species": "Madhuca sessilis",
-    "familyJpn": "-",
+    "familyJpn": "アカテツ科",
     "genusJpn": "-",
     "characters": [
       "45"
@@ -23030,8 +23030,8 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "species": "Magnolia ashtonii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "モクレン科",
+    "genusJpn": "モクレン属",
     "characters": [
       "114"
     ]
@@ -23064,7 +23064,7 @@
     "family": "Hamamelidaceae",
     "genus": "Maingaya",
     "species": "Maingaya malayana",
-    "familyJpn": "-",
+    "familyJpn": "マンサク科",
     "genusJpn": "-",
     "characters": [
       "30",
@@ -23079,8 +23079,8 @@
     "family": "Euphorbiaceae",
     "genus": "Mallotus",
     "species": "Mallotus miquelianus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "アカメガシワ属",
     "characters": [
       "46"
     ]
@@ -23090,8 +23090,8 @@
     "family": "Euphorbiaceae",
     "genus": "Mallotus",
     "species": "Mallotus mollissimus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "アカメガシワ属",
     "characters": [
       "21"
     ]
@@ -23101,8 +23101,8 @@
     "family": "Euphorbiaceae",
     "genus": "Mallotus",
     "species": "Mallotus sumatranus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "アカメガシワ属",
     "characters": [
       "109"
     ]
@@ -23112,8 +23112,8 @@
     "family": "Euphorbiaceae",
     "genus": "Macaranga",
     "species": "Macaranga trichocarpa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "オオバギ属",
     "characters": [
       "66"
     ]
@@ -23249,7 +23249,7 @@
     "family": "Loranthaceae",
     "genus": "Macrosolen",
     "species": "Macrosolen curvinervis",
-    "familyJpn": "-",
+    "familyJpn": "オオバヤドリギ科",
     "genusJpn": "-",
     "characters": [
       "45"
@@ -23294,7 +23294,7 @@
     "family": "Calophyllaceae",
     "genus": "Mammea",
     "species": "Mammea acuminata",
-    "familyJpn": "-",
+    "familyJpn": "カロフィルム科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -23305,7 +23305,7 @@
     "family": "Calophyllaceae",
     "genus": "Mammea",
     "species": "Mammea calciphylla",
-    "familyJpn": "-",
+    "familyJpn": "カロフィルム科",
     "genusJpn": "-",
     "characters": [
       "38"
@@ -23316,7 +23316,7 @@
     "family": "Calophyllaceae",
     "genus": "Mammea",
     "species": "Mammea nervosa",
-    "familyJpn": "-",
+    "familyJpn": "カロフィルム科",
     "genusJpn": "-",
     "characters": [
       "56"
@@ -23327,7 +23327,7 @@
     "family": "Calophyllaceae",
     "genus": "Mammea",
     "species": "Mammea woodii",
-    "familyJpn": "-",
+    "familyJpn": "カロフィルム科",
     "genusJpn": "-",
     "characters": [
       "38",
@@ -23374,8 +23374,8 @@
     "family": "Anacardiaceae",
     "genus": "Mangifera",
     "species": "Mangifera khoonmengiana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウルシ科",
+    "genusJpn": "マンゴー属",
     "characters": [
       "36",
       "68"
@@ -23386,8 +23386,8 @@
     "family": "Anacardiaceae",
     "genus": "Mangifera",
     "species": "Mangifera lagenifera",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウルシ科",
+    "genusJpn": "マンゴー属",
     "characters": [
       "21"
     ]
@@ -23397,8 +23397,8 @@
     "family": "Anacardiaceae",
     "genus": "Mangifera",
     "species": "Mangifera pentandra",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウルシ科",
+    "genusJpn": "マンゴー属",
     "characters": [
       "103"
     ]
@@ -23421,8 +23421,8 @@
     "family": "Euphorbiaceae",
     "genus": "Manihot",
     "species": "Manihot esculenta",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "マニホット属",
     "characters": [
       "110"
     ]
@@ -23443,8 +23443,8 @@
     "family": "Sapotaceae",
     "genus": "Manilkara",
     "species": "Manilkara kauki",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカテツ科",
+    "genusJpn": "サポジラ属",
     "characters": [
       "18",
       "89"
@@ -23492,7 +23492,7 @@
     "family": "Chrysobalanaceae",
     "genus": "Maranthes",
     "species": "Maranthes corymbosa",
-    "familyJpn": "-",
+    "familyJpn": "クリソバラヌス科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -23516,8 +23516,8 @@
     "family": "Phyllanthaceae",
     "genus": "Margaritaria",
     "species": "Margaritaria indica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コミカンソウ科",
+    "genusJpn": "アカハダコバンノキ属",
     "characters": [
       "100"
     ]
@@ -23543,8 +23543,8 @@
     "family": "Apocynaceae",
     "genus": "Marsdenia",
     "species": "Marsdenia maingayi",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キョウチクトウ科",
+    "genusJpn": "キジョラン属",
     "characters": [
       "6"
     ]
@@ -23554,7 +23554,7 @@
     "family": "Annonaceae",
     "genus": "Marsypopetalum",
     "species": "Marsypopetalum pallidum",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -23604,7 +23604,7 @@
     "family": "Cornaceae",
     "genus": "Mastixia",
     "species": "Mastixia glauca",
-    "familyJpn": "-",
+    "familyJpn": "ミズキ科",
     "genusJpn": "-",
     "characters": [
       "67"
@@ -23662,7 +23662,7 @@
     "family": "Bignoniaceae",
     "genus": "Mayodendron",
     "species": "Mayodendron igneum",
-    "familyJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -23743,7 +23743,7 @@
     "family": "Euphorbiaceae",
     "genus": "Megistostigma",
     "species": "Megistostigma burmannicum",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "109"
@@ -23754,7 +23754,7 @@
     "family": "Euphorbiaceae",
     "genus": "Megistostigma",
     "species": "Megistostigma peltatum",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "51"
@@ -23836,8 +23836,8 @@
     "family": "Melastomataceae",
     "genus": "Melastoma",
     "species": "Melastoma beccarianum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ノボタン科",
+    "genusJpn": "ノボタン属",
     "characters": [
       "108"
     ]
@@ -23847,8 +23847,8 @@
     "family": "Melastomataceae",
     "genus": "Melastoma",
     "species": "Melastoma malabathricum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ノボタン科",
+    "genusJpn": "ノボタン属",
     "characters": [
       "53"
     ]
@@ -23902,8 +23902,8 @@
     "family": "Malvaceae",
     "genus": "Melochia",
     "species": "Melochia umbellata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "ノジアオイ属",
     "characters": [
       "34"
     ]
@@ -23959,7 +23959,7 @@
     "family": "Melastomataceae",
     "genus": "Memecylon",
     "species": "Memecylon caeruleum",
-    "familyJpn": "-",
+    "familyJpn": "ノボタン科",
     "genusJpn": "-",
     "characters": [
       "97"
@@ -23981,7 +23981,7 @@
     "family": "Rutaceae",
     "genus": "Merope",
     "species": "Merope angulata",
-    "familyJpn": "-",
+    "familyJpn": "ミカン科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -24006,8 +24006,8 @@
     "family": "Convolvulaceae",
     "genus": "Merremia",
     "species": "Merremia peltata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルガオ科",
+    "genusJpn": "コガネヒルガオ属",
     "characters": [
       "51"
     ]
@@ -24017,8 +24017,8 @@
     "family": "Convolvulaceae",
     "genus": "Merremia",
     "species": "Merremia quinquefolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルガオ科",
+    "genusJpn": "コガネヒルガオ属",
     "characters": [
       "49"
     ]
@@ -24081,7 +24081,7 @@
     "family": "Calophyllaceae",
     "genus": "Mesua",
     "species": "Mesua ferruginea",
-    "familyJpn": "-",
+    "familyJpn": "カロフィルム科",
     "genusJpn": "-",
     "characters": [
       "90"
@@ -24152,7 +24152,7 @@
     "family": "Malvaceae",
     "genus": "Microcos",
     "species": "Microcos fibrocarpa",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "31"
@@ -24177,7 +24177,7 @@
     "family": "Pandaceae",
     "genus": "Microdesmis",
     "species": "Microdesmis caseariifolia",
-    "familyJpn": "-",
+    "familyJpn": "パンダ科",
     "genusJpn": "-",
     "characters": [
       "82"
@@ -24269,7 +24269,7 @@
     "family": "Celastraceae",
     "genus": "Microtropis",
     "species": "Microtropis kinabaluensis",
-    "familyJpn": "-",
+    "familyJpn": "ニシキギ科",
     "genusJpn": "-",
     "characters": [
       "38"
@@ -24307,8 +24307,8 @@
     "family": "Leguminosae",
     "genus": "Millettia",
     "species": "Millettia unifoliolata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ナツフジ属",
     "characters": [
       "35"
     ]
@@ -24474,8 +24474,8 @@
     "family": "Cucurbitaceae",
     "genus": "Momordica",
     "species": "Momordica subangulata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウリ科",
+    "genusJpn": "ツルレイシ属",
     "characters": [
       "110"
     ]
@@ -24485,8 +24485,8 @@
     "family": "Cucurbitaceae",
     "genus": "Momordica",
     "species": "Momordica trifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウリ科",
+    "genusJpn": "ツルレイシ属",
     "characters": [
       "49"
     ]
@@ -24532,7 +24532,7 @@
     "family": "Annonaceae",
     "genus": "Monocarpia",
     "species": "Monocarpia marginalis",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "119"
@@ -24646,8 +24646,8 @@
     "family": "Moringaceae",
     "genus": "Moringa",
     "species": "Moringa oleifera",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ワサビノキ科",
+    "genusJpn": "ワサビノキ属",
     "characters": [
       "50"
     ]
@@ -24691,8 +24691,8 @@
     "family": "Rutaceae",
     "genus": "Murraya",
     "species": "Murraya paniculata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミカン科",
+    "genusJpn": "ゲッキツ属",
     "characters": [
       "14"
     ]
@@ -24732,8 +24732,8 @@
     "family": "Rubiaceae",
     "genus": "Mussaenda",
     "species": "Mussaenda anisophylla",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "コンロンカ属",
     "characters": [
       "46"
     ]
@@ -24755,7 +24755,7 @@
     "family": "Rubiaceae",
     "genus": "Mussaendopsis",
     "species": "Mussaendopsis beccariana",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "29"
@@ -24779,7 +24779,7 @@
     "family": "Rubiaceae",
     "genus": "Mycetia",
     "species": "Mycetia malayana",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "105"
@@ -24861,8 +24861,8 @@
     "family": "Myristicaceae",
     "genus": "Myristica",
     "species": "Myristica cinnamomea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ニクズク科",
+    "genusJpn": "ニクズク属",
     "characters": [
       "22"
     ]
@@ -24886,8 +24886,8 @@
     "family": "Myristicaceae",
     "genus": "Myristica",
     "species": "Myristica dasycarpa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ニクズク科",
+    "genusJpn": "ニクズク属",
     "characters": [
       "13",
       "47"
@@ -24962,8 +24962,8 @@
     "family": "Myristicaceae",
     "genus": "Myristica",
     "species": "Myristica elliptica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ニクズク科",
+    "genusJpn": "ニクズク属",
     "characters": [
       "118"
     ]
@@ -24973,8 +24973,8 @@
     "family": "Myristicaceae",
     "genus": "Myristica",
     "species": "Myristica fatua",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ニクズク科",
+    "genusJpn": "ニクズク属",
     "characters": [
       "47"
     ]
@@ -24984,8 +24984,8 @@
     "family": "Myristicaceae",
     "genus": "Myristica",
     "species": "Myristica myrmecophila",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ニクズク科",
+    "genusJpn": "ニクズク属",
     "characters": [
       "10"
     ]
@@ -24995,8 +24995,8 @@
     "family": "Myristicaceae",
     "genus": "Myristica",
     "species": "Myristica subalulata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ニクズク科",
+    "genusJpn": "ニクズク属",
     "characters": [
       "10",
       "13"
@@ -25021,7 +25021,7 @@
     "family": "Rubiaceae",
     "genus": "Myrmecodia",
     "species": "Myrmecodia tuberosa",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "3",
@@ -25047,7 +25047,7 @@
     "family": "Rubiaceae",
     "genus": "Myrmeconauclea",
     "species": "Myrmeconauclea strigosa",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -25144,7 +25144,7 @@
     "family": "Cucurbitaceae",
     "genus": "Neoalsomitra",
     "species": "Neoalsomitra schefferiana",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "49"
@@ -25155,7 +25155,7 @@
     "family": "Cucurbitaceae",
     "genus": "Neoalsomitra",
     "species": "Neoalsomitra schefferiana ssp.podagrica",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "3"
@@ -25248,8 +25248,8 @@
     "family": "Lauraceae",
     "genus": "Neolitsea",
     "species": "Neolitsea zeylanica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クスノキ科",
+    "genusJpn": "シロダモ属",
     "characters": [
       "67"
     ]
@@ -25315,7 +25315,7 @@
     "family": "Euphorbiaceae",
     "genus": "Neoscortechinia",
     "species": "Neoscortechinia sumatrensis",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -25349,8 +25349,8 @@
     "family": "Nelumbonaceae",
     "genus": "Nelumbo",
     "species": "Nelumbo nucifera",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ハス科",
+    "genusJpn": "ハス属",
     "characters": [
       "51",
       "95"
@@ -25387,7 +25387,7 @@
     "family": "Cucurbitaceae",
     "genus": "Neoachmandra",
     "species": "Neoachmandra indica",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "105"
@@ -25398,7 +25398,7 @@
     "family": "Cucurbitaceae",
     "genus": "Neoachmandra",
     "species": "Neoachmandra leucocarpa",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "105"
@@ -25409,7 +25409,7 @@
     "family": "Cucurbitaceae",
     "genus": "Neoachmandra",
     "species": "Neoachmandra nesophila",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "116"
@@ -25434,7 +25434,7 @@
     "family": "Cucurbitaceae",
     "genus": "Neoalsomitra",
     "species": "Neoalsomitra hederifolia",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "3"
@@ -25445,7 +25445,7 @@
     "family": "Cucurbitaceae",
     "genus": "Neoalsomitra",
     "species": "Neoalsomitra sarcophylla",
-    "familyJpn": "-",
+    "familyJpn": "ウリ科",
     "genusJpn": "-",
     "characters": [
       "49"
@@ -25484,8 +25484,8 @@
     "family": "Nepenthaceae",
     "genus": "Nepenthes",
     "species": "Nepenthes bicalcarata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウツボカズラ科",
+    "genusJpn": "ウツボカズラ属",
     "characters": [
       "10"
     ]
@@ -25495,8 +25495,8 @@
     "family": "Nepenthaceae",
     "genus": "Nepenthes",
     "species": "Nepenthes rafflesiana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウツボカズラ科",
+    "genusJpn": "ウツボカズラ属",
     "characters": [
       "55"
     ]
@@ -25537,8 +25537,8 @@
     "family": "Leguminosae",
     "genus": "Neptunia",
     "species": "Neptunia oleracea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "ミズオジギソウ属",
     "characters": [
       "3"
     ]
@@ -25724,7 +25724,7 @@
     "family": "Bignoniaceae",
     "genus": "Nyctocalos",
     "species": "Nyctocalos cuspidata",
-    "familyJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
     "genusJpn": "-",
     "characters": [
       "116"
@@ -25761,8 +25761,8 @@
     "family": "Menyanthaceae",
     "genus": "Nymphoides",
     "species": "Nymphoides aquatica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミツガシワ科",
+    "genusJpn": "アサザ属",
     "characters": [
       "91"
     ]
@@ -25917,8 +25917,8 @@
     "family": "Olacaceae",
     "genus": "Olax",
     "species": "Olax imbricata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "オラクス科",
+    "genusJpn": "オラクス属",
     "characters": [
       "71"
     ]
@@ -25928,7 +25928,7 @@
     "family": "Rubiaceae",
     "genus": "Oldenlandia",
     "species": "Oldenlandia cristata",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "31",
@@ -25982,7 +25982,7 @@
     "family": "Euphorbiaceae",
     "genus": "Omphalea",
     "species": "Omphalea bracteata",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -26041,8 +26041,8 @@
     "family": "Convolvulaceae",
     "genus": "Operculina",
     "species": "Operculina turpethum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルガオ科",
+    "genusJpn": "フウセンアサガオ属",
     "characters": [
       "39"
     ]
@@ -26112,7 +26112,7 @@
     "family": "Cyperaceae",
     "genus": "Oreobolus",
     "species": "Oreobolus ambiguus",
-    "familyJpn": "-",
+    "familyJpn": "カヤツリグサ科",
     "genusJpn": "-",
     "characters": [
       "1"
@@ -26233,7 +26233,7 @@
     "family": "Salicaceae/Flacourtiaceae p.p.",
     "genus": "Osmelia",
     "species": "Osmelia grandistipula",
-    "familyJpn": "-",
+    "familyJpn": "ヤナギ科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "34"
@@ -26262,7 +26262,7 @@
     "family": "Araliaceae",
     "genus": "Osmoxylon",
     "species": "Osmoxylon boerlagei",
-    "familyJpn": "-",
+    "familyJpn": "ウコギ科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -26273,7 +26273,7 @@
     "family": "Araliaceae",
     "genus": "Osmoxylon",
     "species": "Osmoxylon borneense",
-    "familyJpn": "-",
+    "familyJpn": "ウコギ科",
     "genusJpn": "-",
     "characters": [
       "49"
@@ -26296,8 +26296,8 @@
     "family": "Hydrocharitaceae",
     "genus": "Ottelia",
     "species": "Ottelia alismoides",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トチカガミ科",
+    "genusJpn": "ミズオオバコ属",
     "characters": [
       "110"
     ]
@@ -26307,8 +26307,8 @@
     "family": "Hydrocharitaceae",
     "genus": "Ottelia",
     "species": "Ottelia mesenterium",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トチカガミ科",
+    "genusJpn": "ミズオオバコ属",
     "characters": [
       "110"
     ]
@@ -26354,7 +26354,7 @@
     "family": "Rubiaceae",
     "genus": "Oxyceros",
     "species": "Oxyceros bispinosus",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "4"
@@ -26449,8 +26449,8 @@
     "family": "Rubiaceae",
     "genus": "Paederia",
     "species": "Paederia verticillata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "ヤイトバナ属",
     "characters": [
       "109"
     ]
@@ -26492,7 +26492,7 @@
     "family": "Sapotaceae",
     "genus": "Palaquium",
     "species": "Palaquium beccarii",
-    "familyJpn": "-",
+    "familyJpn": "アカテツ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -26503,7 +26503,7 @@
     "family": "Sapotaceae",
     "genus": "Palaquium",
     "species": "Palaquium stipulare",
-    "familyJpn": "-",
+    "familyJpn": "アカテツ科",
     "genusJpn": "-",
     "characters": [
       "30"
@@ -26544,8 +26544,8 @@
     "family": "Pandanaceae",
     "genus": "Pandanus",
     "species": "Pandanus odoratissimus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "タコノキ科",
+    "genusJpn": "タコノキ属",
     "characters": [
       "114"
     ]
@@ -26717,7 +26717,7 @@
     "family": "Sapotaceae",
     "genus": "Payena",
     "species": "Payena grandistipula",
-    "familyJpn": "-",
+    "familyJpn": "アカテツ科",
     "genusJpn": "-",
     "characters": [
       "30"
@@ -26890,8 +26890,8 @@
     "family": "Apocynaceae",
     "genus": "Parsonsia",
     "species": "Parsonsia oligantha",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キョウチクトウ科",
+    "genusJpn": "ホウライカガミ属",
     "characters": [
       "108"
     ]
@@ -26941,8 +26941,8 @@
     "family": "Passifloraceae",
     "genus": "Passiflora",
     "species": "Passiflora cochinchinensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トケイソウ科",
+    "genusJpn": "トケイソウ属",
     "characters": [
       "6",
       "43"
@@ -26953,8 +26953,8 @@
     "family": "Passifloraceae",
     "genus": "Passiflora",
     "species": "Passiflora quadrangularis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トケイソウ科",
+    "genusJpn": "トケイソウ属",
     "characters": [
       "13",
       "91"
@@ -26989,7 +26989,7 @@
     "family": "Rubiaceae",
     "genus": "Pavetta",
     "species": "Pavetta salicina",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -27087,8 +27087,8 @@
     "family": "Lythraceae",
     "genus": "Pemphis",
     "species": "Pemphis acidula",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミソハギ科",
+    "genusJpn": "ミズガンピ属",
     "characters": [
       "94"
     ]
@@ -27237,7 +27237,7 @@
     "family": "Lamiaceae",
     "genus": "Peronema",
     "species": "Peronema canescens",
-    "familyJpn": "-",
+    "familyJpn": "シソ科",
     "genusJpn": "-",
     "characters": [
       "39"
@@ -27324,7 +27324,7 @@
     "family": "Lamiaceae",
     "genus": "Petraeovitex",
     "species": "Petraeovitex multiflora",
-    "familyJpn": "-",
+    "familyJpn": "シソ科",
     "genusJpn": "-",
     "characters": [
       "50"
@@ -27407,7 +27407,7 @@
     "family": "Thymelaeaceae",
     "genus": "Phaleria",
     "species": "Phaleria capitata",
-    "familyJpn": "-",
+    "familyJpn": "ジンチョウゲ科",
     "genusJpn": "-",
     "characters": [
       "86"
@@ -27418,7 +27418,7 @@
     "family": "Thymelaeaceae",
     "genus": "Phaleria",
     "species": "Phaleria macrocarpa",
-    "familyJpn": "-",
+    "familyJpn": "ジンチョウゲ科",
     "genusJpn": "-",
     "characters": [
       "76"
@@ -27578,8 +27578,8 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Phyllanthus",
     "species": "Phyllanthus acidus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
+    "genusJpn": "コミカンソウ属",
     "characters": [
       "79"
     ]
@@ -27589,8 +27589,8 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Phyllanthus",
     "species": "Phyllanthus pectinata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
+    "genusJpn": "コミカンソウ属",
     "characters": [
       "17"
     ]
@@ -27600,8 +27600,8 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Phyllanthus",
     "species": "Phyllanthus reticulatus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
+    "genusJpn": "コミカンソウ属",
     "characters": [
       "5"
     ]
@@ -27611,8 +27611,8 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Phyllanthus",
     "species": "Phyllanthus watsonii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
+    "genusJpn": "コミカンソウ属",
     "characters": [
       "2"
     ]
@@ -27636,7 +27636,7 @@
     "family": "Podocarpaceae",
     "genus": "Phyllocladus",
     "species": "Phyllocladus hypophyllus",
-    "familyJpn": "-",
+    "familyJpn": "マキ科",
     "genusJpn": "-",
     "characters": [
       "13"
@@ -27686,7 +27686,7 @@
     "family": "Icacinaceae",
     "genus": "Phytocrene",
     "species": "Phytocrene bracteata",
-    "familyJpn": "-",
+    "familyJpn": "クロタキカズラ科",
     "genusJpn": "-",
     "characters": [
       "118"
@@ -27697,7 +27697,7 @@
     "family": "Icacinaceae",
     "genus": "Phytocrene",
     "species": "Phytocrene macrophylla",
-    "familyJpn": "-",
+    "familyJpn": "クロタキカズラ科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -27810,7 +27810,7 @@
     "family": "Euphorbiaceae",
     "genus": "Pimelodendron",
     "species": "Pimelodendron macrocarpum",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "79",
@@ -27837,7 +27837,7 @@
     "family": "Arecaceae",
     "genus": "Pinanga",
     "species": "Pinanga ridleyana",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -27862,8 +27862,8 @@
     "family": "Piperaceae",
     "genus": "Piper",
     "species": "Piper caninum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コショウ科",
+    "genusJpn": "コショウ属",
     "characters": [
       "12"
     ]
@@ -27873,8 +27873,8 @@
     "family": "Piperaceae",
     "genus": "Piper",
     "species": "Piper microphyllum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "コショウ科",
+    "genusJpn": "コショウ属",
     "characters": [
       "10"
     ]
@@ -27928,8 +27928,8 @@
     "family": "Nyctaginaceae",
     "genus": "Pisonia",
     "species": "Pisonia aculeata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "オシロイバナ科",
+    "genusJpn": "ウドノキ属",
     "characters": [
       "4",
       "7"
@@ -27940,8 +27940,8 @@
     "family": "Nyctaginaceae",
     "genus": "Pisonia",
     "species": "Pisonia longirostris",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "オシロイバナ科",
+    "genusJpn": "ウドノキ属",
     "characters": [
       "80"
     ]
@@ -27951,8 +27951,8 @@
     "family": "Nyctaginaceae",
     "genus": "Pisonia",
     "species": "Pisonia umbelliflora",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "オシロイバナ科",
+    "genusJpn": "ウドノキ属",
     "characters": [
       "20"
     ]
@@ -28005,8 +28005,8 @@
     "family": "Pittosporaceae",
     "genus": "Pittosporum",
     "species": "Pittosporum resinifera",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トベラ科",
+    "genusJpn": "トベラ属",
     "characters": [
       "24"
     ]
@@ -28044,7 +28044,7 @@
     "family": "Zingiberaceae",
     "genus": "Plagiostachys",
     "species": "Plagiostachys albiflora",
-    "familyJpn": "-",
+    "familyJpn": "ショウガ科",
     "genusJpn": "-",
     "characters": [
       "86"
@@ -28067,7 +28067,7 @@
     "family": "Sapotaceae",
     "genus": "Planchonella",
     "species": "Planchonella keyensis",
-    "familyJpn": "-",
+    "familyJpn": "アカテツ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -28130,7 +28130,7 @@
     "family": "Icacinaceae",
     "genus": "Platea",
     "species": "Platea excelsa",
-    "familyJpn": "-",
+    "familyJpn": "クロタキカズラ科",
     "genusJpn": "-",
     "characters": [
       "25"
@@ -28189,7 +28189,7 @@
     "family": "Rubiaceae",
     "genus": "Pleiocraterium",
     "species": "Pleiocraterium gentianifolia",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "1"
@@ -28215,7 +28215,7 @@
     "family": "Anacardiaceae",
     "genus": "Pleiogynium",
     "species": "Pleiogynium timoriense",
-    "familyJpn": "-",
+    "familyJpn": "ウルシ科",
     "genusJpn": "-",
     "characters": [
       "20"
@@ -28357,7 +28357,7 @@
     "family": "Melastomataceae",
     "genus": "Poikilogyne",
     "species": "Poikilogyne villosa",
-    "familyJpn": "-",
+    "familyJpn": "ノボタン科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -28411,7 +28411,7 @@
     "family": "Annonaceae",
     "genus": "Polyalthia",
     "species": "Polyalthia dolichophylla",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -28437,8 +28437,8 @@
     "family": "Polygalaceae",
     "genus": "Polygala",
     "species": "Polygala paniculata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒメハギ科",
+    "genusJpn": "ヒメハギ属",
     "characters": [
       "28"
     ]
@@ -28465,8 +28465,8 @@
     "family": "Polygonaceae",
     "genus": "Polygonum",
     "species": "Polygonum perforatum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "タデ科",
+    "genusJpn": "ミチヤナギ属",
     "characters": [
       "7"
     ]
@@ -28497,7 +28497,7 @@
     "family": "Escalloniaceae",
     "genus": "Polyosma",
     "species": "Polyosma verticillata",
-    "familyJpn": "-",
+    "familyJpn": "エスカロニア科",
     "genusJpn": "-",
     "characters": [
       "45"
@@ -28539,8 +28539,8 @@
     "family": "Araliaceae",
     "genus": "Polyscias",
     "species": "Polyscias mollis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウコギ科",
+    "genusJpn": "タイワンモミジ属",
     "characters": [
       "7"
     ]
@@ -28564,7 +28564,7 @@
     "family": "Sapindaceae",
     "genus": "Pometia",
     "species": "Pometia pinnata",
-    "familyJpn": "-",
+    "familyJpn": "ムクロジ科",
     "genusJpn": "-",
     "characters": [
       "22"
@@ -28613,7 +28613,7 @@
     "family": "Rubiaceae",
     "genus": "Porterandia",
     "species": "Porterandia scortechinii",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "29"
@@ -28664,7 +28664,7 @@
     "family": "Piperaceae",
     "genus": "Pothomorphe",
     "species": "Pothomorphe peltata",
-    "familyJpn": "-",
+    "familyJpn": "コショウ科",
     "genusJpn": "-",
     "characters": [
       "51"
@@ -28749,7 +28749,7 @@
     "family": "Moraceae",
     "genus": "Prainea",
     "species": "Prainea scandens",
-    "familyJpn": "-",
+    "familyJpn": "クワ科",
     "genusJpn": "-",
     "characters": [
       "5"
@@ -28773,7 +28773,7 @@
     "family": "Rubiaceae",
     "genus": "Praravinia",
     "species": "Praravinia suberosa",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -28784,7 +28784,7 @@
     "family": "Rubiaceae",
     "genus": "Praravinia",
     "species": "Praravinia verruculosa",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "108"
@@ -28795,8 +28795,8 @@
     "family": "Lamiaceae",
     "genus": "Premna",
     "species": "Premna foetida",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "ハマクサギ属",
     "characters": [
       "26"
     ]
@@ -28886,7 +28886,7 @@
     "family": "Podocarpaceae",
     "genus": "Prumnopitys",
     "species": "Prumnopitys ladei",
-    "familyJpn": "-",
+    "familyJpn": "マキ科",
     "genusJpn": "-",
     "characters": [
       "20"
@@ -28914,8 +28914,8 @@
     "family": "Rosaceae",
     "genus": "Prunus",
     "species": "Prunus odorata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "バラ科",
+    "genusJpn": "サクラ属",
     "characters": [
       "70"
     ]
@@ -28925,8 +28925,8 @@
     "family": "Rosaceae",
     "genus": "Prunus",
     "species": "Prunus phaeosticta",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "バラ科",
+    "genusJpn": "サクラ属",
     "characters": [
       "31"
     ]
@@ -28969,7 +28969,7 @@
     "family": "Cardiopteridaceae/Icacinaceae p.p.",
     "genus": "Pseudobotrys",
     "species": "Pseudobotrys cauliflora",
-    "familyJpn": "-",
+    "familyJpn": "ヤマイモモドキ科/クロタキカズラ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "79",
@@ -29049,7 +29049,7 @@
     "family": "Euphorbiaceae",
     "genus": "Ptychopyxis",
     "species": "Ptychopyxis costata",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "110"
@@ -29060,7 +29060,7 @@
     "family": "Euphorbiaceae",
     "genus": "Ptychopyxis",
     "species": "Ptychopyxis grandis",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -29116,8 +29116,8 @@
     "family": "Rubiaceae",
     "genus": "Psychotria",
     "species": "Psychotria diemensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "ボチョウジ属",
     "characters": [
       "119"
     ]
@@ -29127,8 +29127,8 @@
     "family": "Rubiaceae",
     "genus": "Psychotria",
     "species": "Psychotria myrmecophila",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "ボチョウジ属",
     "characters": [
       "10"
     ]
@@ -29166,7 +29166,7 @@
     "family": "Gelsemiaceae/Boraginaceae p.p.",
     "genus": "Pteleocarpa",
     "species": "Pteleocarpa lamponga",
-    "familyJpn": "-",
+    "familyJpn": "ゲルセミウム科/ムラサキ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "109"
@@ -29388,7 +29388,7 @@
     "family": "Malvaceae",
     "genus": "Pterospermum",
     "species": "Pterospermum acerifolium",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "91"
@@ -29399,7 +29399,7 @@
     "family": "Malvaceae",
     "genus": "Pterospermum",
     "species": "Pterospermum lancifolium",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "31"
@@ -29433,7 +29433,7 @@
     "family": "Arecaceae",
     "genus": "Ptychococcus",
     "species": "Ptychococcus paradoxus",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "119"
@@ -29471,7 +29471,7 @@
     "family": "Simaroubaceae",
     "genus": "Quassia",
     "species": "Quassia indica",
-    "familyJpn": "-",
+    "familyJpn": "ニガキ科",
     "genusJpn": "-",
     "characters": [
       "70",
@@ -29561,8 +29561,8 @@
     "family": "Bignoniaceae",
     "genus": "Radermachera",
     "species": "Radermachera gladulosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
+    "genusJpn": "センダンキササゲ属",
     "characters": [
       "70"
     ]
@@ -29572,8 +29572,8 @@
     "family": "Bignoniaceae",
     "genus": "Radermachera",
     "species": "Radermachera pinnata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
+    "genusJpn": "センダンキササゲ属",
     "characters": [
       "116"
     ]
@@ -29598,7 +29598,7 @@
     "family": "Rafflesiaceae",
     "genus": "Rafflesia",
     "species": "Rafflesia pricei",
-    "familyJpn": "-",
+    "familyJpn": "ラフレシア科",
     "genusJpn": "-",
     "characters": [
       "9"
@@ -29623,7 +29623,7 @@
     "family": "Araceae",
     "genus": "Raphidophora",
     "species": "Raphidophora korthalsii",
-    "familyJpn": "-",
+    "familyJpn": "サトイモ科",
     "genusJpn": "-",
     "characters": [
       "5"
@@ -29696,7 +29696,7 @@
     "family": "Meliaceae",
     "genus": "Reinwardtiodendron",
     "species": "Reinwardtiodendron celebicum",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "35"
@@ -29707,7 +29707,7 @@
     "family": "Meliaceae",
     "genus": "Reinwardtiodendron",
     "species": "Reinwardtiodendron humile",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "56"
@@ -29730,7 +29730,7 @@
     "family": "Araceae",
     "genus": "Remusatia",
     "species": "Remusatia vivipara",
-    "familyJpn": "-",
+    "familyJpn": "サトイモ科",
     "genusJpn": "-",
     "characters": [
       "11"
@@ -29763,7 +29763,7 @@
     "family": "Rubiaceae",
     "genus": "Rennellia",
     "species": "Rennellia paniculata var condensa",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "114"
@@ -29860,7 +29860,7 @@
     "family": "Rafflesiaceae",
     "genus": "Rhizanthes",
     "species": "Rhizanthes lowii",
-    "familyJpn": "-",
+    "familyJpn": "ラフレシア科",
     "genusJpn": "-",
     "characters": [
       "9"
@@ -29887,8 +29887,8 @@
     "family": "Rhizophoraceae",
     "genus": "Rhizophora",
     "species": "Rhizophora apiculata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルギ科",
+    "genusJpn": "ヤエヤマヒルギ属",
     "characters": [
       "18"
     ]
@@ -29898,8 +29898,8 @@
     "family": "Rhizophoraceae",
     "genus": "Rhizophora",
     "species": "Rhizophora mucronata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヒルギ科",
+    "genusJpn": "ヤエヤマヒルギ属",
     "characters": [
       "91"
     ]
@@ -29920,7 +29920,7 @@
     "family": "Myrtaceae",
     "genus": "Rhodamnia",
     "species": "Rhodamnia cinerea",
-    "familyJpn": "-",
+    "familyJpn": "フトモモ科",
     "genusJpn": "-",
     "characters": [
       "53"
@@ -29950,8 +29950,8 @@
     "family": "Ericaceae",
     "genus": "Rhododendron",
     "species": "Rhododendron caespitosum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツツジ科",
+    "genusJpn": "ツツジ属",
     "characters": [
       "1"
     ]
@@ -29961,8 +29961,8 @@
     "family": "Ericaceae",
     "genus": "Rhododendron",
     "species": "Rhododendron moulmeinense",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツツジ科",
+    "genusJpn": "ツツジ属",
     "characters": [
       "19"
     ]
@@ -29972,8 +29972,8 @@
     "family": "Ericaceae",
     "genus": "Rhododendron",
     "species": "Rhododendron saxifragoides",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツツジ科",
+    "genusJpn": "ツツジ属",
     "characters": [
       "1"
     ]
@@ -29983,8 +29983,8 @@
     "family": "Ericaceae",
     "genus": "Rhododendron",
     "species": "Rhododendron wrayi",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツツジ科",
+    "genusJpn": "ツツジ属",
     "characters": [
       "93"
     ]
@@ -30015,7 +30015,7 @@
     "family": "Hamamelidaceae",
     "genus": "Rhodoleia",
     "species": "Rhodoleia championii",
-    "familyJpn": "-",
+    "familyJpn": "マンサク科",
     "genusJpn": "-",
     "characters": [
       "86"
@@ -30039,8 +30039,8 @@
     "family": "Myrtaceae",
     "genus": "Rhodomyrtus",
     "species": "Rhodomyrtus elegans",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フトモモ科",
+    "genusJpn": "テンニンカ属",
     "characters": [
       "110"
     ]
@@ -30092,8 +30092,8 @@
     "family": "Anacardiaceae",
     "genus": "Rhus",
     "species": "Rhus nodosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウルシ科",
+    "genusJpn": "ヌルデ属",
     "characters": [
       "5"
     ]
@@ -30226,7 +30226,7 @@
     "family": "Gesneriaceae",
     "genus": "Ridleyandra",
     "species": "Ridleyandra morgani",
-    "familyJpn": "-",
+    "familyJpn": "イワタバコ科",
     "genusJpn": "-",
     "characters": [
       "52"
@@ -30259,7 +30259,7 @@
     "family": "Violaceae",
     "genus": "Rinorea",
     "species": "Rinorea anguifera",
-    "familyJpn": "-",
+    "familyJpn": "スミレ科",
     "genusJpn": "-",
     "characters": [
       "108"
@@ -30270,7 +30270,7 @@
     "family": "Violaceae",
     "genus": "Rinorea",
     "species": "Rinorea javanica",
-    "familyJpn": "-",
+    "familyJpn": "スミレ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -30281,7 +30281,7 @@
     "family": "Violaceae",
     "genus": "Rinorea",
     "species": "Rinorea lanceolata",
-    "familyJpn": "-",
+    "familyJpn": "スミレ科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -30408,8 +30408,8 @@
     "family": "Rosaceae",
     "genus": "Rubus",
     "species": "Rubus moluccanus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "バラ科",
+    "genusJpn": "キイチゴ属",
     "characters": [
       "114"
     ]
@@ -30496,7 +30496,7 @@
     "family": "Achariaceae/Flacourtiaceae p.p.",
     "genus": "Ryparosa",
     "species": "Ryparosa calotricha",
-    "familyJpn": "-",
+    "familyJpn": "アカリア科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -30507,7 +30507,7 @@
     "family": "Achariaceae/Flacourtiaceae p.p.",
     "genus": "Ryparosa",
     "species": "Ryparosa hullettii",
-    "familyJpn": "-",
+    "familyJpn": "アカリア科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "25"
@@ -30609,7 +30609,7 @@
     "family": "Celastraceae",
     "genus": "Salacia",
     "species": "Salacia macrophylla",
-    "familyJpn": "-",
+    "familyJpn": "ニシキギ科",
     "genusJpn": "-",
     "characters": [
       "71"
@@ -30620,7 +30620,7 @@
     "family": "Celastraceae",
     "genus": "Salacia",
     "species": "Salacia papuana",
-    "familyJpn": "-",
+    "familyJpn": "ニシキギ科",
     "genusJpn": "-",
     "characters": [
       "20"
@@ -30680,8 +30680,8 @@
     "family": "Lamiaceae",
     "genus": "Salvia",
     "species": "Salvia scapiformis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "サルビア属",
     "characters": [
       "44"
     ]
@@ -30823,7 +30823,7 @@
     "family": "Leguminosae",
     "genus": "Saraca",
     "species": "Saraca cauliflora",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "93"
@@ -30973,7 +30973,7 @@
     "family": "Oxalidaceae",
     "genus": "Sarcotheca",
     "species": "Sarcotheca ochracea",
-    "familyJpn": "-",
+    "familyJpn": "カタバミ科",
     "genusJpn": "-",
     "characters": [
       "80"
@@ -31024,8 +31024,8 @@
     "family": "Actinidiaceae",
     "genus": "Saurauia",
     "species": "Saurauia barbata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マタタビ科",
+    "genusJpn": "タカサゴシラタマ属",
     "characters": [
       "63"
     ]
@@ -31035,8 +31035,8 @@
     "family": "Actinidiaceae",
     "genus": "Saurauia",
     "species": "Saurauia longipetiolata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マタタビ科",
+    "genusJpn": "タカサゴシラタマ属",
     "characters": [
       "98"
     ]
@@ -31046,8 +31046,8 @@
     "family": "Actinidiaceae",
     "genus": "Saurauia",
     "species": "Saurauia myrmecoidea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マタタビ科",
+    "genusJpn": "タカサゴシラタマ属",
     "characters": [
       "10"
     ]
@@ -31073,7 +31073,7 @@
     "family": "Phyllanthaceae/Euphorbiaceae p.p.",
     "genus": "Sauropus",
     "species": "Sauropus androgynus",
-    "familyJpn": "-",
+    "familyJpn": "コミカンソウ科/トウダイグサ科 p.p.",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -31114,8 +31114,8 @@
     "family": "Goodeniaceae",
     "genus": "Scaevola",
     "species": "Scaevola oppositifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クサトベラ科",
+    "genusJpn": "クサトベラ属",
     "characters": [
       "5",
       "6",
@@ -31127,8 +31127,8 @@
     "family": "Goodeniaceae",
     "genus": "Scaevola",
     "species": "Scaevola verticillata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クサトベラ科",
+    "genusJpn": "クサトベラ属",
     "characters": [
       "45"
     ]
@@ -31166,7 +31166,7 @@
     "family": "Achariaceae/Flacourtiaceae p.p.",
     "genus": "Scaphocalyx",
     "species": "Scaphocalyx spathacea",
-    "familyJpn": "-",
+    "familyJpn": "アカリア科/Flacourtiaceae p.p.",
     "genusJpn": "-",
     "characters": [
       "105"
@@ -31225,7 +31225,7 @@
     "family": "Araceae",
     "genus": "Schismatoglottis",
     "species": "Schismatoglottis bulbifera",
-    "familyJpn": "-",
+    "familyJpn": "サトイモ科",
     "genusJpn": "-",
     "characters": [
       "11"
@@ -31265,7 +31265,7 @@
     "family": "Cunoniaceae",
     "genus": "Schizomeria",
     "species": "Schizomeria illicina",
-    "familyJpn": "-",
+    "familyJpn": "クノニア科",
     "genusJpn": "-",
     "characters": [
       "91"
@@ -31276,7 +31276,7 @@
     "family": "Cunoniaceae",
     "genus": "Schizomeria",
     "species": "Schizomeria serrata",
-    "familyJpn": "-",
+    "familyJpn": "クノニア科",
     "genusJpn": "-",
     "characters": [
       "22"
@@ -31361,7 +31361,7 @@
     "family": "Malvaceae",
     "genus": "Schoutenia",
     "species": "Schoutenia accrescens",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "90"
@@ -31372,7 +31372,7 @@
     "family": "Rubiaceae",
     "genus": "Schradera",
     "species": "Schradera membranacea",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "114"
@@ -31541,8 +31541,8 @@
     "family": "Loranthaceae",
     "genus": "Scurrula",
     "species": "Scurrula ferruginea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "オオバヤドリギ科",
+    "genusJpn": "オオバヤドリギ属",
     "characters": [
       "64"
     ]
@@ -31592,7 +31592,7 @@
     "family": "Apocynaceae",
     "genus": "Secamone",
     "species": "Secamone elliptica",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "13"
@@ -31658,7 +31658,7 @@
     "family": "Anacardiaceae",
     "genus": "Semecarpus",
     "species": "Semecarpus aruensis",
-    "familyJpn": "-",
+    "familyJpn": "ウルシ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -31669,7 +31669,7 @@
     "family": "Anacardiaceae",
     "genus": "Semecarpus",
     "species": "Semecarpus bunburyanus",
-    "familyJpn": "-",
+    "familyJpn": "ウルシ科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -31680,7 +31680,7 @@
     "family": "Anacardiaceae",
     "genus": "Semecarpus",
     "species": "Semecarpus cuneiformis",
-    "familyJpn": "-",
+    "familyJpn": "ウルシ科",
     "genusJpn": "-",
     "characters": [
       "67"
@@ -31733,7 +31733,7 @@
     "family": "Elaeocarpaceae",
     "genus": "Sericolea",
     "species": "Sericolea micans",
-    "familyJpn": "-",
+    "familyJpn": "ホルトノキ科",
     "genusJpn": "-",
     "characters": [
       "5",
@@ -31758,8 +31758,8 @@
     "family": "Pedaliaceae",
     "genus": "Sesamum",
     "species": "Sesamum indicum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ゴマ科",
+    "genusJpn": "ゴマ属",
     "characters": [
       "49"
     ]
@@ -31811,7 +31811,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "species": "Shorea acuminata",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -31822,7 +31822,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "species": "Shorea albida",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "15"
@@ -31833,7 +31833,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "species": "Shorea laxa",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "51"
@@ -31856,7 +31856,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "species": "Shorea parvifolia",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "30",
@@ -31868,7 +31868,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "species": "Shorea peltata",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "51"
@@ -31879,7 +31879,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "species": "Shorea platyclados",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "15"
@@ -31890,7 +31890,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "species": "Shorea quadrinervis",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "69"
@@ -31901,7 +31901,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "species": "Shorea xanthophylloides",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -31926,8 +31926,8 @@
     "family": "Malvaceae",
     "genus": "Sida",
     "species": "Sida ciliaris",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "キンゴジカ属",
     "characters": [
       "85"
     ]
@@ -32021,8 +32021,8 @@
     "family": "Smilacaceae",
     "genus": "Smilax",
     "species": "Smilax borneensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "サルトリイバラ科",
+    "genusJpn": "サルトリイバラ属",
     "characters": [
       "10"
     ]
@@ -32170,8 +32170,8 @@
     "family": "Leguminosae",
     "genus": "Sophora",
     "species": "Sophora tomentosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "マメ科",
+    "genusJpn": "エンジュ属",
     "characters": [
       "93",
       "113"
@@ -32285,8 +32285,8 @@
     "family": "Rubiaceae",
     "genus": "Spermacoce",
     "species": "Spermacoce brassii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "ハリフタバ属",
     "characters": [
       "1"
     ]
@@ -32470,7 +32470,7 @@
     "family": "Annonaceae",
     "genus": "Stelechocarpus",
     "species": "Stelechocarpus burahol",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "60"
@@ -32508,8 +32508,8 @@
     "family": "Stemonaceae",
     "genus": "Stemona",
     "species": "Stemona tuberosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビャクブ科",
+    "genusJpn": "ビャクブ属",
     "characters": [
       "85"
     ]
@@ -32534,8 +32534,8 @@
     "family": "Stemonuraceae",
     "genus": "Stemonurus",
     "species": "Stemonurus monticolus",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ステモヌルス科",
+    "genusJpn": "ステモヌルス属",
     "characters": [
       "70"
     ]
@@ -32583,8 +32583,8 @@
     "family": "Menispermaceae",
     "genus": "Stephania",
     "species": "Stephania venosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ツヅラフジ科",
+    "genusJpn": "ハスノハカズラ属",
     "characters": [
       "22"
     ]
@@ -32631,7 +32631,7 @@
     "family": "Malvaceae",
     "genus": "Sterculia",
     "species": "Sterculia foetida",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "26"
@@ -32642,7 +32642,7 @@
     "family": "Malvaceae",
     "genus": "Sterculia",
     "species": "Sterculia laurifolia",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "109"
@@ -32653,7 +32653,7 @@
     "family": "Malvaceae",
     "genus": "Sterculia",
     "species": "Sterculia megistocarpa",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -32664,7 +32664,7 @@
     "family": "Malvaceae",
     "genus": "Sterculia",
     "species": "Sterculia parviflora",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "115"
@@ -32675,7 +32675,7 @@
     "family": "Malvaceae",
     "genus": "Sterculia",
     "species": "Sterculia stipularis",
-    "familyJpn": "-",
+    "familyJpn": "アオイ科",
     "genusJpn": "-",
     "characters": [
       "19"
@@ -32774,7 +32774,7 @@
     "family": "Moraceae",
     "genus": "Streblus",
     "species": "Streblus taxoides",
-    "familyJpn": "-",
+    "familyJpn": "クワ科",
     "genusJpn": "-",
     "characters": [
       "90"
@@ -32849,8 +32849,8 @@
     "family": "Strombosiaceae",
     "genus": "Strombosia",
     "species": "Strombosia javanica",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ストロンボシア科",
+    "genusJpn": "ストロンボシア属",
     "characters": [
       "82"
     ]
@@ -32874,7 +32874,7 @@
     "family": "Leguminosae",
     "genus": "Strongylodon",
     "species": "Strongylodon celebicus",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "80"
@@ -32915,7 +32915,7 @@
     "family": "Apocynaceae",
     "genus": "Strophanthus",
     "species": "Strophanthus caudatus",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "92"
@@ -32965,7 +32965,7 @@
     "family": "Bignoniaceae",
     "genus": "Stereospermum",
     "species": "Stereospermum fimbriatum",
-    "familyJpn": "-",
+    "familyJpn": "ノウゼンカズラ科",
     "genusJpn": "-",
     "characters": [
       "91"
@@ -33005,8 +33005,8 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "species": "Styrax benzoin",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "エゴノキ科",
+    "genusJpn": "エゴノキ属",
     "characters": [
       "96"
     ]
@@ -33016,7 +33016,7 @@
     "family": "Rubiaceae",
     "genus": "Stichianthus",
     "species": "Stichianthus minutiflorus",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "16"
@@ -33082,7 +33082,7 @@
     "family": "Euphorbiaceae",
     "genus": "Suregada",
     "species": "Suregada glomerulata",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "83"
@@ -33313,8 +33313,8 @@
     "family": "Myrtaceae",
     "genus": "Syzygium",
     "species": "Syzygium aromaticum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フトモモ科",
+    "genusJpn": "フトモモ属",
     "characters": [
       "28"
     ]
@@ -33324,8 +33324,8 @@
     "family": "Myrtaceae",
     "genus": "Syzygium",
     "species": "Syzygium incarnatum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フトモモ科",
+    "genusJpn": "フトモモ属",
     "characters": [
       "105"
     ]
@@ -33335,8 +33335,8 @@
     "family": "Myrtaceae",
     "genus": "Syzygium",
     "species": "Syzygium vernicosum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フトモモ科",
+    "genusJpn": "フトモモ属",
     "characters": [
       "23"
     ]
@@ -33346,8 +33346,8 @@
     "family": "Myrtaceae",
     "genus": "Syzygium",
     "species": "Syzygium zeylanicum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "フトモモ科",
+    "genusJpn": "フトモモ属",
     "characters": [
       "95"
     ]
@@ -33373,7 +33373,7 @@
     "family": "Apocynaceae",
     "genus": "Tabernaemontana",
     "species": "Tabernaemontana pauciflora",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "115"
@@ -33431,7 +33431,7 @@
     "family": "Zingiberaceae",
     "genus": "Tamijia",
     "species": "Tamijia flagellaris",
-    "familyJpn": "-",
+    "familyJpn": "ショウガ科",
     "genusJpn": "-",
     "characters": [
       "81"
@@ -33475,7 +33475,7 @@
     "family": "Euphorbiaceae",
     "genus": "Tapoides",
     "species": "Tapoides vilamillii",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -33499,7 +33499,7 @@
     "family": "Winteraceae",
     "genus": "Tasmannia",
     "species": "Tasmannia piperita",
-    "familyJpn": "-",
+    "familyJpn": "シキミモドキ科",
     "genusJpn": "-",
     "characters": [
       "115"
@@ -33579,7 +33579,7 @@
     "family": "Lamiaceae",
     "genus": "Tectona",
     "species": "Tectona philippinensis",
-    "familyJpn": "-",
+    "familyJpn": "シソ科",
     "genusJpn": "-",
     "characters": [
       "75"
@@ -33608,7 +33608,7 @@
     "family": "Lamiaceae",
     "genus": "Teijsmanniodendron",
     "species": "Teijsmanniodendron pteropodum",
-    "familyJpn": "-",
+    "familyJpn": "シソ科",
     "genusJpn": "-",
     "characters": [
       "39"
@@ -33673,8 +33673,8 @@
     "family": "Combretaceae",
     "genus": "Terminalia",
     "species": "Terminalia catappa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シクンシ科",
+    "genusJpn": "モモタマナ属",
     "characters": [
       "18"
     ]
@@ -33684,8 +33684,8 @@
     "family": "Combretaceae",
     "genus": "Terminalia",
     "species": "Terminalia subspathulata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シクンシ科",
+    "genusJpn": "モモタマナ属",
     "characters": [
       "109"
     ]
@@ -33732,7 +33732,7 @@
     "family": "Dilleniaceae",
     "genus": "Tetracera",
     "species": "Tetracera indica",
-    "familyJpn": "-",
+    "familyJpn": "ビワモドキ科",
     "genusJpn": "-",
     "characters": [
       "118"
@@ -33927,8 +33927,8 @@
     "family": "Malvaceae",
     "genus": "Thespesia",
     "species": "Thespesia populnea",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アオイ科",
+    "genusJpn": "サキシマハマボウ属",
     "characters": [
       "93"
     ]
@@ -33991,7 +33991,7 @@
     "family": "Aristolochiaceae",
     "genus": "Thottea",
     "species": "Thottea grandiflora",
-    "familyJpn": "-",
+    "familyJpn": "ウマノスズクサ科",
     "genusJpn": "-",
     "characters": [
       "12"
@@ -34017,8 +34017,8 @@
     "family": "Acanthaceae",
     "genus": "Thunbergia",
     "species": "Thunbergia laurifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キツネノマゴ科",
+    "genusJpn": "ヤハズカズラ属",
     "characters": [
       "35"
     ]
@@ -34084,7 +34084,7 @@
     "family": "Rubiaceae",
     "genus": "Timonius",
     "species": "Timonius borneensis",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "61"
@@ -34095,7 +34095,7 @@
     "family": "Rubiaceae",
     "genus": "Timonius",
     "species": "Timonius hirsutus",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "57"
@@ -34106,7 +34106,7 @@
     "family": "Rubiaceae",
     "genus": "Timonius",
     "species": "Timonius minahassae",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "107"
@@ -34117,7 +34117,7 @@
     "family": "Rubiaceae",
     "genus": "Timonius",
     "species": "Timonius palawanensis",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "45"
@@ -34144,7 +34144,7 @@
     "family": "Menispermaceae",
     "genus": "Tinomiscium",
     "species": "Tinomiscium petiolare",
-    "familyJpn": "-",
+    "familyJpn": "ツヅラフジ科",
     "genusJpn": "-",
     "characters": [
       "76"
@@ -34222,8 +34222,8 @@
     "family": "Meliaceae",
     "genus": "Toona",
     "species": "Toona sureni",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "センダン科",
+    "genusJpn": "チャンチン属",
     "characters": [
       "22"
     ]
@@ -34259,7 +34259,7 @@
     "family": "Boraginaceae",
     "genus": "Tournefortia",
     "species": "Tournefortia oppositifolia",
-    "familyJpn": "-",
+    "familyJpn": "ムラサキ科",
     "genusJpn": "-",
     "characters": [
       "6",
@@ -34305,8 +34305,8 @@
     "family": "Araliaceae",
     "genus": "Trachymene",
     "species": "Trachymene saniculifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウコギ科",
+    "genusJpn": "トラキメネ属",
     "characters": [
       "1"
     ]
@@ -34352,8 +34352,8 @@
     "family": "Cannabaceae/Ulmaceae p.p.",
     "genus": "Trema",
     "species": "Trema cannabina",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アサ科/ニレ科 p.p.",
+    "genusJpn": "ウラジロエノキ属",
     "characters": [
       "75"
     ]
@@ -34378,7 +34378,7 @@
     "family": "Euphorbiaceae",
     "genus": "Trigonostemon",
     "species": "Trigonostemon capillipes",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "79"
@@ -34389,7 +34389,7 @@
     "family": "Euphorbiaceae",
     "genus": "Trigonostemon",
     "species": "Trigonostemon diplopetalus",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "91"
@@ -34411,8 +34411,8 @@
     "family": "Aizoaceae",
     "genus": "Trianthema",
     "species": "Trianthema portulacastrum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ハマミズナ科",
+    "genusJpn": "スベリヒユモドキ属",
     "characters": [
       "85"
     ]
@@ -34491,8 +34491,8 @@
     "family": "Cucurbitaceae",
     "genus": "Trichosanthes",
     "species": "Trichosanthes elmeri",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ウリ科",
+    "genusJpn": "カラスウリ属",
     "characters": [
       "49"
     ]
@@ -34588,7 +34588,7 @@
     "family": "Sapindaceae",
     "genus": "Trigonachras",
     "species": "Trigonachras acuta",
-    "familyJpn": "-",
+    "familyJpn": "ムクロジ科",
     "genusJpn": "-",
     "characters": [
       "37"
@@ -34672,7 +34672,7 @@
     "family": "Euphorbiaceae",
     "genus": "Trigonostemon",
     "species": "Trigonostemon sandakanensis",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -34695,8 +34695,8 @@
     "family": "Boraginaceae",
     "genus": "Trigonotis",
     "species": "Trigonotis borneensis",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ムラサキ科",
+    "genusJpn": "キュウリグサ属",
     "characters": [
       "1"
     ]
@@ -34725,8 +34725,8 @@
     "family": "Trimeniaceae",
     "genus": "Trimenia",
     "species": "Trimenia macrura",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トリメニア科",
+    "genusJpn": "トリメニア属",
     "characters": [
       "5",
       "6",
@@ -34928,7 +34928,7 @@
     "family": "Staphyleaceae",
     "genus": "Turpinia",
     "species": "Turpinia stipulacea",
-    "familyJpn": "-",
+    "familyJpn": "ミツバウツギ科",
     "genusJpn": "-",
     "characters": [
       "34"
@@ -34962,7 +34962,7 @@
     "family": "Apocynaceae",
     "genus": "Tylophora",
     "species": "Tylophora biglandulosa",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -34973,7 +34973,7 @@
     "family": "Apocynaceae",
     "genus": "Tylophora",
     "species": "Tylophora cissoides",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "25"
@@ -35035,8 +35035,8 @@
     "family": "Rubiaceae",
     "genus": "Uncaria",
     "species": "Uncaria cordata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "カギカズラ属",
     "characters": [
       "4"
     ]
@@ -35057,7 +35057,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Upuna",
     "species": "Upuna borneensis",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "35",
@@ -35096,7 +35096,7 @@
     "family": "Annonaceae",
     "genus": "Uvaria",
     "species": "Uvaria grandiflora",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "89"
@@ -35161,7 +35161,7 @@
     "family": "Orchidaceae",
     "genus": "Vandopsis",
     "species": "Vandopsis lissochiloides",
-    "familyJpn": "-",
+    "familyJpn": "ラン科",
     "genusJpn": "-",
     "characters": [
       "23"
@@ -35200,7 +35200,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Vatica",
     "species": "Vatica bantamensis",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "35"
@@ -35211,7 +35211,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Vatica",
     "species": "Vatica yeechongii",
-    "familyJpn": "-",
+    "familyJpn": "フタバガキ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -35247,7 +35247,7 @@
     "family": "Rhamnaceae",
     "genus": "Ventilago",
     "species": "Ventilago maingayi",
-    "familyJpn": "-",
+    "familyJpn": "クロウメモドキ科",
     "genusJpn": "-",
     "characters": [
       "57"
@@ -35273,7 +35273,7 @@
     "family": "Rhamnaceae",
     "genus": "Ventilago",
     "species": "Ventilago malaccensis",
-    "familyJpn": "-",
+    "familyJpn": "クロウメモドキ科",
     "genusJpn": "-",
     "characters": [
       "109"
@@ -35309,7 +35309,7 @@
     "family": "Opiliaceae",
     "genus": "Urobotrya",
     "species": "Urobotrya siamensis",
-    "familyJpn": "-",
+    "familyJpn": "カナビキボク科",
     "genusJpn": "-",
     "characters": [
       "25"
@@ -35337,7 +35337,7 @@
     "family": "Rubiaceae",
     "genus": "Urophyllum",
     "species": "Urophyllum nigricans",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "58"
@@ -35359,7 +35359,7 @@
     "family": "Gentianaceae",
     "genus": "Utania",
     "species": "Utania racemosa",
-    "familyJpn": "-",
+    "familyJpn": "リンドウ科",
     "genusJpn": "-",
     "characters": [
       "29"
@@ -35410,7 +35410,7 @@
     "family": "Arecaceae",
     "genus": "Verschaffeltia",
     "species": "Verschaffeltia splendida",
-    "familyJpn": "-",
+    "familyJpn": "ヤシ科",
     "genusJpn": "-",
     "characters": [
       "7"
@@ -35433,7 +35433,7 @@
     "family": "Rubiaceae",
     "genus": "Versteegia",
     "species": "Versteegia minor",
-    "familyJpn": "-",
+    "familyJpn": "アカネ科",
     "genusJpn": "-",
     "characters": [
       "110"
@@ -35462,8 +35462,8 @@
     "family": "Adoxaceae",
     "genus": "Viburnum",
     "species": "Viburnum propinquum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "レンプクソウ科",
+    "genusJpn": "ガマズミ属",
     "characters": [
       "53"
     ]
@@ -35473,8 +35473,8 @@
     "family": "Adoxaceae",
     "genus": "Viburnum",
     "species": "Viburnum punctatum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "レンプクソウ科",
+    "genusJpn": "ガマズミ属",
     "characters": [
       "73"
     ]
@@ -35536,8 +35536,8 @@
     "family": "Violaceae",
     "genus": "Viola",
     "species": "Viola arcuata",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "スミレ科",
+    "genusJpn": "スミレ属",
     "characters": [
       "31"
     ]
@@ -35547,8 +35547,8 @@
     "family": "Violaceae",
     "genus": "Viola",
     "species": "Viola pilosa",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "スミレ科",
+    "genusJpn": "スミレ属",
     "characters": [
       "31"
     ]
@@ -35558,8 +35558,8 @@
     "family": "Violaceae",
     "genus": "Viola",
     "species": "Viola sumatrana",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "スミレ科",
+    "genusJpn": "スミレ属",
     "characters": [
       "31"
     ]
@@ -35569,7 +35569,7 @@
     "family": "Cunoniaceae",
     "genus": "Weinmannia",
     "species": "Weinmannia borneensis",
-    "familyJpn": "-",
+    "familyJpn": "クノニア科",
     "genusJpn": "-",
     "characters": [
       "44"
@@ -35580,7 +35580,7 @@
     "family": "Cunoniaceae",
     "genus": "Weinmannia",
     "species": "Weinmannia clemensiae",
-    "familyJpn": "-",
+    "familyJpn": "クノニア科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -35623,7 +35623,7 @@
     "family": "Euphorbiaceae",
     "genus": "Wetria",
     "species": "Wetria macrophylla",
-    "familyJpn": "-",
+    "familyJpn": "トウダイグサ科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -35647,7 +35647,7 @@
     "family": "Myrtaceae",
     "genus": "Whiteodendron",
     "species": "Whiteodendron moultonianum",
-    "familyJpn": "-",
+    "familyJpn": "フトモモ科",
     "genusJpn": "-",
     "characters": [
       "55"
@@ -35673,8 +35673,8 @@
     "family": "Santalaceae/Viscaceae",
     "genus": "Viscum",
     "species": "Viscum ovalifolium",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ビャクダン科/Viscaceae",
+    "genusJpn": "ヤドリギ属",
     "characters": [
       "108"
     ]
@@ -35707,8 +35707,8 @@
     "family": "Lamiaceae",
     "genus": "Vitex",
     "species": "Vitex limonifolia",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "ハマゴウ属",
     "characters": [
       "39"
     ]
@@ -35718,8 +35718,8 @@
     "family": "Lamiaceae",
     "genus": "Vitex",
     "species": "Vitex negundo",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "シソ科",
+    "genusJpn": "ハマゴウ属",
     "characters": [
       "58"
     ]
@@ -35806,7 +35806,7 @@
     "family": "Apocynaceae",
     "genus": "Willughbeia",
     "species": "Willughbeia anomala",
-    "familyJpn": "-",
+    "familyJpn": "キョウチクトウ科",
     "genusJpn": "-",
     "characters": [
       "68"
@@ -35946,7 +35946,7 @@
     "family": "Polygalaceae",
     "genus": "Xanthophyllum",
     "species": "Xanthophyllum adenotus",
-    "familyJpn": "-",
+    "familyJpn": "ヒメハギ科",
     "genusJpn": "-",
     "characters": [
       "47"
@@ -35957,7 +35957,7 @@
     "family": "Meliaceae",
     "genus": "Walsura",
     "species": "Walsura monophylla",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "35"
@@ -35979,7 +35979,7 @@
     "family": "Polygalaceae",
     "genus": "Xanthophyllum",
     "species": "Xanthophyllum affine",
-    "familyJpn": "-",
+    "familyJpn": "ヒメハギ科",
     "genusJpn": "-",
     "characters": [
       "70"
@@ -36002,7 +36002,7 @@
     "family": "Polygalaceae",
     "genus": "Xanthophyllum",
     "species": "Xanthophyllum discolor",
-    "familyJpn": "-",
+    "familyJpn": "ヒメハギ科",
     "genusJpn": "-",
     "characters": [
       "38"
@@ -36013,8 +36013,8 @@
     "family": "Asteraceae",
     "genus": "Wedelia",
     "species": "Wedelia asperrima",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "キク科",
+    "genusJpn": "ハマグルマ属",
     "characters": [
       "75"
     ]
@@ -36059,8 +36059,8 @@
     "family": "Xanthorrhoeaceae",
     "genus": "Xanthorrhoea",
     "species": "Xanthorrhoea johnsonii",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ススキノキ科",
+    "genusJpn": "ススキノキ属",
     "characters": [
       "2"
     ]
@@ -36123,7 +36123,7 @@
     "family": "Meliaceae",
     "genus": "Xylocarpus",
     "species": "Xylocarpus moluccensis",
-    "familyJpn": "-",
+    "familyJpn": "センダン科",
     "genusJpn": "-",
     "characters": [
       "96"
@@ -36147,7 +36147,7 @@
     "family": "Annonaceae",
     "genus": "Xylopia",
     "species": "Xylopia ferruginea",
-    "familyJpn": "-",
+    "familyJpn": "バンレイシ科",
     "genusJpn": "-",
     "characters": [
       "113",
@@ -36172,8 +36172,8 @@
     "family": "Salicaceae/Flacourtiaceae p.p.",
     "genus": "Xylosma",
     "species": "Xylosma luzonense",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ヤナギ科/Flacourtiaceae p.p.",
+    "genusJpn": "クスドイゲ属",
     "characters": [
       "7"
     ]
@@ -36248,8 +36248,8 @@
     "family": "Rutaceae",
     "genus": "Zanthoxylum",
     "species": "Zanthoxylum myriacanthum",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミカン科",
+    "genusJpn": "サンショウ属",
     "characters": [
       "7",
       "10"
@@ -36260,8 +36260,8 @@
     "family": "Rutaceae",
     "genus": "Zanthoxylum",
     "species": "Zanthoxylum ovalifolium",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミカン科",
+    "genusJpn": "サンショウ属",
     "characters": [
       "49"
     ]
@@ -36473,7 +36473,7 @@
     "family": "Rutaceae",
     "genus": "Bergera",
     "species": "Bergera koenigii(Murraya koenigii)",
-    "familyJpn": "-",
+    "familyJpn": "ミカン科",
     "genusJpn": "-",
     "characters": [
       "28"
@@ -36671,7 +36671,7 @@
     "family": "Loranthaceae",
     "genus": "Decaisnina",
     "species": "Decaisnina sumbawensis(Amylothecaformicaria)",
-    "familyJpn": "-",
+    "familyJpn": "オオバヤドリギ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -36711,8 +36711,8 @@
     "family": "Putranjivaceae/Euphorbiaceae p.p.",
     "genus": "Drypetes",
     "species": "Drypetes myrmecophila(D. longifolia)",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "プトランジーバ科/トウダイグサ科 p.p.",
+    "genusJpn": "ハツバキ属",
     "characters": [
       "10"
     ]
@@ -36761,7 +36761,7 @@
     "family": "Asteraceae",
     "genus": "Euchiton",
     "species": "Euchiton brassii(Gnaphalium)",
-    "familyJpn": "-",
+    "familyJpn": "キク科",
     "genusJpn": "-",
     "characters": [
       "1"
@@ -36885,7 +36885,7 @@
     "family": "Leguminosae",
     "genus": "Falcataria",
     "species": "Falcataria moluccana(Paraserianthes falcataria)",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "50",
@@ -37184,7 +37184,7 @@
     "family": "Gentianaceae",
     "genus": "Limahlania",
     "species": "Limahlania crenulata(Fagraea p.p.)",
-    "familyJpn": "-",
+    "familyJpn": "リンドウ科",
     "genusJpn": "-",
     "characters": [
       "7",
@@ -37388,8 +37388,8 @@
     "family": "Rutaceae",
     "genus": "Murraya",
     "species": "Murraya koenigii(Bergera koenigii)",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "ミカン科",
+    "genusJpn": "ゲッキツ属",
     "characters": [
       "28"
     ]
@@ -37424,8 +37424,8 @@
     "family": "Polygonaceae",
     "genus": "Muehlenbeckia",
     "species": "Muehlenbeckia platyclados(Homalocladium platycladum)",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "タデ科",
+    "genusJpn": "ミューレンベッキア属",
     "characters": [
       "15"
     ]
@@ -37449,8 +37449,8 @@
     "family": "Rubiaceae",
     "genus": "Paederia",
     "species": "Paederia foetida(P. scandens)",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "ヤイトバナ属",
     "characters": [
       "62"
     ]
@@ -37460,8 +37460,8 @@
     "family": "Rubiaceae",
     "genus": "Paederia",
     "species": "Paederia scandens(P. foetida)",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "アカネ科",
+    "genusJpn": "ヤイトバナ属",
     "characters": [
       "62"
     ]
@@ -37505,7 +37505,7 @@
     "family": "Leguminosae",
     "genus": "Paraserianthes",
     "species": "Paraserianthes falcataria(Falcatariamoluccana)",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "50",
@@ -37570,7 +37570,7 @@
     "family": "Leguminosae",
     "genus": "Phanera",
     "species": "Phanera kockiana(Bauhinia)",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "53"
@@ -37581,7 +37581,7 @@
     "family": "Leguminosae",
     "genus": "Phanera",
     "species": "Phanera ridleyi(Bauhinia)",
-    "familyJpn": "-",
+    "familyJpn": "マメ科",
     "genusJpn": "-",
     "characters": [
       "13"
@@ -37845,8 +37845,8 @@
     "family": "Goodeniaceae",
     "genus": "Scaevola",
     "species": "Scaevola taccada(S. sericea)",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "クサトベラ科",
+    "genusJpn": "クサトベラ属",
     "characters": [
       "105"
     ]
@@ -37946,7 +37946,7 @@
     "family": "Boraginaceae",
     "genus": "Tournefortia",
     "species": "Tournefortia argentea(Messerschmidia)",
-    "familyJpn": "-",
+    "familyJpn": "ムラサキ科",
     "genusJpn": "-",
     "characters": [
       "58"
@@ -37982,8 +37982,8 @@
     "family": "Euphorbiaceae",
     "genus": "Triadica",
     "species": "Triadica sebifera(Sapium p.p.)",
-    "familyJpn": "-",
-    "genusJpn": "-",
+    "familyJpn": "トウダイグサ科",
+    "genusJpn": "ナンキンハゼ属",
     "characters": [
       "61"
     ]
@@ -38031,7 +38031,7 @@
     "family": "Moraceae",
     "genus": "Trophis",
     "species": "Trophis scandens(Malaisia)",
-    "familyJpn": "-",
+    "familyJpn": "クワ科",
     "genusJpn": "-",
     "characters": [
       "5"
@@ -38078,7 +38078,7 @@
     "family": "Gentianaceae",
     "genus": "Utania",
     "species": "Utania spicata(Fagraea p.p.)",
-    "familyJpn": "-",
+    "familyJpn": "リンドウ科",
     "genusJpn": "-",
     "characters": [
       "10"
@@ -38104,7 +38104,7 @@
     "family": "Sapotaceae",
     "genus": "Xantolis",
     "species": "Xantolis burmanica(Planchonella punctata)",
-    "familyJpn": "-",
+    "familyJpn": "アカテツ科",
     "genusJpn": "-",
     "characters": [
       "7"
